@@ -19,13 +19,13 @@ svg.bg { position: absolute; inset: 0; }
   -webkit-text-stroke: 6px #1a0230; paint-order: stroke fill;
   text-shadow: 0 0 18px #ff4fd8, 0 0 42px #ff2a8a, 6px 6px 0 #0b0014; }
 .word { position: relative; display: inline-block; }
-.sk { position: relative; display: inline-block; color: #c9a3d9; }
-.strike { position: absolute; left: -22px; right: -26px; top: 50%; height: 22px;
-  background: #ffe14d; border-radius: 11px; transform: rotate(-12deg);
-  box-shadow: 0 0 10px #ffe14d, 0 0 26px #ff9a3c, 0 5px 0 #0b0014; }
-.dr { position: absolute; left: -78px; top: -96px; font-size: 168px; color: #3df5ff;
-  transform: rotate(-10deg); -webkit-text-stroke: 6px #031a2a; paint-order: stroke fill;
-  text-shadow: 0 0 18px #3df5ff, 0 0 40px #00b3ff, 5px 5px 0 #0b0014; }
+.sk { position: relative; display: inline-block; color: #6b4a7a; opacity: .55; }
+.strike { position: absolute; left: -22px; right: -26px; top: 50%; height: 16px; z-index: 2;
+  background: #3df5ff; border-radius: 8px; transform: rotate(-12deg);
+  box-shadow: 0 0 10px #3df5ff, 0 4px 0 #0b0014; }
+.dr { position: absolute; left: -24px; top: -16px; font-size: 235px; color: #ffe14d; z-index: 3; opacity: 1;
+  transform: rotate(-8deg); -webkit-text-stroke: 9px #0b0014; paint-order: stroke fill;
+  text-shadow: 0 0 10px #fff6b0, 0 0 26px #ffe14d, 0 0 50px #ff9a3c, 7px 7px 0 #0b0014; }
 .tag { position: absolute; left: 0; right: 0; bottom: 30px; text-align: center;
   font-family: BeVN; font-size: 30px; letter-spacing: 3px; color: #fff;
   text-shadow: 0 0 12px #3df5ff, 3px 3px 0 #0b0014; }
@@ -81,7 +81,7 @@ svg.bg { position: absolute; inset: 0; }
   </g>
 </svg>
 <div class="title">VIETNAMESE</div>
-<div class="script"><span class="word"><span class="sk">sk<span class="strike"></span><span class="dr">dr</span></span>ill</span></div>
+<div class="script"><span class="word"><span class="sk">sk<span class="strike"></span></span><span class="dr">dr</span>ill</span></div>
 <div class="tag">tiếng Việt <b>mượt</b> như beat drill · skills · rules · i18n</div>
 </div>
 </body>
