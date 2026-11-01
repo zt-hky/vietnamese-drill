@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:BeVN;src:url(bevn-Regular.ttf);font-weight:400}
+@font-face{font-family:BeVN;src:url(bevn-SemiBold.ttf);font-weight:600}
+@font-face{font-family:BeVN;src:url(bevn.ttf);font-weight:800}
+@font-face{font-family:Pricedown;src:url(pricedown.otf)}
+*{box-sizing:border-box}html,body{margin:0;font-family:BeVN;color:#fff}
+.stage{width:960px;padding:28px 34px 30px;background:linear-gradient(160deg,#12021f,#2a0846 60%,#5a0d5e)}
+.brand{font-family:Pricedown;font-size:28px;letter-spacing:2px;-webkit-text-stroke:3px #0b0014;paint-order:stroke fill;text-shadow:3px 3px 0 #ff2a8a}.brand b{color:#ffe14d;font-weight:400}
+.h{font-weight:800;font-size:22px;color:#3df5ff;margin-left:10px}
+.sub{color:#c9a3d9;font-size:14px;margin:6px 0 18px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.c{background:#ffffff0f;border:1px solid #ffffff22;border-radius:14px;padding:11px 14px;display:flex;gap:12px;align-items:center}
+.e{min-width:46px;height:34px;border-radius:9px;background:linear-gradient(135deg,#ff2a8a,#ffb347);color:#1a0326;font-weight:800;font-size:11.5px;display:flex;align-items:center;justify-content:center;letter-spacing:.5px}
+.n{font-weight:800;font-size:15px}.t{font-size:12.5px;color:#d9c8ee;margin-top:2px}.t b{color:#ffe14d;font-weight:600}
+.agents{display:flex;flex-wrap:wrap;gap:10px}
+.a{padding:12px 18px;border-radius:999px;background:#ffffff12;border:1px solid #ffffff2a;font-weight:600;font-size:16px}
+.a.hot{background:linear-gradient(90deg,#00b3ff,#3df5ff);color:#04202a;border:0;font-weight:800}
+</style></head><body><div class="stage" id="s"></div>
+<script>
+const ind=[['FIN','Fintech · ngân hàng','send money → <b>chuyển tiền</b>'],['SHOP','Thương mại điện tử','flash sale → giữ <b>Flash Sale</b>'],['Y TẾ','Y tế','health insurance card → <b>thẻ BHYT</b>'],['EDU','Giáo dục','submit homework → <b>nộp bài tập</b>'],['SHIP','Logistics','waybill → <b>vận đơn</b>'],['HR','Nhân sự','payslip → <b>phiếu lương</b>'],['THUẾ','Kế toán · thuế','e-invoice → <b>hóa đơn điện tử</b>'],['BH','Bảo hiểm','insurance claim → <b>yêu cầu bồi thường bảo hiểm</b>'],['LUẬT','Pháp lý · dữ liệu','consent → <b>sự đồng ý</b>'],['NHÀ','Bất động sản','pink book → <b>sổ hồng</b>'],['BAY','Du lịch','boarding pass → <b>thẻ lên máy bay</b>'],['ĂN','F&B · giao đồ ăn','dine-in → <b>ăn tại chỗ</b>'],['SIM','Viễn thông','data plan → <b>gói data</b>'],['CRM','SaaS · CRM','lead → <b>khách hàng tiềm năng</b>'],['DEV','Dev · cloud','commit → <b>commit</b>, không "cam kết"'],['GAME','Game','placement match → <b>trận phân hạng</b>'],['XE','Di chuyển · xe','fare estimate → <b>giá cước ước tính</b>'],['ERP','ERP · kho','bill of materials → <b>định mức nguyên vật liệu</b>'],['MXH','Mạng xã hội · media','livestream → <b>phát trực tiếp</b>'],['CÔNG','Dịch vụ công','citizen ID → <b>căn cước công dân</b>'],['2FA','Bảo mật tài khoản','two-step verification → <b>xác minh 2 bước</b>']];
+const ag=['Claude Code','Codex','Cursor','Gemini CLI','Antigravity','OpenCode','GitHub Copilot','Windsurf','oh-my-pi','+ mọi agent hỗ trợ Agent Skills'];
+function setFrame(which){
+ document.body.style.width='960px';
+ document.getElementById('s').innerHTML = which=='ind'
+ ? `<div><span class="brand">VIETNAMESE <b>DRILL</b></span><span class="h">21 ngành, nói đúng giọng người trong nghề</span></div><div class="sub">7.800+ thuật ngữ · tự nhận ngành của app, chỉ dùng phần cần thiết</div>
+   <div class="grid">${ind.map(([e,n,t])=>`<div class="c"><div class="e">${e}</div><div><div class="n">${n}</div><div class="t">${t}</div></div></div>`).join('')}</div>`
+ : `<div><span class="brand">VIETNAMESE <b>DRILL</b></span><span class="h">Cài một lần, chạy trên agent bạn đang dùng</span></div><div class="sub">một skill duy nhất · không cần API key riêng · checker chạy offline</div>
+   <div class="agents">${ag.map((a,i)=>`<span class="a ${i<2||a=='oh-my-pi'?'hot':''}">${a}</span>`).join('')}</div>`;
+}
+setFrame('ind');
+</script></body></html>

@@ -1,0 +1,47 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:BeVN;src:url(bevn-Regular.ttf);font-weight:400}
+@font-face{font-family:BeVN;src:url(bevn-SemiBold.ttf);font-weight:600}
+@font-face{font-family:BeVN;src:url(bevn.ttf);font-weight:800}
+@font-face{font-family:Pricedown;src:url(pricedown.otf)}
+*{box-sizing:border-box}html,body{margin:0;width:840px;height:520px;overflow:hidden;font-family:BeVN;color:#fff}
+.stage{width:840px;height:520px;padding:28px 36px;background:linear-gradient(160deg,#12021f 0%,#2a0846 55%,#5a0d5e 100%)}
+.top{display:flex;justify-content:space-between;align-items:baseline}
+.brand{font-family:Pricedown;font-size:30px;letter-spacing:2px;-webkit-text-stroke:3px #0b0014;paint-order:stroke fill;text-shadow:3px 3px 0 #ff2a8a}.brand b{color:#ffe14d;font-weight:400}
+.sub{color:#c9a3d9;font-size:14px}
+.bars{margin-top:22px}
+.bar{margin-bottom:22px}
+.label{display:flex;justify-content:space-between;font-size:17px;font-weight:600;margin-bottom:8px}
+.label span:last-child{color:#c9a3d9;font-weight:400;font-size:13px}
+.track{position:relative;height:34px;border-radius:10px;background:#ffffff12;margin-bottom:6px}
+.fill{white-space:nowrap;position:absolute;left:0;top:0;bottom:0;border-radius:10px;display:flex;align-items:center;justify-content:flex-end;padding-right:12px;font-weight:800;font-size:17px}
+.a{background:#5b4a73;color:#e8dcf5}
+.c{background:linear-gradient(90deg,#00b3ff,#3df5ff);color:#04202a;box-shadow:0 0 18px #3df5ff66}
+.tag{position:absolute;left:-2px;top:-2px}
+.rowl{font-size:12px;color:#c9a3d9;margin:0 0 4px 2px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
+.tile{background:#ffffff10;border:1px solid #ffffff22;border-radius:14px;padding:14px}
+.tile .v{font-size:28px;font-weight:800;color:#ffe14d}
+.tile .k{font-size:13px;color:#e8dcf5;margin-top:4px;line-height:1.35}
+</style></head><body><div class="stage" id="s"></div>
+<script>
+function setFrame(p){ // p: 0..1
+ const e=t=>1-Math.pow(1-t,3), q=e(Math.min(1,p));
+ const n=(a,b)=>Math.round(a+(b-a)*q);
+ document.getElementById('s').innerHTML=`
+ <div class="top"><div class="brand">VIETNAMESE <b>DRILL</b> <span style="font-family:BeVN;font-weight:800;font-size:24px;-webkit-text-stroke:0;text-shadow:none;color:#3df5ff">· Kết quả</span></div><div class="sub">đo trên chuỗi chưa từng thấy · chấm mù</div></div>
+ <div class="bars">
+  <div class="bar"><div class="label"><span>Thuật ngữ chuyên ngành dùng đúng</span><span>188 chuỗi, 21 ngành</span></div>
+   <div class="rowl">Không có drill</div><div class="track"><div class="fill a" style="width:${78.3*q}%">${(78.3*q).toFixed(1)}%</div></div>
+   <div class="rowl">Có drill</div><div class="track"><div class="fill c" style="width:${94*q}%">${(94*q).toFixed(1)}%</div></div></div>
+  <div class="bar"><div class="label"><span>Lỗi hiển thị trên UI: tràn độ dài, sai dấu câu, thiếu bước tiếp theo</span><span>44 chuỗi</span></div>
+   <div class="rowl">Không có drill</div><div class="track"><div class="fill a" style="width:${Math.max(13,100*q)}%">${n(0,12)} lỗi</div></div>
+   <div class="rowl">Có drill</div><div class="track"><div class="fill c" style="width:${Math.max(13,100-94*q)}%">${n(12,0)} lỗi</div></div></div>
+ </div>
+ <div class="tiles">
+  <div class="tile"><div class="v">−${n(0,18)}%</div><div class="k">chữ trên giao diện, gọn hơn mà vẫn đủ ý</div></div>
+  <div class="tile"><div class="v">${n(0,56)} : ${n(0,56)}</div><div class="k">độ tự nhiên khi chấm mù: giữ nguyên, không đánh đổi</div></div>
+  <div class="tile"><div class="v">${n(0,21)}/21</div><div class="k">tự nhận đúng ngành của app</div></div>
+ </div>`;
+}
+setFrame(0);
+</script></body></html>

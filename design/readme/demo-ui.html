@@ -1,0 +1,85 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:BeVN;src:url(bevn-Regular.ttf);font-weight:400}
+@font-face{font-family:BeVN;src:url(bevn-SemiBold.ttf);font-weight:600}
+@font-face{font-family:BeVN;src:url(bevn.ttf);font-weight:800}
+@font-face{font-family:Pricedown;src:url(pricedown.otf)}
+*{box-sizing:border-box}html,body{margin:0;width:840px;height:520px;overflow:hidden;font-family:BeVN}
+.stage{position:relative;width:840px;height:520px;background:radial-gradient(circle at 78% 110%,#ff5f6d 0,#b0177a 28%,#3a0a5e 58%,#12021f 85%);color:#fff}
+.brand{position:absolute;left:36px;top:26px;font-family:Pricedown;font-size:30px;letter-spacing:2px;-webkit-text-stroke:3px #0b0014;paint-order:stroke fill;text-shadow:3px 3px 0 #ff2a8a}
+.brand b{color:#ffe14d;font-weight:400}
+.left{position:absolute;left:36px;top:96px;width:430px}
+.step{font-size:15px;color:#c9a3d9;letter-spacing:2px;text-transform:uppercase}
+h1{margin:6px 0 18px;font-size:32px;line-height:1.15;font-weight:800}
+.chip{display:inline-block;padding:7px 16px;border-radius:999px;font-weight:800;font-size:17px;letter-spacing:1px}
+.chip.before{background:#3b0d1d;color:#ff6b8b;border:2px solid #ff6b8b}
+.chip.after{background:#062a33;color:#3df5ff;border:2px solid #3df5ff;box-shadow:0 0 18px #3df5ff66}
+.en{margin-top:22px;font-size:14px;color:#c9a3d9}.en code{font-family:monospace;color:#fff;background:#ffffff14;padding:3px 8px;border-radius:6px;font-size:14px}
+.note{margin-top:16px;font-size:20px;line-height:1.45;font-weight:600;min-height:90px}
+.note.before{color:#ffb3c2}.note.after{color:#d6fbff}
+.dots{position:absolute;left:36px;bottom:30px;display:flex;gap:8px}
+.dots i{width:28px;height:6px;border-radius:3px;background:#ffffff33}.dots i.on{background:#ffe14d}
+.phone{position:absolute;right:46px;top:22px;width:262px;height:476px;border-radius:38px;background:#0b0014;padding:12px;box-shadow:0 20px 50px #0008,0 0 0 2px #ffffff22}
+.screen{position:relative;width:100%;height:100%;border-radius:28px;overflow:hidden;background:#f6f4fb;color:#1b1530}
+.status{height:26px;font-size:12px;font-weight:600;display:flex;justify-content:space-between;padding:6px 18px 0;color:#1b1530}
+.appbar{padding:8px 16px 10px;font-weight:800;font-size:17px}
+.card{margin:8px 14px;background:#fff;border-radius:16px;padding:14px;box-shadow:0 2px 8px #0000000f}
+.muted{color:#7a7090;font-size:12px}
+.big{font-size:24px;font-weight:800;margin-top:4px}
+.btn{display:block;height:42px;border-radius:12px;background:#a50064;color:#fff;font-weight:600;font-size:15px;line-height:42px;text-align:center;white-space:nowrap;overflow:hidden;padding:0 10px}
+.btn.ghost{background:#efe9f6;color:#3a2a55}
+.bad{outline:3px solid #ff2a6a;outline-offset:2px}
+.overlay{position:absolute;inset:0;background:#1b153088;display:flex;align-items:center;justify-content:center}
+.modal{width:206px;background:#fff;border-radius:18px;padding:16px}
+.modal h3{margin:0 0 6px;font-size:16px}.modal p{margin:0 0 14px;font-size:12.5px;line-height:1.45;color:#4b4166}
+.row{display:flex;gap:8px}.row .btn{flex:1;font-size:13.5px;height:38px;line-height:38px;padding:0 6px}
+.lock{position:absolute;inset:0;background:linear-gradient(180deg,#2b1055,#7597de);color:#fff}
+.time{text-align:center;font-size:54px;font-weight:600;margin-top:46px}
+.date{text-align:center;font-size:13px;opacity:.85}
+.notif{margin:30px 12px;background:#ffffffe8;color:#1b1530;border-radius:18px;padding:12px 14px}
+.notif .app{font-size:11px;color:#6b6385;display:flex;justify-content:space-between}
+.notif b{display:block;margin:4px 0 3px;font-size:14px}.notif span{font-size:12.5px;line-height:1.4}
+label{display:block;font-size:12px;font-weight:600;margin:10px 0 6px;color:#3a2a55}
+.input{height:40px;border-radius:10px;border:2px solid #ff4d6d;background:#fff;padding:0 12px;line-height:36px;font-size:14px}
+.err{color:#d61f45;font-size:12.5px;margin-top:6px;font-weight:600}
+.list .item{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #eee;font-size:14px}
+.list .item small{display:block;color:#8a80a0;font-size:10.5px}
+.tag{font-size:10px;background:#efe9f6;border-radius:6px;padding:2px 6px;color:#6b4a7a}
+.strike{position:relative;display:inline}
+.strike::after{content:"";position:absolute;left:-3px;right:-3px;top:50%;height:4px;background:#ffe14d;border-radius:2px;transform:rotate(-6deg);box-shadow:0 0 6px #ffe14d}
+.count{position:absolute;right:16px;font-size:11px;font-weight:800}
+</style></head><body><div class="stage" id="s"></div>
+<script>
+const scenes=[
+ {en:'Delete this card',t:'Nút trong hộp thoại',b:'Nút lặp lại nguyên tiêu đề, dài và thừa.',a:'Chỉ còn đúng động từ của câu hỏi.',
+  ui:st=>`<div class="appbar">Ví của tôi</div><div class="card"><div class="muted">Thẻ Visa •••• 4821</div><div class="big">Thẻ ghi nợ</div></div>
+  <div class="overlay"><div class="modal"><h3>Xóa thẻ này?</h3><p>Thẻ sẽ bị gỡ khỏi ví. Bạn có thể thêm lại sau.</p>
+  <div class="row"><span class="btn ghost">Hủy</span><span class="btn ${st=='before'?'bad':''}">${st=='after'?'Xóa':wrap('Xóa thẻ này',st)}</span></div></div></div>`},
+ {en:'Top up your wallet now to keep paying bills automatically (max 18)',t:'Nút cố định độ rộng',b:'Chữ tràn khung, bị cắt mất.',a:'Vừa khít giới hạn 18 ký tự.',
+  ui:st=>`<div class="appbar">Ví của tôi</div><div class="card"><div class="muted">Số dư</div><div class="big">120.000 ₫</div></div>
+  <div class="card"><div class="muted" style="margin-bottom:10px">Thanh toán tự động: Điện, Nước, Internet</div>
+  <span class="btn ${st=='before'?'bad':''}" style="width:150px">${st=='after'?'Nạp tiền ngay':wrap('Nạp tiền vào ví ngay để tiếp tục thanh toán hóa đơn tự động',st)}</span>
+  <div style="margin-top:8px;font-size:11px;font-weight:800;color:${st=='after'?'#0a8f6a':'#d61f45'}">${st=='after'?'13/18 ký tự':'57/18 ký tự'}</div></div>`},
+ {en:'Payment failed: {amount} to {biller}, balance too low',t:'Thông báo đẩy',b:'Không ai biết chuyện gì vừa xảy ra.',a:'Đứng một mình vẫn đủ ý: chuyện gì, bao nhiêu, làm gì tiếp.',
+  ui:st=>`<div class="lock"><div class="time">09:41</div><div class="date">Thứ Hai, 3 tháng 11</div>
+  <div class="notif"><div class="app"><span>MYWALLET</span><span>bây giờ</span></div>
+  ${st=='after'?'<b>Không thanh toán được</b><span>Không thanh toán được 250.000 ₫ cho EVN Hà Nội do số dư không đủ. Nạp thêm tiền để thử lại.</span>'
+   :`<b>${wrap('Thông báo mới',st)}</b><span>${wrap('Bạn có một thông báo mới, hãy mở ứng dụng để xem.',st)}</span>`}</div></div>`},
+ {en:'Enter a valid email address',t:'Lỗi dưới ô nhập',b:'Lặp tên trường, đổ lỗi, không chỉ cách sửa.',a:'Nói thẳng cần sửa gì.',
+  ui:st=>`<div class="appbar">Tạo tài khoản</div><div class="card"><label>Họ và tên</label><div class="input" style="border-color:#ddd">Nguyễn Minh Anh</div>
+  <label>Email</label><div class="input">minh.anh@</div><div class="err">${st=='after'?'Nhập email hợp lệ.':wrap('Lỗi: Trường Email không hợp lệ!',st)}</div>
+  <div style="height:16px"></div><span class="btn">Tiếp tục</span></div>`},
+ {en:'Send money · Submit homework · Receipt number',t:'Thuật ngữ đúng ngành',b:'Dịch đúng chữ, sai nghề.',a:'Từ người trong ngành thật sự dùng.',
+  ui:st=>`<div class="appbar">Tiện ích</div><div class="card list">
+  ${row('Send money','fintech','Gửi tiền','Chuyển tiền',st)}${row('Submit homework','giáo dục','Gửi bài tập','Nộp bài tập',st)}
+  ${row('Receipt number','dịch vụ công','Số biên lai','Mã số biên nhận',st)}${row('Out for delivery','logistics','Ra ngoài giao','Đang giao hàng',st)}</div>`},
+];
+function wrap(x,st){return st=='strike'?`<span class="strike">${x}</span>`:x}
+function row(en,tag,b,a,st){return `<div class="item"><div>${st=='after'?a:wrap(b,st)}<small>${en}</small></div><span class="tag">${tag}</span></div>`}
+function setFrame(i,st){const s=scenes[i];document.getElementById('s').innerHTML=`<div class="brand">VIETNAMESE <b>DRILL</b></div>
+ <div class="left"><div class="step">${i+1} / ${scenes.length}</div><h1>${s.t}</h1>
+ <span class="chip ${st=='after'?'after':'before'}">${st=='after'?'SAU · CÓ DRILL':'TRƯỚC'}</span>
+ <div class="note ${st=='after'?'after':'before'}">${st=='after'?s.a:s.b}</div><div class="en">EN&nbsp; <code>${s.en}</code></div></div>
+ <div class="dots">${scenes.map((_,k)=>`<i class="${k==i?'on':''}"></i>`).join('')}</div>
+ <div class="phone"><div class="screen"><div class="status"><span>9:41</span><span>▮▮▮ 100%</span></div>${s.ui(st)}</div></div>`}
+setFrame(0,'before');
+</script></body></html>

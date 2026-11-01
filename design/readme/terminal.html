@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Mono;src:url(mono.ttf)}
+@font-face{font-family:BeVN;src:url(bevn-SemiBold.ttf);font-weight:600}
+*{box-sizing:border-box}html,body{margin:0;width:880px;height:560px;overflow:hidden;background:linear-gradient(150deg,#3a0a5e,#b0177a 70%,#ff5f6d)}
+.win{position:absolute;left:24px;top:22px;right:24px;bottom:22px;background:#0d0717;border-radius:14px;box-shadow:0 18px 50px #0009;overflow:hidden;font-family:Mono;font-size:14px;color:#e8dcf5}
+.bar{height:34px;background:#1b1030;display:flex;align-items:center;padding:0 14px;gap:8px}
+.bar i{width:12px;height:12px;border-radius:50%;display:inline-block}
+.bar span{margin-left:14px;color:#9a8ab5;font-size:12px;font-family:BeVN}
+.body{padding:16px 20px;line-height:1.65;white-space:pre}
+.p{color:#ffe14d}.dim{color:#7d6d99}.ok{color:#3df5ff}.warn{color:#ffb347}.k{color:#ff7ad9}.s{color:#e8dcf5}
+.cur{display:inline-block;width:8px;height:16px;background:#ffe14d;vertical-align:-3px}
+.meta{float:right;color:#7d6d99;font-size:12px}
+</style></head><body><div class="win"><div class="bar"><i style="background:#ff5f57"></i><i style="background:#febc2e"></i><i style="background:#28c840"></i><span>~/mywallet · agent + vietnamese-drill</span></div><div class="body" id="b"></div></div>
+<script>
+const prompt='Dịch locales/en.json sang locales/vi.json cho app này.';
+const lines=[
+['wallet.card.delete_dialog.title','Xóa thẻ này?',''],
+['wallet.card.delete_dialog.body','Thẻ sẽ bị xóa khỏi ví của bạn. Bạn có thể thêm lại sau.',''],
+['wallet.card.delete_dialog.confirm_button','Xóa thẻ',''],
+['wallet.topup.button','Nạp tiền vào ví','15/18 ký tự'],
+['wallet.transfer.amount.label','Số tiền',''],
+['wallet.transfer.amount.error','Nhập số tiền từ 10.000 VND đến 50.000.000 VND.',''],
+['bills.push.payment_failed.title','Không thanh toán được',''],
+['bills.push.payment_failed.body','Không thanh toán được {amount} cho {biller} vì số dư không đủ. Hãy nạp thêm tiền vào ví.',''],
+['auth.sms.otp','MyWallet: Mã OTP {code}, hết hạn sau 5 phút. Không chia sẻ mã này với bất kỳ ai, kể cả nhân viên.','!2 tin SMS'],
+['settings.toast.saved','Đã lưu thay đổi',''],
+['store.short_description','Chuyển tiền miễn phí, trả hóa đơn, nạp điện thoại. Bảo mật bằng Smart OTP, eKYC.','80/80 ký tự'],
+];
+const esc=s=>s.replace(/[&<]/g,c=>c=='&'?'&amp;':'&lt;');
+function setFrame(typed,status,shown,done){
+ let h=`<div><span class="p">❯</span> ${esc(prompt.slice(0,typed))}${typed<prompt.length?'<span class="cur"></span>':''}</div>`;
+ if(status>=1)h+=`<div class="dim">  đọc README: nút tối đa 18 ký tự · ngành: fintech</div>`;
+ if(status>=2)h+=`<div class="dim">  viết · kiểm tra · sửa · kiểm tra lại</div>`;
+ if(shown>0){h+=`<div class="s">{</div>`;for(let i=0;i<shown;i++){const [k,v,m]=lines[i];const L=m?46:60;const t=v.length>L?v.slice(0,L-1)+'…':v;h+=`<div>  <span class="k">"${k.split('.').slice(-2).join('.')}"</span>: <span class="s">"${esc(t)}"</span>${m?`<span class="meta ${m[0]=='!'?'warn':''}">${m[0]=='!'?'⚠ '+m.slice(1):'✓ '+m}</span>`:''}</div>`}if(shown==lines.length)h+=`<div class="s">}</div>`}
+ if(done)h+=`<div style="margin-top:8px"><span class="ok">✓ 11 chuỗi · 0 lỗi</span> <span class="warn">· 1 cảnh báo: OTP cần 2 tin SMS</span></div>`;
+ document.getElementById('b').innerHTML=h;
+}
+setFrame(0,0,0,0);
+</script></body></html>
