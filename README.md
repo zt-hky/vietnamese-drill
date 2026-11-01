@@ -205,7 +205,7 @@ File i18n dạng JSON thì thêm `"mode":"json"`: checker so từng leaf key, ki
 | JSON thiếu/thừa key, đổi kiểu, đổi giá trị không phải chuỗi | Parse ICU, HTML, Markdown đầy đủ |
 | Placeholder `{name}`, `{{name}}`, `${name}`, `%s`, `%1$d`… | Font, layout, hiển thị thật trên UI |
 | Vài cụm dịch sát quen mặt (`cam kết các thay đổi`…) | Chấm "điểm tiếng Việt". Không có con số ảo |
-| Gợi ý phong cách (chỉ là cảnh báo): dấu cách trước dấu câu, dấu phẩy trước `và`/`hoặc`, `80 %`, "… thất bại", `xin vui lòng`, Viết Hoa Từng Chữ | Quyết định có nên nghe theo gợi ý hay không. Ngoại lệ như trích dẫn, tên riêng vẫn do bạn quyết |
+| Gợi ý phong cách và địa phương hoá (chỉ là cảnh báo): dấu cách trước dấu câu, dấu phẩy trước `và`/`hoặc`, `80 %`, "… thất bại", `xin vui lòng`, Viết Hoa Từng Chữ, ngày kiểu Mỹ `12/15/2024`, `9 PM`, lẫn `tệp`/`tập tin`, lẫn `bạn`/`quý khách` | Quyết định có nên nghe theo gợi ý hay không. Ngoại lệ như trích dẫn, tên riêng vẫn do bạn quyết |
 | ICU phức tạp: báo `ICU_UNCHECKED`, không cho qua im lặng | |
 
 Exit code: `0` sạch hoặc chỉ có cảnh báo · `1` lỗi contract · `2` request sai định dạng.
@@ -221,7 +221,9 @@ vietnamese-drill/
 │   │   ├── SKILL.md
 │   │   ├── scripts/check.mjs     # checker offline
 │   │   ├── references/sources.md # phạm vi, giới hạn, nguồn tham khảo
-│   │   └── references/microsoft-vi-style.md # quy tắc rút từ Microsoft Vietnamese Localization Style Guide
+│   │   ├── references/microsoft-vi-style.md # quy tắc rút từ Microsoft Vietnamese Localization Style Guide
+│   │   ├── references/locale-and-glossary.md # ngày giờ, đại từ, phương ngữ, style guide vs glossary, SEO
+│   │   └── assets/glossary.template.csv # mẫu glossary cho dự án
 │   └── vietnamese-replies/       # cách agent trả lời bạn bằng tiếng Việt
 │       └── SKILL.md
 ├── rules/vietnamese.md           # OMP: rule luôn bật, rất ngắn, chỉ để điều hướng
@@ -289,6 +291,8 @@ Rule do repo tự viết. Ý tưởng tham khảo từ:
 - [abm-dungtq/viet-pro](https://github.com/abm-dungtq/viet-pro): nhận diện văn dịch theo ngữ cảnh.
 - [luongnv89/claude-howto: TRANSLATION_NOTES](https://github.com/luongnv89/claude-howto/blob/main/vi/TRANSLATION_NOTES.md): glossary, không dịch code.
 - [Microsoft Vietnamese Localization Style Guide (PDF 60 trang)](https://download.microsoft.com/download/b/f/e/bfecb1b4-21ab-48fd-a48c-c2471b026f8f/vie-vnm-StyleGuide.pdf): giọng văn, từ ngữ hiện đại, viết hoa câu, dấu câu, mẫu thông báo lỗi, ngôn ngữ trung tính về giới. Đã đọc hết và rút thành `references/microsoft-vi-style.md`; bản gốc vẫn thuộc Microsoft. Tham khảo thêm [Microsoft Localization Style Guides](https://learn.microsoft.com/en-us/globalization/reference/microsoft-style-guides).
+- [Nguyen LNP: Vietnamese Localization Style Guide](https://nguyenlnp.com/vietnamese-localization-style-guide/): style guide khác glossary, ngữ cảnh cần đính kèm, quy trình có AI và người duyệt.
+- [GTE Localize: Vietnamese Localization](https://gtelocalize.net/vietnamese-localization/): định dạng ngày giờ, tên, địa chỉ, đại từ, phương ngữ, SEO. Chỉ lấy phần kiểm chứng được; phần mâu thuẫn hoặc chưa kiểm chứng được ghi rõ ở `references/sources.md`.
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): nói ít, giữ payload nguyên văn.
 
 Logo dùng font [Pricedown](https://typodermicfonts.com/pricedown/) (Typodermic, bản free cho thiết kế tĩnh), [Mr Dafoe](https://fonts.google.com/specimen/Mr+Dafoe) và [Be Vietnam Pro](https://fonts.google.com/specimen/Be+Vietnam+Pro) (SIL OFL). Logo chỉ lấy cảm hứng từ không khí Vice City, không liên quan tới Rockstar Games hay GTA. File thiết kế nằm ở [`design/logo.html`](design/logo.html). Repo không chứa file font.

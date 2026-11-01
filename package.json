@@ -1,6 +1,6 @@
 {
   "name": "vietnamese-drill",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Skills, rules and an offline checker that make AI coding agents write natural Vietnamese for software: docs, UI/UX, notifications, i18n.",
   "license": "MIT",
   "type": "module",
