@@ -1,6 +1,6 @@
 {
   "name": "vietnamese-drill",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "One Vietnamese skill for AI coding agents: UI/UX copy with surface and length metadata, 7,800-term glossary with 21 industry packs, offline checker, reviewer subagent.",
   "license": "MIT",
   "type": "module",

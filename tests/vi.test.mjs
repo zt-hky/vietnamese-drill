@@ -45,3 +45,13 @@ test('surface rules: length, punctuation, redundancy, SMS', () => {
 test('lookup carries the spec of surfaces used in the batch', () => {
   assert.ok(lookupRequest({ items: [{ id: '1', src: 'Save', ctx: { surface: 'button' } }] }).text.includes('# surfaces'));
 });
+
+test('a clean check on generic surface defaults says so; a project max silences the hint and enforces the limit', () => {
+  const tgt = 'Gửi yêu cầu bồi thường'; // 22 chars: under the generic button default, over an 16-char project limit
+  const loose = checkItems({ items: [{ id: 'b', src: 'File a claim', tgt, ctx: { surface: 'button' } }] });
+  assert.equal(loose.status, 'clean');
+  assert.match(loose.hint, /GENERIC surface defaults.*\bb\b/);
+  const strict = checkItems({ items: [{ id: 'b', src: 'File a claim', tgt, ctx: { surface: 'button', max: 16 } }] });
+  assert.equal(strict.hint, undefined);
+  assert.ok(strict.findings.some(f => f.code === 'LENGTH_OVER' && f.severity === 'error'));
+});

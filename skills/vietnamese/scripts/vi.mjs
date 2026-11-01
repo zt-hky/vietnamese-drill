@@ -87,7 +87,7 @@ export function lookupRequest(input) {
   const r = lookup(strings, { domains: input.domains, auto: input.auto !== false, project: input.projectGlossary, notes: input.notes !== false, perId: !!input.perId, max: input.max ?? 60, maxExt: input.maxExt ?? 12, header: input.header !== false, ext: input.ext !== false });
   // Surface specs only for surfaces present in the batch (a few lines), so length/context rules travel with the terms.
   const used = strings.map(s => s.ctx?.surface).filter(Boolean);
-  if (used.length) { const lines = specLines(used); r.surfaces = lines; r.text = (r.text ? r.text + '\n' : '') + `# surfaces (lengths in characters; ctx.max overrides)\n${lines.join('\n')}`; }
+  if (used.length) { const lines = specLines(used); r.surfaces = lines; r.text = (r.text ? r.text + '\n' : '') + `# surfaces (GENERIC default lengths in characters. A limit stated by the project (README, design system, spec) wins: pass it as ctx.max when checking)\n${lines.join('\n')}`; }
   return r;
 }
 
@@ -107,7 +107,10 @@ export function checkItems(input) {
   findings.sort((a, b) => SEVR[a.severity] - SEVR[b.severity]);
   const limit = input.limit ?? 60;
   const status = findings.some(f => f.severity === 'error') ? 'error' : findings.some(f => f.severity === 'warning') ? 'warning' : 'clean';
-  return { status, domains, findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, lengths: Object.fromEntries(items.filter(i => typeof i.tgt === 'string').map(i => [i.id, graphemes(i.tgt.trim())])) };
+  // Defaults are generic; a project limit is usually tighter. Say so up front so a "clean" status is not read as "fits the design".
+  const defaulted = items.filter(i => i.ctx?.surface && !i.ctx?.max).map(i => i.id);
+  const hint = defaulted.length ? `${defaulted.length} item(s) were length-checked against GENERIC surface defaults (no ctx.max): ${defaulted.slice(0, 8).join(', ')}${defaulted.length > 8 ? ', …' : ''}. If the project states limits (README, design system, spec), pass them as ctx.max and re-run.` : undefined;
+  return { status, ...(hint && { hint }), domains, findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, lengths: Object.fromEntries(items.filter(i => typeof i.tgt === 'string').map(i => [i.id, graphemes(i.tgt.trim())])) };
 }
 
 export function buildIndex() {

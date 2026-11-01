@@ -11,7 +11,7 @@
       "name": "vietnamese-drill",
       "source": "./",
       "description": "One Vietnamese skill: UI/UX copy with surface/length metadata, 7,800-term glossary (core UI, Android/Firefox phrasing, 21 industry packs), offline checker, reviewer subagent, MCP tools. Loads only what a task needs.",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "license": "MIT",
       "keywords": [
         "vietnamese",

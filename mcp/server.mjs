@@ -23,7 +23,7 @@ const ctxSchema = full => ({
   description: 'Where the string is shown. Context on screen means shorten; standalone means minimum complete message.',
   properties: {
     surface: { type: 'string', description: full ? `UI slot id. One of: ${surfaceIds().join(', ')}` : 'UI slot id, as in vi_lookup' },
-    max: { type: 'integer', minimum: 1, description: 'Real character limit of this slot (design spec); overrides the surface default' },
+    max: { type: 'integer', minimum: 1, description: 'Character limit the project states for this slot (README, design system, spec). Always pass it when stated: surface defaults are generic and usually looser' },
     near: { anyOf: [{ type: 'string' }, { type: 'array', items: { type: 'string' } }], description: 'Text already visible next to the string (dialog title, field label)' },
     standalone: { type: 'boolean', description: 'Seen without other context (push, SMS, background toast)' },
   },
