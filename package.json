@@ -1,0 +1,15 @@
+{
+  "name": "vietnamese-drill",
+  "version": "1.0.0",
+  "description": "Skills, rules and an offline checker that make AI coding agents write natural Vietnamese for software: docs, UI/UX, notifications, i18n.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zt-hky/vietnamese-drill.git"
+  },
+  "homepage": "https://github.com/zt-hky/vietnamese-drill",
+  "keywords": ["vietnamese", "tieng-viet", "agent-skills", "claude-code", "codex", "cursor", "oh-my-pi", "i18n", "ux-writing"],
+  "files": ["skills", "rules", "agents", "tools", "README.md", "LICENSE"],
+  "omp": {}
+}
