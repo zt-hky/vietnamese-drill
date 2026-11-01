@@ -38,10 +38,17 @@ export function check(input) {
     if (complex(value) || (typeof original === 'string' && complex(original))) {
       add('ICU_UNCHECKED', 'warning', path, 'Complex ICU: validate variables, branches and syntax with project compiler; regex check skipped');
     } else if (typeof original === 'string' && !same(tokens(original), tokens(value))) add('PLACEHOLDER', 'error', path, 'Supported placeholder names/types/counts differ from source');
-    // These are review hints, not replacements; code examples may be legitimate.
+    // Review hints only (Microsoft vi-VN style guide); code examples/quotes may be legitimate.
+    const prose = value.replace(/```[\s\S]*?```|`[^`\n]*`/gu, 'x').replace(/\{\{[^{}]*\}\}|\{[^{}]*\}|https?:\/\/\S+/gu, 'x').replace(/<[^>\n]+>/gu, '');
     if (/cam kết (?:các )?thay đổi|triển khai (?:đến|lên) sản xuất/iu.test(value)) add('CALQUE', 'warning', path, 'Possible literal translation of commit/production; inspect software context');
+    if (/\S\s+[.,!?;:](?=\s|$)/u.test(prose)) add('PUNCT_SPACE', 'warning', path, 'Space before . , ! ? ; : (vi-VN: none); ignore if intentional French-style/code');
+    if (/,\s*(?:và|hoặc)\s/iu.test(prose)) add('COMMA_BEFORE_CONJ', 'warning', path, 'No comma before và/hoặc in vi-VN (no Oxford comma)');
+    if (/\d\s+%/u.test(prose)) add('PERCENT_SPACE', 'warning', path, 'No space between number and %');
+    if (/\b[\p{L}]+ (?:thất bại|không thành công)\b/iu.test(prose)) add('FAILED_PHRASE', 'warning', path, 'Prefer "Không … được" / "Không … thể" over "… thất bại" for UI errors');
+    if (/\b(?:Vui lòng|Hãy)\s+(?:xin\s+)?vui lòng\b|\bxin vui lòng\b/iu.test(prose)) add('POLITE_DOUBLE', 'warning', path, 'Redundant politeness marker');
+    if (/(?:^|[.!?]\s)(?:[A-ZÀ-Ỹ][\p{Ll}]+ ){2,}[A-ZÀ-Ỹ][\p{Ll}]+(?:\s|$)/u.test(prose) && !/[.!?]\s+[A-ZÀ-Ỹ]/u.test(prose)) add('TITLE_CASE', 'warning', path, 'UI strings use sentence case in vi-VN (only first word capitalized, plus proper nouns)');
   }
-  return { status: findings.some(f => f.severity === 'error') ? 'error' : findings.length ? 'warning' : 'clean', findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, semanticReview: 'not-run', coverage: 'NFC, selected invisible characters, JSON leaves/types, simple named placeholders and printf; NOT ICU/HTML/Markdown parser or fluency assessment' };
+  return { status: findings.some(f => f.severity === 'error') ? 'error' : findings.length ? 'warning' : 'clean', findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, semanticReview: 'not-run', coverage: 'NFC, selected invisible characters, JSON leaves/types, simple named placeholders and printf, a few punctuation/style hints (space before punctuation, comma before và/hoặc, number-% spacing, "thất bại", doubled polite markers, title case); NOT ICU/HTML/Markdown parser or fluency assessment' };
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try {

@@ -61,6 +61,12 @@ Ví dụ hay gặp khi agent chưa có skill so với khi đã có `vietnamese-d
 | File i18n | `"Xin chào {user}"` cho source `"Hello {name}"` | `"Xin chào {name}"`. Checker báo lỗi `PLACEHOLDER` nếu đổi tên biến |
 | Agent trả lời | Tôi rất vui được hỗ trợ bạn! Dưới đây là những thay đổi mà tôi đã thực hiện… | Đã sửa `parseDate`. Đã chạy `npm test`: 42/42 pass. Còn lại: chưa test trên Safari. |
 | Code trong câu trả lời | `` `/tối-ưu-hoá` `` (dịch luôn tên lệnh) | Chạy `` `/optimize` ``. Lệnh này tối ưu code hiện tại. |
+| Lỗi dịch từ "failed" | Lưu hình ảnh thất bại. | Không lưu được hình ảnh. |
+| Viết hoa nút bấm | Chọn Tất Cả | Chọn tất cả |
+| Câu cầu kỳ | Hãy bắt đầu sử dụng phiên bản đầy đủ ngay | Dùng ngay phiên bản đầy đủ |
+| Dấu phẩy kiểu Anh | Chọn mạng A, B, và C | Chọn mạng A, B và C |
+| Đơn vị, phần trăm | Đã dùng 80 % bộ nhớ | Đã dùng 80% bộ nhớ |
+| Giới tính | Nếu nhân viên nam hoặc nữ quên mật khẩu, anh ấy/cô ấy có thể đặt lại | Nhân viên quên mật khẩu có thể đặt lại |
 
 > Các câu ở cột ✅ chỉ là ví dụ. Điều kiện kèm theo vẫn phải đúng thực tế: chỉ ghi "thử lại" khi app thật sự cho thử lại, chỉ ghi ngày giao khi có dữ liệu.
 
@@ -199,6 +205,7 @@ File i18n dạng JSON thì thêm `"mode":"json"`: checker so từng leaf key, ki
 | JSON thiếu/thừa key, đổi kiểu, đổi giá trị không phải chuỗi | Parse ICU, HTML, Markdown đầy đủ |
 | Placeholder `{name}`, `{{name}}`, `${name}`, `%s`, `%1$d`… | Font, layout, hiển thị thật trên UI |
 | Vài cụm dịch sát quen mặt (`cam kết các thay đổi`…) | Chấm "điểm tiếng Việt". Không có con số ảo |
+| Gợi ý phong cách (chỉ là cảnh báo): dấu cách trước dấu câu, dấu phẩy trước `và`/`hoặc`, `80 %`, "… thất bại", `xin vui lòng`, Viết Hoa Từng Chữ | Quyết định có nên nghe theo gợi ý hay không. Ngoại lệ như trích dẫn, tên riêng vẫn do bạn quyết |
 | ICU phức tạp: báo `ICU_UNCHECKED`, không cho qua im lặng | |
 
 Exit code: `0` sạch hoặc chỉ có cảnh báo · `1` lỗi contract · `2` request sai định dạng.
@@ -213,7 +220,8 @@ vietnamese-drill/
 │   ├── vietnamese-product/       # tài liệu, UI/UX, content, notification, i18n
 │   │   ├── SKILL.md
 │   │   ├── scripts/check.mjs     # checker offline
-│   │   └── references/sources.md # phạm vi, giới hạn, nguồn tham khảo
+│   │   ├── references/sources.md # phạm vi, giới hạn, nguồn tham khảo
+│   │   └── references/microsoft-vi-style.md # quy tắc rút từ Microsoft Vietnamese Localization Style Guide
 │   └── vietnamese-replies/       # cách agent trả lời bạn bằng tiếng Việt
 │       └── SKILL.md
 ├── rules/vietnamese.md           # OMP: rule luôn bật, rất ngắn, chỉ để điều hướng
@@ -280,7 +288,7 @@ Rule do repo tự viết. Ý tưởng tham khảo từ:
 - [trussary/vietnamese-language-skill](https://github.com/trussary/vietnamese-language-skill): thuật ngữ kỹ thuật, xưng hô, rủi ro i18n.
 - [abm-dungtq/viet-pro](https://github.com/abm-dungtq/viet-pro): nhận diện văn dịch theo ngữ cảnh.
 - [luongnv89/claude-howto: TRANSLATION_NOTES](https://github.com/luongnv89/claude-howto/blob/main/vi/TRANSLATION_NOTES.md): glossary, không dịch code.
-- [Microsoft Localization Style Guides](https://learn.microsoft.com/en-us/globalization/reference/microsoft-style-guides).
+- [Microsoft Vietnamese Localization Style Guide (PDF 60 trang)](https://download.microsoft.com/download/b/f/e/bfecb1b4-21ab-48fd-a48c-c2471b026f8f/vie-vnm-StyleGuide.pdf): giọng văn, từ ngữ hiện đại, viết hoa câu, dấu câu, mẫu thông báo lỗi, ngôn ngữ trung tính về giới. Đã đọc hết và rút thành `references/microsoft-vi-style.md`; bản gốc vẫn thuộc Microsoft. Tham khảo thêm [Microsoft Localization Style Guides](https://learn.microsoft.com/en-us/globalization/reference/microsoft-style-guides).
 - [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman): nói ít, giữ payload nguyên văn.
 
 Logo dùng font [Pricedown](https://typodermicfonts.com/pricedown/) (Typodermic, bản free cho thiết kế tĩnh), [Mr Dafoe](https://fonts.google.com/specimen/Mr+Dafoe) và [Be Vietnam Pro](https://fonts.google.com/specimen/Be+Vietnam+Pro) (SIL OFL). Logo chỉ lấy cảm hứng từ không khí Vice City, không liên quan tới Rockstar Games hay GTA. File thiết kế nằm ở [`design/logo.html`](design/logo.html). Repo không chứa file font.
