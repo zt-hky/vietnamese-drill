@@ -18,14 +18,14 @@
 </style></head><body><div class="stage" id="s"></div>
 <script>
 const ind=[['FIN','Fintech · ngân hàng','send money → <b>chuyển tiền</b>'],['SHOP','Thương mại điện tử','flash sale → giữ <b>Flash Sale</b>'],['Y TẾ','Y tế','health insurance card → <b>thẻ BHYT</b>'],['EDU','Giáo dục','submit homework → <b>nộp bài tập</b>'],['SHIP','Logistics','waybill → <b>vận đơn</b>'],['HR','Nhân sự','payslip → <b>phiếu lương</b>'],['THUẾ','Kế toán · thuế','e-invoice → <b>hóa đơn điện tử</b>'],['BH','Bảo hiểm','insurance claim → <b>yêu cầu bồi thường bảo hiểm</b>'],['LUẬT','Pháp lý · dữ liệu','consent → <b>sự đồng ý</b>'],['NHÀ','Bất động sản','pink book → <b>sổ hồng</b>'],['BAY','Du lịch','boarding pass → <b>thẻ lên máy bay</b>'],['ĂN','F&B · giao đồ ăn','dine-in → <b>ăn tại chỗ</b>'],['SIM','Viễn thông','data plan → <b>gói data</b>'],['CRM','SaaS · CRM','lead → <b>khách hàng tiềm năng</b>'],['DEV','Dev · cloud','commit → <b>commit</b>, không "cam kết"'],['GAME','Game','placement match → <b>trận phân hạng</b>'],['XE','Di chuyển · xe','fare estimate → <b>giá cước ước tính</b>'],['ERP','ERP · kho','bill of materials → <b>định mức nguyên vật liệu</b>'],['MXH','Mạng xã hội · media','livestream → <b>phát trực tiếp</b>'],['CÔNG','Dịch vụ công','citizen ID → <b>căn cước công dân</b>'],['2FA','Bảo mật tài khoản','two-step verification → <b>xác minh 2 bước</b>']];
-const ag=['Claude Code','Codex','Cursor','Gemini CLI','Antigravity','OpenCode','GitHub Copilot','Windsurf','oh-my-pi','+ mọi agent hỗ trợ Agent Skills'];
+const ag=['Claude Code','Codex','Cursor','GitHub Copilot','Gemini CLI','Antigravity','Windsurf','oh-my-pi','OpenCode','Cline','Roo Code','Kilo Code','Kiro','Trae','Zed','Amp','Goose','Junie','Qwen Code','Kimi Code','Warp','Droid','Augment','Continue','Crush','OpenHands','Devin','+ 40 agent khác'];
 function setFrame(which){
  document.body.style.width='960px';
  document.getElementById('s').innerHTML = which=='ind'
  ? `<div><span class="brand">VIETNAMESE <b>DRILL</b></span><span class="h">21 ngành, nói đúng giọng người trong nghề</span></div><div class="sub">7.800+ thuật ngữ · tự nhận ngành của app, chỉ dùng phần cần thiết</div>
    <div class="grid">${ind.map(([e,n,t])=>`<div class="c"><div class="e">${e}</div><div><div class="n">${n}</div><div class="t">${t}</div></div></div>`).join('')}</div>`
  : `<div><span class="brand">VIETNAMESE <b>DRILL</b></span><span class="h">Cài một lần, chạy trên agent bạn đang dùng</span></div><div class="sub">một skill duy nhất · không cần API key riêng · checker chạy offline</div>
-   <div class="agents">${ag.map((a,i)=>`<span class="a ${i<2||a=='oh-my-pi'?'hot':''}">${a}</span>`).join('')}</div>`;
+   <div class="agents">${ag.map((a,i)=>`<span class="a ${i<4||a=='oh-my-pi'?'hot':''}">${a}</span>`).join('')}</div>`;
 }
 setFrame('ind');
 </script></body></html>

@@ -65,44 +65,89 @@ Agent tự nhận app của bạn thuộc ngành nào. Dự án có bảng thu�
 
 ## ⚡ Cài 1 lệnh
 
-<p align="center"><img src="assets/agents.png" alt="Chạy trên Claude Code, Codex, Cursor, Gemini CLI, Antigravity, OpenCode, GitHub Copilot, Windsurf, oh-my-pi" width="900"></p>
+<p align="center"><img src="assets/agents.png" alt="Chạy trên Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Antigravity, Windsurf, oh-my-pi, OpenCode, Cline, Roo Code, Kilo Code, Kiro, Trae, Zed, Amp, Goose, Junie, Qwen Code, Kimi Code, Warp, Droid, Augment, Continue, Crush, OpenHands, Devin và hơn 40 agent khác" width="900"></p>
 
 ```bash
 npx skills add zt-hky/vietnamese-drill
 ```
 
+Lệnh này tự tìm các agent đang có trên máy và hỏi bạn muốn cài vào đâu. Cần Node.js 18 trở lên. Không cần API key riêng: drill dùng chính model agent đang chạy.
+
+| Muốn | Lệnh |
+|---|---|
+| Cài cho mọi agent trên máy, không hỏi | `npx skills add zt-hky/vietnamese-drill -g --all` |
+| Cài cho một agent | `npx skills add zt-hky/vietnamese-drill -g -a <mã agent>` |
+| Cài riêng cho một dự án | bỏ `-g`, chạy trong thư mục dự án |
+| Cập nhật · gỡ | `npx skills update` · `npx skills remove vietnamese` |
+
+### Bản đầy đủ: thêm subagent review
+
+| Agent | Lệnh |
+|---|---|
+| **Claude Code** | `claude plugin marketplace add zt-hky/vietnamese-drill` rồi `claude plugin install vietnamese-drill@vietnamese-drill` |
+| **oh-my-pi** | `omp plugin install github:zt-hky/vietnamese-drill` (kèm rule, tool và subagent) |
+| **Codex** | cài skill như bảng dưới, rồi copy [`codex/vietnamese_reviewer.toml`](codex/vietnamese_reviewer.toml) vào `~/.codex/agents/` |
+
+Agent khác không cần subagent riêng: skill tự làm đủ các bước.
+
+### Mã agent và thư mục cài tay
+
+Không chạy được `npx`? Copy thư mục [`skills/vietnamese`](skills/vietnamese) vào thư mục bên dưới (`~` là thư mục home; cài riêng cho dự án thì dùng cột cuối, tính từ gốc repo).
+
+**Agent dạng CLI**
+
+| Agent | Mã `-a` | Cài cho mọi dự án | Cài cho một dự án |
+|---|---|---|---|
+| Claude Code | `claude-code` | `~/.claude/skills/` | `.claude/skills/` |
+| Codex (OpenAI) | `codex` | `~/.agents/skills/` | `.agents/skills/` |
+| Gemini CLI | `gemini-cli` | `~/.gemini/skills/` | `.agents/skills/` |
+| Antigravity | `antigravity` | `~/.gemini/antigravity/skills/` | `.agents/skills/` |
+| GitHub Copilot (CLI, VS Code) | `github-copilot` | `~/.copilot/skills/` | `.agents/skills/` |
+| OpenCode | `opencode` | `~/.config/opencode/skills/` | `.agents/skills/` |
+| Amp | `amp` | `~/.config/agents/skills/` | `.agents/skills/` |
+| Goose | `goose` | `~/.config/goose/skills/` | `.goose/skills/` |
+| Crush | `crush` | `~/.config/crush/skills/` | `.crush/skills/` |
+| Droid (Factory) | `droid` | `~/.factory/skills/` | `.agents/skills/` |
+| Warp | `warp` | `~/.agents/skills/` | `.agents/skills/` |
+| Qwen Code | `qwen-code` | `~/.qwen/skills/` | `.qwen/skills/` |
+| Kimi Code CLI | `kimi-code-cli` | `~/.agents/skills/` | `.agents/skills/` |
+| Kiro CLI | `kiro-cli` | `~/.kiro/skills/` | `.kiro/skills/` |
+| Devin for Terminal | `devin` | `~/.config/devin/skills/` | `.devin/skills/` |
+| OpenHands | `openhands` | `~/.openhands/skills/` | `.openhands/skills/` |
+| Mistral Vibe | `mistral-vibe` | `~/.vibe/skills/` | `.vibe/skills/` |
+| Grok Build | `grok` | `~/.grok/skills/` | `.grok/skills/` |
+| Rovo Dev (Atlassian) | `rovodev` | `~/.rovodev/skills/` | `.rovodev/skills/` |
+| Tabnine CLI | `tabnine-cli` | `~/.tabnine/agent/skills/` | `.tabnine/agent/skills/` |
+| oh-my-pi · Pi | `pi` | `~/.agents/skills/` | `.agents/skills/` |
+
+**Agent trong IDE / editor**
+
+| Agent | Mã `-a` | Cài cho mọi dự án | Cài cho một dự án |
+|---|---|---|---|
+| Cursor | `cursor` | `~/.cursor/skills/` | `.agents/skills/` |
+| Windsurf | `windsurf` | `~/.codeium/windsurf/skills/` | `.windsurf/skills/` |
+| Cline | `cline` | `~/.agents/skills/` | `.agents/skills/` |
+| Roo Code | `roo` | `~/.roo/skills/` | `.roo/skills/` |
+| Kilo Code | `kilo` | `~/.kilo/skills/` | `.agents/skills/` |
+| Zed | `zed` | `~/.agents/skills/` | `.agents/skills/` |
+| Trae · Trae CN | `trae` · `trae-cn` | `~/.trae/skills/` · `~/.trae-cn/skills/` | `.trae/skills/` |
+| Junie (JetBrains) | `junie` | `~/.junie/skills/` | `.junie/skills/` |
+| Augment | `augment` | `~/.augment/skills/` | `.augment/skills/` |
+| Continue | `continue` | `~/.continue/skills/` | `.continue/skills/` |
+| Qoder | `qoder` | `~/.qoder/skills/` | `.qoder/skills/` |
+| Lingma (Alibaba) | `lingma` | `~/.lingma/skills/` | `.lingma/skills/` |
+| CodeBuddy (Tencent) | `codebuddy` | `~/.codebuddy/skills/` | `.codebuddy/skills/` |
+| Firebender (Android Studio) | `firebender` | `~/.firebender/skills/` | `.agents/skills/` |
+| Zencoder | `zencoder` | `~/.zencoder/skills/` | `.zencoder/skills/` |
+| Replit Agent | `replit` | `~/.config/agents/skills/` | `.agents/skills/` |
+
+Danh sách đầy đủ hơn 70 agent: `npx skills add zt-hky/vietnamese-drill --list`, hoặc gõ `npx skills add zt-hky/vietnamese-drill` để chọn.
+
 <details>
-<summary><b>Claude Code</b> (kèm subagent review)</summary>
+<summary>Agent không có trong danh sách</summary>
 
-```bash
-claude plugin marketplace add zt-hky/vietnamese-drill
-claude plugin install vietnamese-drill@vietnamese-drill
-```
-</details>
-
-<details>
-<summary><b>Codex</b></summary>
-
-```bash
-npx skills add zt-hky/vietnamese-drill -g -a codex
-```
-Subagent tùy chọn: copy [`codex/vietnamese_reviewer.toml`](codex/vietnamese_reviewer.toml) vào `~/.codex/agents/`.
-</details>
-
-<details>
-<summary><b>oh-my-pi</b> (đủ bộ: skill, rule, tool, subagent)</summary>
-
-```bash
-omp plugin install github:zt-hky/vietnamese-drill
-```
-</details>
-
-<details>
-<summary><b>Cursor · Gemini CLI · Antigravity · OpenCode · Copilot · Windsurf</b></summary>
-
-```bash
-npx skills add zt-hky/vietnamese-drill -g -a <cursor|gemini-cli|antigravity|opencode|github-copilot|windsurf>
-```
+- Hỗ trợ chuẩn [Agent Skills](https://agentskills.io): copy thư mục `skills/vietnamese` vào thư mục skills của agent đó.
+- Chưa hỗ trợ skill: dán nội dung `skills/vietnamese/SKILL.md` và `skills/vietnamese/modes/ui.md` vào file hướng dẫn của agent (`AGENTS.md`, `CLAUDE.md`, `.cursorrules`, `.github/copilot-instructions.md`…), và sửa đường dẫn `$SKILL_DIR` thành nơi bạn để thư mục skill.
 </details>
 
 <details>
@@ -110,8 +155,6 @@ npx skills add zt-hky/vietnamese-drill -g -a <cursor|gemini-cli|antigravity|open
 
 Hai skill cũ đã gộp thành một. Gỡ bản cũ: `npx skills remove vietnamese-product vietnamese-replies`, rồi cài lại như trên.
 </details>
-
-Cần Node.js 18 trở lên. Không cần API key riêng: drill dùng chính model agent đang chạy.
 
 ---
 
