@@ -1,0 +1,7 @@
+# Project glossary. Same columns as the bundled assets/glossary.vi-ui.tsv; entries here override bundled ones with the same English term.
+# Columns (TAB-separated): en ; vi ; alt ; avoid ; cat ; match ; src ; note
+#   en/alt/avoid accept several values separated by ";". match: w = word match, x = whole-string match only. src: free text (owner, ticket) or E.
+en	vi	alt	avoid	cat	match	src	note
+file	tệp	tập tin		file	w	E	Product decision: we use "tệp"
+delete	xóa		hủy	action	w	E	Never "Hủy" for Delete
+you	bạn		quý khách	pronoun	x	E	Direct, friendly voice

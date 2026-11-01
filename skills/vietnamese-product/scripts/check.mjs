@@ -1,6 +1,9 @@
 import { pathToFileURL } from 'node:url';
+import { readFileSync } from 'node:fs';
+import { loadGlossary, lintPair, reverseHints, lookup } from './glossary.mjs';
 
-// Read-only lint: no files, network, dependencies, or automatic rewrites.
+// Read-only lint: no network, no dependencies, no automatic rewrites. Reads only the bundled glossary
+// and, in the CLI, an optional project glossary file you pass with --glossary.
 const MAX = 200000;
 const tokens = text => [...text.matchAll(/\{\{\s*([\w.]+)\s*\}\}|\$\{\s*([\w.]+)\s*\}|\{([\w.]+)\}|%(?:\d+\$)?[sdif]/g)].map(m => m[1] ? `mustache:${m[1]}` : m[2] ? `template:${m[2]}` : m[3] ? `brace:${m[3]}` : m[0]).sort();
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
@@ -11,11 +14,15 @@ function flatten(value, path = [], out = new Map()) {
   else out.set(JSON.stringify(path), value);
   return out;
 }
+const TONE_PAIRS = [['hóa', 'hoá'], ['hòa', 'hoà'], ['hủy', 'huỷ'], ['xóa', 'xoá'], ['thủy', 'thuỷ'], ['tùy', 'tuỳ'], ['tòa', 'toà']];
+const SEV = { error: 0, warning: 1, info: 2 };
+
 export function check(input) {
   if (!input || typeof input.text !== 'string' || input.text.length > MAX) throw new Error('text must be a string of at most 200000 UTF-16 units');
-  const { text, sourceText, mode = 'text', limit = 30 } = input;
+  const { text, sourceText, mode = 'text', limit = 30, projectGlossary, glossary = true } = input;
   if (!['text', 'json'].includes(mode)) throw new Error('mode must be text or json');
   if (sourceText !== undefined && (typeof sourceText !== 'string' || sourceText.length > MAX)) throw new Error('invalid sourceText');
+  if (projectGlossary !== undefined && (typeof projectGlossary !== 'string' || projectGlossary.length > MAX)) throw new Error('invalid projectGlossary');
   if (!Number.isInteger(limit) || limit < 1 || limit > 100) throw new Error('limit must be 1..100');
   const findings = [];
   const add = (code, severity, path, message) => findings.push({ code, severity, path, message });
@@ -24,6 +31,7 @@ export function check(input) {
     target = mode === 'json' ? flatten(JSON.parse(text)) : new Map([['$', text]]);
     source = sourceText === undefined ? undefined : mode === 'json' ? flatten(JSON.parse(sourceText)) : new Map([['$', sourceText]]);
   } catch (e) { return { status: 'error', findings: [{ code: 'JSON', severity: 'error', path: '$', message: e.message }], total: 1, truncated: false, semanticReview: 'not-run' }; }
+  const G = glossary ? loadGlossary(projectGlossary) : null;
   if (source) {
     for (const key of source.keys()) if (!target.has(key)) add('MISSING_KEY', 'error', key, 'Missing source leaf');
     for (const key of target.keys()) if (!source.has(key)) add('EXTRA_KEY', 'error', key, 'Unexpected target leaf');
@@ -51,15 +59,44 @@ export function check(input) {
     if (/\b\d{1,2}(?::\d{2})?\s?(?:AM|PM)\b/iu.test(prose)) add('TIME_AMPM', 'warning', path, 'Use 24-hour time or a day-part word ("9 giờ tối"), not AM/PM; prefer Intl for formatting');
     if (/\btệp\b/iu.test(prose) && /\btập tin\b/iu.test(prose)) add('TERM_MIX', 'warning', path, 'Both "tệp" and "tập tin" used; pick one per product');
     if (/\b(?:quý khách|quý vị)\b/iu.test(prose) && /\bbạn\b/iu.test(prose)) add('ADDRESS_MIX', 'warning', path, 'Mixed address terms (bạn vs quý khách/quý vị) in one string; follow the product rule');
+    if (G) {
+      const origText = typeof original === 'string' ? original : undefined;
+      const res = origText !== undefined ? lintPair(origText, prose, G) : reverseHints(prose, G);
+      for (const r of res) add(r.code, r.severity, path, r.message);
+    }
   }
-  return { status: findings.some(f => f.severity === 'error') ? 'error' : findings.length ? 'warning' : 'clean', findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, semanticReview: 'not-run', coverage: 'NFC, selected invisible characters, JSON leaves/types, simple named placeholders and printf, style/locale hints (space before punctuation, comma before và/hoặc, number-% spacing, "thất bại", doubled polite markers, title case, US-ordered dates, AM/PM, tệp/tập tin mix, bạn/quý khách mix); NOT ICU/HTML/Markdown parser or fluency assessment' };
+  const all = [...target.values()].filter(v => typeof v === 'string').join('\n');
+  for (const [a, b] of TONE_PAIRS) {
+    if (new RegExp(`(?<![\\p{L}])${a}(?![\\p{L}])`, 'iu').test(all) && new RegExp(`(?<![\\p{L}])${b}(?![\\p{L}])`, 'iu').test(all)) add('TONE_MIX', 'warning', '$', `Both "${a}" and "${b}" used; keep one tone-mark style per product`);
+  }
+  findings.sort((x, y) => SEV[x.severity] - SEV[y.severity]);
+  const status = findings.some(f => f.severity === 'error') ? 'error' : findings.some(f => f.severity === 'warning') ? 'warning' : 'clean';
+  return { status, findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, semanticReview: 'not-run', coverage: 'NFC, selected invisible characters, JSON leaves/types, simple named placeholders and printf, style/locale hints, tone-mark mix, UI glossary (avoid-forms when sourceText is given; GLOSSARY_MISS is info only); NOT ICU/HTML/Markdown parser or fluency assessment' };
 }
+
+export function lookupRequest(input) {
+  const strings = Array.isArray(input?.strings) ? input.strings : input?.src ? [{ id: '1', src: input.src }] : [];
+  if (!strings.length || strings.length > 2000 || strings.some(s => typeof (s.src ?? s.text) !== 'string')) throw new Error('strings must be 1..2000 items of {id, src}');
+  return lookup(strings, loadGlossary(input.projectGlossary), { notes: input.notes !== false, perId: !!input.perId, max: input.max ?? 80, header: input.header !== false });
+}
+
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try {
+    const args = process.argv.slice(2);
+    const cmd = args[0] && !args[0].startsWith('-') ? args.shift() : 'check';
+    const gi = args.indexOf('--glossary');
+    const projectGlossary = gi >= 0 ? readFileSync(args[gi + 1], 'utf8') : undefined;
     let data = '';
     for await (const chunk of process.stdin) { data += chunk; if (data.length > 1300000) throw new Error('Request too large'); }
-    const result = check(JSON.parse(data));
-    console.log(JSON.stringify(result));
-    process.exitCode = result.status === 'error' ? 1 : 0;
+    const req = JSON.parse(data);
+    if (projectGlossary) req.projectGlossary = projectGlossary;
+    if (cmd === 'lookup') {
+      const r = lookupRequest(req);
+      console.log(args.includes('--json') ? JSON.stringify(r) : r.text);
+    } else if (cmd === 'check') {
+      const result = check(req);
+      console.log(JSON.stringify(result));
+      process.exitCode = result.status === 'error' ? 1 : 0;
+    } else throw new Error(`unknown command ${cmd}; use check or lookup`);
   } catch (e) { console.error(JSON.stringify({ status: 'error', message: e.message })); process.exitCode = 2; }
 }

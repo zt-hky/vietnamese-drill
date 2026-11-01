@@ -108,7 +108,7 @@ Mỗi agent đọc skill ở một thư mục riêng. Lệnh `npx` bên dưới 
 
 ### oh-my-pi (OMP): full combo
 
-OMP nhận **full set**: 2 skill, rule luôn bật, tool `vi_check` và subagent `vietnamese-reviewer`.
+OMP nhận **full set**: 2 skill, rule luôn bật (2 dòng), tool `vi_check` + `vi_lookup`, subagent `vietnamese-reviewer`.
 
 ```bash
 omp plugin install github:zt-hky/vietnamese-drill
@@ -116,7 +116,7 @@ omp plugin install github:zt-hky/vietnamese-drill
 
 Mở session mới để nạp rule và tool. Gỡ bằng `omp plugin uninstall vietnamese-drill`. Cập nhật bằng `omp plugin upgrade vietnamese-drill`.
 
-`vietnamese-reviewer` ưu tiên chạy `google-antigravity/gemini-3.8-flash` (thinking thấp). Nếu máy chưa có model đó, agent dùng model của role `smol`. Muốn đổi model, sửa `~/.omp/agent/config.yml`:
+Subagent mặc định chạy cùng model với session. Muốn ghim sang model rẻ (ví dụ Gemini Flash), thêm vào `~/.omp/agent/config.yml`:
 
 ```yaml
 task:
@@ -128,11 +128,16 @@ task:
 
 ### Claude Code
 
+Cài như plugin, có luôn subagent `vietnamese-reviewer`:
+
 ```bash
-npx skills add zt-hky/vietnamese-drill -g -a claude-code
+claude plugin marketplace add zt-hky/vietnamese-drill
+claude plugin install vietnamese-drill@vietnamese-drill
 ```
 
-Cài tay: copy hai thư mục trong `skills/` vào `~/.claude/skills/`. Theo project thì copy vào `.claude/skills/`.
+Hoặc chỉ cài skill: `npx skills add zt-hky/vietnamese-drill -g -a claude-code`. Cài tay: copy hai thư mục trong `skills/` vào `~/.claude/skills/` (theo project: `.claude/skills/`) và `agents/vietnamese-reviewer.md` vào `~/.claude/agents/`.
+
+Muốn reviewer chạy model rẻ hơn, thêm `model: haiku` vào frontmatter của file agent.
 
 ### Codex (OpenAI)
 
@@ -140,7 +145,9 @@ Cài tay: copy hai thư mục trong `skills/` vào `~/.claude/skills/`. Theo pro
 npx skills add zt-hky/vietnamese-drill -g -a codex
 ```
 
-Cài tay: `~/.agents/skills/`. Theo project thì dùng `.agents/skills/`.
+Cài tay: `~/.agents/skills/` (theo project: `.agents/skills/`). Skill có sẵn `agents/openai.yaml` nên Codex tự gọi được khi gặp chuỗi UI tiếng Việt.
+
+Subagent tuỳ chọn: copy [`codex/vietnamese_reviewer.toml`](codex/vietnamese_reviewer.toml) vào `~/.codex/agents/`. Không có file này thì skill vẫn chạy: Codex dùng subagent mặc định với lời nhắc trong `SKILL.md`. Phần Codex chưa được tác giả chạy thử trực tiếp, chỉ làm theo [tài liệu chính thức](https://developers.openai.com/codex/subagents).
 
 ### Cursor
 
@@ -184,9 +191,45 @@ Agent chưa hỗ trợ skill: dán nội dung `SKILL.md` vào file rule hoặc i
 
 ---
 
+## 📚 Từ điển UI chuẩn
+
+`skills/vietnamese-product/assets/glossary.vi-ui.tsv`: **329 thuật ngữ** giao diện (Lưu, Hủy, Cài đặt, Tải xuống, Đăng nhập, Thanh toán, Thông báo…), mỗi dòng ghi từ ưu tiên, dạng chấp nhận được, dạng **bị loại** và nguồn.
+
+| Nguồn | Dùng để |
+|---|---|
+| Android (AOSP), Firefox cho Android | Cặp EN-VI thật từ sản phẩm đã phát hành (Apache-2.0, MPL-2.0) |
+| Microsoft Terminology (19.427 thuật ngữ vi) | Đối chiếu thuật ngữ và phát hiện từ đã cũ ("thiết đặt", "hủy bỏ") |
+| MoMo UX Writing, Microsoft style guide | Quy tắc nút bấm, thông báo lỗi, giọng văn |
+
+174/329 dòng được từ hai nguồn trở lên đồng thuận, 59 dòng là quyết định biên tập (ghi rõ `E`). Chọn dạng ngắn, hiện đại hơn khi các hãng khác nhau.
+
+**Không nhét cả từ điển vào prompt.** Agent chạy `check.mjs lookup` và chỉ nhận vài dòng liên quan tới chuỗi đang làm:
+
+```bash
+echo '{"strings":[{"id":"1","src":"Learn more"},{"id":"2","src":"Mute this conversation"}]}' \
+  | node skills/vietnamese-product/scripts/check.mjs lookup
+```
+
+```text
+learn more = Tìm hiểu thêm | avoid: Học thêm | "Học thêm" is a typical machine translation
+mute … conversation = Tắt thông báo | alt: Tắt tiếng | Messaging apps: Tắt thông báo
+```
+
+| Nạp vào context | Token (o200k) |
+|---|---|
+| Cả glossary | 5.110 |
+| Lát cắt cho 10 chuỗi / 62 chuỗi | **116** / 908 |
+| `SKILL.md` (chỉ khi được kích hoạt) / playbook subagent | 1.660 / 660 |
+
+Glossary của dự án (cùng cột TSV, mẫu ở `assets/project-glossary.template.tsv`) luôn thắng: `check.mjs lookup --glossary project.tsv`.
+
+**Đã đo có hiệu quả không?** Có, vừa phải. Trên 62 chuỗi mới viết sau khi chốt từ điển: độ dùng đúng thuật ngữ của Gemini Flash từ **90,2% lên 96,7%**, Claude Haiku từ 94,6–95,7% lên 96,7–97,8%; giám khảo mù (Claude Sonnet) nghiêng về bản có glossary (27:19 và 38:30). Phép đo đầu tiên bị bão hoà (baseline đã 100% vì chuỗi Android/Firefox là dữ liệu công khai), và glossary trần trụi từng làm câu dịch sát chữ hơn trước khi thêm lời nhắc "tự nhiên". Toàn bộ số liệu, thất bại và cách chạy lại ở [`evals/README.md`](evals/README.md).
+
+---
+
 ## 🧪 Checker offline
 
-Kiểm những lỗi máy bắt được, khỏi tốn token LLM. Chỉ cần Node.js, không có dependency, không gọi mạng, không đọc file, không tự sửa gì.
+Kiểm những lỗi máy bắt được, khỏi tốn token LLM. Chỉ cần Node.js, không có dependency, không gọi mạng, không tự sửa gì. Chỉ đọc glossary đi kèm (và file glossary dự án nếu bạn truyền `--glossary`).
 
 ```bash
 echo '{"text":"Xin chào {user}","sourceText":"Hello {name}"}' \
@@ -207,6 +250,8 @@ File i18n dạng JSON thì thêm `"mode":"json"`: checker so từng leaf key, ki
 | Vài cụm dịch sát quen mặt (`cam kết các thay đổi`…) | Chấm "điểm tiếng Việt". Không có con số ảo |
 | Gợi ý phong cách và địa phương hoá (chỉ là cảnh báo): dấu cách trước dấu câu, dấu phẩy trước `và`/`hoặc`, `80 %`, "… thất bại", `xin vui lòng`, Viết Hoa Từng Chữ, ngày kiểu Mỹ `12/15/2024`, `9 PM`, lẫn `tệp`/`tập tin`, lẫn `bạn`/`quý khách` | Quyết định có nên nghe theo gợi ý hay không. Ngoại lệ như trích dẫn, tên riêng vẫn do bạn quyết |
 | ICU phức tạp: báo `ICU_UNCHECKED`, không cho qua im lặng | |
+| Khi có `sourceText`: dạng bị loại trong glossary (`GLOSSARY_AVOID`: `Học thêm`, `Thiết đặt`, `Đăng ký` cho Sign in…); dạng ưu tiên vắng mặt chỉ báo mức `info` (`GLOSSARY_MISS`) | Biến thể hợp lệ ngoài glossary, nghĩa của câu |
+| Lẫn kiểu dấu thanh trong cả lô (`hóa`/`hoá`, `hủy`/`huỷ`: `TONE_MIX`) | |
 
 Exit code: `0` sạch hoặc chỉ có cảnh báo · `1` lỗi contract · `2` request sai định dạng.
 
@@ -217,28 +262,31 @@ Exit code: `0` sạch hoặc chỉ có cảnh báo · `1` lỗi contract · `2` 
 ```text
 vietnamese-drill/
 ├── skills/
-│   ├── vietnamese-product/       # tài liệu, UI/UX, content, notification, i18n
+│   ├── vietnamese-product/             # UI/UX, content, notification, i18n (kích hoạt khi cần)
 │   │   ├── SKILL.md
-│   │   ├── scripts/check.mjs     # checker offline
-│   │   ├── references/sources.md # phạm vi, giới hạn, nguồn tham khảo
-│   │   ├── references/microsoft-vi-style.md # quy tắc rút từ Microsoft Vietnamese Localization Style Guide
-│   │   ├── references/locale-and-glossary.md # ngày giờ, đại từ, phương ngữ, style guide vs glossary, SEO
-│   │   └── assets/glossary.template.csv # mẫu glossary cho dự án
-│   └── vietnamese-replies/       # cách agent trả lời bạn bằng tiếng Việt
-│       └── SKILL.md
-├── rules/vietnamese.md           # OMP: rule luôn bật, rất ngắn, chỉ để điều hướng
-├── tools/vi-check.ts             # OMP: tool vi_check gọi cùng checker
-├── agents/vietnamese-reviewer.md # OMP: subagent review ngữ nghĩa
-└── package.json                  # manifest plugin OMP
+│   │   ├── agents/openai.yaml          # Codex: gọi ngầm được
+│   │   ├── scripts/check.mjs           # checker + lookup (CLI)
+│   │   ├── scripts/glossary.mjs        # nạp, khớp, lint glossary
+│   │   ├── assets/glossary.vi-ui.tsv   # 329 thuật ngữ UI
+│   │   ├── assets/project-glossary.template.tsv
+│   │   └── references/                 # reviewer, microsoft-vi-style, locale-and-glossary, sources
+│   └── vietnamese-replies/             # cách agent trả lời bạn bằng tiếng Việt
+├── agents/vietnamese-reviewer.md       # subagent dùng chung Claude Code + OMP
+├── codex/vietnamese_reviewer.toml      # subagent tuỳ chọn cho Codex
+├── .claude-plugin/                     # plugin + marketplace cho Claude Code
+├── rules/vietnamese.md                 # OMP: rule luôn bật, 2 dòng
+├── tools/vi-check.ts                   # OMP: tool vi_check + vi_lookup
+├── evals/                              # bộ đo hiệu quả, kết quả và thất bại
+└── package.json                        # manifest plugin OMP
 ```
 
 | Track | Vai trò | Ai dùng |
 |---|---|---|
 | `vietnamese-product` | Chuẩn hoá chữ trong phần mềm: docs, UI, web, noti, i18n | Mọi agent |
 | `vietnamese-replies` | Chuẩn hoá cách agent trả lời: gọn, có dẫn chứng, giữ technical English | Mọi agent |
-| `check.mjs` / `vi_check` | Kiểm lỗi cơ học, chạy local | Mọi agent (OMP có sẵn tool) |
-| `vietnamese-reviewer` | Review nghĩa và độ tự nhiên theo **một batch** | OMP |
-| `rules/vietnamese.md` | Nhắc agent dùng đúng skill khi gặp tiếng Việt | OMP |
+| `check.mjs` (`check`, `lookup`) | Kiểm lỗi cơ học và lấy lát cắt glossary, chạy local | Mọi agent có Node (OMP có sẵn tool `vi_check`, `vi_lookup`) |
+| `vietnamese-reviewer` | Dịch/review **một batch** chuỗi UI, tự gọi `lookup`, chỉ trả dòng đã đổi | Claude Code, OMP, Codex (tuỳ chọn) |
+| `rules/vietnamese.md` | Nhắc agent dùng đúng skill khi gặp UI tiếng Việt | OMP |
 
 ---
 
@@ -246,11 +294,11 @@ vietnamese-drill/
 
 Học từ [caveman](https://github.com/JuliusBrussee/caveman): nói ít, nhưng giữ đủ ý.
 
-1. **Rule luôn bật chỉ 2 dòng.** Hướng dẫn chi tiết nằm trong skill, agent chỉ đọc khi có việc cần.
-2. **Checker local chạy trước.** Lỗi placeholder, key, NFC bắt bằng code, không bắt bằng LLM.
-3. **Review theo một batch.** Chỉ gửi các chuỗi vừa đổi, kèm ngữ cảnh và glossary. Reviewer chỉ trả về dòng có vấn đề và lý do.
-4. **Câu trả lời thường ngày không gọi reviewer.** Không có vòng lặp chấm điểm, không có proxy.
-5. **Gọn nhưng không cụt.** Khác caveman ở chỗ: không viết kiểu "người tiền sử". Người dùng cuối cần hiểu, không cần đếm token.
+1. **Chỉ kích hoạt khi cần.** Description hẹp: chỉ chuỗi UI/product copy tiếng Việt, không phải chat. Việc khác không tốn token nào ngoài dòng mô tả.
+2. **Agent chính không nạp glossary.** Với 3 chuỗi trở lên, nó giao **một batch** cho subagent kèm đường dẫn skill. Subagent đọc playbook (660 token), chạy `lookup`, trả về các dòng đã đổi. Harness không có subagent thì agent tự làm đúng các bước đó.
+3. **Chỉ lấy phần liên quan.** 116 token cho 10 chuỗi thay vì 5.110 token cho cả từ điển. Đo được: dán cả từ điển còn cho kết quả kém hơn lát cắt.
+4. **Checker local chạy sau**: placeholder, key, NFC, dạng bị loại bằng code, không bằng LLM.
+5. **Gọn nhưng không cụt.** Lát cắt luôn kèm một dòng nhắc "phần còn lại phải tự nhiên, bỏ 'của bạn' khi đã rõ". Thiếu dòng này, model dịch sát chữ hơn (đã đo).
 
 Glossary của dự án luôn thắng. Dự án đã chọn "máy chủ" thay vì "server" thì agent theo dự án.
 
@@ -259,7 +307,7 @@ Glossary của dự án luôn thắng. Dự án đã chọn "máy chủ" thay v�
 ## 🛡️ Dữ liệu đi đâu
 
 - `check.mjs` / `vi_check`: **chạy 100% trên máy**, không gửi gì ra ngoài.
-- `vietnamese-reviewer`: gửi batch chuỗi cần review tới provider của model bạn chọn. Skill yêu cầu bỏ secret và dữ liệu khách hàng trước khi gửi, nhưng bạn vẫn nên tự kiểm tra.
+- `vietnamese-reviewer`: gửi batch chuỗi cần review tới provider của model mà subagent đang dùng (Claude, OpenAI, Google…). Skill yêu cầu bỏ secret và dữ liệu khách hàng trước khi gửi, nhưng bạn vẫn nên tự kiểm tra.
 
 ---
 
@@ -267,7 +315,9 @@ Glossary của dự án luôn thắng. Dự án đã chọn "máy chủ" thay v�
 
 - Rule và skill là **hướng dẫn cho agent**, không phải hook chặn output. Agent vẫn có thể làm sai, nên review vẫn cần.
 - Checker không thay compiler i18n của dự án. ICU, HTML, Markdown phức tạp vẫn phải chạy công cụ thật.
-- Chưa có benchmark đo token hay chất lượng. Repo không đưa ra con số tiết kiệm nào khi chưa đo.
+- Mẫu đo nhỏ (44–62 chuỗi, 2 lượt, một giám khảo), tiêu chí "dùng đúng thuật ngữ" do chính glossary định nghĩa. Cải thiện có thật nhưng vừa phải; xem [`evals/README.md`](evals/README.md).
+- Glossary chỉ phủ thuật ngữ giao diện phổ biến. Từ chuyên ngành (y tế, luật, tài chính) cần glossary của dự án.
+- Codex chưa được chạy thử trực tiếp.
 
 ---
 

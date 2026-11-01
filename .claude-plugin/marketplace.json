@@ -1,0 +1,15 @@
+{
+  "name": "vietnamese-drill",
+  "owner": { "name": "zt-hky" },
+  "metadata": { "description": "Vietnamese UI/UX writing skills for coding agents" },
+  "plugins": [
+    {
+      "name": "vietnamese-drill",
+      "source": "./",
+      "description": "Vietnamese UI/UX glossary, checker and reviewer subagent. Skills load on demand.",
+      "version": "1.3.0",
+      "license": "MIT",
+      "keywords": ["vietnamese", "i18n", "ux-writing"]
+    }
+  ]
+}

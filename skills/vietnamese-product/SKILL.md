@@ -1,51 +1,49 @@
 ---
 name: vietnamese-product
-description: "Vietnamese software writing for docs, UI/UX, web content, notifications and vi-VN i18n. Retains technical English, applies Microsoft vi-VN style rules, checks contracts locally, batches semantic review."
+description: "Write, translate or review Vietnamese (tiếng Việt) software UI text: buttons, labels, errors, toasts, notifications, onboarding, i18n files (vi.json, vi-VN), UX writing and product docs. Use only for Vietnamese UI/product copy, not for chat replies. Pulls a company-sourced UI glossary on demand and delegates one batch to a reviewer subagent."
 ---
 # Contract
-Write for the audience, not English word order. Preserve facts, uncertainty, negation, amounts, links and behavior. Project glossary/style wins; flag conflicts, do not silently rename concepts.
+Write for the audience, not English word order. Preserve facts, uncertainty, negation, amounts, links and behavior. The project's own glossary/style wins over everything below; flag conflicts, never silently rename a concept.
+
+## Workflow (cost-aware: nothing below is loaded until it is needed)
+1. **Collect items**: `[{id, src, tgt?, ctx}]` where `ctx` = key, screen, user action, max length. Detect the project glossary first (search the repo for `glossary*`, `terminology*`, `locales/vi*`); if none exists, use the bundled one and state assumptions (address term, tệp vs tập tin, Delete wording).
+2. **Delegate one batch** when there are 3 or more strings, or any ambiguity, and your harness can spawn a subagent: Claude Code → agent `vietnamese-reviewer` (or a general-purpose subagent); OMP → task agent `vietnamese-reviewer`; Codex → custom agent `vietnamese_reviewer` or a default subagent. Prompt:
+   `Mode: translate|review|rewrite. Surface: <…>. Audience: <…>. SKILL_DIR=<absolute path of this skill folder>. Project glossary: <path|none>. Read $SKILL_DIR/references/reviewer.md and follow it. Items: <JSON>`
+   The subagent retrieves only the matching glossary lines and returns changed rows; the glossary never enters your context. **Never write Vietnamese UI strings from memory.** No subagent, or 1–2 strings: first run `node $SKILL_DIR/scripts/check.mjs lookup < items.json` (about 100 tokens) and follow `references/reviewer.md` inline.
+3. **Apply and verify**: apply accepted rows, then run `node $SKILL_DIR/scripts/check.mjs` (or the `vi_check` tool) with `{"text","sourceText","mode"}`; add `--glossary project.tsv` for a project glossary. Exit 0 clean or warnings, 1 contract errors, 2 invalid request. Run the project's i18n compiler for ICU, and check the rendered UI when UI changed.
+4. Never send secrets or customer data to a remote model; redact first. No numeric fluency score, no repeated debate loops; unresolved meaning goes back to the user with the source context.
 
 ## Terms and surfaces
-- Developer docs/chat: keep commit, branch, merge, deploy, production, staging, API, endpoint, payload, cache, hook, skill, plugin, pull request when natural. Never commit→cam kết or production→sản xuất in software context. Explain unfamiliar terms once for beginners.
-- End-user UI: prefer familiar Vietnamese (Lưu, Xoá, Đăng nhập, Tải xuống); do not leak developer jargon. Technical English is retained where it identifies a technical concept, not as a reason to leave all UI untranslated. One concept, one term per surface.
-- Spec/RFC: impersonal, name actor precisely. Tutorial: bạn sparingly. UI: omit pronoun when clear, otherwise bạn; brand-specific quý khách only if established. Assistant chat replies follow vietnamese-replies.
-- Buttons: action + object if needed; destructive actions explicit. Error: what failed + actionable recovery; don't invent cause or retry guarantees. Distinguish loading, empty, success and failure. Noti: event/result + relevant next action, no unsolicited marketing.
-- Content: concrete benefit, no invented superlatives. Remove empty tiến hành/thực hiện, một cách, thông qua việc only when redundant; not blanket bans. Prefer active clauses without changing agency or causality.
+- Developer docs/chat: keep commit, branch, merge, deploy, production, staging, API, endpoint, payload, cache, hook, skill, plugin, pull request when natural. Never commit→cam kết or production→sản xuất in software context.
+- End-user UI: familiar Vietnamese (Lưu, Xóa, Đăng nhập, Tải xuống); no developer jargon. One concept, one term per surface; the glossary decides.
+- Spec/RFC: impersonal, name the actor. Tutorial: "bạn" sparingly. UI: omit the pronoun when clear, otherwise "bạn"; "quý khách" only if the brand uses it. Chat replies follow vietnamese-replies.
+- Buttons: verb first, sentence case, about 25 characters at most; reuse the verb of the confirming question (Mua / Không). Errors: what failed, then the next step; never blame the user, never invent a cause or a retry. Distinguish loading, empty, success, failure. Notifications: event or result plus the relevant next action, no marketing.
+- Content: concrete benefit, no invented superlatives; drop empty tiến hành/thực hiện, một cách, thông qua việc only when redundant.
 
-## UI voice and grammar (from Microsoft vi-VN guide; details in references/microsoft-vi-style.md)
-- Voice: warm, crisp, helpful. Rewrite for intent, never word for word; split sentences, drop empty descriptors; use fragments ("Dùng ngay phiên bản đầy đủ", "Nếu còn sự cố"). Short modern words: hủy, nhập, ẩn, tìm hiểu, Xin chờ, ID.
-- Sentence case for buttons/menus/titles ("Chọn tất cả", not "Chọn Tất Cả"). Proper names capitalize every word (Việt Nam).
-- No "việc" before a gerund (Tôi thích lập trình). Tense words đã/đang/sẽ optional. "Hãy" for direct commands; "Vui lòng" polite, never doubled. Noun before adjective; no articles; "của" only for clarity.
-- Errors: declarative, ends with a period, uses "lỗi", names the result, then the action. Could not/Cannot/Failed to → "Không … được" / "Không tìm thấy …" / "Không đủ …". Not "… thất bại". One phrase per meaning.
-- Punctuation: no space before . , ! ? ; : ) and none after ( ; no comma before và/hoặc; decimal comma, thousands period, no space before %; number–unit with NBSP. Prefer Intl over hand formatting.
-- "to" with progress = "lên" (cập nhật lên, nâng cấp lên); "in/on" a UI surface = "trên" (trên menu, trên Web). "người dùng" is a noun, not a stand-in for "bạn" in instructions.
-- Keep standard acronyms (HTML, DLL, USB) and trademarked product/feature names; never invent Vietnamese acronyms. Spell out on first use in docs: Vietnamese term (English term, ACRONYM).
-- Inclusive: gender-neutral (nhân viên, các bạn, họ; never "anh ấy/cô ấy" for unknown people), person-first for disability, no stereotypes or disputed places, spell out và/cộng/khoảng instead of & + ~, input-agnostic verbs (Chọn). Prefer widely understood words over regional ones.
+## UI voice and grammar (details: references/microsoft-vi-style.md)
+- Warm, crisp, helpful. Rewrite for intent, not word for word; split sentences; fragments are fine ("Dùng ngay phiên bản đầy đủ", "Nếu còn sự cố"). Short modern words: hủy, nhập, ẩn, tìm hiểu, Xin chờ.
+- Sentence case ("Chọn tất cả", not "Chọn Tất Cả"). No "việc" before a gerund. đã/đang/sẽ optional. "Hãy" for direct commands, "Vui lòng" polite, never doubled.
+- Errors: declarative, ends with a period, "lỗi" for error; could not/failed to → "Không … được", not "… thất bại"; "Không tìm thấy …", "Không đủ …".
+- Punctuation: no space before . , ! ? ; : ) ; no comma before và/hoặc; decimal comma, thousands period, no space before %; use Intl, not hand formatting.
+- "to" with progress = "lên" (cập nhật lên); "on/in" a UI surface = "trên" (trên menu). "người dùng" is a noun, not a stand-in for "bạn".
+- Keep standard acronyms and trademarked names; never invent Vietnamese acronyms. Spell out on first use in docs.
+- Inclusive: gender-neutral (nhân viên, các bạn, họ), person-first for disability, no stereotypes; spell out và/cộng/khoảng instead of & + ~; input-agnostic verbs (Chọn).
 
 ## i18n invariants
-- Do not translate identifiers, CLI flags, code, paths, URLs, resource keys, placeholders, HTML/Markdown syntax, API enums or machine-readable logs. Translate user-visible strings/comments only within the requested scope. Localize diagram labels only if requested; never alter syntax.
-- Preserve interpolation names, types, escaping and rich-text tags. JSON keys and placeholder contracts must match source. Never concatenate sentence fragments; use existing i18n library and message context.
-- Vietnamese CLDR cardinal category is other. Exact numeric selectors (=0, =1) are valid; don't automatically delete branches or rewrite complex ICU with regex. Check select/plural nesting with the project's actual message compiler. English plural branches need not match Vietnamese branches; interpolation variables must.
-- UTF-8/NFC. Match established hoà/hòa style; neither is universally wrong. No forced ASCII for commit prose unless repo policy requires it.
-- Use Intl.DateTimeFormat/NumberFormat('vi-VN') or existing locale layer; keep underlying values/time zones unchanged. Don't hardcode currency or convert units silently. vi-VN dates are day/month/year (never US order); 12-hour speech needs a day-part ("9 giờ tối"); metric units; names family-first; don't hardcode a "district" address field (2025 administrative changes).
-- Verify layout with actual Vietnamese copy, stacked diacritics, wrapping, narrow screens and font coverage. No fixed expansion percentage. Accent-insensitive search is a product requirement decision, not universal replacement of exact matching.
-
-## Workflow / cost
-1. Read only changed strings + neighboring context + the project glossary/style guide (search the repo first; if none exists, apply defaults and state assumptions: address term, tệp vs tập tin, Delete wording; offer assets/glossary.template.csv, never invent one silently). Draft directly in Vietnamese; do not translate via English unnecessarily. Missing context (key, screen, user action, max length, variables) is the main cause of bad UI Vietnamese: ask or state the assumption.
-2. Run the bundled offline checker: a `vi_check` tool if installed, otherwise `node <skill-dir>/scripts/check.mjs` with one JSON request on stdin, e.g. {"text":"Xin chào {user}","sourceText":"Hello {name}"}. `mode: json` for JSON resource files; optional sourceText checks keys and supported placeholders. Exit 0 clean/warnings, 1 contract errors, 2 invalid request. Read-only; reports unsupported ICU; not a parser or naturalness score.
-3. For substantial/new product copy, ambiguous technical wording or high-risk notices: if a `vietnamese-reviewer` subagent exists, send ONE bounded batch (audience, surface, key/screen/action/limits, glossary, source/target pairs, local findings); it proposes changed rows + reason only. Without one, do one self-review pass against this file. Tiny obvious edits: self-review only. Never send secrets/customer data; minimize/redact before remote review.
-4. Apply accepted edits, recheck the changed batch and run the project's i18n compiler/runtime for complex messages. Validate actual rendered UI when UI changed. No numeric fluency score or repeated debate loops; unresolved meaning escalates with source context.
+- Do not translate identifiers, flags, code, paths, URLs, resource keys, placeholders, HTML/Markdown syntax, enums, machine-readable logs. Translate user-visible strings/comments within scope only.
+- Preserve interpolation names, types, escaping, rich-text tags; JSON keys and placeholder contracts must match the source. Never concatenate sentence fragments; use the project's i18n library.
+- Vietnamese CLDR cardinal category is `other`; exact selectors (=0, =1) are valid; do not delete branches or rewrite complex ICU with regex; validate with the project's compiler.
+- UTF-8/NFC. One tone-mark style per product (hòa/hoà): the checker flags mixes. No forced ASCII in commit prose unless repo policy says so.
+- Use Intl.DateTimeFormat/NumberFormat('vi-VN') or the project's locale layer; dates are day/month/year; 12-hour speech needs a day-part ("9 giờ tối"); metric units; family name first; do not hardcode a "district" address field (2025 administrative changes).
+- Test layout with real Vietnamese strings, diacritics and wrapping; no fixed expansion ratio. Accent-insensitive search is a product decision.
 
 ## Examples
-- cam kết các thay đổi → commit các thay đổi (Git)
-- triển khai đến sản xuất → deploy lên production (developer docs)
-- Thực hiện việc lưu cài đặt → Lưu cài đặt (button)
-- Đã xảy ra lỗi → Không lưu được cài đặt. Thử lại. (only if retry is a real available action)
-- Bạn sẽ tự động thử lại request → Hệ thống tự động retry request (only if system, not reader, owns retry)
 - Lưu hình ảnh thất bại. → Không lưu được hình ảnh.
 - Chọn Tất Cả → Chọn tất cả
+- Học thêm → Tìm hiểu thêm (Learn more) · Thiết đặt → Cài đặt · Kích hoạt thông báo → Bật thông báo
 - Hãy bắt đầu sử dụng phiên bản đầy đủ ngay → Dùng ngay phiên bản đầy đủ
-- Ứng dụng đã được cập nhật bởi hệ thống → Ứng dụng đã cập nhật.
+- Đã xảy ra lỗi → Không lưu được cài đặt. Thử lại. (only if retry is a real action)
 - Chọn mạng A, B, và C → Chọn mạng A, B và C
+- cam kết các thay đổi → commit các thay đổi · triển khai đến sản xuất → deploy lên production
 
-Scope, limits and sources: references/sources.md. Microsoft rules (voice, grammar, error phrases, punctuation, placeholders, inclusive language, keyboard, AI-prompt localization): references/microsoft-vi-style.md. Locale facts, address terms (bạn/quý khách/kinship), regional vocabulary, style-guide vs glossary, context fields, SEO, legal-copy caution, glossary template: references/locale-and-glossary.md. Load references only for UI/error/notification copy, project setup, i18n review or when asked.
+References, loaded only when needed: `reviewer.md` (subagent playbook), `microsoft-vi-style.md` (error/notification/UI rules), `locale-and-glossary.md` (pronouns, dates, regions, glossary setup), `sources.md` (provenance, limits). Data: `assets/glossary.vi-ui.tsv` (never read it whole; use `lookup`), `assets/project-glossary.template.tsv`.

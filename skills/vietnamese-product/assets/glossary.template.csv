@@ -1,9 +1,0 @@
-source_term,preferred_vi,definition,context,rejected,owner,status
-commit,KEEP,Git commit as a noun/verb in developer docs,README and PR text,cam kết,,proposed
-production,KEEP,Live environment,deploy docs,sản xuất,,proposed
-file,tệp,A file shown to end users,file picker and toasts,tập tin (unless project chooses it),,proposed
-Delete,Xóa,Permanently remove an item,confirm dialog,xóa bỏ (unless project chooses it),,proposed
-Clear,Xóa nội dung,Empty a field or list without deleting the item,filter bar,Xóa (ambiguous with Delete),,proposed
-Cancel,Hủy,Abort the current action,dialog button,hủy bỏ,,proposed
-Could not save,Không lưu được,Save error pattern,error toast,Lưu thất bại,,proposed
-you,bạn,Default direct address in product UI,all UI strings,quý khách / anh / chị (unless brand says),,proposed

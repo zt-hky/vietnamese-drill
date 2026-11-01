@@ -1,5 +1,4 @@
 ---
 alwaysApply: true
 ---
-When Vietnamese is requested or edited: preserve meaning, negation, facts, technical English, code/commands/paths/keys/placeholders. Natural concise Vietnamese; no literal translation or filler. Follow project glossary first.
-Product/docs/UI/notifications/i18n: read skill://vietnamese-product. OMP replies: read skill://vietnamese-replies once when needed; routine short replies need no tool/reviewer. For substantial product copy, batch local vi_check, then vietnamese-reviewer for semantic review; never claim a lint result proves naturalness. No automatic network calls or rewriting every reply.
+Vietnamese UI/product copy (buttons, errors, notifications, i18n files, docs): read skill://vietnamese-product first; it retrieves glossary lines via `vi_lookup` and delegates one batch to the `vietnamese-reviewer` subagent. Vietnamese chat replies: skill://vietnamese-replies. Always preserve meaning, technical English, code/paths/keys/placeholders; no word-for-word translation; never load the glossary file whole.

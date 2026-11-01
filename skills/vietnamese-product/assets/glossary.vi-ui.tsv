@@ -1,0 +1,330 @@
+en	vi	alt	avoid	cat	match	src	note
+save	Lưu		Tiết kiệm;Cứu	action	w	A,F,M	"Tiết kiệm" only for saving money/battery, never for the Save action
+save changes	Lưu thay đổi			action	w	F	
+cancel	Hủy	Hủy bỏ		action	w	A,F,M,G	Guide prefers short "hủy" over "hủy bỏ"; Firefox uses "Hủy bỏ"
+delete	Xóa	Xóa bỏ	Hủy	action	w	A,F,M	Keep Hủy for Cancel; Microsoft guide: Delete=Xóa bỏ, Clear=Xóa
+remove	Xóa	Gỡ;Loại bỏ		action	w	A,F,M	"Gỡ" detach from list or uninstall; "Loại bỏ" is formal
+clear	Xóa	Xóa sạch	Làm sạch	action	w	A,F,M	Empty a field or list; keep separate from Delete if the project glossary does
+edit	Chỉnh sửa	Sửa		action	w	A,F,M	"Sửa" in tight space
+add	Thêm			action	w	A,F,M	
+create	Tạo			action	w	A,M	
+new	Mới			action	x	A	
+open	Mở			action	w	A,F,M	
+close	Đóng			action	w	A,F,M	
+done	Xong	Hoàn tất		action	x	A,F	"Hoàn tất" for finished processes
+ok	OK	Đồng ý;Đã hiểu		action	x	A,F,M	"Đã hiểu" for acknowledgement dialogs
+yes	Có			action	x	A,F	
+no	Không			action	x	A,F,M	
+next	Tiếp theo	Tiếp		nav	x	A,F,M	
+previous	Trước	Trước đó		nav	x	A	
+back	Quay lại	Trở lại	Lùi;Phía sau	nav	x	A,F	Microsoft's older "Lùi/Trở về" is dated
+continue	Tiếp tục			action	x	A,F	
+skip	Bỏ qua			action	w	A,F	
+finish	Hoàn tất	Xong		action	x	M	
+apply	Áp dụng			action	w	A,M	
+reset	Đặt lại			action	w	A,M	
+restore	Khôi phục			action	w	A,M	
+undo	Hoàn tác		Hủy	action	x	A,F,M	Android sometimes uses Hủy for undo, colliding with Cancel
+redo	Làm lại			action	x	A,M	
+retry	Thử lại			action	w	A,F,M	
+try again	Thử lại	Hãy thử lại		action	w	A,F	
+refresh	Làm mới			action	w	F,M	
+reload	Tải lại	Nạp lại		action	w	M	
+update	Cập nhật		Nâng cấp	action	w	A,F,M	Nâng cấp is Upgrade
+upgrade	Nâng cấp			action	w	E	
+install	Cài đặt			action	w	A,F,M	Same word as Settings; context decides
+uninstall	Gỡ cài đặt			action	w	A,M	
+download	Tải xuống	Tải về		action	w	F,M	
+upload	Tải lên			action	w	M	
+import	Nhập			action	w	A,M	
+export	Xuất			action	w	A,M	
+share	Chia sẻ		Cổ phần	action	w	A,F,M	Cổ phần = stock share
+copy	Sao chép	Sao		action	w	A,F,M	
+cut	Cắt			action	x	A,M	
+paste	Dán			action	x	A,F,M	
+duplicate	Nhân đôi	Tạo bản sao	Trùng lặp	action	w	M	Trùng lặp = redundant
+rename	Đổi tên			action	w	A,F	
+move	Chuyển	Di chuyển		action	w	A,M	Files into a folder/trash: "Chuyển … vào …"
+select	Chọn			action	w	A,M	
+select all	Chọn tất cả			action	w	A,F,M,G	Sentence case
+deselect	Bỏ chọn			action	w	M	
+search	Tìm kiếm	Tìm		action	w	A,F,M	
+find	Tìm			action	w	A,M	
+filter	Bộ lọc	Lọc		action	w	A,M	"Lọc" as verb button
+sort	Sắp xếp			action	w	M	
+view	Xem			action	w	A,F,M	
+show	Hiển thị	Hiện		action	w	A,M	
+hide	Ẩn		Giấu	action	w	A,M,G	Guide: modern "ẩn" not "giấu"
+expand	Mở rộng			action	w	A,F,M	
+collapse	Thu gọn			action	w	A,F,M	
+more	Xem thêm	Thêm		action	x	A,M	
+learn more	Tìm hiểu thêm		Học thêm	action	w	A,F,G	"Học thêm" is a typical machine translation
+details	Chi tiết			nav	w	A,F,M	
+help	Trợ giúp	Hỗ trợ		nav	x	A,F,M	Label only; "helps/help you" is a verb, not this term
+feedback	Phản hồi	Góp ý;Ý kiến phản hồi		nav	w	A,M	
+report	Báo cáo			action	w	A,M	
+confirm	Xác nhận			action	w	A,M	
+dismiss	Bỏ qua	Đóng		action	w	A,F,M	
+discard	Bỏ	Bỏ thay đổi;Loại bỏ;Loại bỏ thay đổi;Hủy thay đổi;Không lưu		action	w	A,M	Android: "Loại bỏ (thay đổi)"; "Hủy thay đổi" is common but reads like Cancel, so prefer Bỏ/Loại bỏ
+submit	Gửi			action	w	A,M	
+send	Gửi			action	w	A,M	
+reply	Trả lời			action	w	A,M	
+forward	Chuyển tiếp			action	w	M	
+attach	Đính kèm			action	w	M	
+sign in;log in;login	Đăng nhập		Đăng ký;Ký vào	auth	w	A,F,M	Đăng ký is Sign up
+sign out;log out;logout	Đăng xuất		Thoát	auth	w	F,M	
+sign up;register	Đăng ký		Đăng nhập	auth	w	M	
+create account	Tạo tài khoản			auth	w	E	
+password	Mật khẩu		Mã truy nhập;Mật mã	auth	w	A,F,M	
+forgot password	Quên mật khẩu			auth	w	E	
+change password	Đổi mật khẩu			auth	w	E	
+username	Tên người dùng	Tên đăng nhập		auth	w	A,F,M	"Tên đăng nhập" for the login field
+email	Email	Địa chỉ email	Thư điện tử	auth	w	A,F,M	
+account	Tài khoản			auth	w	A,F,M	
+profile	Hồ sơ	Trang cá nhân		auth	w	M,Mo	Social products: "Trang cá nhân"
+verify	Xác minh	Xác nhận		auth	w	M	
+verification code	Mã xác minh		Mã kiểm chứng	auth	w	M	
+otp	Mã OTP			auth	w	E	
+two-factor authentication;2fa	Xác thực hai yếu tố			auth	w	E	
+settings	Cài đặt		Thiết đặt	setting	w	A,F,M	Microsoft's older "Thiết đặt" is dated
+preferences	Tùy chọn	Lựa chọn ưu tiên		setting	w	M	Android long form: "lựa chọn ưu tiên"
+options	Tùy chọn			setting	w	A,M	
+general	Chung			setting	x	A,F	
+advanced	Nâng cao			setting	x	A,F	
+privacy	Quyền riêng tư	Riêng tư		setting	w	A,F,M	
+security	Bảo mật			setting	w	A,F,M	
+permissions	Quyền	Quyền truy cập		setting	w	A,M	
+allow	Cho phép			setting	w	A,F,M	
+deny	Từ chối			setting	w	A,F,M	
+block	Chặn			setting	w	F,M	Block a contact/site = Chặn; a card or account = Khóa (see "card blocked")
+unblock	Bỏ chặn			setting	w	A,M	
+accept	Chấp nhận	Đồng ý		action	w	A,M	
+decline	Từ chối			action	w	A,M	
+agree	Đồng ý			action	w	A	
+enable;turn on	Bật		Kích hoạt	setting	w	A	"Kích hoạt" fits license/account activation, not toggles (3% in Android)
+disable;turn off	Tắt	Vô hiệu hóa		setting	w	A,M	Toggles: Tắt; "Vô hiệu hóa" fits apps/accounts/features (13% in Android)
+enabled	Đã bật			state	x	E	
+disabled	Đã tắt	Không khả dụng		state	x	A,M	
+on	Bật	Đang bật		state	x	A,F	Toggle state; "Đang bật" in status lines
+off	Tắt	Đang tắt		state	x	A,F	
+notifications	Thông báo			notif	w	A,F,M	
+notification	Thông báo			notif	w	A,F,M	
+push notification	Thông báo đẩy			notif	w	M	
+alerts	Cảnh báo	Thông báo		notif	w	A,M	
+sound	Âm thanh			setting	w	A,M	
+vibration	Rung			setting	w	A,M	
+volume	Âm lượng			setting	w	A,M	
+brightness	Độ sáng			setting	w	A,M	
+language	Ngôn ngữ			setting	w	A,F,M	
+region	Khu vực	Vùng		setting	w	A,M	
+theme	Chủ đề	Giao diện		setting	w	F,M	
+dark mode	Chế độ tối			setting	w	A,M	
+light mode	Chế độ sáng			setting	w	M	
+default	Mặc định			setting	w	A,F,M	
+custom	Tùy chỉnh			setting	x	A,F	
+automatic;auto	Tự động			setting	x	A,M	
+manual	Thủ công			setting	x	M	Not "Hướng dẫn sử dụng" (that is a user manual)
+none	Không có	Không		state	x	A	
+home	Trang chủ	Màn hình chính		nav	x	A,M	Android "Nhà" = home address; avoid for navigation
+menu	Menu			nav	x	A,M	Trình đơn is dated
+dashboard	Bảng điều khiển	Tổng quan		nav	w	M	
+history	Lịch sử			nav	w	A,F,M	
+bookmarks	Dấu trang			nav	w	F	
+favorites	Yêu thích	Mục yêu thích		nav	w	M	
+recent	Gần đây			nav	x	A	
+tabs	Tab	Thẻ		nav	w	F,G	Guide keeps ambiguous loanword "tab"; Firefox uses "Thẻ"
+downloads	Tải xuống			nav	w	F,M	
+trash	Thùng rác			nav	w	A,M	
+archive	Lưu trữ			nav	w	A,M	
+inbox	Hộp thư đến			nav	w	M	
+drafts	Thư nháp	Bản nháp		nav	w	E	
+sent	Đã gửi			state	x	E	
+spam	Spam	Thư rác		nav	w	M	
+starred	Đã gắn dấu sao	Có gắn dấu sao		state	x	E	
+pin	Ghim			action	x	A,M	"Mã PIN" is the security code
+unpin	Bỏ ghim			action	x	A,M	
+mute	Tắt tiếng	Tắt thông báo		action	w	A,M	Audio = Tắt tiếng; chat/notifications = Tắt thông báo
+unmute	Bật tiếng	Bật thông báo		action	w	A,M	Audio = Bật tiếng; chat/notifications = Bật thông báo
+follow	Theo dõi		Dõi theo	social	x	M	Social button only; not the verb "follows/following"
+unfollow	Bỏ theo dõi	Hủy theo dõi;Ngừng theo dõi		social	w	M	
+like	Thích			social	x	M	
+comment	Bình luận	Nhận xét		social	w	M	Social "Bình luận"; Office review "Nhận xét"
+file	Tệp	Tập tin	File	file	w	A,M	Pick one per product; developers may keep "file"
+files	Tệp	Tập tin		file	w	A,M	
+folder	Thư mục			file	w	A,F,M	
+document	Tài liệu			file	w	A,M	
+image	Hình ảnh	Ảnh		file	w	A,M	
+photo	Ảnh	Hình ảnh		file	w	M	
+video	Video			file	w	A,M	
+audio	Âm thanh			file	w	A,M	
+link	Liên kết	Đường dẫn		file	w	A,M	"Nối kết" is dated
+attachment	Tệp đính kèm	Phần đính kèm		file	w	M	
+storage	Bộ nhớ	Dung lượng lưu trữ		system	w	A	
+backup	Sao lưu	Bản sao lưu		system	w	A,M	
+sync	Đồng bộ	Đồng bộ hóa		system	w	A,F,M	Short form for UI
+cloud	Đám mây			system	w	M	
+offline	Ngoại tuyến			system	w	F,M	
+online	Trực tuyến			system	w	M	
+network	Mạng			system	w	A,M	
+wi-fi;wifi	Wi-Fi			system	w	A,M	
+bluetooth	Bluetooth			system	w	A,M	
+battery	Pin			system	w	A,M	
+loading	Đang tải			state	x	A,F	
+saving	Đang lưu			state	w	E	
+uploading	Đang tải lên			state	w	E	
+downloading	Đang tải xuống			state	w	E	
+processing	Đang xử lý			state	w	E	
+please wait	Vui lòng chờ	Xin chờ		state	w	G	Guide modern: "Xin chờ"
+no results;no results found	Không tìm thấy kết quả			state	w	G	"Không tìm thấy …" pattern
+empty	Trống			state	x	A,M	
+error	Lỗi			state	w	A,M	
+warning	Cảnh báo			state	w	A	
+success;successful	Thành công			state	w	E	
+not found	Không tìm thấy			state	w	A,G	
+unavailable	Không dùng được	Không có sẵn;Không khả dụng		state	w	A	Android: "Không dùng được"; follow the verb phrase, e.g. "Không bật được …"
+invalid	Không hợp lệ			state	w	M	
+required	Bắt buộc			form	x	E	
+optional	Không bắt buộc			form	x	E	"Tùy chọn" collides with Options
+unknown	Không xác định			state	w	A,M	
+something went wrong	Đã xảy ra lỗi	Có lỗi		msg	w	A,G	Add the next step: "Đã xảy ra lỗi. Hãy thử lại."
+connection error	Lỗi kết nối	Không kết nối được		msg	w	G	
+no internet connection	Không có kết nối mạng	Không có kết nối Internet		msg	w	G	
+try again later	Thử lại sau	Hãy thử lại sau;Vui lòng thử lại sau		msg	w	A	Add the action: "Kiểm tra kết nối mạng rồi thử lại sau"
+are you sure	Bạn có chắc chắn	Bạn có chắc không;Bạn có chắc;Bạn có thật sự		msg	w	G	Android/Firefox: "Bạn có chắc chắn muốn …?"
+cannot be undone	không thể hoàn tác	Không thể khôi phục		msg	w	E	"Thao tác này không thể hoàn tác."
+unsaved changes	Thay đổi chưa lưu			msg	w	E	
+session expired	Phiên đăng nhập đã hết hạn	Phiên đã hết hạn;Phiên làm việc đã hết hạn		msg	w	E	
+access denied;permission denied	Không có quyền truy cập	Truy cập bị từ chối;Bạn không có quyền		msg	w	E	
+update available	Đã có bản cập nhật			msg	w	A	
+new version	Phiên bản mới			msg	w	E	
+version	Phiên bản			system	w	A,M	
+terms of service;terms and conditions	Điều khoản dịch vụ	Điều khoản và điều kiện		nav	w	A,M	
+privacy policy	Chính sách bảo mật	Chính sách quyền riêng tư;Chính sách riêng tư		nav	w	A,F	Three live forms; pick one per product
+cookies	Cookie			nav	w	F	
+location	Vị trí			perm	w	A,F,M	
+camera	Máy ảnh	Camera		perm	w	A,F,M	Pick one per product
+microphone	Micrô	Micro		perm	w	A,F,M	
+contacts	Danh bạ	Liên hệ		perm	w	A,M	"Danh bạ" on phones
+calendar	Lịch			perm	w	A,M	
+messages	Tin nhắn			nav	w	A,M	
+call	Gọi	Cuộc gọi		action	x	A,M	
+today	Hôm nay			time	x	F,M	
+yesterday	Hôm qua			time	x	F	
+tomorrow	Ngày mai			time	x	E	
+now	Bây giờ	Hiện tại		time	x	A	
+just now	Vừa xong			time	w	E	
+minutes ago	phút trước			time	w	E	"5 phút trước"
+hours ago	giờ trước			time	w	E	
+date	Ngày			form	x	A,M	
+time	Thời gian	Giờ		form	x	A,M	
+name	Tên			form	x	A,F,M	
+address	Địa chỉ			form	x	A,M	
+phone number	Số điện thoại			form	w	A,M	
+description	Mô tả			form	w	E	
+title	Tiêu đề			form	x	A,M	
+category	Danh mục	Thể loại		form	w	M	
+tag	Thẻ	Gắn thẻ		form	w	M	
+label	Nhãn			form	w	A,M	
+status	Trạng thái			form	w	A,M	
+type	Loại			form	x	A,M	
+size	Kích thước			form	x	A	
+price	Giá			commerce	x	F	
+total	Tổng cộng	Tổng		commerce	x	A,F,M	
+quantity	Số lượng			commerce	w	E	
+order	Đơn hàng			commerce	w	M	
+cart	Giỏ hàng			commerce	w	M	
+add to cart	Thêm vào giỏ hàng			commerce	w	E	
+checkout	Thanh toán			commerce	w	Mo	
+payment	Thanh toán			commerce	w	Mo	
+pay	Thanh toán			commerce	w	Mo	
+pay now	Thanh toán ngay			commerce	w	E	
+buy	Mua			commerce	w	M,Mo	Guide example: "Bạn muốn mua sản phẩm này?" buttons "Mua/Không"
+buy now	Mua ngay			commerce	w	E	
+shipping	Vận chuyển	Giao hàng		commerce	w	E	
+delivery	Giao hàng	Nhận hàng		commerce	w	E	"after delivery" → "sau khi nhận hàng"; "Chuyển phát" for courier
+discount	Giảm giá	Ưu đãi;Khuyến mãi		commerce	w	M	"Ưu đãi" for promotions; "Giảm giá" for price cuts
+coupon	Mã giảm giá	Phiếu giảm giá		commerce	w	E	
+invoice	Hóa đơn			commerce	w	M	
+receipt	Biên lai			commerce	w	E	
+refund	Hoàn tiền			commerce	w	E	
+subscription	Gói đăng ký	Đăng ký		commerce	w	A,M	
+subscribe	Đăng ký			commerce	w	M	
+unsubscribe	Hủy đăng ký			commerce	w	M	
+plan	Gói			commerce	w	M	
+free	Miễn phí			commerce	x	M	Not "Tự do"
+trial	Dùng thử	Bản dùng thử		commerce	w	M	
+wallet	Ví			commerce	w	A	
+balance	Số dư			commerce	w	M	Not "Cân bằng"
+transfer	Chuyển tiền	Chuyển		commerce	w	Mo	Financial transfers
+top up	Nạp tiền			commerce	w	Mo	
+withdraw	Rút tiền			commerce	w	E	
+deposit	Nạp tiền	Gửi tiền		commerce	w	E	
+transaction	Giao dịch			commerce	w	M	
+scan	Quét			action	w	F,M	
+qr code	Mã QR			system	w	A,M	
+copy link	Sao chép liên kết			action	w	E	
+copied	Đã sao chép			state	x	A	
+saved	Đã lưu			state	x	A	
+deleted	Đã xóa			state	x	E	
+added	Đã thêm			state	x	E	
+updated	Đã cập nhật			state	x	E	
+changes saved	Đã lưu thay đổi			msg	w	E	
+welcome	Chào mừng	Xin chào		nav	x	E	
+get started	Bắt đầu			nav	w	A,F,M	
+tutorial	Hướng dẫn			nav	w	M	"Hướng dẫn nhanh", not "bài hướng dẫn"
+what's new	Có gì mới			nav	w	M	
+support	Hỗ trợ			nav	w	F,M	
+about	Giới thiệu			nav	x	A,F,M	
+open source licenses	Giấy phép nguồn mở			nav	w	A	
+crash	Sự cố	Ứng dụng bị dừng		state	x	M	"Crash report" = báo cáo lỗi
+clear cache	Xóa bộ nhớ đệm			setting	w	A	
+clear history	Xóa lịch sử			setting	w	E	
+reset to default	Đặt lại về mặc định			setting	w	A	
+private browsing	Duyệt web riêng tư	Chế độ riêng tư;Duyệt riêng tư;Trình duyệt riêng tư		setting	w	F	
+full screen	Toàn màn hình			action	w	A,M	
+zoom	Thu phóng	Phóng to		action	x	A,M	
+zoom in	Phóng to			action	w	A,M	
+zoom out	Thu nhỏ			action	w	A,M	
+rotate	Xoay			action	w	M	
+crop	Cắt			action	w	M	
+flip	Lật			action	w	M	
+print	In			action	x	F,M	
+preview	Xem trước			action	w	A,M	
+page	Trang			nav	x	M	
+choose	Chọn			action	w	M	
+choose file	Chọn tệp			action	w	A	
+browse	Duyệt	Chọn tệp		action	x	M	
+drag and drop	Kéo và thả			action	w	M	
+progress	Tiến độ			state	w	M	
+completed	Đã hoàn thành	Hoàn tất		state	x	F,M	
+in progress	Đang thực hiện			state	w	A,M	
+pending	Đang chờ xử lý	Đang chờ		state	w	A,M	
+cancelled	Đã hủy			state	x	A	
+paused	Đã tạm dừng			state	x	A	
+resume	Tiếp tục			action	x	A,F,M	Not "Sơ yếu lý lịch" (CV)
+pause	Tạm dừng			action	x	A,F,M	
+stop	Dừng			action	x	A,F,M	
+start	Bắt đầu			action	x	A,M	
+play	Phát			action	x	A,M	
+record	Ghi	Quay		action	x	M	"Quay" for video
+speaker	Loa			system	w	A	
+headphones	Tai nghe			system	w	A	
+screen sharing	Chia sẻ màn hình			system	w	M	
+meeting	Cuộc họp			social	w	M	
+join	Tham gia			action	x	M	Not "Gia nhập"
+invite	Mời	Lời mời		social	w	M	
+member	Thành viên			role	w	M	
+admin	Quản trị viên	Quản trị		role	w	A,M	
+owner	Chủ sở hữu			role	w	A,M	
+guest	Khách			role	w	A,M	
+user	Người dùng			role	w	A,M	
+group	Nhóm			role	w	A,M	
+team	Nhóm	Đội		role	w	M	
+role	Vai trò			role	w	M	
+assign	Gán	Giao;Phân;Phân quyền		action	w	M	
+mute * conversation;mute * chat;mute * channel;mute * thread	Tắt thông báo	Tắt tiếng		social	w	E	Messaging apps: Tắt thông báo
+card * blocked;blocked card;block * card;lock * card;account * locked;account * blocked	Khóa	Bị khóa;Tạm khóa	Chặn	commerce	w	E	Cards and accounts are "khóa", not "chặn"
+unlock	Mở khóa			action	w	A,F,M	Devices, screens, locked apps only; for paid features say what the user gets (e.g. "Dùng thêm dung lượng")
+lock	Khóa			action	w	A,M	
+refresh * page;reload * page;refresh the page	Tải lại trang	Làm mới trang		action	w	E	Browsers: reload the page; "Làm mới" for data lists/feeds
+save * battery;save * data;save * money;save * energy;save * time;save * space;saver	Tiết kiệm		Lưu	state	w	E	Saving resources (battery, data, money, time), not the Save action
