@@ -1,6 +1,6 @@
 {
   "name": "vietnamese-drill",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "One Vietnamese skill: UI/UX copy with surface/length metadata, 7,800-term glossary (core UI, Android/Firefox phrasing, 21 industry packs), offline checker, reviewer subagent. Loads only what a task needs.",
   "author": {
     "name": "zt-hky"

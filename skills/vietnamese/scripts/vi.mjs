@@ -109,7 +109,7 @@ export function checkItems(input) {
   const status = findings.some(f => f.severity === 'error') ? 'error' : findings.some(f => f.severity === 'warning') ? 'warning' : 'clean';
   // Defaults are generic; a project limit is usually tighter. Say so up front so a "clean" status is not read as "fits the design".
   const defaulted = items.filter(i => i.ctx?.surface && !i.ctx?.max).map(i => i.id);
-  const hint = defaulted.length ? `${defaulted.length} item(s) were length-checked against GENERIC surface defaults (no ctx.max): ${defaulted.slice(0, 8).join(', ')}${defaulted.length > 8 ? ', …' : ''}. If the project states limits (README, design system, spec), pass them as ctx.max and re-run.` : undefined;
+  const hint = defaulted.length ? `NOT verified against the project's limits: ${defaulted.length} item(s) used GENERIC surface defaults (no ctx.max): ${defaulted.slice(0, 8).join(', ')}${defaulted.length > 8 ? ', …' : ''}. Read README* and design/spec docs for stated limits (e.g. "max 16 characters"), pass them as ctx.max and re-run before reporting the strings as fitting.` : undefined;
   return { status, ...(hint && { hint }), domains, findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, lengths: Object.fromEntries(items.filter(i => typeof i.tgt === 'string').map(i => [i.id, graphemes(i.tgt.trim())])) };
 }
 
