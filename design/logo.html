@@ -18,12 +18,12 @@ svg.bg { position: absolute; inset: 0; }
   font-family: Dafoe; font-size: 220px; line-height: 1; color: #ff5fe0;
   -webkit-text-stroke: 6px #1a0230; paint-order: stroke fill;
   text-shadow: 0 0 18px #ff4fd8, 0 0 42px #ff2a8a, 6px 6px 0 #0b0014; }
-.word { position: relative; display: inline-block; }
-.sk { position: relative; display: inline-block; color: #6b4a7a; opacity: .55; }
-.strike { position: absolute; left: -22px; right: -26px; top: 50%; height: 16px; z-index: 2;
+.word { position: relative; display: inline-block; isolation: isolate; }
+.sk { position: relative; z-index: auto; display: inline-block; color: #c9a3d9; }
+.strike { position: absolute; left: -22px; right: -26px; top: 50%; height: 20px; z-index: 0;
   background: #3df5ff; border-radius: 8px; transform: rotate(-12deg);
   box-shadow: 0 0 10px #3df5ff, 0 4px 0 #0b0014; }
-.dr { position: absolute; left: -24px; top: -16px; font-size: 235px; color: #ffe14d; z-index: 3; opacity: 1;
+.dr { position: absolute; left: -10px; top: -28px; font-size: 205px; color: #ffe14d; z-index: 50; opacity: 1;
   transform: rotate(-8deg); -webkit-text-stroke: 9px #0b0014; paint-order: stroke fill;
   text-shadow: 0 0 10px #fff6b0, 0 0 26px #ffe14d, 0 0 50px #ff9a3c, 7px 7px 0 #0b0014; }
 .tag { position: absolute; left: 0; right: 0; bottom: 30px; text-align: center;
