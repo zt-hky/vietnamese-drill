@@ -1,0 +1,185 @@
+en	vi	alt	avoid	cat	match	src	note
+book appointment;make an appointment;schedule appointment	Đặt lịch khám	Đặt lịch hẹn		appointment	w	D,V	
+appointment	lịch hẹn	lịch khám		appointment	w	D,V	Use "lịch khám" when it is a medical visit
+reschedule appointment	đổi lịch hẹn	đổi lịch khám		appointment	w	D,V	
+cancel appointment	hủy lịch hẹn	hủy lịch khám		appointment	w	D,V	
+appointment reminder	nhắc lịch khám	nhắc lịch hẹn		appointment	w	D,V	
+walk-in	khám không hẹn trước	khám trực tiếp		appointment	w	D,V	
+check-in	tiếp đón	check-in;đăng ký tại quầy	nhận phòng	appointment	w	D,V	Clinic check-in on arrival; hotel meaning differs
+queue number	số thứ tự	số lượt khám		appointment	w	D,V	
+waiting room	phòng chờ	phòng đợi		appointment	w	D,V	
+waiting time	thời gian chờ	thời gian đợi		appointment	w	D,V	
+available slot	khung giờ trống	lịch trống	vị trí có sẵn	appointment	w	D,V	
+follow-up appointment	lịch tái khám	hẹn tái khám		appointment	w	D,V	
+follow-up visit	tái khám	lần tái khám		appointment	w	D,V	
+first visit	khám lần đầu	lần khám đầu tiên		appointment	w	D,V	
+medical examination	khám bệnh	thăm khám		appointment	w	D,V	
+health check-up	khám sức khỏe	kiểm tra sức khỏe		appointment	w	D,V	
+general check-up	khám sức khỏe tổng quát	khám tổng quát		appointment	w	D,V	
+periodic health check	khám sức khỏe định kỳ			appointment	w	D,V	
+doctor	bác sĩ			staff	w	D,V	
+specialist	bác sĩ chuyên khoa	chuyên gia		staff	w	D,V	
+general practitioner	bác sĩ đa khoa	bác sĩ gia đình		staff	w	D,V	
+nurse	điều dưỡng	y tá		staff	w	D,V	Điều dưỡng is the official title
+midwife	nữ hộ sinh	hộ sinh		staff	w	D,V	
+pharmacist	dược sĩ			staff	w	D,V	
+technician	kỹ thuật viên			staff	w	D,V	
+medical staff	nhân viên y tế	cán bộ y tế		staff	w	D,V	
+healthcare provider	cơ sở y tế	đơn vị y tế	nhà cung cấp dịch vụ y tế	facility	w	D,V	Use "nhân viên y tế" if referring to a person
+clinic	phòng khám			facility	w	D,V	
+hospital	bệnh viện			facility	w	D,V	
+general hospital	bệnh viện đa khoa			facility	w	D,V	
+specialty hospital	bệnh viện chuyên khoa			facility	w	D,V	
+medical facility	cơ sở khám chữa bệnh	cơ sở y tế		facility	w	D,V	
+health station	trạm y tế			facility	w	D,V	
+pharmacy	nhà thuốc	hiệu thuốc		pharmacy	w	D,V	
+medical center	trung tâm y tế			facility	w	D,V	
+imaging center	trung tâm chẩn đoán hình ảnh			facility	w	D,V	
+emergency room	phòng cấp cứu			facility	w	D,V	
+emergency	cấp cứu			facility	w	D,V	
+intensive care unit	khoa hồi sức tích cực	ICU		facility	w	D,V	
+outpatient	ngoại trú	bệnh nhân ngoại trú		patient	w	D,V	
+inpatient	nội trú	bệnh nhân nội trú		patient	w	D,V	
+outpatient department	khoa khám bệnh	khu khám ngoại trú		facility	w	D,V	
+patient	bệnh nhân	người bệnh		patient	w	D,V	Người bệnh is common in official wording
+patient profile	hồ sơ bệnh nhân	hồ sơ người bệnh		patient	w	D,V	
+patient code	mã bệnh nhân	mã người bệnh		patient	w	D,V	
+medical record	hồ sơ bệnh án	bệnh án		record	w	D,V	Hospital record; use "hồ sơ y tế" for general
+electronic medical record	bệnh án điện tử	EMR		record	w	D,V	
+health record	hồ sơ sức khỏe	sổ sức khỏe		record	w	D,V	
+electronic health record	hồ sơ sức khỏe điện tử			record	w	D,V	
+medical history	tiền sử bệnh	bệnh sử		record	w	D,V	
+family history	tiền sử gia đình			record	w	D,V	
+allergy history	tiền sử dị ứng			record	w	D,V	
+allergy	dị ứng			record	w	D,V	
+drug allergy	dị ứng thuốc			record	w	D,V	
+chronic disease	bệnh mạn tính	bệnh mãn tính		record	w	D,V	
+underlying condition	bệnh nền			record	w	D,V	
+diagnosis	chẩn đoán			record	w	D,V	
+treatment	điều trị			record	w	D,V	
+treatment plan	phác đồ điều trị	kế hoạch điều trị		record	w	D,V	
+discharge summary	giấy ra viện	tóm tắt bệnh án		record	w	D,V	
+discharge	xuất viện	ra viện		record	w	D,V	
+transfer to another hospital	chuyển viện	chuyển tuyến		record	w	D,V	
+referral	giấy chuyển tuyến	giấy giới thiệu		record	w	D,V	
+medical certificate	giấy chứng nhận y tế	giấy khám sức khỏe		record	w	D,V	
+sick leave certificate	giấy nghỉ ốm	giấy nghỉ việc hưởng BHXH		record	w	D,V	
+health insurance	bảo hiểm y tế	BHYT		insurance	w	D,V	
+health insurance card	thẻ bảo hiểm y tế	thẻ BHYT		insurance	w	D,V	
+health insurance number	mã thẻ BHYT	số thẻ BHYT		insurance	w	D,V	
+health insurance coverage	quyền lợi BHYT	mức hưởng BHYT		insurance	w	D,V	
+registered healthcare facility	nơi đăng ký khám chữa bệnh ban đầu	cơ sở khám chữa bệnh ban đầu		insurance	w	D,V	
+correct referral route	đúng tuyến			insurance	w	D,V	
+wrong referral route	trái tuyến	sai tuyến		insurance	w	D,V	
+co-payment	đồng chi trả	cùng chi trả		insurance	w	D,V	
+out-of-pocket	chi phí tự chi trả	tự chi trả		insurance	w	D,V	
+medical expenses	chi phí khám chữa bệnh	viện phí		insurance	w	D,V	
+advance payment	tạm ứng	tiền tạm ứng		insurance	w	D,V	
+medical bill	hóa đơn viện phí	phiếu thu		insurance	w	D,V	
+insurance claim	yêu cầu bồi thường bảo hiểm	hồ sơ bồi thường		insurance	w	D,V	
+direct billing	bảo lãnh viện phí	thanh toán trực tiếp		insurance	w	D,V	
+prescription	đơn thuốc	toa thuốc		pharmacy	w	D,V	
+e-prescription	đơn thuốc điện tử			pharmacy	w	D,V	
+prescribe	kê đơn	kê toa		pharmacy	w	D,V	
+over-the-counter	thuốc không kê đơn	thuốc OTC		pharmacy	w	D,V	
+prescription drug	thuốc kê đơn			pharmacy	w	D,V	
+medicine	thuốc			pharmacy	w	D,V	
+drug name	tên thuốc			pharmacy	w	D,V	
+active ingredient	hoạt chất	thành phần hoạt chất		pharmacy	w	D,V	
+dosage	liều lượng	liều dùng		pharmacy	w	D,V	
+dose	liều	liều dùng		pharmacy	w	D,V	
+how to use	cách dùng	hướng dẫn sử dụng		pharmacy	w	D,V	
+before meals	trước khi ăn	trước bữa ăn		pharmacy	w	D,V	
+after meals	sau khi ăn	sau bữa ăn		pharmacy	w	D,V	
+twice a day	ngày 2 lần	2 lần mỗi ngày		pharmacy	w	D,V	
+times per day	lần mỗi ngày	lần/ngày		pharmacy	w	D,V	
+tablet	viên	viên nén		pharmacy	w	D,V	
+capsule	viên nang			pharmacy	w	D,V	
+syrup	siro			pharmacy	w	D,V	
+injection	thuốc tiêm	tiêm		pharmacy	w	D,V	
+ointment	thuốc mỡ	thuốc bôi		pharmacy	w	D,V	
+eye drops	thuốc nhỏ mắt			pharmacy	w	D,V	
+medication reminder	nhắc uống thuốc	nhắc giờ uống thuốc		pharmacy	w	D,V	
+take medication	uống thuốc			pharmacy	w	D,V	
+side effects	tác dụng phụ	tác dụng không mong muốn		pharmacy	w	D,V	
+contraindication	chống chỉ định			pharmacy	w	D,V	
+drug interaction	tương tác thuốc			pharmacy	w	D,V	
+expiry date	hạn sử dụng	ngày hết hạn		pharmacy	w	D,V	
+refill	mua lại thuốc	cấp lại thuốc		pharmacy	w	D,V	
+dietary supplement	thực phẩm chức năng	thực phẩm bảo vệ sức khỏe		pharmacy	w	D,V	
+medical supplies	vật tư y tế			pharmacy	w	D,V	
+medical device	thiết bị y tế			pharmacy	w	D,V	
+lab test	xét nghiệm			lab	w	D,V	
+test result	kết quả xét nghiệm			lab	w	D,V	
+lab result	kết quả xét nghiệm			lab	w	D,V	
+blood test	xét nghiệm máu			lab	w	D,V	
+urine test	xét nghiệm nước tiểu			lab	w	D,V	
+sample collection	lấy mẫu	lấy mẫu xét nghiệm		lab	w	D,V	
+home sample collection	lấy mẫu tại nhà			lab	w	D,V	
+fasting	nhịn ăn	nhịn đói		lab	w	D,V	Instruction before tests
+reference range	khoảng tham chiếu	giá trị tham chiếu		lab	w	D,V	
+normal range	khoảng bình thường	giá trị bình thường		lab	w	D,V	
+abnormal	bất thường			lab	w	D,V	
+positive	dương tính			lab	w	D,V	Test result context
+negative	âm tính			lab	w	D,V	Test result context
+x-ray	chụp X-quang	X-quang		lab	w	D,V	
+ultrasound	siêu âm			lab	w	D,V	
+mri	chụp cộng hưởng từ	chụp MRI		lab	w	D,V	
+ct scan	chụp cắt lớp vi tính	chụp CT		lab	w	D,V	
+endoscopy	nội soi			lab	w	D,V	
+ecg	điện tâm đồ	ECG		lab	w	D,V	
+biopsy	sinh thiết			lab	w	D,V	
+covid-19 test	xét nghiệm COVID-19			lab	w	D,V	
+telemedicine	khám bệnh từ xa	khám trực tuyến;y tế từ xa		telehealth	w	D,V	Telehealth/telemedicine
+online consultation	tư vấn trực tuyến	tư vấn từ xa		telehealth	w	D,V	
+video consultation	khám qua video	tư vấn qua video		telehealth	w	D,V	
+consultation fee	phí khám	phí tư vấn		telehealth	w	D,V	
+vaccination	tiêm chủng	tiêm vắc xin		vaccine	w	D,V	
+vaccine	vắc xin	vaccine		vaccine	w	D,V	
+vaccination record	sổ tiêm chủng	lịch sử tiêm chủng		vaccine	w	D,V	
+vaccination certificate	giấy chứng nhận tiêm chủng			vaccine	w	D,V	
+vaccination schedule	lịch tiêm chủng	lịch tiêm		vaccine	w	D,V	
+booster dose	mũi nhắc lại	mũi tăng cường		vaccine	w	D,V	
+vaccination site	điểm tiêm chủng			vaccine	w	D,V	
+after-injection monitoring	theo dõi sau tiêm			vaccine	w	D,V	
+symptom	triệu chứng			symptom	w	D,V	
+symptom checker	kiểm tra triệu chứng	tự đánh giá triệu chứng		symptom	w	D,V	
+fever	sốt			symptom	w	D,V	
+cough	ho			symptom	w	D,V	
+headache	đau đầu			symptom	w	D,V	
+sore throat	đau họng			symptom	w	D,V	
+shortness of breath	khó thở			symptom	w	D,V	
+nausea	buồn nôn			symptom	w	D,V	
+vital signs	dấu hiệu sinh tồn	chỉ số sinh tồn		vitals	w	D,V	
+blood pressure	huyết áp			vitals	w	D,V	
+heart rate	nhịp tim	tần số tim		vitals	w	D,V	
+body temperature	thân nhiệt	nhiệt độ cơ thể		vitals	w	D,V	
+blood sugar	đường huyết			vitals	w	D,V	
+blood glucose	đường huyết	glucose máu		vitals	w	D,V	
+blood oxygen	nồng độ oxy trong máu	SpO2		vitals	w	D,V	
+respiratory rate	nhịp thở			vitals	w	D,V	
+body mass index	chỉ số khối cơ thể	BMI		vitals	w	D,V	
+blood type	nhóm máu			vitals	w	D,V	
+department	khoa	chuyên khoa		department	w	D,V	Hospital department
+internal medicine	nội khoa	khoa nội		department	w	D,V	
+surgery	ngoại khoa	phẫu thuật		department	w	D,V	Use "khoa ngoại" for the department
+pediatrics	nhi khoa	khoa nhi		department	w	D,V	
+obstetrics and gynecology	sản phụ khoa	sản khoa		department	w	D,V	
+cardiology	tim mạch	khoa tim mạch		department	w	D,V	
+dermatology	da liễu			department	w	D,V	
+ophthalmology	nhãn khoa	mắt		department	w	D,V	
+otolaryngology	tai mũi họng			department	w	D,V	
+dentistry	nha khoa	răng hàm mặt		department	w	D,V	
+orthopedics	chấn thương chỉnh hình	cơ xương khớp		department	w	D,V	
+neurology	thần kinh	khoa thần kinh		department	w	D,V	
+psychiatry	tâm thần	tâm thần học		department	w	D,V	
+oncology	ung bướu	ung thư		department	w	D,V	
+gastroenterology	tiêu hóa	khoa tiêu hóa		department	w	D,V	
+endocrinology	nội tiết			department	w	D,V	
+urology	tiết niệu			department	w	D,V	
+traditional medicine	y học cổ truyền			department	w	D,V	
+physical therapy	vật lý trị liệu			department	w	D,V	
+mental health	sức khỏe tâm thần	sức khỏe tinh thần		department	w	D,V	
+pregnancy	thai kỳ	mang thai		department	w	D,V	
+due date	ngày dự sinh			department	w	D,V	
+health package	gói khám	gói khám sức khỏe		clinic	w	D,V	

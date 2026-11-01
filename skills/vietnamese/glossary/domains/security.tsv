@@ -1,0 +1,188 @@
+en	vi	alt	avoid	cat	match	src	note
+passkey	khóa truy cập (passkey)	passkey	khóa chìa;mật khẩu chìa	auth	w	D,V	Brand-like term; Google/Apple VN often keep "passkey"
+sign in with passkey	đăng nhập bằng passkey	đăng nhập bằng khóa truy cập		auth	w	D,V	
+biometric authentication;biometrics	xác thực sinh trắc học	sinh trắc học		auth	w	D,V	
+fingerprint;fingerprint unlock	vân tay	mở khóa bằng vân tay		auth	w	D,V	
+face recognition;face unlock;face id	nhận diện khuôn mặt	khuôn mặt;Face ID		auth	w	D,V	Face ID is Apple brand, keep
+touch id	Touch ID			auth	x	D,V	Apple brand, keep
+use biometrics	dùng sinh trắc học	sử dụng sinh trắc học		auth	w	D,V	
+enable biometric login	bật đăng nhập bằng sinh trắc học			auth	w	D,V	
+two-step verification;2-step verification	xác minh 2 bước	xác minh hai bước		2fa	w	D,V	Google VN term
+two-factor authentication;2fa;multi-factor authentication;mfa	xác thực hai yếu tố (2FA)	xác thực 2 yếu tố;xác thực đa yếu tố (MFA)	xác thực hai nhân tố	2fa	w	D,V	Keep 2FA/MFA abbreviation
+authenticator app	ứng dụng xác thực	ứng dụng authenticator		2fa	w	D,V	
+authentication code;security code	mã xác minh	mã xác thực;mã bảo mật		2fa	w	D,V	
+one-time password	mã OTP	mật khẩu dùng một lần		2fa	w	D,V	abbreviation stays: OTP
+resend code	gửi lại mã			2fa	w	D,V	
+code expired	mã đã hết hạn			2fa	w	D,V	
+enter the 6-digit code	nhập mã gồm 6 chữ số	nhập mã 6 số		2fa	w	D,V	
+sms verification	xác minh qua SMS			2fa	w	D,V	
+verify via email	xác minh qua email			2fa	w	D,V	
+security key	khóa bảo mật			2fa	w	D,V	Physical FIDO key
+backup code;recovery code	mã dự phòng	mã khôi phục		recovery	w	D,V	
+generate new backup codes	tạo mã dự phòng mới			recovery	w	D,V	
+account recovery	khôi phục tài khoản			recovery	w	D,V	
+recovery email	email khôi phục	địa chỉ email khôi phục		recovery	w	D,V	
+recovery phone number	số điện thoại khôi phục			recovery	w	D,V	
+recovery key	khóa khôi phục			recovery	w	D,V	
+recover your account	khôi phục tài khoản của bạn			recovery	w	D,V	
+reset password	đặt lại mật khẩu			recovery	w	D,V	
+current password	mật khẩu hiện tại			password	w	D,V	
+new password	mật khẩu mới			password	w	D,V	
+confirm new password	xác nhận mật khẩu mới	nhập lại mật khẩu mới		password	w	D,V	
+password strength	độ mạnh của mật khẩu	độ mạnh mật khẩu		password	w	D,V	
+weak password	mật khẩu yếu			password	w	D,V	
+strong password	mật khẩu mạnh			password	w	D,V	
+password manager	trình quản lý mật khẩu			password	w	D,V	
+saved passwords	mật khẩu đã lưu			password	w	D,V	
+compromised password	mật khẩu bị lộ	mật khẩu đã bị xâm phạm		password	w	D,V	
+password has been leaked	mật khẩu đã bị rò rỉ			password	w	D,V	
+reuse password	dùng lại mật khẩu			password	w	D,V	
+password must contain	mật khẩu phải chứa	mật khẩu phải bao gồm		password	w	D,V	
+show password	hiện mật khẩu	hiển thị mật khẩu		password	w	D,V	
+hide password	ẩn mật khẩu			password	w	D,V	
+passcode	mật mã	mã khóa		passcode	w	D,V	
+pin code;pin	mã PIN			passcode	w	D,V	abbreviation stays: PIN
+set up a pin	thiết lập mã PIN	cài đặt mã PIN		passcode	w	D,V	
+change pin	đổi mã PIN			passcode	w	D,V	
+incorrect pin	mã PIN không đúng	mã PIN sai		passcode	w	D,V	
+pattern lock	mật khẩu hình vẽ	hình mở khóa		passcode	w	D,V	
+trusted device	thiết bị tin cậy	thiết bị đáng tin cậy		device	w	D,V	
+trust this device	tin cậy thiết bị này			device	w	D,V	
+remember this device	ghi nhớ thiết bị này	nhớ thiết bị này		device	w	D,V	
+don't ask again on this device	không hỏi lại trên thiết bị này			device	w	D,V	
+new device;unrecognized device	thiết bị mới	thiết bị lạ	thiết bị không xác định	device	w	D,V	
+linked devices	thiết bị đã liên kết			device	w	D,V	
+remove device	xóa thiết bị	gỡ thiết bị		device	w	D,V	
+manage devices	quản lý thiết bị			device	w	D,V	
+logged-in devices	thiết bị đã đăng nhập			device	w	D,V	
+device name	tên thiết bị			device	w	D,V	
+last active	hoạt động gần nhất	hoạt động lần cuối		session	w	D,V	
+active sessions	phiên đăng nhập đang hoạt động	phiên hoạt động		session	w	D,V	
+your session has timed out	phiên đăng nhập của bạn đã hết hạn			session	w	D,V	
+sign out of all devices	đăng xuất khỏi tất cả thiết bị			session	w	D,V	
+sign out of other devices	đăng xuất khỏi các thiết bị khác			session	w	D,V	
+sign out remotely	đăng xuất từ xa			session	w	D,V	
+end session	kết thúc phiên			session	w	D,V	
+auto logout	tự động đăng xuất			session	w	D,V	
+keep me signed in;stay signed in	duy trì đăng nhập	giữ trạng thái đăng nhập		session	w	D,V	
+login history	lịch sử đăng nhập			session	w	D,V	
+login activity	hoạt động đăng nhập			session	w	D,V	
+login alert	cảnh báo đăng nhập	thông báo đăng nhập		alert	w	D,V	
+new login detected	phát hiện đăng nhập mới			alert	w	D,V	
+new sign-in from	đăng nhập mới từ			alert	w	D,V	
+was this you	đây có phải là bạn không	có phải bạn không		alert	x	D,V	
+this was me	đúng là tôi			alert	x	D,V	
+this wasn't me	không phải tôi	đây không phải tôi		alert	x	D,V	
+secure your account	bảo vệ tài khoản của bạn	bảo mật tài khoản của bạn		alert	w	D,V	
+suspicious activity	hoạt động đáng ngờ	hoạt động bất thường		alert	w	D,V	
+unusual activity	hoạt động bất thường			alert	w	D,V	
+suspicious login attempt	nỗ lực đăng nhập đáng ngờ	lần đăng nhập đáng ngờ		alert	w	D,V	
+unauthorized access	truy cập trái phép	truy cập không được phép		alert	w	D,V	
+account compromised	tài khoản bị xâm phạm	tài khoản bị chiếm đoạt		alert	w	D,V	
+account hacked	tài khoản bị hack	tài khoản bị tấn công		alert	w	D,V	
+account locked	tài khoản bị khóa			alert	w	D,V	
+temporarily locked	tạm thời bị khóa			alert	w	D,V	
+too many failed attempts	quá nhiều lần thử không thành công	đã thử sai quá nhiều lần		alert	w	D,V	
+unlock account	mở khóa tài khoản			alert	w	D,V	
+security alert	cảnh báo bảo mật			alert	w	D,V	
+security checkup	kiểm tra bảo mật	rà soát bảo mật		alert	w	D,V	Google-style term
+security settings	cài đặt bảo mật			general	w	D,V	
+security level	mức độ bảo mật			general	w	D,V	
+security question	câu hỏi bảo mật			recovery	w	D,V	
+security notification	thông báo bảo mật			alert	w	D,V	
+verify your identity	xác minh danh tính của bạn	xác thực danh tính		identity	w	D,V	
+identity verification	xác minh danh tính			identity	w	D,V	
+confirm it's you	xác nhận đó là bạn			identity	w	D,V	
+verification required	yêu cầu xác minh	cần xác minh		identity	w	D,V	
+verification failed	xác minh không thành công	xác minh thất bại		identity	w	D,V	
+captcha	CAPTCHA	mã xác nhận hình ảnh		identity	w	D,V	
+i'm not a robot	tôi không phải là người máy	tôi không phải robot		identity	x	D,V	
+phishing	phishing	lừa đảo giả mạo		phish	w	D,V	Keep phishing; lừa đảo alone means scam generally
+phishing attempt	nỗ lực lừa đảo			phish	w	D,V	
+phishing warning	cảnh báo lừa đảo	cảnh báo phishing		phish	w	D,V	
+suspected scam	nghi ngờ lừa đảo			phish	w	D,V	
+scam alert	cảnh báo lừa đảo			phish	w	D,V	
+fake website	trang web giả mạo			phish	w	D,V	
+deceptive site	trang web lừa đảo			phish	w	D,V	
+dangerous site	trang web nguy hiểm			phish	w	D,V	
+unsafe link	liên kết không an toàn	đường dẫn không an toàn		phish	w	D,V	
+suspicious link	liên kết đáng ngờ			phish	w	D,V	
+report phishing	báo cáo lừa đảo			phish	w	D,V	
+report suspicious message	báo cáo tin nhắn đáng ngờ			phish	w	D,V	
+never share your otp	tuyệt đối không chia sẻ mã OTP	không cung cấp mã OTP cho bất kỳ ai		phish	w	D,V	
+impersonation	giả mạo danh tính	mạo danh		phish	w	D,V	
+malware	phần mềm độc hại	mã độc		phish	w	D,V	
+virus	vi-rút	virus		phish	w	D,V	
+block this sender	chặn người gửi này			phish	w	D,V	
+safe browsing	duyệt web an toàn			phish	w	D,V	
+app lock	khóa ứng dụng			applock	w	D,V	
+lock app	khóa ứng dụng			applock	w	D,V	
+unlock with	mở khóa bằng			applock	w	D,V	
+require authentication	yêu cầu xác thực			applock	w	D,V	
+lock after	khóa sau			applock	w	D,V	
+lock immediately	khóa ngay lập tức			applock	w	D,V	
+screen lock	khóa màn hình			applock	w	D,V	
+screenshot protection;screen capture protection	chống chụp màn hình	chặn chụp màn hình		applock	w	D,V	
+screen capture	chụp màn hình			applock	w	D,V	
+hide sensitive content	ẩn nội dung nhạy cảm			applock	w	D,V	
+privacy screen	màn hình riêng tư			applock	w	D,V	
+incognito mode	chế độ ẩn danh	duyệt web riêng tư		privacy	w	D,V	
+end-to-end encryption;e2ee	mã hóa đầu cuối	mã hóa đầu-cuối (E2EE)	mã hóa kết thúc đến kết thúc	encryption	w	D,V	
+encrypted	đã mã hóa			encryption	w	D,V	
+encryption key	khóa mã hóa			encryption	w	D,V	
+messages are end-to-end encrypted	tin nhắn được mã hóa đầu cuối			encryption	w	D,V	
+verify security code	xác minh mã bảo mật			encryption	w	D,V	
+data encryption	mã hóa dữ liệu			encryption	w	D,V	
+secure connection	kết nối an toàn	kết nối bảo mật		encryption	w	D,V	
+not secure	không an toàn			encryption	w	D,V	
+certificate error	lỗi chứng chỉ	lỗi chứng chỉ bảo mật		encryption	w	D,V	
+vpn	VPN	mạng riêng ảo		encryption	w	D,V	abbreviation stays: VPN
+permission request	yêu cầu cấp quyền	yêu cầu quyền		permission	w	D,V	
+allow access to	cho phép truy cập vào			permission	w	D,V	
+allow while using the app	cho phép khi dùng ứng dụng	cho phép khi đang dùng ứng dụng		permission	w	D,V	
+allow only this time	chỉ cho phép lần này	chỉ cho phép một lần		permission	w	D,V	
+don't allow	không cho phép			permission	x	D,V	
+deny permission	từ chối cấp quyền			permission	w	D,V	
+permission denied	quyền bị từ chối	bị từ chối cấp quyền		permission	w	D,V	
+grant permission	cấp quyền			permission	w	D,V	
+revoke access	thu hồi quyền truy cập			permission	w	D,V	
+app permissions	quyền của ứng dụng	quyền ứng dụng		permission	w	D,V	
+camera access	quyền truy cập máy ảnh	quyền truy cập camera		permission	w	D,V	
+microphone access	quyền truy cập micrô	quyền truy cập micro		permission	w	D,V	
+location access;location permission	quyền truy cập vị trí	quyền vị trí		permission	w	D,V	
+precise location	vị trí chính xác			permission	w	D,V	
+approximate location	vị trí gần đúng	vị trí ước tính		permission	w	D,V	
+photo library access	quyền truy cập thư viện ảnh			permission	w	D,V	
+contacts access	quyền truy cập danh bạ			permission	w	D,V	
+notification permission	quyền gửi thông báo	quyền thông báo		permission	w	D,V	
+open settings to enable	mở cài đặt để bật			permission	w	D,V	
+third-party apps with account access	ứng dụng bên thứ ba có quyền truy cập tài khoản			permission	w	D,V	
+connected apps	ứng dụng đã kết nối	ứng dụng được liên kết		permission	w	D,V	
+tracking transparency;allow tracking	cho phép theo dõi			privacy	w	D,V	
+ask app not to track	yêu cầu ứng dụng không theo dõi			privacy	w	D,V	
+privacy settings	cài đặt quyền riêng tư			privacy	w	D,V	
+privacy checkup	kiểm tra quyền riêng tư			privacy	w	D,V	
+personal data	dữ liệu cá nhân			privacy	w	D,V	
+sensitive personal data	dữ liệu cá nhân nhạy cảm			privacy	w	D,V	
+data collection	thu thập dữ liệu			privacy	w	D,V	
+data sharing	chia sẻ dữ liệu			privacy	w	D,V	
+consent to process data	đồng ý xử lý dữ liệu	đồng ý cho phép xử lý dữ liệu		privacy	w	D,V	
+manage cookies	quản lý cookie			privacy	w	D,V	
+cookie preferences	tùy chọn cookie			privacy	w	D,V	
+accept all cookies	chấp nhận tất cả cookie			privacy	w	D,V	
+reject all	từ chối tất cả			privacy	w	D,V	
+ad personalization	cá nhân hóa quảng cáo			privacy	w	D,V	
+activity log	nhật ký hoạt động			privacy	w	D,V	
+clear browsing data	xóa dữ liệu duyệt web			privacy	w	D,V	
+download your data	tải xuống dữ liệu của bạn	tải dữ liệu của bạn về		export	w	D,V	
+export data	xuất dữ liệu			export	w	D,V	
+request data export	yêu cầu xuất dữ liệu			export	w	D,V	
+your data is ready	dữ liệu của bạn đã sẵn sàng			export	w	D,V	
+download link expires	liên kết tải xuống sẽ hết hạn			export	w	D,V	
+delete my data	xóa dữ liệu của tôi			export	w	D,V	
+delete account permanently	xóa vĩnh viễn tài khoản			export	w	D,V	
+deactivate account	vô hiệu hóa tài khoản			export	w	D,V	
+request account deletion	yêu cầu xóa tài khoản			export	w	D,V	
+data backup	sao lưu dữ liệu			export	w	D,V	
+restore from backup	khôi phục từ bản sao lưu			export	w	D,V	
+blocked accounts	tài khoản đã chặn			privacy	w	D,V	

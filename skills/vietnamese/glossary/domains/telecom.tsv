@@ -1,0 +1,192 @@
+en	vi	alt	avoid	cat	match	src	note
+sim card;sim	SIM	thẻ SIM		sim	w	D,V	
+esim;e-sim	eSIM			sim	w	D,V	abbreviation stays: eSIM
+physical sim	SIM vật lý	SIM thẻ		sim	w	D,V	
+sim activation;activate sim	kích hoạt SIM			sim	w	D,V	
+sim swap	đổi SIM		hoán đổi SIM	sim	w	D,V	
+replace sim;sim replacement	đổi SIM	cấp lại SIM		sim	w	D,V	
+lost sim;sim lost	mất SIM			sim	w	D,V	
+lock sim;sim lock	khóa SIM			sim	w	D,V	
+unlock sim	mở khóa SIM			sim	w	D,V	
+sim card slot	khay SIM	khe SIM		sim	w	D,V	
+puk code;puk	mã PUK			sim	w	D,V	abbreviation stays: PUK
+imei	số IMEI			device	w	D,V	abbreviation stays: IMEI
+sim registration	đăng ký SIM			registration	w	D,V	
+subscriber information;subscriber info	thông tin thuê bao			registration	w	D,V	
+update subscriber information	cập nhật thông tin thuê bao			registration	w	D,V	
+subscriber registration	đăng ký thông tin thuê bao			registration	w	D,V	
+subscriber verification	xác thực thông tin thuê bao			registration	w	D,V	
+verify subscriber information	xác thực thông tin thuê bao			registration	w	D,V	
+subscriber	thuê bao			subscriber	w	D,V	In Vietnam telecom, 'subscriber' = thuê bao
+subscriber number;subscriber line	số thuê bao			subscriber	w	D,V	
+mobile subscriber	thuê bao di động			subscriber	w	D,V	
+fixed subscriber	thuê bao cố định			subscriber	w	D,V	
+prepaid subscriber	thuê bao trả trước			subscriber	w	D,V	
+postpaid subscriber	thuê bao trả sau			subscriber	w	D,V	
+prepaid	trả trước			plan	w	D,V	
+postpaid	trả sau			plan	w	D,V	
+prepaid sim	SIM trả trước			plan	w	D,V	
+postpaid sim	SIM trả sau			plan	w	D,V	
+convert to postpaid	chuyển sang trả sau			plan	w	D,V	
+convert to prepaid	chuyển sang trả trước			plan	w	D,V	
+mobile plan;mobile tariff	gói cước di động	gói cước		plan	w	D,V	
+tariff	cước			plan	w	D,V	
+monthly fee;monthly subscription fee	cước hàng tháng	cước thuê bao tháng		billing	w	D,V	
+subscription fee	cước thuê bao			billing	w	D,V	
+plan fee;package fee	cước gói			billing	w	D,V	
+register package;subscribe to package	đăng ký gói cước	đăng ký gói		plan	w	D,V	
+cancel package;unsubscribe from package	hủy gói cước	hủy gói		plan	w	D,V	
+extend package;renew package	gia hạn gói cước	gia hạn gói		plan	w	D,V	
+auto renew package;automatic package renewal	tự động gia hạn gói cước			plan	w	D,V	
+package expiry date;package expires	ngày hết hạn gói cước	hạn dùng gói cước		plan	w	D,V	
+package validity	thời hạn gói cước	chu kỳ gói cước		plan	w	D,V	
+change plan;switch plan	đổi gói cước			plan	w	D,V	
+current package;current plan	gói cước hiện tại			plan	w	D,V	
+available packages	gói cước khả dụng	các gói cước đang có		plan	w	D,V	
+data package;data plan;data pack	gói data	gói dữ liệu; gói cước data		data	w	D,V	
+data bundle	gói data			data	w	D,V	
+data allowance;data quota	dung lượng data	lưu lượng data		data	w	D,V	
+remaining data	data còn lại	dung lượng còn lại		data	w	D,V	
+data usage	lưu lượng sử dụng	dung lượng đã dùng		data	w	D,V	
+mobile data;cellular data	dữ liệu di động	data di động		data	w	D,V	
+data roaming	chuyển vùng dữ liệu	roaming data		roaming	w	D,V	
+unlimited data	data không giới hạn	không giới hạn data	data vô hạn	data	w	D,V	
+reduced speed;speed throttled	giảm tốc độ			data	w	D,V	
+data saver;data saving mode	tiết kiệm dữ liệu			data	w	D,V	
+data exhausted;out of data	hết data	hết dung lượng data		data	w	D,V	
+data sharing;share data	chia sẻ data			data	w	D,V	
+data rollover	chuyển data sang chu kỳ sau	cộng dồn data		data	w	D,V	
+free data	data miễn phí			data	w	D,V	
+hotspot;mobile hotspot;personal hotspot	phát Wi-Fi	điểm phát Wi-Fi		data	w	D,V	
+call minutes;talk time	phút gọi	thời lượng gọi		voice	w	D,V	
+free minutes	phút gọi miễn phí			voice	w	D,V	
+on-net call;in-network call	cuộc gọi nội mạng	gọi nội mạng		voice	w	D,V	
+off-net call;out-of-network call	cuộc gọi ngoại mạng	gọi ngoại mạng		voice	w	D,V	
+international call	cuộc gọi quốc tế	gọi quốc tế		voice	w	D,V	
+call history;call log	lịch sử cuộc gọi	nhật ký cuộc gọi		voice	w	D,V	
+call detail;call detail records	chi tiết cuộc gọi	chi tiết cước		billing	w	D,V	
+missed call	cuộc gọi nhỡ			voice	w	D,V	
+missed call alert;missed call notification	thông báo cuộc gọi nhỡ	MCA		voice	w	D,V	
+call forwarding;call divert	chuyển tiếp cuộc gọi	chuyển hướng cuộc gọi		voice	w	D,V	
+call barring	chặn cuộc gọi	cấm gọi		voice	w	D,V	
+caller id;caller identification	hiển thị số gọi đến			voice	w	D,V	
+voicemail	hộp thư thoại			voice	w	D,V	
+voice over lte;volte	VoLTE			voice	w	D,V	abbreviation stays: VoLTE
+wifi calling;vowifi	gọi qua Wi-Fi	VoWiFi		voice	w	D,V	
+sms	tin nhắn SMS	SMS		sms	w	D,V	abbreviation stays: SMS
+sms package	gói tin nhắn SMS	gói SMS		sms	w	D,V	
+free sms	SMS miễn phí	tin nhắn miễn phí		sms	w	D,V	
+sms brandname;brandname sms	tin nhắn brandname	SMS Brandname		sms	w	D,V	
+spam call;spam calls	cuộc gọi rác	cuộc gọi quấy rối	cuộc gọi thư rác	spam	w	D,V	
+spam sms;spam message	tin nhắn rác	SMS rác	thư rác	spam	w	D,V	
+report spam	báo cáo tin nhắn rác	phản ánh số rác		spam	w	D,V	
+block spam calls	chặn cuộc gọi rác			spam	w	D,V	
+scam call;fraud call	cuộc gọi lừa đảo			spam	w	D,V	
+do not disturb list;do-not-call list	danh sách không quảng cáo	danh sách không làm phiền		spam	w	D,V	
+opt out of advertising;unsubscribe promotional messages	từ chối nhận tin quảng cáo	hủy nhận tin quảng cáo		spam	w	D,V	
+promotional message;advertising message	tin nhắn quảng cáo			spam	w	D,V	
+hotline;customer care hotline	tổng đài	hotline		support	w	D,V	
+customer care;customer service	chăm sóc khách hàng	CSKH		support	w	D,V	
+service center;customer service center	cửa hàng giao dịch	điểm giao dịch		support	w	D,V	
+top-up card;recharge card;prepaid card	thẻ cào	thẻ nạp		topup	w	D,V	
+scratch card	thẻ cào			topup	w	D,V	
+card code;recharge code;card pin	mã thẻ cào	mã thẻ nạp		topup	w	D,V	
+card serial;serial number of card	số seri thẻ			topup	w	D,V	
+enter card code;enter recharge code	nhập mã thẻ cào			topup	w	D,V	
+recharge phone;top up phone;mobile top-up	nạp tiền điện thoại	nạp tiền		topup	w	D,V	
+main account	tài khoản chính	TK chính		account	w	D,V	
+promotional account;bonus account	tài khoản khuyến mại	TK khuyến mại		account	w	D,V	
+check balance;check account balance	tra cứu tài khoản	kiểm tra tài khoản		account	w	D,V	
+account expiry;account expiration date	ngày hết hạn tài khoản	hạn sử dụng tài khoản		account	w	D,V	
+extend validity;extend account validity	gia hạn thời gian sử dụng	gia hạn sử dụng		account	w	D,V	
+advance credit;borrow airtime	ứng tiền	ứng tiền khẩn cấp		topup	w	D,V	
+data advance;borrow data	ứng data			topup	w	D,V	
+credit transfer;transfer airtime	chuyển tiền điện thoại	chia sẻ tiền		topup	w	D,V	
+bill;phone bill	hóa đơn cước	cước;hóa đơn		billing	w	D,V	
+view bill;monthly bill	xem cước	tra cứu cước		billing	w	D,V	
+outstanding charges;unpaid charges	nợ cước	cước nợ;cước chưa thanh toán		billing	w	D,V	
+overdue charges	cước quá hạn	nợ cước quá hạn		billing	w	D,V	
+pay bill;bill payment	thanh toán cước	đóng cước		billing	w	D,V	
+billing cycle	chu kỳ cước			billing	w	D,V	
+electronic bill;e-bill	hóa đơn điện tử			billing	w	D,V	
+charges;billed amount	cước phí		phí tính phí	billing	w	D,V	
+excess charges	cước phát sinh	cước vượt gói		billing	w	D,V	
+out-of-bundle charges	cước ngoài gói			billing	w	D,V	
+suspended;service suspended	tạm ngưng dịch vụ	tạm khóa		service	w	D,V	
+suspend service	tạm ngưng dịch vụ	khóa tạm thời		service	w	D,V	
+one-way block;outgoing call block	khóa một chiều			service	w	D,V	
+reconnect service;restore service	mở lại dịch vụ	khôi phục dịch vụ		service	w	D,V	
+terminate contract;cancel subscription	hủy hợp đồng	chấm dứt hợp đồng		service	w	D,V	
+contract term;commitment period	thời gian cam kết	thời hạn cam kết		contract	w	D,V	
+early termination fee	phí chấm dứt hợp đồng trước hạn			contract	w	D,V	
+roaming;international roaming	chuyển vùng	chuyển vùng quốc tế		roaming	w	D,V	
+roaming package	gói cước chuyển vùng	gói roaming		roaming	w	D,V	
+roaming charges	cước chuyển vùng			roaming	w	D,V	
+roaming partner;roaming network	mạng đối tác chuyển vùng			roaming	w	D,V	
+select network manually	chọn mạng thủ công			roaming	w	D,V	
+home network	mạng gốc	mạng chủ		roaming	w	D,V	
+number porting;mobile number portability;port number	chuyển mạng giữ nguyên số	MNP		porting	w	D,V	
+port out	chuyển mạng đi			porting	w	D,V	
+porting request	yêu cầu chuyển mạng			porting	w	D,V	
+porting code	mã chuyển mạng			porting	w	D,V	
+new number;choose number	chọn số	chọn số mới		number	w	D,V	
+beautiful number;vanity number;lucky number	số đẹp			number	w	D,V	
+number prefix;prefix	đầu số			number	w	D,V	
+number pool;number store	kho số			number	w	D,V	
+mobile network operator;mno	nhà mạng	nhà mạng di động		general	w	D,V	
+network operator;carrier	nhà mạng			general	w	D,V	
+mvno;virtual network operator	nhà mạng ảo	MVNO		general	w	D,V	
+network coverage;coverage	vùng phủ sóng	độ phủ sóng		network	w	D,V	
+signal strength;signal	cường độ sóng	sóng		network	w	D,V	
+no signal;no service	không có sóng	không có dịch vụ		network	w	D,V	
+weak signal	sóng yếu			network	w	D,V	
+coverage map	bản đồ vùng phủ sóng			network	w	D,V	
+cell tower;base station	trạm phát sóng	trạm BTS		network	w	D,V	
+network outage;service outage	sự cố mạng	gián đoạn dịch vụ		network	w	D,V	
+network quality	chất lượng mạng			network	w	D,V	
+speed test	đo tốc độ mạng	kiểm tra tốc độ		network	w	D,V	
+report network issue;report poor signal	báo lỗi mạng	phản ánh chất lượng mạng		network	w	D,V	
+4g;lte	4G			network	w	D,V	
+5g	5G			network	w	D,V	
+airplane mode;flight mode	chế độ máy bay			device	w	D,V	
+home internet;home broadband	internet gia đình			internet	w	D,V	
+fiber internet;fibre internet;ftth	internet cáp quang	cáp quang		internet	w	D,V	
+internet package;internet plan	gói cước internet			internet	w	D,V	
+register internet;new internet installation	đăng ký lắp đặt internet	lắp mạng		internet	w	D,V	
+installation fee	phí lắp đặt			internet	w	D,V	
+installation appointment;schedule installation	hẹn lịch lắp đặt			internet	w	D,V	
+technician;installation technician	kỹ thuật viên			internet	w	D,V	
+modem;router	modem	bộ phát Wi-Fi		internet	w	D,V	
+mesh wifi;wifi mesh	Wi-Fi Mesh			internet	w	D,V	
+change wifi name;change ssid	đổi tên Wi-Fi			internet	w	D,V	
+change wifi password	đổi mật khẩu Wi-Fi			internet	w	D,V	
+internet speed;download speed	tốc độ internet	tốc độ đường truyền		internet	w	D,V	
+bandwidth	băng thông			internet	w	D,V	
+broadband account	tài khoản internet			internet	w	D,V	
+move service;relocate internet	chuyển địa điểm lắp đặt	di dời dịch vụ		internet	w	D,V	
+connection issue;internet down	mất kết nối internet	lỗi mạng		internet	w	D,V	
+report fault;fault ticket	báo hỏng	báo sự cố		support	w	D,V	
+repair request	yêu cầu sửa chữa	yêu cầu bảo hành		support	w	D,V	
+tv package;tv plan	gói truyền hình			tv	w	D,V	
+pay tv;cable tv	truyền hình trả tiền			tv	w	D,V	
+internet tv;iptv	truyền hình internet	IPTV		tv	w	D,V	
+tv channel;channel list	kênh truyền hình	danh sách kênh		tv	w	D,V	
+set-top box;stb;tv box	đầu thu truyền hình	box truyền hình	hộp giải mã	tv	w	D,V	
+video on demand;vod	xem theo yêu cầu	VOD		tv	w	D,V	
+add-on package;add-on	gói cước bổ sung	gói add-on		plan	w	D,V	
+value-added service;vas	dịch vụ giá trị gia tăng	VAS		service	w	D,V	
+cancel value-added service	hủy dịch vụ giá trị gia tăng			service	w	D,V	
+ussd code;ussd	mã USSD	cú pháp USSD		service	w	D,V	abbreviation stays: USSD
+sms syntax;registration syntax	cú pháp tin nhắn	soạn tin		service	w	D,V	
+send sms to	soạn tin nhắn gửi đến	soạn tin gửi		service	w	D,V	
+loyalty points;member points	điểm thành viên	điểm tích lũy		loyalty	w	D,V	
+customer tier;membership tier	hạng thành viên			loyalty	w	D,V	
+exchange points;redeem points	đổi điểm			loyalty	w	D,V	
+id card;citizen id card	căn cước công dân	CCCD		registration	w	D,V	
+face verification;facial verification	xác thực khuôn mặt			registration	w	D,V	
+biometric authentication	xác thực sinh trắc học			registration	w	D,V	
+sim owner;registered owner	chủ thuê bao			registration	w	D,V	
+transfer ownership;change owner	sang tên thuê bao	chuyển quyền sử dụng		registration	w	D,V	
+corporate subscriber;enterprise customer	khách hàng doanh nghiệp	KHDN		registration	w	D,V	
+tourist sim;travel sim	SIM du lịch			sim	w	D,V	
+device installment;phone installment	trả góp điện thoại			device	w	D,V	

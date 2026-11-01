@@ -1,0 +1,3500 @@
+en	vi	alt	avoid	cat	match	src	note
++ add custom url	+ Thêm URL tùy chỉnh			ui	w	F	
+, secure	, an toàn			ui	w	A	
+about accessibility button	Giới thiệu về nút hỗ trợ tiếp cận			ui	w	A	
+about audio output	Giới thiệu về đầu ra âm thanh			ui	w	A	
+about battery saver	Giới thiệu về Trình tiết kiệm pin			ui	w	A	
+about caption preferences	Giới thiệu các tùy chọn phụ đề			ui	w	A	
+about color contrast	Thông tin về độ tương phản màu			ui	w	A	
+about color correction	Giới thiệu về tính năng chỉnh màu			ui	w	A	
+about color inversion	Giới thiệu về tính năng đảo màu			ui	w	A	
+about contacts	Giới thiệu về Danh bạ			ui	w	A	
+about extra dim	Giới thiệu về tính năng siêu tối			ui	w	A	
+about flash notifications	Giới thiệu về thông báo bằng đèn flash			ui	w	A	
+about hearing devices	Giới thiệu về thiết bị nghe			ui	w	A	
+about magnification	Giới thiệu về tính năng phóng to			ui	w	A	
+accept call	Chấp nhận cuộc gọi?			ui	w	A	
+access bluetooth settings	Truy cập cài đặt Bluetooth			ui	w	A	
+access camera	Truy cập vào ứng dụng Máy ảnh			ui	w	A	
+access digital assistant	Truy cập trợ lý kỹ thuật số			ui	w	A	
+access do not disturb	Quyền truy cập chế độ Không làm phiền			ui	w	A	
+access drm certificates	Truy cập chứng chỉ DRM			ui	w	A	
+access emoji	Truy cập biểu tượng cảm xúc			ui	w	A	
+access hidden profiles	Truy cập vào hồ sơ bị ẩn			ui	w	A	
+access ims call service	Truy cập dịch vụ gọi điện qua IMS			ui	w	A	
+access notifications	Truy cập thông báo			ui	w	A	
+access point names	Tên điểm truy cập			ui	w	A	
+access power menu	Truy cập trình đơn nguồn			ui	w	A	
+access request	Yêu cầu truy cập			ui	w	A	
+access voice typing	Truy cập tính năng nhập liệu bằng giọng nói			ui	w	A	
+access wallet	Truy cập ứng dụng Wallet			ui	w	A	
+access your calendar	Truy cập lịch của bạn			ui	w	A	
+access your contacts	Truy cập vào danh bạ của bạn			ui	w	A	
+access your imei number	Truy cập số IMEI của bạn			ui	w	A	
+access your physical activity	Truy cập vào hoạt động thể chất			ui	w	A	
+accessibility	Hỗ trợ tiếp cận			ui	x	A,F	
+accessibility button	Nút hỗ trợ tiếp cận			ui	w	A	
+accessibility button hidden	Đã ẩn nút hỗ trợ tiếp cận			ui	w	A	
+accessibility button shortcut	Lối tắt cho nút hỗ trợ tiếp cận			ui	w	A	
+accessibility gesture	Cử chỉ hỗ trợ tiếp cận			ui	w	A	
+accessibility gesture shortcut	Phím tắt cho cử chỉ hỗ trợ tiếp cận			ui	w	A	
+accessibility settings	Cài đặt hỗ trợ tiếp cận			ui	w	A	
+accessibility shortcut	Lối tắt hỗ trợ tiếp cận			ui	w	A	
+accessibility shortcuts	Lối tắt hỗ trợ tiếp cận			ui	w	A	
+account for content	Tài khoản dành cho nội dung			ui	w	A	
+account info	Thông tin tài khoản			ui	w	F	
+account picture	Ảnh tài khoản			ui	w	F,M	
+account settings	Cài đặt tài khoản			ui	w	A,F	
+account status	Trạng thái tài khoản			ui	w	A	
+account sync	Đồng bộ hóa tài khoản			ui	w	A	
+account unlock	Mở khóa tài khoản			ui	w	A	
+accounts	Tài khoản			ui	x	A	
+activate device admin app	Kích hoạt ứng dụng quản trị thiết bị?			ui	w	A	
+activate mobile service	Kích hoạt dịch vụ di động			ui	w	A	
+activate profile manager	Kích hoạt Trình quản lý hồ sơ?			ui	w	A	
+activating your sim	Đang kích hoạt SIM			ui	w	A	
+active	Hoạt động	Đang hoạt động		ui	x	A,F,M	
+active apps	Ứng dụng đang hoạt động			ui	w	A	
+active media devices	Thiết bị đa phương tiện đang hoạt động			ui	w	A	
+adaptive brightness	Độ sáng thích ứng			ui	w	A	
+adaptive connectivity	Kết nối thích ứng			ui	w	A	
+adaptive notification feedback	Phản hồi về tính năng thông báo thích ứng			ui	w	A	
+adaptive notification priority	Mức độ ưu tiên của thông báo thích ứng			ui	w	A	
+adaptive notification ranking	Thứ tự thông báo thích ứng			ui	w	A	
+adaptive preferences, adaptive battery	Lựa chọn ưu tiên về tính năng thích ứng, pin thích ứng			ui	w	A	
+add a device	Thêm thiết bị			ui	w	A	
+add a language	Thêm ngôn ngữ			ui	w	A	
+add a name	Thêm tên			ui	w	F	
+add a network	Thêm mạng			ui	w	A	
+add a sim	Hãy thêm SIM			ui	w	A	
+add access point	Thêm điểm truy cập			ui	w	A	
+add account	Thêm tài khoản			ui	w	A	
+add address	Thêm địa chỉ			ui	w	F	
+add an account	Thêm tài khoản			ui	w	A	
+add another	Thêm vân tay khác			ui	w	A	
+add another device	Thêm thiết bị khác			ui	w	A	
+add another fingerprint	Thêm một vân tay khác			ui	w	A	
+add another search engine	Thêm công cụ tìm kiếm khác			ui	w	F	
+add app	Thêm ứng dụng			ui	w	A	
+add apps	Thêm ứng dụng			ui	w	A	
+add card	Thêm thẻ			ui	w	F	
+add contact	Thêm người liên hệ			ui	w	A	
+add contact photo	Thêm ảnh của liên hệ			ui	w	A	
+add contacts	Thêm người liên hệ			ui	w	A	
+add credit card	Thêm thẻ tín dụng			ui	w	F	
+add custom url	Thêm URL tùy chỉnh			ui	w	F	
+add device	Thêm thiết bị			ui	w	A	
+add email	Thêm email			ui	w	A	
+add event schedule	Thêm lịch biểu sự kiện			ui	w	A	
+add fingerprint	Thêm vân tay			ui	w	A	
+add fingerprint to unlock	Thêm vân tay để mở khóa			ui	w	A	
+add folder	Thêm thư mục			ui	w	F	
+add hearing aids	Thêm thiết bị trợ thính			ui	w	A	
+add link	Thêm đường liên kết			ui	w	A	
+add link to autocomplete	Thêm liên kết vào tự động điền			ui	w	F	
+add login	Thêm thông tin đăng nhập			ui	w	F	
+add more	Thêm quy tắc khác			ui	w	A	
+add more widgets	Thêm tiện ích khác			ui	w	A	
+add network	Thêm mạng			ui	w	A	
+add new account	Thêm tài khoản mới			ui	w	A	
+add new collection	Thêm bộ sưu tập mới			ui	w	F	
+add new login	Thêm thông tin đăng nhập mới			ui	w	F	
+add new search engine	Thêm công cụ tìm kiếm mới			ui	w	F	
+add outputs	Thêm thiết bị đầu ra			ui	w	A	
+add password	Thêm mật khẩu			ui	w	F	
+add phone number	Thêm số điện thoại			ui	w	A	
+add printer	Thêm máy in			ui	w	A	
+add printers	Thêm máy in			ui	w	A	
+add private browsing shortcut	Thêm lối tắt duyệt web riêng tư			ui	w	F	
+add private tab	Thêm thẻ riêng tư			ui	w	F	
+add search engine	Thêm công cụ tìm kiếm			ui	w	F	
+add service	Thêm dịch vụ			ui	w	A	
+add sim	Thêm SIM			ui	w	A	
+add supervised user	Thêm người dùng được giám sát			ui	w	A	
+add sync group	Thêm nhóm đồng bộ hóa			ui	w	A	
+add tab	Thêm thẻ			ui	w	F	
+add tile	Thêm ô			ui	w	A	
+add tile to end	Thêm ô vào cuối			ui	w	A	
+add time schedule	Thêm lịch biểu thời gian			ui	w	A	
+add to active tabs	Thêm vào thẻ đang hoạt động			ui	w	F	
+add to contact	Thêm vào danh bạ			ui	w	A	
+add to contacts	Thêm vào danh bạ			ui	w	A	
+add to device controls	Thêm vào mục điều khiển thiết bị			ui	w	A	
+add to dictionary	Thêm vào từ điển			ui	w	A	
+add to home screen	Thêm vào màn hình chính	Thêm vào Màn hình chính		ui	w	F	
+add to inactive tabs	Thêm vào thẻ không hoạt động			ui	w	F	
+add to note	Thêm vào ghi chú			ui	w	A	
+add to private tabs	Thêm vào thẻ riêng tư			ui	w	F	
+add to shortcuts	Thêm vào lối tắt			ui	w	F	
+add url	Thêm URL			ui	w	F	
+add user or profile	Thêm người dùng hoặc hồ sơ			ui	w	A	
+add voicemail	Thêm thư thoại			ui	w	A	
+add vpn profile	Thêm cấu hình VPN			ui	w	A	
+add watch	Thêm đồng hồ			ui	w	A	
+add widget	Thêm tiện ích			ui	w	A	
+add widgets	Thêm tiện ích			ui	w	A	
+add-ons are temporarily disabled	Tiện ích mở rộng tạm thời bị vô hiệu hóa			ui	w	F	
+added to favorites	Đã thêm vào mục ưa thích			ui	w	A	
+added to label	Đã thêm vào nhãn			ui	w	A	
+added to shortcuts	Đã thêm vào lối tắt!			ui	w	F	
+additional preferences	Lựa chọn ưu tiên khác			ui	w	A	
+additional services	Dịch vụ bổ sung			ui	w	A	
+additional system updates	Bản cập nhật hệ thống bổ sung			ui	w	A	
+address bar preferences	Tùy chọn thanh địa chỉ			ui	w	F	
+adjust color	Điều chỉnh màu sắc			ui	w	A	
+adjust power use	Điều chỉnh việc sử dụng nguồn			ui	w	A	
+adjust your wallpaper size	Điều chỉnh kích thước hình nền của bạn			ui	w	A	
+adjusted rating	Đánh giá đã được điều chỉnh			ui	w	F	
+advanced calling	Gọi nâng cao			ui	w	A	
+advanced memory protection	Bảo vệ bộ nhớ nâng cao			ui	w	A	
+advanced memory protection beta	Chế độ Bảo vệ bộ nhớ nâng cao (thử nghiệm)			ui	w	A	
+advanced options	Tùy chọn nâng cao			ui	w	A	
+advanced settings	Cài đặt nâng cao			ui	w	A	
+after one day	Sau một ngày			ui	w	F	
+after one month	Sau một tháng			ui	w	F	
+after one week	Sau một tuần			ui	w	F	
+airplane mode is off	Chế độ trên máy bay TẮT			ui	w	A	
+airplane mode is on	Chế độ trên máy bay đang bật			ui	w	A	
+alarm set	Đã đặt chuông báo			ui	w	A	
+alarm sounds	Âm thanh chuông báo			ui	w	A	
+alarm vibration	Rung khi có chuông báo			ui	w	A	
+alarm volume	Âm lượng chuông báo			ui	w	A	
+alarms only	Chỉ chuông báo			ui	w	A	
+all actions	Mọi hành động			ui	w	F	
+all apps	Tất cả ứng dụng			ui	w	A	
+all audio	Tất cả âm thanh			ui	w	A	
+all contacts	Tất cả người liên hệ			ui	w	A	
+all controls removed	Đã xóa tất cả chế độ điều khiển			ui	w	A	
+all conversations can bubble	Mọi cuộc trò chuyện đều có thể tạo bong bóng trò chuyện			ui	w	A	
+all files access	Quyền truy cập vào mọi tệp			ui	w	A	
+all languages	Tất cả ngôn ngữ			ui	w	A,F	
+all numbering systems	Tất cả hệ thống đánh số			ui	w	A	
+all other contacts	Tất cả người liên hệ khác			ui	w	A	
+all people can interrupt	Tất cả mọi người có thể gián đoạn			ui	w	A	
+all regions	Tất cả khu vực			ui	w	A	
+all services	Tất cả các dịch vụ			ui	w	A	
+all set	Đã hòan tất!			ui	w	A	
+all set. looking good	Đã hòan tất. Trông rất ổn			ui	w	A	
+allow access to messages	Cho phép truy cập vào tin nhắn?			ui	w	A	
+allow access to sim	Cho phép truy cập vào SIM?			ui	w	A	
+allow all app sources	Cho phép tất cả các nguồn ƯD			ui	w	A	
+allow all notifications	Cho phép tất cả thông báo			ui	w	A	
+allow apps and content	Cho phép ứng dụng và nội dung			ui	w	A	
+allow apps to override	Cho phép ứng dụng ghi đè			ui	w	A	
+allow audio and video	Cho phép âm thanh và video			ui	w	F	
+allow background usage	Cho phép sử dụng ở chế độ nền			ui	w	A	
+allow camera software extensions	Cho phép tiện ích phần mềm camera			ui	w	A	
+allow data roaming	Cho phép chuyển vùng dữ liệu?			ui	w	A	
+allow diagonal scrolling	Cho phép cuộn chéo			ui	w	A	
+allow do not disturb	Cho phép tính năng Không làm phiền			ui	w	A	
+allow face unlock	Cho phép mở khóa bằng khuôn mặt			ui	w	A	
+allow fingerprint unlock	Cho phép mở khóa bằng vân tay			ui	w	A	
+allow from this source	Cho phép từ nguồn này			ui	w	A	
+allow full-screen notifications	Cho phép thông báo toàn màn hình			ui	w	A	
+allow interruptions	Cho phép gián đoạn			ui	w	A	
+allow long-running background tasks	Cho phép chạy tác vụ trong nền dài hạn			ui	w	A	
+allow mock modem	Cho phép modem mô phỏng			ui	w	A	
+allow modes access	Cho phép truy cập vào Chế độ			ui	w	A	
+allow modifying system settings	Cho phép sửa đổi các chế độ cài đặt hệ thống			ui	w	A	
+allow notification access	Cho phép truy cập thông báo			ui	w	A	
+allow notification dot	Cho phép dấu chấm thông báo			ui	w	A	
+allow notification snoozing	Cho phép tạm hoãn thông báo			ui	w	A	
+allow one-time access	Cho phép truy cập một lần			ui	w	A	
+allow only encrypted networks	Chỉ chấp nhận mạng đã mã hóa			ui	w	A	
+allow picture-in-picture	Cho phép chế độ hình trong hình			ui	w	A	
+allow repeat callers	Cho phép người gọi nhiều lần			ui	w	A	
+allow restricted settings	Cho phép các chế độ cài đặt bị hạn chế			ui	w	A	
+allow supervision	Cho phép giám sát?			ui	w	A	
+allow usb debugging	Cho phép gỡ lỗi qua USB?			ui	w	A	
+allow user switch	Cho phép chuyển đổi người dùng			ui	w	A	
+allow visual signals	Cho phép tín hiệu hình ảnh			ui	w	A	
+allow wep	Cho phép WEP			ui	w	A	
+allow wep networks	Cho phép kết nối với mạng WEP			ui	w	A	
+allow wi-fi multicast reception	Cho phép thu tín hiệu Wi-Fi Đa hướng			ui	w	A	
+always	Luôn luôn	Luôn chọn		ui	x	A,F	
+always allow	Luôn cho phép			ui	w	A	
+always offer to translate	Luôn đề nghị dịch			ui	w	F	
+always on	Luôn bật			ui	w	A	
+always require confirmation	Luôn yêu cầu xác nhận			ui	w	A	
+always show	Luôn hiển thị			ui	w	A	
+always show crash dialog	Luôn hiện hộp thoại sự cố			ui	w	A	
+always translate	Luôn dịch			ui	w	F,M	
+always-on vpn	VPN luôn bật			ui	w	A	
+always-on vpn connected	Đã kết nối VPN luôn bật			ui	w	A	
+always-on vpn turned on	Đã bật tùy chọn luôn bật VPN			ui	w	A	
+amber alerts	Cảnh báo AMBER			ui	w	A	
+ambient display	Màn hình sáng			ui	w	A	
+an unknown network type	Loại mạng không xác định			ui	w	A	
+analog audio accessory detected	Đã phát hiện phụ kiện âm thanh analog			ui	w	A	
+analyzing media storage	Đang phân tích dung lượng nội dung nghe nhìn			ui	w	A	
+anonymous identity	Danh tính ẩn danh			ui	w	A	
+answer phone calls	Trả lời cuộc gọi điện thoại			ui	w	A	
+any calendar	Bất kỳ lịch nào			ui	w	A	
+any weekend plans	Cuối tuần này có kế hoạch gì chưa?			ui	w	A	
+apn disabled	Đã tắt APN			ui	w	A	
+apn enabled	Đã bật APN			ui	w	A	
+apn protocol	Giao thức APN			ui	w	A	
+apn roaming protocol	Giao thức chuyển vùng APN			ui	w	A	
+apn type	Loại APN			ui	w	A	
+app battery usage	Mức sử dụng pin của ứng dụng			ui	w	A	
+app compatibility changes	Các thay đổi về khả năng tương thích của ứng dụng			ui	w	A	
+app content	Nội dung ứng dụng			ui	w	A	
+app data	Dữ liệu ứng dụng			ui	w	A	
+app data usage	Mức sử dụng dữ liệu của ứng dụng			ui	w	A	
+app default	Theo giá trị mặc định của ứng dụng			ui	w	A	
+app details	Chi tiết ứng dụng			ui	w	A	
+app info	Thông tin ứng dụng			ui	w	A	
+app is not available	Ứng dụng này không dùng được			ui	w	A	
+app is pinned	Đã ghim ứng dụng			ui	w	A	
+app language	Ngôn ngữ ứng dụng			ui	w	A	
+app languages	Ngôn ngữ ứng dụng			ui	w	A	
+app location permissions	Quyền truy cập thông tin vị trí cho ứng dụng			ui	w	A	
+app logo	Biểu trưng của ứng dụng			ui	w	A	
+app notifications	Thông báo của ứng dụng			ui	w	A	
+app optimization	Tối ưu hóa ứng dụng			ui	w	A	
+app pinned	Đã ghim ứng dụng			ui	w	A	
+app pinning	Ghim ứng dụng			ui	w	A	
+app provided sound	Âm thanh do ứng dụng cung cấp			ui	w	A	
+app ram usage	Mức sử dụng RAM của ứng dụng			ui	w	A	
+app redirected	Đã chuyển hướng ứng dụng			ui	w	A	
+app running	Ứng dụng đang chạy			ui	w	A	
+app settings	Cài đặt ứng dụng			ui	w	A	
+app shortcuts	Phím tắt cho ứng dụng			ui	w	A	
+app size	Kích thước ứng dụng			ui	w	A	
+app switch	Chuyển đổi ứng dụng			ui	w	A	
+app sync settings	Cài đặt đồng bộ hóa ứng dụng			ui	w	A	
+app unpinned	Đã bỏ ghim ứng dụng			ui	w	A	
+app usage	Sử dụng ứng dụng			ui	w	A	
+application branding image	Hình ảnh thương hiệu của ứng dụng			ui	w	A	
+application icon	Biểu tượng ứng dụng			ui	w	A	
+applications	Ứng dụng			ui	x	A	
+applications with restrictions	Ứng dụng có hạn chế			ui	w	A	
+apply to work profiles	Áp dụng cho hồ sơ công việc			ui	w	A	
+applying change	Đang áp dụng thay đổi			ui	w	A	
+apps	Ứng dụng			ui	x	A,M	
+apps are running normally	Các ứng dụng đang chạy bình thường			ui	w	A	
+apps consuming battery	Các ứng dụng tiêu thụ pin			ui	w	A	
+apps installed	Ứng dụng đã cài đặt			ui	w	A	
+apps list	Danh sách ứng dụng			ui	w	A	
+apps running in background	Ứng dụng đang chạy trong nền			ui	w	A	
+apps settings	Cài đặt ứng dụng			ui	w	A	
+apps shown on device	Ứng dụng hiển thị trên thiết bị			ui	w	A	
+apps storage	Bộ nhớ ứng dụng			ui	w	A	
+apps with permission	Các ứng dụng có quyền			ui	w	A	
+apps with usage access	ƯD có quyền tr.cập s.dụng			ui	w	A	
+apps, default	Ứng dụng, mặc định			ui	w	A	
+apps, download, applications, system	Ứng dụng, tải xuống, sự ứng dụng, hệ thống			ui	w	A	
+apps, permissions, security	Ứng dụng, quyền, bảo mật			ui	w	A	
+archiving failed	Không lưu trữ được			ui	w	A	
+artist series	Loạt nghệ sĩ			ui	w	F	
+ask before opening	Hỏi trước khi mở			ui	w	F	
+ask every time	Luôn hỏi			ui	w	A	
+ask to allow	Hỏi để cho phép			ui	w	F	
+ask to save	Yêu cầu để lưu			ui	w	F	
+ask when launched	Hỏi khi chạy			ui	w	A	
+aspect ratio	Tỷ lệ khung hình			ui	w	A	
+associated with account	Được liên kết với tài khoản			ui	w	A	
+audio adjustment	Điều chỉnh âm thanh			ui	w	A	
+audio balance	Cân bằng âm thanh			ui	w	A	
+audio device type	Loại thiết bị âm thanh			ui	w	A	
+audio during calls	Âm thanh trong cuộc gọi			ui	w	A	
+audio output	Đầu ra âm thanh			ui	w	A	
+audio sharing	Chia sẻ âm thanh			ui	w	A	
+audio sharing stopped	Đã dừng chia sẻ âm thanh			ui	w	A	
+audio sharing supports auracast™	Tính năng chia sẻ âm thanh có hỗ trợ Auracast™			ui	w	A	
+audio stream details	Thông tin về luồng âm thanh			ui	w	A	
+audio stream name	Tên luồng âm thanh			ui	w	A	
+audio stream password	Mật khẩu luồng âm thanh			ui	w	A	
+audio stream qr code	Mã QR của luồng âm thanh			ui	w	A	
+audio stream settings	Cài đặt luồng âm thanh			ui	w	A	
+audio streams	Luồng âm thanh			ui	w	A	
+audio streams nearby	Luồng âm thanh gần đây			ui	w	A	
+audio will play on	Âm thanh sẽ phát trên			ui	w	A	
+authentication canceled	Đã hủy xác thực			ui	w	A	
+authentication type	Loại xác thực			ui	w	A	
+auto click time	Thời gian tự động nhấp			ui	w	A	
+auto connected to satellite	Đã tự động kết nối với vệ tinh			ui	w	A	
+auto, fill, autofill, password	Tự động, điền, tự động điền, mật khẩu			ui	w	A	
+auto-close after one month	Tự động đóng sau một tháng?			ui	w	F	
+auto-close enabled	Tự động đóng đã bật			ui	w	F	
+auto-close open tabs	Tự động đóng các thẻ đang mở			ui	w	F	
+auto-confirm correct pin	Tự động xác nhận bằng mã PIN chính xác			ui	w	A	
+auto-confirm unlock	Mở khóa bằng cách tự động xác nhận			ui	w	A	
+auto-rotate screen	Tự động xoay màn hình			ui	w	A	
+auto-sync personal data	Tự động đồng bộ hóa dữ liệu cá nhân			ui	w	A	
+auto-sync private data	Tự động đồng bộ hóa dữ liệu riêng tư			ui	w	A	
+auto-sync work data	Tự động đồng bộ hóa dữ liệu công việc			ui	w	A	
+autoclick off	Tắt tính năng Tự động nhấp			ui	w	A	
+autocomplete urls	Tự động điền URL			ui	w	F	
+autofill	Tự động điền			ui	x	A,F,M	
+autofill in other apps	Tự động điền vào các ứng dụng khác			ui	w	F	
+autofill options	Tùy chọn tự động điền			ui	w	A	
+autofill service	Dịch vụ tự động điền			ui	w	A	
+automatic data switching	Tự động chuyển đổi dữ liệu			ui	w	A	
+automatic date and time	Ngày và giờ tự động			ui	w	A	
+automatic font sizing	Định cỡ phông chữ tự động			ui	w	F	
+automatic restore	Tự động khôi phục			ui	w	A	
+automatic system updates	Bản cập nhật hệ thống tự động			ui	w	A	
+automatic time zone	Múi giờ tự động			ui	w	A	
+automatic translation	Dịch tự động			ui	w	F,M	
+automatically caption media	Tự động tạo phụ đề cho nội dung nghe nhìn			ui	w	A	
+automatically select network	Tự động chọn mạng			ui	w	A	
+automatically sync app data	Tự động đồng bộ dữ liệu ứng dụng			ui	w	A	
+automatically turn on tomorrow	Tự động bật vào ngày mai			ui	w	A	
+available devices	Thiết bị có sẵn			ui	w	A	
+available hearing devices	Thiết bị trợ thính hiện có			ui	w	A	
+available languages	Ngôn ngữ có sẵn			ui	w	F	
+available on-screen keyboard	Bàn phím ảo có sẵn			ui	w	A	
+available watches	Những đồng hồ hỗ trợ			ui	w	A	
+average memory use	Sử dụng bộ nhớ trung bình			ui	w	A	
+back sensitivity	Độ nhạy với cử chỉ quay lại			ui	w	A	
+back to editing	Quay lại chế độ chỉnh sửa			ui	w	A	
+back up my data	Sao lưu dữ liệu của tôi			ui	w	A	
+back up my settings	Sao lưu cài đặt của tôi			ui	w	A	
+back up settings	Sao lưu cài đặt			ui	w	A	
+background	Nền	Dưới nền		ui	x	A,M	
+background activity	Hoạt động trong nền			ui	w	A	
+background color	Màu nền			ui	w	A,M	
+background data	Dữ liệu nền			ui	w	A	
+background data restricted	Dữ liệu nền bị giới hạn			ui	w	A	
+background opacity	Độ mờ của nền			ui	w	A	
+background time	Thời gian chạy ở chế độ nền			ui	w	A	
+background, personalize, customize display	Nền, cá nhân hóa, tùy chỉnh màn hình			ui	w	A	
+backup account	Tài khoản sao lưu			ui	w	A	
+backup, back up	Sao lưu			ui	w	A	
+baseband version	Phiên bản dải tần cơ sở			ui	w	A	
+based on percentage	Dựa trên mức phần trăm pin			ui	w	A	
+based on reliable reviews	Dựa trên những đánh giá đáng tin cậy			ui	w	F	
+based on your activity	Dựa trên hoạt động của bạn			ui	w	A	
+based on your routine	Dựa trên thói quen của bạn			ui	w	A	
+basic info	Thông tin cơ bản			ui	w	A	
+battery information	Thông tin về pin			ui	w	A	
+battery level low	Mức pin yếu			ui	w	A	
+battery manager	Trình quản lý pin			ui	w	A	
+battery optimization	Tối ưu hóa pin			ui	w	A	
+battery optimization not available	Không tối ưu hóa pin			ui	w	A	
+battery percentage unknown	Tỷ lệ phần trăm pin không xác định			ui	w	A	
+battery replacement recommended	Nên thay pin			ui	w	A	
+battery saver	Trình tiết kiệm pin			ui	w	A	
+battery saver is on	Trình tiết kiệm pin đang bật			ui	w	A	
+battery saver on	Trình tiết kiệm pin đang bật			ui	w	A	
+battery saver turned off	Trình tiết kiệm pin đã tắt			ui	w	A	
+battery saver turned on	Đã bật Trình tiết kiệm pin			ui	w	A	
+battery status	Tình trạng pin			ui	w	A	
+battery tips warning icon	Biểu tượng nhắc nhở về mẹo sử dụng pin			ui	w	A	
+battery usage	Mức sử dụng pin			ui	w	A	
+battery usage anomaly	Mức sử dụng pin không bình thường			ui	w	A	
+battery usage chart	Biểu đồ mức sử dụng pin			ui	w	A	
+be the status bar	Trở thành thanh trạng thái			ui	w	A	
+bedtime mode settings	Cài đặt Chế độ giờ đi ngủ			ui	w	A	
+bedtime routine	Quy trình đi ngủ			ui	w	A	
+being used by	Đang dùng bởi			ui	w	A	
+bind to carrier services	Liên kết với dịch vụ của nhà cung cấp			ui	w	A	
+biometric hardware unavailable	Không có phần cứng sinh trắc học			ui	w	A	
+biometric required to continue	Cần có dữ liệu sinh trắc học để tiếp tục			ui	w	A	
+birthday soon	Sắp đến sinh nhật			ui	w	A	
+blink light	Nhấp nháy đèn			ui	w	A	
+block ad trackers	Chặn trình theo dõi quảng cáo			ui	w	F	
+block all	Chặn tất cả			ui	w	A	
+block analytic trackers	Chặn trình theo dõi phân tích			ui	w	F	
+block audio and video	Chặn âm thanh và video			ui	w	F	
+block audio only	Chỉ chặn âm thanh			ui	w	F	
+block connections without vpn	Chặn các đường kết nối không qua VPN			ui	w	A	
+block cookies	Chặn cookie			ui	w	F	
+block cross-site cookies	Chặn cross-site cookies			ui	w	F	
+block interruptions and distractions	Chặn các yếu tố gây gián đoạn và mất tập trung			ui	w	A	
+block javascript	Chặn JavaScript			ui	w	F	
+block other content trackers	Chặn trình theo dõi khác			ui	w	F	
+block social trackers	Chặn trình theo dõi xã hội			ui	w	F	
+block trackers	Chặn theo dõi			ui	w	F	
+block visual disturbances	Ngăn gián đoạn hình ảnh			ui	w	A	
+block web fonts	Chặn phông chữ trang Web			ui	w	F	
+blocked	Đã chặn	Bị chặn		ui	x	A,F,M	
+blocked by work policy	Bị chặn theo chính sách công việc			ui	w	A	
+blocked numbers	Số bị chặn			ui	w	A	
+bluetooth address	Địa chỉ Bluetooth			ui	w	A	
+bluetooth audio	Âm thanh Bluetooth			ui	w	A	
+bluetooth connected	Đã kết nối bluetooth			ui	w	A	
+bluetooth connection request	Yêu cầu kết nối Bluetooth			ui	w	A	
+bluetooth device available	Hiện có thiết bị Bluetooth			ui	w	A	
+bluetooth device icon	Biểu tượng thiết bị Bluetooth			ui	w	A	
+bluetooth devices	Thiết bị Bluetooth			ui	w	A	
+bluetooth in-call volume	Âm lượng cuộc gọi trong Bluetooth			ui	w	A	
+bluetooth is off	Bluetooth đang tắt			ui	w	A	
+bluetooth le audio mode	Bluetooth Âm thanh năng lượng thấp			ui	w	A	
+bluetooth on	Bluetooth bật			ui	w	A	
+bluetooth only	Chỉ qua Bluetooth			ui	w	A	
+bluetooth pairing code	Mã ghép nối Bluetooth			ui	w	A	
+bluetooth pairing request	Yêu cầu ghép nối Bluetooth			ui	w	A	
+bluetooth scanning	Quét tìm Bluetooth			ui	w	A	
+bluetooth tethering	Chia sẻ Internet qua Bluetooth			ui	w	A	
+bluetooth turned on	Đã bật Bluetooth			ui	w	A	
+bluetooth volume	Âm lượng bluetooth			ui	w	A	
+bluetooth will turn on	Bluetooth sẽ bật			ui	w	A	
+bluetooth, driving mode	Bluetooth, chế độ lái xe			ui	w	A	
+bluetooth, driving mode, nfc	Bluetooth, chế độ lái xe, NFC			ui	w	A	
+bluetooth, pairing	Bluetooth, ghép nối			ui	w	A	
+body sensors	Cảm biến cơ thể			ui	w	A	
+bold text	Văn bản in đậm			ui	w	A	
+bookmark saved	Đã lưu dấu trang!			ui	w	F	
+bookmarks deleted	Đã xóa dấu trang			ui	w	F	
+bookmarks menu	Trình đơn dấu trang			ui	w	F	
+bookmarks saved	Đã lưu dấu trang!			ui	w	F	
+bookmarks toolbar	Thanh dấu trang			ui	w	F	
+bootloader is already unlocked	Đã mở khóa trình tải khởi động			ui	w	A	
+bootloader unlock required	Cần mở khóa trình tải khởi động			ui	w	A	
+bottom handle	Ô điều khiển dưới cùng			ui	w	A	
+bottom-right click	Nhấp vào góc cuối bên phải			ui	w	A	
+bounce key threshold	Ngưỡng phím nảy			ui	w	A	
+bounce keys	Phím nảy			ui	w	A	
+brightness level	Độ sáng			ui	w	A	
+broadcast name	Tên thiết bị truyền			ui	w	A	
+browse media files	Duyệt xem các tệp nội dung nghe nhìn			ui	w	A	
+browse without a trace	Duyệt web không để lại dấu vết			ui	w	F	
+browser app	Ứng dụng trình duyệt			ui	w	A	
+browsing data deleted	Đã xóa dữ liệu duyệt web			ui	w	F	
+browsing history	Lịch sử duyệt web			ui	w	F	
+browsing history cleared	Lịch sử duyệt web đã bị xóa			ui	w	F	
+browsing history cleared! 🎉	Đã xóa lịch sử duyệt web! 🎉			ui	w	F	
+bubble this conversation	Hiện cuộc trò chuyện này ở dạng bong bóng			ui	w	A	
+bug report handler	Trình xử lý báo cáo lỗi			ui	w	A	
+build number	Số bản dựng			ui	w	A	
+build version	Phiên bản đóng gói			ui	w	A	
+built-in display	Màn hình tích hợp			ui	w	A	
+built-in screen	Màn hình tích hợp			ui	w	A	
+bundled notifications	Thông báo theo nhóm			ui	w	A	
+business trip report	Báo cáo về chuyến công tác			ui	w	A	
+button navigation	Thao tác bằng nút			ui	w	A	
+bypass proxy for	Bỏ qua proxy cho			ui	w	A	
+ca certificate	Chứng chỉ CA			ui	w	A	
+ca certificates	Chứng chỉ CA			ui	w	A	
+cached background process	Các quá trình nền đã lưu trong bộ nhớ đệm			ui	w	A	
+cached images and files	Hình ảnh và tập tin đã lưu trong bộ nhớ đệm			ui	w	F	
+calendar app	Ứng dụng Lịch			ui	w	A	
+calendar events	Sự kiện trên lịch			ui	w	A	
+call audio	Âm thanh cuộc gọi			ui	w	A	
+call callback	Gọi số gọi lại			ui	w	A	
+call car	Gọi số điện thoại trên ô tô			ui	w	A	
+call company main	Gọi số điện thoại chính của công ty			ui	w	A	
+call devices	Thiết bị gọi điện			ui	w	A	
+call fax	Gọi số fax			ui	w	A	
+call for help	Gọi để được trợ giúp			ui	w	A	
+call from work app	Gọi bằng ứng dụng công việc?			ui	w	A	
+call home	Gọi về nhà			ui	w	A	
+call home fax	Gọi số fax nhà riêng			ui	w	A	
+call isdn	Gọi ISDN			ui	w	A	
+call logs	Nhật ký cuộc gọi			ui	w	A	
+call main	Gọi số điện thoại chính			ui	w	A	
+call mms	Gọi MMS			ui	w	A	
+call mobile	Gọi số điện thoại di động			ui	w	A	
+call over mobile network	Gọi qua mạng di động			ui	w	A	
+call over wi-fi	Gọi qua Wi-Fi			ui	w	A	
+call pager	Gọi số máy nhắn tin			ui	w	A	
+call radio	Gọi số điện thoại radio			ui	w	A	
+call settings	Cài đặt cuộc gọi			ui	w	A	
+call settings error	Lỗi với phần Cài đặt cuộc gọi			ui	w	A	
+call telex	Gọi số telex			ui	w	A	
+call volume	Âm lượng cuộc gọi			ui	w	A	
+call waiting	Chờ cuộc gọi			ui	w	A	
+call with	Gọi bằng			ui	w	A	
+call with a note	Gọi điện kèm theo ghi chú			ui	w	A	
+call work	Gọi số điện thoại cơ quan			ui	w	A	
+call work fax	Gọi số fax cơ quan			ui	w	A	
+call work mobile	Gọi số điện thoại di động tại cơ quan			ui	w	A	
+call work pager	Gọi số máy nhắn tin tại cơ quan			ui	w	A	
+calling number delivery	Gửi số đang gọi			ui	w	A	
+calling number present	Số đang gọi hiện có			ui	w	A	
+calling number restricted	Số đang gọi bị hạn chế			ui	w	A	
+calling on	Đang gọi điện			ui	w	A	
+calling preference	Tùy chọn cuộc gọi			ui	w	A	
+calls and alarms	Cuộc gọi và chuông báo			ui	w	A	
+calls preference	Lựa chọn ưu tiên cho cuộc gọi			ui	w	A	
+calls that can interrupt	Những cuộc gọi có thể làm gián đoạn chế độ Không làm phiền			ui	w	A	
+camera access needed	Cần quyền truy cập vào máy ảnh			ui	w	A	
+camera and microphone blocked	Máy ảnh và micrô bị chặn			ui	w	A	
+camera available	Máy ảnh đang bật			ui	w	A	
+camera blocked	Máy ảnh bị chặn			ui	w	A	
+camera flash	Đèn flash của camera			ui	w	A	
+camera in use	Máy ảnh đang được sử dụng			ui	w	A	
+camera is blocked	Máy ảnh bị chặn			ui	w	A	
+camera is locked	Máy ảnh bị khóa			ui	w	A	
+camera is off	Camera đang tắt			ui	w	A	
+camera laser sensor	Cảm biến laser của máy ảnh			ui	w	A	
+camera permissions	Quyền truy cập máy ảnh			ui	w	A	
+camera turned off	Đã tắt máy ảnh			ui	w	A	
+camera turned on	Đã bật máy ảnh			ui	w	A	
+camera unavailable	Không dùng được máy ảnh			ui	w	A	
+can access all files	Có thể truy cập vào tất cả các tệp			ui	w	A	
+can install other apps	Có thể cài đặt ứng dụng khác			ui	w	A	
+can modify system settings	Có thể sửa đổi các chế độ cài đặt hệ thống			ui	w	A	
+can show badge	Có thể hiển thị huy hiệu			ui	w	A	
+cancel authentication	Hủy quy trình xác thực			ui	w	A	
+cancel downloads	Hủy tải xuống			ui	w	F	
+cancel invitation	Hủy lời mời?			ui	w	A	
+cancel private downloads	Hủy các tải xuống riêng tư?			ui	w	F	
+cancel sync	Hủy đồng bộ hóa			ui	w	A	
+can’t change volume	Không thể thay đổi âm lượng			ui	w	A	
+can’t edit default folders	Không thể chỉnh sửa các thư mục mặc định			ui	w	F	
+can’t make calls	Không thể gọi điện			ui	w	A	
+can’t open this app	Không thể mở ứng dụng này			ui	w	A	
+can’t remove all languages	Không thể xóa tất cả ngôn ngữ			ui	w	A	
+can’t save password	Không thể lưu mật khẩu			ui	w	F	
+can’t send sms messages	Không thể gửi tin nhắn SMS			ui	w	A	
+can’t take screenshots	Không thể chụp ảnh màn hình			ui	w	A	
+can’t update this info	Không thể cập nhật thông tin này			ui	w	A	
+can’t use camera	Không thể sử dụng máy ảnh			ui	w	A	
+caption preferences	Tùy chọn phụ đề			ui	w	A	
+caption size	Kích thước phụ đề			ui	w	A	
+caption size and style	Cỡ chữ và kiểu phụ đề			ui	w	A	
+caption style	Kiểu phụ đề			ui	w	A	
+caption window color	Màu của cửa sổ phụ đề			ui	w	A	
+caption window opacity	Độ mờ của cửa sổ phụ đề			ui	w	A	
+captions overlay	Lớp phủ phụ đề			ui	w	A	
+capture image	Chụp ảnh			ui	w	A	
+capture image with	Chụp ảnh bằng			ui	w	A	
+capture more	Chụp thêm			ui	w	A	
+capture system heap dump	Ghi tệp báo lỗi cho hệ thống			ui	w	A	
+capturing system heap dump	Đang ghi tệp báo lỗi cho hệ thống			ui	w	A	
+car mode	Chế độ trên ô tô			ui	w	A	
+carrier service numbers	Số dịch vụ của nhà mạng			ui	w	A	
+carrier settings	Cài đặt nhà mạng			ui	w	A	
+carrier settings version	Phiên bản cài đặt nhà mạng			ui	w	A	
+carrier switching	Chuyển nhà mạng			ui	w	A	
+carrier video calling	Tính năng gọi video của nhà mạng			ui	w	A	
+cast	Truyền			ui	x	A,M	
+cast entire screen	Truyền toàn bộ màn hình			ui	w	A	
+cast one app	Truyền một ứng dụng			ui	w	A	
+cast screen	Màn hình truyền			ui	w	A	
+cast screen to device	Truyền màn hình tới thiết bị			ui	w	A	
+cast volume	Âm lượng truyền			ui	w	A	
+cast your screen	Truyền màn hình?			ui	w	A	
+casting screen	Đang truyền màn hình			ui	w	A	
+casting your media	Truyền nội dung đa phương tiện			ui	w	A	
+cdma subscription	Gói đăng ký CDMA			ui	w	A	
+cell added	Đã thêm ô			ui	w	A	
+certificate management app	Ứng dụng quản lý chứng chỉ			ui	w	A	
+certificate not installed	Chưa cài đặt chứng chỉ			ui	w	A	
+certificate pinning	Ghim chứng chỉ			ui	w	A	
+certificate required	Cần có chứng chỉ			ui	w	A	
+change	Thay đổi			ui	x	A,M	
+change contact photo	Thay đổi ảnh của liên hệ			ui	w	A	
+change font size	Thay đổi cỡ chữ			ui	w	A	
+change how text displays	Thay đổi cách hiển thị văn bản			ui	w	A	
+change input device calibration	Thay đổi hiệu chỉnh thiết bị đầu vào			ui	w	A	
+change language	Thay đổi ngôn ngữ			ui	w	A	
+change magnification type	Thay đổi kiểu phóng to			ui	w	A	
+change media output	Thay đổi đầu ra đa phương tiện			ui	w	A	
+change network connectivity	Thay đổi kết nối mạng			ui	w	A	
+change output	Thay đổi đầu ra			ui	w	A	
+change photo	Thay đổi ảnh			ui	w	A	
+change settings	Thay đổi chế độ cài đặt			ui	w	A	
+change sim pin	Thay đổi mã PIN của SIM			ui	w	A	
+change sms app	Thay đổi ứng dụng SMS?			ui	w	A	
+change storage	Thay đổi bộ nhớ			ui	w	A	
+change tethered connectivity	Thay đổi kết nối được dùng làm điểm truy cập Internet			ui	w	A	
+change the screen lock	Thay đổi phương thức khóa màn hình			ui	w	A	
+change to always interrupt	Đổi sang luôn làm gián đoạn			ui	w	A	
+change unlock pattern	Thay đổi hình mở khóa			ui	w	A	
+change unlock pin	Thay đổi mã PIN mở khóa			ui	w	A	
+change wallpaper	Thay đổi hình nền			ui	w	A	
+change wimax state	Thay đổi trạng thái WiMAX			ui	w	A	
+change your audio settings	Thay đổi cài đặt âm thanh của bạn			ui	w	A	
+changed apps	Đã thay đổi			ui	w	A	
+changes not saved	Chưa lưu các thay đổi			ui	w	A	
+charge connected device	Sạc thiết bị được kết nối			ui	w	A	
+charging connected device	Sạc thiết bị được kết nối			ui	w	A	
+charging sounds and vibration	Âm thanh và rung khi sạc			ui	w	A	
+charging this device	Đang sạc thiết bị này			ui	w	A	
+chartreuse green	Xanh lục nhạt			ui	w	A	
+chat using aim	Trò chuyện sử dụng AIM			ui	w	A	
+chat using icq	Trò chuyện sử dụng ICQ			ui	w	A	
+chat using jabber	Trò chuyện sử dụng Jabber			ui	w	A	
+chat using qq	Trò chuyện sử dụng QQ			ui	w	A	
+chat using skype	Trò chuyện sử dụng Skype			ui	w	A	
+chat using windows live	Trò chuyện sử dụng Windows Live			ui	w	A	
+chat using yahoo	Trò chuyện sử dụng Yahoo			ui	w	A	
+check access settings	Hãy kiểm tra chế độ cài đặt quyền truy cập			ui	w	A	
+check active apps	Xem các ứng dụng đang hoạt động			ui	w	A	
+check charging accessory	Hãy kiểm tra phụ kiện sạc			ui	w	A	
+check for update	Kiểm tra để tìm bản cập nhật			ui	w	A	
+check now	Kiểm tra ngay			ui	w	F	
+check review quality	Kiểm tra chất lượng đánh giá			ui	w	F	
+choose a color	Chọn một màu			ui	w	F	
+choose a contact	Chọn người liên hệ			ui	w	A	
+choose a feature	Chọn một tính năng			ui	w	A	
+choose a language	Chọn ngôn ngữ			ui	w	F	
+choose a login provider	Chọn một nhà cung cấp đăng nhập			ui	w	F	
+choose a screen lock	Chọn phương thức khóa màn hình			ui	w	A	
+choose a screen saver	Chọn một trình bảo vệ màn hình			ui	w	A	
+choose account	Chọn tài khoản			ui	w	A	
+choose activity	Chọn hoạt động			ui	w	A	
+choose an account	Chọn tài khoản			ui	w	A	
+choose an action	Chọn một tác vụ			ui	w	A	
+choose an app	Chọn một ứng dụng			ui	w	A	
+choose an icon	Chọn một biểu tượng			ui	w	A	
+choose app to cast	Chọn ứng dụng để truyền			ui	w	A	
+choose app to record	Chọn ứng dụng để ghi			ui	w	A	
+choose app to share	Chọn ứng dụng để chia sẻ			ui	w	A	
+choose apps to install	Chọn ứng dụng để cài đặt			ui	w	A	
+choose bluetooth device	Chọn thiết bị Bluetooth			ui	w	A	
+choose contact	Chọn liên hệ			ui	w	A	
+choose contact to edit	Chọn liên hệ cần chỉnh sửa			ui	w	A	
+choose contacts	Chọn liên hệ			ui	w	A	
+choose different network	Chọn mạng khác			ui	w	A	
+choose filter options	Chọn tùy chọn bộ lọc			ui	w	A	
+choose gadget	Chọn tiện ích			ui	w	A	
+choose game	Chọn trò chơi			ui	w	A	
+choose how to magnify	Chọn cách phóng to			ui	w	A	
+choose input method	Chọn phương thức nhập			ui	w	A	
+choose keyboard layout	Chọn bố cục bàn phím			ui	w	A	
+choose modifier key	Chọn phím bổ trợ			ui	w	A	
+choose network	Chọn mạng			ui	w	A	
+choose new lock	Chọn phương thức khóa mới			ui	w	A	
+choose photo	Chọn ảnh			ui	w	A	
+choose schedule type	Chọn loại lịch biểu			ui	w	A	
+choose screen lock	Chọn phương thức khóa màn hình			ui	w	A	
+choose search engine	Chọn công cụ tìm kiếm			ui	w	F	
+choose spell checker	Chọn trình kiểm tra chính tả			ui	w	A	
+choose user	Chọn người dùng			ui	w	A	
+choose wallpaper from	Chọn hình nền từ			ui	w	A	
+choose what to sync	Chọn những gì để đồng bộ hóa			ui	w	F	
+choose widget	Chọn tiện ích			ui	w	A	
+choose your screen saver	Chọn trình bảo vệ màn hình			ui	w	A	
+choose your watch	Chọn đồng hồ			ui	w	A	
+circle to search	Khoanh tròn để tìm kiếm			ui	w	A	
+clear access	Xóa quyền truy cập			ui	w	A	
+clear all	Xóa tất cả			ui	w	A	
+clear all notifications	Xóa tất cả thông báo			ui	w	A	
+clear all silent notifications	Xóa tất cả thông báo im lặng			ui	w	A	
+clear app	Xóa ứng dụng			ui	w	A	
+clear credentials	Xóa thông tin xác thực			ui	w	A	
+clear default	Xóa mặc định			ui	w	A	
+clear default preferences	Xóa các tùy chọn mặc định			ui	w	A	
+clear frequently contacted	Xóa danh sách liên hệ thường xuyên?			ui	w	A	
+clear hostname	Xóa tên máy chủ			ui	w	F	
+clear input	Xóa trắng			ui	w	F	
+clear password	Xóa mật khẩu			ui	w	F	
+clear permission	Xóa quyền			ui	w	F	
+clear permissions	Xóa các quyền			ui	w	F	
+clear query	Xóa truy vấn			ui	w	A	
+clear recent conversations	Xóa cuộc trò chuyện gần đây			ui	w	A	
+clear search	Xóa tìm kiếm			ui	w	A	
+clear search query	Xóa cụm từ tìm kiếm			ui	w	A	
+clear storage	Xóa bộ nhớ			ui	w	A	
+clear username	Xóa tên người dùng			ui	w	F	
+click for more details	Chạm để biết thêm chi tiết			ui	w	F	
+client expenses	Chi phí của khách hàng			ui	w	A	
+clipboard editor	Trình chỉnh sửa bảng nhớ tạm			ui	w	A	
+clock, military	Đồng hồ, quân sự			ui	w	A	
+clone profile accounts	Tài khoản của hồ sơ nhân bản			ui	w	A	
+cloned apps	Nhân bản ứng dụng			ui	w	A	
+close after one day	Đóng sau một ngày			ui	w	F	
+close after one month	Đóng sau một tháng			ui	w	F	
+close after one week	Đóng sau một tuần			ui	w	F	
+close all inactive tabs	Đóng tất cả các thẻ không hoạt động			ui	w	F	
+close all tabs	Đóng tất cả các thẻ			ui	w	F	
+close app	Đóng ứng dụng			ui	w	A	
+close captions tip	Đóng mẹo về chú thích			ui	w	A	
+close magnification settings	Đóng bảng cài đặt tính năng phóng to			ui	w	A	
+close manually	Đóng thủ công			ui	w	F	
+close navigation drawer	Đóng ngăn điều hướng			ui	w	A	
+close other apps	Đóng ứng dụng khác			ui	w	A	
+close overflow	Đóng tràn			ui	w	A	
+close popup	Đóng cửa sổ bật lên			ui	w	F	
+close quick settings	Đóng cài đặt nhanh			ui	w	A	
+close reader view	Đóng chế độ đọc sách			ui	w	F	
+close review checker	Đóng trình kiểm tra đánh giá			ui	w	F	
+close tabs	Đóng thẻ			ui	w	F	
+close this app	Đóng ứng dụng này			ui	w	A	
+collapse icon	Biểu tượng Thu gọn			ui	w	A	
+collapse inactive tabs	Thu gọn các thẻ không hoạt động			ui	w	F	
+collapse name fields	Thu gọn trường tên			ui	w	A	
+collapse phonetic name fields	Thu gọn trường tên theo phiên âm			ui	w	A	
+collapse saved addresses	Thu gọn địa chỉ đã lưu			ui	w	F	
+collapse saved cards	Thu gọn thẻ đã lưu			ui	w	F	
+collapse saved passwords	Thu gọn mật khẩu đã lưu			ui	w	F	
+collapse suggested addresses	Thu gọn các địa chỉ được đề xuất			ui	w	F	
+collapse suggested credit cards	Thu gọn thẻ tín dụng được đề xuất			ui	w	F	
+collapse suggested logins	Thu gọn thông tin đăng nhập được đề xuất			ui	w	F	
+collection deleted	Đã xóa bộ sưu tập			ui	w	F	
+collection menu	Menu bộ sưu tập			ui	w	F	
+collection name	Tên bộ sưu tập			ui	w	F	
+collection renamed	Đã đổi tên bộ sưu tập			ui	w	F	
+collection saved	Đã lưu bộ sưu tập!			ui	w	F	
+color and motion	Màu sắc và chuyển động			ui	w	A	
+color contrast	Độ tương phản màu			ui	w	A	
+color correction	Chỉnh màu			ui	w	A	
+color correction shortcut	Phím tắt chỉnh màu			ui	w	A	
+color inversion	Đảo màu			ui	w	A	
+color inversion shortcut	Lối tắt cho đảo màu			ui	w	A	
+color preview	Xem trước màu			ui	w	A	
+common name	Tên chung			ui	w	A	
+communal	Dùng chung			ui	x	A	
+communal settings	Các chế độ cài đặt dùng chung			ui	w	A	
+company main	Số chính ở nơi làm việc			ui	w	A	
+compatible controls unavailable	Không có các chức năng điều khiển tương thích			ui	w	A	
+complete action	Hoàn thành tác vụ			ui	w	A	
+condition provider	Trình cung cấp điều kiện			ui	w	A	
+conference call	Cuộc gọi nhiều bên			ui	w	A	
+configure physical keyboards	Định cấu hình bàn phím vật lý			ui	w	A	
+confirm desired pin code	Xác nhận mã PIN mong muốn			ui	w	A	
+confirm navigation	Xác nhận điều hướng			ui	w	A	
+confirm new pin	Xác nhận mã PIN mới			ui	w	A	
+confirm using your fingerprint	Xác nhận bằng vân tay của bạn			ui	w	F	
+confirm your pattern	Xác nhận hình mở khóa của bạn			ui	w	A	
+connect	Kết nối			ui	x	A,M	
+connect a compatible device	Kết nối một thiết bị tương thích			ui	w	A	
+connect a device	Kết nối thiết bị			ui	w	A	
+connect another device	Kết nối thiết bị khác			ui	w	F	
+connect compatible headphones	Hãy kết nối tai nghe tương thích			ui	w	A	
+connect these apps	Kết nối những ứng dụng này			ui	w	A	
+connect to bluetooth device	Kết nối với thiết bị Bluetooth?			ui	w	A	
+connect to device	Kết nối với thiết bị			ui	w	A	
+connected	Đã kết nối			ui	x	A	
+connected compatible headphones	Tai nghe tương thích được kết nối			ui	w	A	
+connected device	Thiết bị đã kết nối			ui	w	A	
+connected devices	Thiết bị đã kết nối			ui	w	A	
+connected devices settings	Cài đặt thiết bị đã kết nối			ui	w	A	
+connected line id	ID đường kết nối			ui	w	A	
+connected line id restriction	Giới hạn ID đường kết nối			ui	w	A	
+connected to multiple devices	Đã kết nối với nhiều thiết bị			ui	w	A	
+connected to unencrypted network	Đã kết nối với mạng chưa được mã hóa			ui	w	A	
+connecting	Đang kết nối			ui	x	A	
+connection failed	Không kết nối được			ui	w	A	
+connection is not secure	Kết nối không an toàn			ui	w	F	
+connection is secure	Kết nối an toàn			ui	w	F	
+connection not secure	Kết nối không an toàn			ui	w	F	
+connection preferences	Lựa chọn ưu tiên về kết nối			ui	w	A	
+connection strength	Cường độ tín hiệu kết nối			ui	w	A	
+connection successful	Kết nối thành công			ui	w	A	
+contact photo	Ảnh của liên hệ			ui	w	A	
+contact received over nfc	L.h nhận qua NFC			ui	w	A	
+contact saved	Đã lưu địa chỉ liên hệ			ui	w	A	
+contact the device manufacturer	Liên hệ với nhà sản xuất thiết bị			ui	w	A	
+contact was removed	Liên hệ đã bị xóa			ui	w	A	
+contact your it admin	Liên hệ với quản trị viên CNTT của bạn			ui	w	A	
+contactless payments	Thanh toán không tiếp xúc			ui	w	A	
+contacts app	Ứng dụng Danh bạ			ui	w	A	
+contacts linked	Đã liên kết liên hệ			ui	w	A	
+contacts settings	Cài đặt địa chỉ liên hệ			ui	w	A	
+contacts storage	Bộ nhớ danh bạ			ui	w	A	
+contacts unlinked	Đã hủy liên kết liên hệ			ui	w	A	
+contacts, storage, account	Danh bạ, bộ nhớ, tài khoản			ui	w	A	
+content blocking	Chặn nội dung			ui	w	F	
+content copied	Đã sao chép nội dung			ui	w	A	
+content transfer is done	Đã hòan tất chuyển nội dung			ui	w	A	
+contextual education	Hướng dẫn theo bối cảnh			ui	w	A	
+continue anyway	Vẫn tiếp tục			ui	w	A	
+continue on phone	Tiếp tục trên điện thoại			ui	w	A	
+continue setup	Tiếp tục thiết lập			ui	w	A	
+continue to website	Tiếp tục với trang web			ui	w	F	
+continue verifying your fingerprint	Tiếp tục xác minh vân tay của bạn?			ui	w	A	
+continue with add-ons disabled	Tiếp tục với tiện ích bị vô hiệu hóa			ui	w	F	
+continue without face unlock	Tiếp tục mà không thiết lập tính năng Mở khóa bằng khuôn mặt			ui	w	A	
+continue without fingerprint	Tiếp tục mà không thiết lập vân tay			ui	w	A	
+control display magnification	Kiểm soát thu phóng màn hình			ui	w	A	
+control is unavailable	Không có chức năng điều khiển			ui	w	A	
+control near field communication	Kiểm soát Liên lạc trường gần			ui	w	A	
+control vibration	Kiểm soát rung			ui	w	A	
+conversation removed	Đã xóa cuộc trò chuyện			ui	w	A	
+conversation section	Phần cuộc trò chuyện			ui	w	A	
+conversation widgets	Tiện ích trò chuyện			ui	w	A	
+conversations settings	Cài đặt cuộc trò chuyện			ui	w	A	
+convert to esim	Đổi sang eSIM			ui	w	A	
+convert videos to avc	Chuyển đổi video sang AVC			ui	w	A	
+cookie banner blocker	Trình chặn biểu ngữ cookie			ui	w	F	
+cookie banner reduction	Giảm biểu ngữ cookie			ui	w	F	
+cookies and site data	Cookie và dữ liệu trang			ui	w	F	
+cookies from unvisited sites	Cookie từ các trang web chưa truy cập			ui	w	F	
+cool color temperature	Nhiệt độ màu lạnh			ui	w	A	
+copied to clipboard	Đã sao chép vào khay nhớ tạm			ui	w	F	
+copy password	Sao chép mật khẩu			ui	w	F	
+copy url	Sao chép URL			ui	w	A	
+copy username	Sao chép tên người dùng			ui	w	F	
+correct mistyped words	Sửa từ bị đánh sai			ui	w	A	
+could not open file	Không thể mở tập tin			ui	w	F	
+couldn’t change wallpaper	Không thể thay đổi hình nền			ui	w	F	
+couldn’t download wallpaper	Không thể tải xuống hình nền			ui	w	F	
+country detector	Trình phát hiện quốc gia			ui	w	A	
+country or region	Quốc gia hoặc khu vực			ui	w	F	
+create a mode	Tạo một chế độ			ui	w	A	
+create label	Tạo nhãn			ui	w	A	
+create new	Tạo mới			ui	w	A	
+create new contact	Tạo người liên hệ mới			ui	w	A	
+create shortcut	Tạo phím tắt			ui	w	A	
+create your own mode	Tạo chế độ của riêng bạn			ui	w	A	
+creating a personal copy	Đang tạo bản sao cá nhân			ui	w	A	
+credential details	Chi tiết về thông tin xác thực			ui	w	A	
+credential storage	Vùng lưu trữ thông tin xác thực			ui	w	A	
+credential storage is erased	Bộ nhớ thông tin xác thực đã bị xóa			ui	w	A	
+credit cards	Thẻ tín dụng			ui	w	F	
+cross-profile calendar	Lịch hồ sơ chéo			ui	w	A	
+cross-site cookies	Cookie trên nhiều trang web			ui	w	F	
+cross-site tracking cookies	Cookie theo dõi chéo trang web			ui	w	F	
+current app	Ứng dụng hiện tại			ui	w	A	
+current pin	Mã PIN hiện tại			ui	w	A	
+current screen lock	Phương thức khóa màn hình hiện tại			ui	w	A	
+custom add-on collection	Bộ sưu tập tiện ích tùy chỉnh			ui	w	F	
+custom app notification	Thông báo tùy chỉnh cho ứng dụng			ui	w	A	
+custom label name	Tên nhãn tùy chỉnh			ui	w	A	
+custom mode	Chế độ tùy chỉnh			ui	w	A	
+custom navigation button	Nút điều hướng tùy chỉnh			ui	w	A	
+custom options	Tùy chọn tùy chỉnh			ui	w	A	
+custom restrictions	Hạn chế tùy chỉnh			ui	w	A	
+custom search engine details	Chi tiết công cụ tìm kiếm tùy chỉnh			ui	w	F	
+custom settings	Cài đặt tùy chỉnh			ui	w	A	
+custom sync server	Tùy chỉnh máy chủ đồng bộ hóa			ui	w	F	
+custom trace settings	Cài đặt dấu vết tùy chỉnh			ui	w	A	
+custom value	Giá trị tùy chỉnh			ui	w	A	
+custom view	Chế độ xem tùy chỉnh			ui	w	A	
+customize	Tùy chỉnh			ui	x	A,F,M	
+customize button	Tùy chỉnh nút			ui	w	A	
+customize homepage	Tùy biến trang chủ			ui	w	F	
+customize keyboard shortcuts	Tùy chỉnh phím tắt			ui	w	A	
+customize lock screen	Tùy chỉnh màn hình khóa			ui	w	A	
+customize reader view	Tùy chỉnh chế độ đọc			ui	w	F	
+customize view	Tùy chỉnh chế độ xem			ui	w	A	
+customize widgets	Tùy chỉnh tiện ích			ui	w	A	
+customize your phone	Tùy chỉnh điện thoại			ui	w	A	
+customized view	Chế độ xem tùy chỉnh			ui	w	A	
+daily battery usage chart	Biểu đồ mức sử dụng pin hằng ngày			ui	w	A	
+dark theme	Giao diện tối			ui	w	A	
+data choices	Lựa chọn dữ liệu			ui	w	F	
+data is encrypted	Dữ liệu được mã hóa			ui	w	F	
+data is paused	Đã tạm dừng dữ liệu			ui	w	A	
+data limit	Hạn mức dữ liệu			ui	w	A	
+data only	Chỉ dữ liệu			ui	w	A	
+data saver is on	Trình tiết kiệm dữ liệu đang bật			ui	w	A	
+data warning	Cảnh báo dữ liệu			ui	w	A	
+data, passkey, password	Dữ liệu, khóa truy cập, mật khẩu			ui	w	A	
+date of each month	Ngày của từng tháng			ui	w	A	
+date of first use	Ngày bắt đầu sử dụng			ui	w	A	
+day and time	Ngày và giờ			ui	w	A	
+daylight savings time	Giờ mùa hè			ui	w	A	
+debug menu enabled	Menu gỡ lỗi đã được kích hoạt			ui	w	F	
+debug tools	Công cụ gỡ lỗi			ui	w	F	
+decrease day	Giảm ngày			ui	w	A	
+decrease height	Giảm chiều cao			ui	w	A	
+decrease height of magnifier	Giảm chiều cao của trình phóng to			ui	w	A	
+decrease hour	Giảm giờ			ui	w	A	
+decrease minute	Giảm phút			ui	w	A	
+decrease month	Giảm tháng			ui	w	A	
+decrease pointer scale	Giảm kích thước con trỏ			ui	w	A	
+decrease width of magnifier	Giảm chiều rộng của trình phóng to			ui	w	A	
+decrease year	Giảm năm			ui	w	A	
+default alarm sound	Âm thanh chuông báo mặc định			ui	w	A	
+default apps	Ứng dụng mặc định			ui	w	A	
+default autofill service	Dịch vụ tự động điền mặc định			ui	w	A	
+default browser, language	Trình duyệt, ngôn ngữ mặc định			ui	w	F	
+default digital assistant app	Ứng dụng trợ lý kỹ thuật số mặc định			ui	w	A	
+default disabled changes	Các thay đổi bị tắt theo mặc định			ui	w	A	
+default enabled changes	Các thay đổi được bật theo mặc định			ui	w	A	
+default for calls	Sử dụng mặc định cho cuộc gọi			ui	w	A	
+default for mobile data	Sử dụng mặc định cho dữ liệu di động			ui	w	A	
+default for sms	Sử dụng mặc định cho SMS			ui	w	A	
+default keyboard	Bàn phím mặc định			ui	w	A	
+default notification sound	Âm thanh thông báo mặc định			ui	w	A	
+default payment app	Ứng dụng thanh toán mặc định			ui	w	A	
+default ringtone	Nhạc chuông mặc định			ui	w	A	
+default search engine	Công cụ tìm kiếm mặc định			ui	w	F	
+default spell checker	Trình kiểm tra chính tả mặc định			ui	w	A	
+default usb configuration	Cấu hình USB mặc định			ui	w	A	
+default work alarm sound	Âm thanh chuông báo công việc mặc định			ui	w	A	
+default work notification sound	Âm thanh thông báo công việc mặc định			ui	w	A	
+default, assistant	Mặc định, trợ lý			ui	w	A	
+delay before repeat	Độ trễ trước khi lặp lại			ui	w	A	
+delay, dexterity, senior	Chậm trễ, khéo léo, người cao tuổi			ui	w	A	
+delete address	Xóa địa chỉ			ui	w	F	
+delete all app clones	Xóa mọi bản sao của ứng dụng			ui	w	A	
+delete all exceptions	Xóa tất cả ngoại lệ			ui	w	F	
+delete apn	Xóa APN			ui	w	A	
+delete app data	Xóa dữ liệu ứng dụng?			ui	w	A	
+delete browsing data	Xóa dữ liệu duyệt web			ui	w	F	
+delete collection	Xóa bộ sưu tập			ui	w	F	
+delete from history	Xóa khỏi lịch sử			ui	w	F	
+delete history	Xóa lịch sử			ui	w	F	
+delete intent	Cơ chế xóa			ui	w	A	
+delete label	Xóa nhãn			ui	w	A	
+delete limit exceeded	Đã vượt quá giới hạn xóa			ui	w	A	
+delete profile	Xóa cấu hình			ui	w	A	
+delete schedules	Xóa lịch biểu			ui	w	A	
+delete selected contacts	Bạn muốn xóa các liên hệ đã chọn?			ui	w	A	
+delete the items	Xóa mục			ui	w	A	
+delete this address	Xóa địa chỉ này?			ui	w	F	
+delete this contact	Xóa người liên hệ này?			ui	w	A	
+delete this user	Xóa người dùng này?			ui	w	A	
+delete user	Xóa người dùng			ui	w	A	
+delete yourself	Xóa chính bạn?			ui	w	A	
+deleted by your admin	Do quản trị viên của bạn xóa			ui	w	A	
+deleting browsing data	Đang xóa dữ liệu duyệt web			ui	w	F	
+deleting selected folders	Đang xóa các thư mục đã chọn			ui	w	F	
+deliver companion messages	Gửi thông báo đồng hành			ui	w	A	
+depends on another setting	Phụ thuộc vào một cài đặt khác			ui	w	A	
+deselect all	Bỏ chọn tất cả			ui	w	F	
+desktop bookmarks	Dấu trang Desktop			ui	w	F	
+desktop site	Trang web cho máy tính			ui	w	F	
+dessert case	Tủ trưng bày bánh ngọt			ui	w	A	
+developer driver	Trình điều khiển dành cho nhà phát triển			ui	w	A	
+developer messages	Thông báo liên quan đến nhà phát triển			ui	w	A	
+developer tools	Công cụ nhà phát triển			ui	w	F	
+device admin	Quản trị viên thiết bị			ui	w	A	
+device admin app	Ứng dụng quản trị thiết bị			ui	w	A	
+device admin apps	Ứng dụng quản trị thiết bị			ui	w	A	
+device admin settings	Cài đặt quản trị viên thiết bị			ui	w	A	
+device aspect ratio	Tỷ lệ khung hình của thiết bị			ui	w	A	
+device audio	Âm thanh trên thiết bị			ui	w	A	
+device audio and microphone	Âm thanh trên thiết bị và micrô			ui	w	A	
+device connected as webcam	Đã kết nối thiết bị dưới dạng webcam			ui	w	A	
+device controls	Điều khiển thiết bị			ui	w	A	
+device default	Theo giá trị mặc định của thiết bị			ui	w	A	
+device diagnostics	Chẩn đoán thiết bị			ui	w	A	
+device found	Đã tìm thấy thiết bị			ui	w	A	
+device id accessed	Mã thiết bị đã bị truy cập			ui	w	A	
+device identifiers	Mã nhận dạng thiết bị			ui	w	A	
+device is managed	Thiết bị được quản lý			ui	w	A	
+device is too warm	Thiết bị quá nóng			ui	w	A	
+device location needed	Cần có thông tin vị trí của thiết bị			ui	w	A	
+device locked	Đã khóa thiết bị			ui	w	A	
+device mac address	Địa chỉ MAC của thiết bị			ui	w	A	
+device management	Quản lý thiết bị			ui	w	A,M	
+device memory	Bộ nhớ thiết bị			ui	w	A	
+device only	Chỉ thiết bị			ui	w	A	
+device policy manager service	Dịch vụ quản lý chính sách thiết bị			ui	w	A	
+device security	Bảo mật thiết bị			ui	w	A,M	
+device storage	Bộ nhớ của thiết bị			ui	w	A	
+device theme	Giao diện thiết bị			ui	w	A	
+device unlock	Mở khóa thiết bị			ui	w	A	
+dial pad tones	Âm bàn phím số			ui	w	A	
+digital assistant	Trợ lý kỹ thuật số			ui	w	A	
+digital assistant app	Ứng dụng trợ lý kỹ thuật số			ui	w	A	
+dim the wallpaper	Giảm độ sáng hình nền			ui	w	A	
+direct dial	Quay số trực tiếp			ui	w	A	
+direct message	Tin nhắn trực tiếp			ui	w	A	
+directions to location	Chỉ đường tới địa điểm			ui	w	A	
+directly call phone numbers	Gọi trực tiếp số điện thoại			ui	w	A	
+disable adb authorization timeout	Tắt thời gian chờ ủy quyền adb			ui	w	A	
+disable always on display	Tắt chế độ màn hình luôn bật			ui	w	A	
+disable app	Tắt ứng dụng			ui	w	A	
+disable background data	Tắt dữ liệu nền?			ui	w	A	
+disable bluetooth le audio	Tắt âm thanh năng lượng thấp qua Bluetooth			ui	w	A	
+disable cameras	Vô hiệu hóa máy ảnh			ui	w	A	
+disable child process restrictions	Tắt các mục hạn chế đối với tiến trình con			ui	w	A	
+disable private browsing	Tắt duyệt web riêng tư			ui	w	F	
+disable screen share protections	Tắt tính năng bảo vệ khi chia sẻ màn hình			ui	w	A	
+disable your screen lock	Vô hiệu hóa khóa màn hình của bạn			ui	w	A	
+disabled apps	Ứng dụng bị tắt			ui	w	A	
+discard changes	Loại bỏ thay đổi?			ui	w	A	
+discard customizations	Loại bỏ các mục tùy chỉnh?			ui	w	A	
+disconnect device	Ngắt kết nối thiết bị?			ui	w	A	
+disconnect this vpn	Ngắt kết nối VPN này?			ui	w	A	
+disconnected	Đã ngắt kết nối			ui	x	A	
+disconnected from always-on vpn	Đã ngắt kết nối khỏi VPN luôn bật			ui	w	A	
+disconnected from vpn	Đã ngắt kết nối khỏi VPN			ui	w	A	
+discover more	Khám phá thêm nữa			ui	w	F	
+dismiss copied text	Loại bỏ văn bản đã sao chép			ui	w	A	
+dismiss find in page	Loại bỏ tìm kiếm trong trang			ui	w	F	
+dismiss notification shade	Đóng Ngăn thông báo			ui	w	A	
+dismiss screenshot	Đóng ảnh chụp màn hình			ui	w	A	
+dismiss work profile message	Đóng thông báo về hồ sơ công việc			ui	w	A	
+display	Hiển thị			ui	x	A,M	
+display brightness	Độ sáng màn hình			ui	w	A	
+display connected	Đã kết nối màn hình			ui	w	A	
+display cutout	Vết cắt trên màn hình			ui	w	A	
+display cutout, notch	Vết cắt trên màn hình, vết cắt			ui	w	A	
+display options	Lựa chọn hiển thị			ui	w	A	
+display over other apps	Hiện trên các ứng dụng khác	Hiển thị trên các ứng dụng khác		ui	w	A	
+display resolution	Độ phân giải màn hình			ui	w	A	
+display settings	Chế độ cài đặt màn hình			ui	w	A	
+display size	Kích thước hiển thị			ui	w	A	
+display size and text	Văn bản và kích thước hiển thị			ui	w	A	
+display trusted ca certificates	Hiện chứng chỉ CA tin cậy			ui	w	A	
+display white balance	Cân bằng trắng của màn hình			ui	w	A	
+display, interaction, audio	Màn hình, tương tác, âm thanh			ui	w	A	
+do it later	Thực hiện sau			ui	w	A	
+do not add tile	Không thêm ô			ui	w	A	
+do not disturb	Không làm phiền			ui	w	A,M	
+do not disturb access	Quyền truy cập chế độ Không làm phiền			ui	w	A	
+do not disturb behavior	Cách hoạt động ở chế độ Không làm phiền			ui	w	A	
+do not provide	Không cung cấp			ui	w	A	
+do nothing for now	Không thực hiện tác vụ nào bây giờ			ui	w	A	
+dock speaker plays	Phát âm đế kết nối			ui	w	A	
+dock speakers	Loa kiêm đế sạc			ui	w	A	
+docking sounds	Âm thanh khi kết nối với đế sạc			ui	w	A	
+domestic partner	Vợ chồng			ui	w	A	
+don’t allow	Không cho phép			ui	w	F	
+don’t save	Không lưu			ui	w	F	
+don’t turn on	Không bật			ui	w	A	
+don’t update	Đừng cập nhật			ui	w	F	
+double tap power button	Nhấn đúp vào nút nguồn			ui	w	A	
+double twist for camera	Xoay cổ tay hai lần để mở máy ảnh			ui	w	A	
+download and translate	Tải xuống và dịch			ui	w	F	
+download app	Tải xuống ứng dụng			ui	w	A	
+download completed	Đã hòan tất tải xuống			ui	w	F	
+download failed	Có lỗi khi tải xuống			ui	w	F	
+download paused	Đã tạm dừng tải xuống			ui	w	F	
+downloaded apps	Ứng dụng đã tải xuống			ui	w	A	
+downloads removed	Đã xóa tải xuống			ui	w	F	
+dpad center	Căn giữa bằng bàn phím di chuyển			ui	w	A	
+dpad down	Chuyển xuống dưới bằng bàn phím di chuyển			ui	w	A	
+dpad left	Chuyển sang trái bằng bàn phím di chuyển			ui	w	A	
+dpad right	Chuyển sang phải bằng bàn phím di chuyển			ui	w	A	
+dpad up	Chuyển lên trên bằng bàn phím di chuyển			ui	w	A	
+drag corner to resize	Kéo góc để thay đổi kích thước			ui	w	A	
+drag handle	Nút kéo			ui	w	A	
+drag here to remove	Kéo vào đây để xóa			ui	w	A	
+draw an unlock pattern	Vẽ hình mở khóa			ui	w	A	
+draw pattern to unlock	Vẽ hình để mở khóa			ui	w	A	
+draw your pattern	Vẽ hình của bạn			ui	w	A	
+draw your pattern again	Vẽ lại hình mở khóa			ui	w	A	
+driving app is running	Ứng dụng lái xe đang chạy			ui	w	A	
+drm-controlled content	Nội dung DRM được kiểm soát			ui	w	F	
+dual multi tone frequency	Tần số đa chuông kép			ui	w	A	
+dual screen is on	Chế độ Dual screen bật			ui	w	A	
+dual screen is unavailable	Không bật được chế độ Dual Screen			ui	w	A	
+duplicate apn entry	Mục nhập APN trùng lặp			ui	w	A	
+duration for quick settings	Thời lượng hoạt động khi bật trên trình đơn Cài đặt nhanh			ui	w	A	
+during events for	Trong sự kiện của			ui	w	A	
+during the move	Trong quá trình di chuyển			ui	w	A	
+dynamic clock	Đồng hồ linh động			ui	w	A	
+eap method	Phương pháp EAP			ui	w	A	
+edge color	Màu viền			ui	w	A	
+edge type	Loại viền			ui	w	A	
+edit access point	Chỉnh sửa điểm truy cập			ui	w	A	
+edit accessibility shortcuts	Chỉnh sửa lối tắt hỗ trợ tiếp cận			ui	w	A	
+edit address	Sửa địa chỉ			ui	w	F	
+edit bookmark	Chỉnh sửa dấu trang			ui	w	F	
+edit card	Chỉnh sửa thẻ			ui	w	F	
+edit contact	Chỉnh sửa người liên hệ			ui	w	A	
+edit controls	Chỉnh sửa chế độ điều khiển			ui	w	A	
+edit copied image	Chỉnh sửa hình ảnh đã sao chép			ui	w	A	
+edit copied text	Chỉnh sửa văn bản đã sao chép			ui	w	A	
+edit folder	Chỉnh sửa thư mục			ui	w	F	
+edit mode	Chỉnh sửa chế độ			ui	w	A	
+edit order of settings	Chỉnh sửa thứ tự cài đặt			ui	w	A	
+edit password	Chỉnh sửa mật khẩu			ui	w	F	
+edit profile	Chỉnh sửa cấu hình			ui	w	A	
+edit screenshot	Chỉnh sửa ảnh chụp màn hình			ui	w	A	
+edit search engine	Chỉnh sửa công cụ tìm kiếm			ui	w	F	
+edit shortcuts	Chỉnh sửa phím tắt			ui	w	A	
+edit vpn profile	Chỉnh sửa cấu hình VPN			ui	w	A	
+edit widget	Chỉnh sửa tiện ích			ui	w	A	
+edit with	Chỉnh sửa bằng			ui	w	A	
+edit word	Chỉnh sửa từ			ui	w	A	
+email address	Địa chỉ email			ui	w	A,M	
+email home	Gửi email tới địa chỉ email nhà riêng			ui	w	A	
+email mobile	Gửi email tới địa chỉ email điện thoại di động			ui	w	A	
+email work	Gửi email tới địa chỉ email cơ quan			ui	w	A	
+emergency address	Địa chỉ khẩn cấp			ui	w	A,M	
+emergency app	Ứng dụng khẩn cấp			ui	w	A	
+emergency callback mode	Chế độ gọi lại khẩn cấp			ui	w	A,M	
+emergency calling unavailable	Không có dịch vụ gọi khẩn cấp			ui	w	A	
+emergency calls	Cuộc gọi khẩn cấp			ui	w	A	
+emergency calls only	Chỉ cuộc gọi khẩn cấp			ui	w	A	
+emergency calls or sos	Cuộc gọi khẩn cấp hoặc SOS			ui	w	A	
+emergency dialing signal	Tín hiệu quay số khẩn cấp			ui	w	A	
+emergency information	Thông tin khẩn cấp			ui	w	A	
+emergency messages test	Kiểm tra thông báo khẩn cấp			ui	w	A	
+emergency number	Số khẩn cấp			ui	w	A	
+emergency sos	SOS khẩn cấp			ui	w	A	
+enable bluetooth stack log	Bật nhật ký ngăn xếp Bluetooth			ui	w	A	
+enable car mode	Bật chế độ trên ô tô			ui	w	A	
+enable custom setting	Bật cài đặt tùy chỉnh			ui	w	A	
+enable dark theme	Bật giao diện tối			ui	w	A	
+enable demo mode	Bật chế độ trình diễn			ui	w	A	
+enable explore by touch	Bật Khám phá bằng cách chạm?			ui	w	A	
+enable for all apps	Bật cho tất cả các ứng dụng			ui	w	A	
+enable freeform windows	Bật cửa sổ có thể đổi kích thước			ui	w	A	
+enable gecko logs	Bật nhật ký Gecko			ui	w	F	
+enable in all tabs	Bật trong tất cả các thẻ			ui	w	F	
+enable memory usage profiling	Bật chế độ phân tích mức sử dụng bộ nhớ			ui	w	A	
+enable more settings options	Bật thêm tùy chọn cài đặt			ui	w	A	
+enable private browsing	Bật duyệt web riêng tư			ui	w	F	
+enable usb	Bật USB			ui	w	A	
+enable wireless display	Bật hiển thị không dây			ui	w	A	
+encryption, credentials, and more	Mã hóa, thông tin xác thực và chế độ cài đặt khác			ui	w	A	
+end resizing	Dừng đổi kích thước			ui	w	A	
+end time	Thời gian kết thúc			ui	w	A	
+engine settings	Cài đặt công cụ			ui	w	A	
+enhanced notifications	Thông báo nâng cao			ui	w	A	
+enhanced pin privacy	Tăng cường bảo vệ quyền riêng tư bằng mã PIN			ui	w	A	
+enhanced tracking protection	Trình chống theo dõi nâng cao			ui	w	F	
+enrollment was not completed	Chưa đăng ký được			ui	w	A	
+enter a password	Nhập mật khẩu			ui	w	F	
+enter a search string	Nhập chuỗi tìm kiếm			ui	w	F	
+enter a username	Nhập tên người dùng			ui	w	F	
+enter a valid time	Nhập thời gian hợp lệ			ui	w	A	
+enter a web address	Nhập địa chỉ trang web			ui	w	F	
+enter admin pin	Nhập mã PIN quản trị			ui	w	A	
+enter audio sharing settings	Mở chế độ cài đặt chia sẻ âm thanh			ui	w	A	
+enter desired pin code	Nhập mã PIN mong muốn			ui	w	A	
+enter device	Truy cập thiết bị			ui	w	A	
+enter output settings	Mở phần cài đặt thiết bị đầu ra			ui	w	A	
+enter password	Nhập mật khẩu			ui	w	A	
+enter phone number	Nhập số điện thoại			ui	w	A	
+enter phone numbers	Nhập các số điện thoại			ui	w	A	
+enter puk	Nhập mã PUK			ui	w	A	
+enter schedule name	Nhập tên lịch biểu			ui	w	A	
+enter screen lock	Nhập phương thức mở khóa màn hình			ui	w	A	
+enter search engine name	Nhập tên công cụ tìm kiếm			ui	w	F	
+enter search string	Nhập chuỗi tìm kiếm			ui	w	F	
+enter search terms	Nhập từ tìm kiếm			ui	w	F	
+enter settings	Mở phần cài đặt			ui	w	A	
+enter sim name	Nhập tên SIM			ui	w	A	
+enter sim pin	Nhập PIN của SIM			ui	w	A	
+enter the ssid	Nhập SSID			ui	w	A	
+enter your work password	Nhập mật khẩu công việc của bạn			ui	w	A	
+enter your work pattern	Nhập hình mở khóa công việc của bạn			ui	w	A	
+enter your work pin	Nhập mã PIN công việc của bạn			ui	w	A	
+entering full screen mode	Đã vào chế độ toàn màn hình			ui	w	F	
+equipment id	ID thiết bị			ui	w	A	
+erase and open	Xóa và mở			ui	w	F	
+erase anyway	Vẫn xóa			ui	w	A	
+erase browsing history	Xóa lịch sử duyệt web			ui	w	F	
+erase esim	Xóa eSIM			ui	w	A	
+erase esims	Xóa eSIM			ui	w	A	
+erase this esim	Xóa eSIM này?			ui	w	A	
+erase user data	Xóa dữ liệu người dùng			ui	w	A	
+erasing esim	Đang xóa eSIM			ui	w	A	
+erasure was successful	Xóa thành công			ui	w	A	
+error authenticating	Lỗi khi xác thực			ui	w	A	
+error saving contact	Đã xảy ra lỗi khi lưu liên hệ			ui	w	A	
+error saving issue recording	Đã xảy ra lỗi khi lưu bản ghi sự cố			ui	w	A	
+error saving screen recording	Có lỗi xảy ra khi lưu video ghi màn hình			ui	w	A	
+error starting issue recording	Đã xảy ra lỗi khi bắt đầu ghi sự cố			ui	w	A	
+error starting screen recording	Lỗi khi bắt đầu ghi màn hình			ui	w	A	
+error writing content	Lỗi ghi nội dung			ui	w	A	
+error, try again	Lỗi, hãy thử lại			ui	w	A	
+estimated time left	Thời gian còn lại ước tính			ui	w	A	
+ethernet data usage	Sử dụng dữ liệu ethernet			ui	w	A	
+ethernet only	Chỉ Ethernet			ui	w	A	
+ethernet tethering	Chia sẻ Internet qua Ethernet			ui	w	A	
+event schedule	Lịch trình sự kiện			ui	w	A	
+every time device locks	Mỗi khi thiết bị khóa			ui	w	A	
+exceptions	Ngoại lệ			ui	x	F	
+exit edit mode	Thóat chế độ chỉnh sửa			ui	w	A	
+exit multiselect mode	Thóat chế độ nhiều lựa chọn			ui	w	F	
+exit private browsing	Thóat duyệt web riêng tư?			ui	w	F	
+expand and show options	Mở rộng và hiện các lựa chọn			ui	w	A	
+expand icon	Biểu tượng Mở rộng			ui	w	A	
+expand inactive tabs	Mở rộng các thẻ không hoạt động			ui	w	F	
+expand saved addresses	Mở rộng địa chỉ đã lưu			ui	w	F	
+expand saved cards	Mở rộng thẻ đã lưu			ui	w	F	
+expand saved passwords	Mở rộng mật khẩu đã lưu			ui	w	F	
+expand settings for application	Mở rộng cài đặt cho ứng dụng			ui	w	A	
+expand suggested addresses	Mở rộng các địa chỉ được đề xuất			ui	w	F	
+expand suggested credit cards	Mở rộng thẻ tín dụng được đề xuất			ui	w	F	
+expand suggested logins	Mở rộng thông tin đăng nhập được đề xuất			ui	w	F	
+expand unlock area	Mở rộng vùng khóa			ui	w	A	
+experimental mte enabled	Đã bật MTE thử nghiệm			ui	w	A	
+experimental. improves audio quality	Thử nghiệm. Tăng chất lượng âm thanh			ui	w	A	
+experimental: enable angle	Thử nghiệm: Bật ANGLE			ui	w	A	
+expiration date month	Tháng hết hạn			ui	w	F	
+expiration date year	Năm hết hạn			ui	w	F	
+explore add-ons	Khám phá tiện ích			ui	w	F	
+explore more wallpapers	Khám phá các hình nền khác			ui	w	F	
+export contacts	Xuất danh bạ			ui	w	A	
+export database files	Xuất các tệp cơ sở dữ liệu			ui	w	A	
+exporting contact data	Xuất dữ liệu liên hệ			ui	w	A	
+extend battery life	Kéo dài thời lượng pin			ui	w	A	
+extend compatibility	Tăng cường khả năng tương thích			ui	w	A	
+extend unlock disabled	Đã tắt tính năng Kéo dài trạng thái mở khóa			ui	w	A	
+external device	Thiết bị bên ngoài			ui	w	A	
+external display is disconnected	Màn hình ngoài bị ngắt kết nối			ui	w	A	
+external download manager	Trình quản lý tải xuống bên ngoài			ui	w	F	
+external storage	Bộ nhớ ngoài			ui	w	A	
+extra dim	Siêu tối			ui	w	A	
+extra dim shortcut	Lối tắt cho chế độ Siêu tối			ui	w	A	
+extra dim shortcuts removed	Đã xóa lối tắt đến tính năng siêu tối			ui	w	A	
+extra left button type	Loại nút bổ sung bên trái			ui	w	A	
+extra right button type	Loại nút bổ sung bên phải			ui	w	A	
+extreme threats	Mối đe dọa cực kỳ nghiêm trọng			ui	w	A	
+face added	Đã thêm khuôn mặt			ui	w	A	
+face and fingerprint added	Đã thêm khuôn mặt và vân tay			ui	w	A	
+face and fingerprints added	Đã thêm khuôn mặt và các vân tay			ui	w	A	
+face authenticated	Đã xác thực khuôn mặt			ui	w	A	
+face detection	Phát hiện khuôn mặt			ui	w	A	
+face icon	Biểu tượng khuôn mặt			ui	w	A	
+face operation canceled	Đã hủy thao tác dùng khuôn mặt			ui	w	A	
+face recognized	Đã nhận diện khuôn mặt			ui	w	A	
+face unlock for work	Mở khóa bằng khuôn mặt cho công việc			ui	w	A	
+face unlock unavailable	Không dùng được tính năng Mở khóa bằng khuôn mặt			ui	w	A	
+face, fingerprint, add fingerprint	Khuôn mặt, vân tay, thêm vân tay			ui	w	A	
+factory data reset	Thiết lập lại dữ liệu ban đầu			ui	w	A	
+factory test failed	Thử nghiệm ban đầu không thành công			ui	w	A	
+failed to apply overlay	Không áp dụng được lớp phủ			ui	w	A	
+failed to load label	Không tải được nhãn			ui	w	A	
+failed to open editor	Không mở được trình chỉnh sửa			ui	w	A	
+failed to rename device	Không thể đổi tên thiết bị			ui	w	A	
+failed to save network	Không thể lưu mạng			ui	w	A	
+failed to share contacts	Không chia sẻ được liên hệ			ui	w	A	
+fast. private. no distractions	Nhanh. Riêng tư. Không có phiền nhiễu			ui	w	F	
+feature code complete	Mã tính năng đã hòan tất			ui	w	A	
+feature flags	Cờ tính năng			ui	w	A	
+feature not available	Tính năng không hoạt động			ui	w	A	
+feature not supported	Tính năng không được hỗ trợ			ui	w	A	
+features restricted	Hạn chế về tính năng			ui	w	A	
+file transfer	Truyền tệp			ui	w	A,M	
+file transfer options	Tùy chọn truyền tệp			ui	w	A	
+fill link from clipboard	Điền liên kết từ khay nhớ tạm			ui	w	F	
+financed device info	Thông tin về thiết bị trả góp			ui	w	A	
+find an audio stream	Tìm một luồng âm thanh			ui	w	A	
+find broadcasts	Tìm nội dung truyền phát			ui	w	A	
+find in page	Tìm trong trang			ui	w	F	
+find next	Tìm kết quả phù hợp tiếp theo			ui	w	A	
+find next result	Tìm kiếm kết quả tiếp theo			ui	w	F	
+find on page	Tìm kiếm trên trang			ui	w	A	
+find previous	Tìm kết quả phù hợp trước			ui	w	A	
+find previous result	Tìm kiếm kết quả trước đó			ui	w	F	
+fingerprint added	Đã thêm vân tay			ui	w	A	
+fingerprint authenticated	Đã xác thực vân tay			ui	w	A	
+fingerprint for work	Vân tay cho công việc			ui	w	A	
+fingerprint gestures	Cử chỉ vân tay			ui	w	A	
+fingerprint hardware not available	Không có phần cứng xử lý vân tay			ui	w	A	
+fingerprint icon	Biểu tượng vân tay			ui	w	A,F	
+fingerprint not recognized	Không nhận dạng được vân tay			ui	w	A	
+fingerprint operation canceled	Đã hủy thao tác dùng vân tay			ui	w	A	
+fingerprint sensor	Cảm biến vân tay			ui	w	A	
+fingerprint setup timed out	Hết thời gian chờ thiết lập vân tay			ui	w	A	
+fingerprint, add fingerprint	Vân tay số, thêm vân tay số			ui	w	A	
+finished exporting contacts	Đã xuất xong danh bạ			ui	w	A	
+finished importing sim card	Đã nhập xong thẻ SIM			ui	w	A	
+finishing boot	Hoàn tất khởi động			ui	w	A	
+first day of week	Ngày đầu tiên trong tuần			ui	w	A	
+first name	Tên			ui	w	A,F,M	
+first name first	Tên trước			ui	w	A	
+fix connectivity	Khắc phục sự cố về kết nối			ui	w	A	
+fix this	Khắc phục vấn đề này			ui	w	A	
+flash notifications	Nháy sáng khi có thông báo			ui	w	A	
+flash screen	Nhấp nháy màn hình			ui	w	A	
+flashlight, light, torch	Đèn pin, Sáng, Đèn pin			ui	w	A	
+flip camera for selfie	Lật máy ảnh để selfie			ui	w	A	
+foldable device being unfolded	Thiết bị có thể gập lại đang được mở ra			ui	w	A	
+follow device language	Theo ngôn ngữ thiết bị			ui	w	F	
+follow the fingerprint icon	Đi theo biểu tượng vân tay			ui	w	A	
+font family	Họ phông chữ			ui	w	A	
+font size	Cỡ chữ			ui	w	A,F	
+for all languages	Cho tất cả ngôn ngữ			ui	w	A	
+for apps and services	Áp dụng cho các ứng dụng và dịch vụ			ui	w	A	
+for security, set pin	Để bảo mật, hãy đặt mã PIN			ui	w	A	
+for sites you add	Với trang web bạn thêm			ui	w	F	
+for supported app only	Chỉ dành cho ứng dụng được hỗ trợ			ui	w	A	
+for top sites	Với các trang web hàng đầu			ui	w	F	
+force enable notes role	Buộc bật vai trò Ghi chú			ui	w	A	
+force full gnss measurements	Thực thi số đo GNSS đầy đủ			ui	w	A	
+force peak refresh rate	Buộc chuyển sang tốc độ làm mới cao nhất			ui	w	A	
+force software secure crypto	Buộc dùng Chế độ mã hóa dựa trên phần mềm			ui	w	A	
+foreground	Nền trước	Trên nền		ui	x	A	
+forget	Xóa			ui	x	A	
+forget device	Xóa thiết bị			ui	w	A	
+forget network	Xóa mạng?			ui	w	A	
+forget this group	Xóa nhóm này?			ui	w	A	
+forget vpn	Xóa VPN			ui	w	A	
+forgot your password	Bạn quên mật khẩu?			ui	w	A	
+forgot your pattern	Bạn quên hình mở khóa?			ui	w	A	
+forgot your pin	Bạn quên mã PIN?			ui	w	A	
+format another way	Định dạng theo cách khác			ui	w	A	
+format as portable	Định dạng làm bộ nhớ di động			ui	w	A	
+format card	Định dạng thẻ			ui	w	A	
+forward cell broadcast messages	Chuyển tiếp tin nhắn truyền phát trên di động			ui	w	A	
+forward slash	Dấu gạch chéo lên			ui	w	A	
+free up space	Giải phóng dung lượng			ui	w	A	
+frees up storage space	Giải phóng không gian lưu trữ			ui	w	F	
+frequently contacted	Thường xuyên được liên hệ			ui	w	A	
+from tasks and reminders	Từ việc cần làm và lời nhắc			ui	w	A	
+from the lockscreen	Trên màn hình khóa			ui	w	A	
+from upcoming calendar events	Từ các sự kiện sắp tới trên lịch			ui	w	A	
+from: bill	Người gửi: Tùng			ui	w	A	
+front screen turned on	Đã bật màn hình trước			ui	w	A	
+front-facing camera	Máy ảnh trước			ui	w	F	
+full charge lasts about	Thời lượng dùng pin sạc đầy			ui	w	A	
+full hotword and interaction	Tương tác và từ nóng đầy đủ			ui	w	A	
+full list	Danh sách đầy đủ			ui	w	A	
+full report	Báo cáo đầy đủ			ui	w	A	
+full screen intent	Cơ chế toàn màn hình			ui	w	A	
+full-screen notifications	Thông báo toàn màn hình			ui	w	A	
+game controller	Trình điều khiển trò chơi			ui	w	A	
+game driver	Trình điều khiển trò chơi			ui	w	A	
+games	Trò chơi			ui	x	A,M	
+geofencing service	Dịch vụ khoanh vùng địa lý			ui	w	A	
+gesture navigation	Thao tác bằng cử chỉ			ui	w	A	
+get search suggestions	Nhận gợi ý tìm kiếm			ui	w	F	
+give access	Cấp quyền truy cập			ui	w	A	
+global http proxy set	Đặt proxy HTTP chung			ui	w	A	
+gnss service	Dịch vụ GNSS			ui	w	A	
+gnss time update service	Dịch vụ cập nhật thời gian GNSS			ui	w	A	
+go back	Quay lại			ui	w	A,F,M	
+go home	Chuyển đến màn hình chính			ui	w	A	
+go to browser	Đi tới trình duyệt			ui	w	A	
+go to home screen	Chuyển đến màn hình chính			ui	w	A	
+go to identity check	Chuyển đến phần kiểm tra danh tính			ui	w	A	
+grammatical gender	Giống trong ngữ pháp			ui	w	A	
+graphics driver preferences	Các lựa chọn ưu tiên về trình điều khiển đồ hoạ			ui	w	A	
+great job	Tuyệt vời!			ui	w	A	
+group conversation	Cuộc trò chuyện nhóm			ui	w	A	
+group deleted	Đã xóa nhóm			ui	w	F	
+guest mode	Chế độ khách			ui	w	A	
+half screen	Nửa màn hình			ui	w	A	
+hang up	Kết thúc			ui	w	A	
+haptics, vibrate, screen, sensitivity	Xúc giác, rung, màn hình, độ sáng			ui	w	A	
+haptics, vibrate, sensitivity, alarm	Xúc giác, rung, độ nhạy, chuông báo			ui	w	A	
+haptics, vibrate, sensitivity, media	Xúc giác, rung, độ nhạy, nội dung nghe nhìn			ui	w	A	
+haptics, vibrate, sensitivity, notification	Xúc giác, rung, độ nhạy, thông báo			ui	w	A	
+hardware version	Phiên bản phần cứng			ui	w	A	
+harmful app detected	Đã phát hiện ứng dụng độc hại			ui	w	A	
+have full network access	Có quyền truy cập mạng đầy đủ			ui	w	A	
+hdmi screen	Màn hình HDMI			ui	w	A	
+headphones connected	Đã kết nối tai nghe			ui	w	A	
+headset connected	Đã kết nối tai nghe			ui	w	A	
+headset hook	Giá treo tai nghe			ui	w	A	
+hearing aid compatibility	Khả năng tương thích với thiết bị trợ thính			ui	w	A	
+hearing aids	Thiết bị trợ thính			ui	w	A	
+hearing device	Thiết bị trợ thính			ui	w	A	
+hearing device controls	Chế độ điều khiển thiết bị trợ thính			ui	w	A	
+hearing device settings	Cài đặt thiết bị trợ thính			ui	w	A	
+hearing device shortcut	Lối tắt cho thiết bị trợ thính			ui	w	A	
+hearing devices	Thiết bị trợ thính			ui	w	A	
+helen, adam	Hoa, Tuấn			ui	w	A	
+helps extend battery life	Giúp kéo dài thời lượng pin			ui	w	A	
+hidden network	Mạng ẩn			ui	w	A,M	
+hide contact	Ẩn liên hệ			ui	w	A	
+hide from pull-down shade	Ẩn khỏi ngăn kéo xuống			ui	w	A	
+hide if empty	Ẩn nếu trống			ui	w	A	
+hide other apps overlays	Ẩn lớp phủ của các ứng dụng khác			ui	w	A	
+hide outgoing caller id	Ẩn tên và số điện thoại của người gọi đi			ui	w	A	
+hide player	Ẩn trình phát			ui	w	A	
+hide private space	Ẩn không gian riêng tư			ui	w	A	
+hide seen notifications	Ẩn thông báo đã xem			ui	w	A	
+hide sensitive work content	Ẩn nội dung công việc nhạy cảm			ui	w	A	
+hide silent notifications	Ẩn thông báo bị tắt tiếng			ui	w	A	
+hide system	Ẩn hệ thống			ui	w	A	
+hide unused categories	Ẩn các danh mục không dùng			ui	w	A	
+high battery usage	Mức sử dụng pin cao			ui	w	A	
+high battery use	Mức sử dụng pin cao			ui	w	A	
+high contrast text	Văn bản có độ tương phản cao			ui	w	A	
+high mobile data usage	Mức sử dụng dữ liệu di động cao			ui	w	A	
+high priority sim status	Trạng thái SIM có mức ưu tiên cao			ui	w	A	
+high resolution	Độ phân giải cao			ui	w	A	
+higher battery usage	Mức sử dụng pin cao			ui	w	A	
+highlights from recent reviews	Điểm nổi bật từ các đánh giá gần đây			ui	w	F	
+history deleted	Đã xóa lịch sử			ui	w	F	
+history details	Chi tiết lịch sử			ui	w	A	
+hold home for assistant	Giữ nút Màn hình chính để mở ứng dụng Trợ lý			ui	w	A	
+hold volume keys	Giữ phím âm lượng			ui	w	A	
+home app	Ứng dụng trên màn hình chính			ui	w	A	
+home controls	Điều khiển nhà			ui	w	A	
+home fax	Số fax nhà riêng			ui	w	A	
+home screen	Màn hình chính			ui	w	F,M	
+home, lock screen	Màn hình chính, màn hình khóa			ui	w	A	
+hostname required	Yêu cầu tên máy chủ			ui	w	F	
+hotspot connection	Kết nối điểm phát sóng			ui	w	A	
+hotspot device details	Thông tin về thiết bị điểm phát sóng			ui	w	A	
+hotspot is active	Điểm phát sóng đang hoạt động			ui	w	A	
+hotspot name	Tên điểm phát sóng			ui	w	A	
+hotspot on	Điểm phát sóng đang bật			ui	w	A	
+hotspot on, tethering	Điểm phát sóng đang bật, đang chia sẻ Internet			ui	w	A	
+hotspot only	Chỉ điểm phát sóng			ui	w	A	
+hotspot password	Mật khẩu điểm phát sóng			ui	w	A	
+hotspot, bluetooth	Chia sẻ kết nối qua điểm phát sóng, Bluetooth			ui	w	A	
+hotspot, bluetooth, ethernet	Điểm phát sóng, Bluetooth, Ethernet			ui	w	A	
+hotspot, ethernet	Điểm phát sóng, Ethernet			ui	w	A	
+hotspot, usb	Điểm phát sóng, USB			ui	w	A	
+hotspot, usb, bluetooth	Điểm phát sóng, USB, Bluetooth			ui	w	A	
+hotspot, usb, bluetooth, ethernet	Điểm phát sóng, USB, Bluetooth, Ethernet			ui	w	A	
+hotspot, usb, ethernet	Điểm phát sóng, USB, Ethernet			ui	w	A	
+hourly battery usage chart	Biểu đồ mức sử dụng pin hằng giờ			ui	w	A	
+hours circular slider	Thanh trượt giờ hình tròn			ui	w	A	
+how broadcasting works	Cách tính năng truyền hoạt động			ui	w	A	
+http client test	Kiểm tra máy khách HTTP			ui	w	A	
+https-only mode	Chế độ chỉ HTTPS			ui	w	F	
+i agree	Tôi đồng ý			ui	w	A	
+iccid unlock pin	Mã PIN mở khóa ICCID			ui	w	A	
+iccid unlock request unsuccessful	Yêu cầu mở khóa ICCID không thành công			ui	w	A	
+iccid unlock successful	Mở khóa ICCID thành công			ui	w	A	
+image copied	Đã sao chép hình ảnh			ui	w	A	
+image preview	Bản xem trước hình ảnh			ui	w	A	
+imei sv	Số IMEI SV			ui	w	A	
+impi unlock pin	Mã PIN mở khóa IMPI			ui	w	A	
+impi unlock request unsuccessful	Yêu cầu mở khóa IMPI không thành công			ui	w	A	
+impi unlock successful	Mở khóa IMPI thành công			ui	w	A	
+import contacts from	Nhập danh bạ từ			ui	w	A	
+import contacts from vcard	Nhập danh bạ từ vCard?			ui	w	A	
+import failed	Nhập không thành công			ui	w	A	
+import from sim	Nhập từ SIM			ui	w	A	
+important developer messages	Thông báo quan trọng liên quan đến nhà phát triển			ui	w	A	
+important information	Thông tin quan trọng			ui	w	A	
+importing sim	Đang nhập SIM			ui	w	A	
+improve battery life	Kéo dài thời lượng pin			ui	w	A	
+improve compatibility	Cải thiện khả năng tương thích			ui	w	A	
+improve face unlock performance	Cải thiện hiệu suất Mở khóa bằng khuôn mặt			ui	w	A	
+improve mobile data coverage	Cải thiện phạm vi dữ liệu di động?			ui	w	A	
+improve security and performance	Cải thiện hiệu suất và độ bảo mật			ui	w	A	
+in airplane mode	Ở chế độ trên máy bay			ui	w	A	
+in all tabs	Trong tất cả các thẻ			ui	w	F	
+in service	Đang sử dụng			ui	w	A	
+in the app	Trong ứng dụng			ui	w	A	
+in use	Đang được sử dụng			ui	w	A	
+in your browser	Trên trình duyệt			ui	w	A	
+in-call volume	Âm lượng cuộc gọi			ui	w	A	
+inactive tabs	Thẻ không hoạt động			ui	w	F	
+inactive, check app	Không hoạt động, hãy kiểm tra ứng dụng			ui	w	A	
+include app data	Bao gồm dữ liệu ứng dụng			ui	w	A	
+include link	Thêm đường liên kết			ui	w	A	
+include year	Bao gồm năm			ui	w	A	
+included packages	Gói bao gồm			ui	w	A	
+includes high-power background activity	Bao gồm hoạt động công suất cao trong nền			ui	w	A	
+incoming call	Cuộc gọi đến			ui	w	A,M	
+incoming caller id	Số gọi đến			ui	w	A	
+incoming mms message	Tin nhắn MMS đến			ui	w	A	
+incoming notification	Thông báo đến			ui	w	A	
+incorrect password	Mật khẩu không chính xác			ui	w	A	
+incorrect pin code	Mã PIN không chính xác			ui	w	A	
+increase day	Tăng ngày			ui	w	A	
+increase height	Tăng chiều cao			ui	w	A	
+increase height of magnifier	Tăng chiều cao của trình phóng to			ui	w	A	
+increase hour	Tăng giờ			ui	w	A	
+increase minute	Tăng phút			ui	w	A	
+increase month	Tăng tháng			ui	w	A	
+increase pointer scale	Tăng kích thước con trỏ			ui	w	A	
+increase width of magnifier	Tăng chiều rộng của trình phóng to			ui	w	A	
+increase year	Tăng năm			ui	w	A	
+increased battery usage	Làm tăng mức sử dụng pin			ui	w	A	
+info coming soon	Thông tin sắp ra mắt			ui	w	F	
+input method	Phương thức nhập			ui	w	A	
+insecure connection	Kết nối không an toàn			ui	w	F	
+insert character	Chèn ký tự			ui	w	A	
+insert device again	Hãy lắp lại thiết bị			ui	w	A	
+install a certificate	Cài đặt chứng chỉ			ui	w	A	
+install add-on from file	Cài đặt tiện ích từ tập tin			ui	w	F	
+install anyway	Vẫn cài đặt			ui	w	A	
+install app	Cài đặt ứng dụng			ui	w	A	
+install apps unknown sources	Cài đặt ứng dụng từ nguồn không xác định			ui	w	A	
+install available apps	Cài đặt ứng dụng có sẵn			ui	w	A	
+install certificates	Cài đặt chứng chỉ			ui	w	A	
+install shortcuts	Cài đặt lối tắt			ui	w	A	
+install voices	Cài đặt giọng nói			ui	w	A	
+installed apps	Ứng dụng đã cài đặt			ui	w	A	
+installed search engines	Công cụ tìm kiếm đã cài đặt			ui	w	F	
+instant app	Ứng dụng tức thì			ui	w	A	
+instant apps	Ứng dụng tức thì			ui	w	A	
+instant apps preferences	Tùy chọn Ứng dụng tức thì			ui	w	A	
+instant hotspot	Điểm phát sóng tức thì			ui	w	A	
+intensity	Cường độ			ui	x	A	
+interact with in-call screen	Tương tác với màn hình trong cuộc gọi			ui	w	A	
+interact with telephony services	Tương tác với dịch vụ điện thoại			ui	w	A	
+interaction controls	Điều khiển tương tác			ui	w	A	
+interactive haptics	Các phản hồi xúc giác có tính tương tác			ui	w	A	
+interactive report	Báo cáo tương tác			ui	w	A	
+internal shared storage	Bộ nhớ trong dùng chung			ui	w	A	
+internal storage	Bộ nhớ trong			ui	w	A	
+internet source	Nguồn kết nối Internet			ui	w	A	
+invalid url	URL không hợp lệ			ui	w	F	
+invalid username or password	Tên người dùng hoặc mật khẩu không hợp lệ			ui	w	A	
+ip address	Địa chỉ IP			ui	w	A,M	
+ip settings	Cài đặt IP			ui	w	A	
+ipsec ca certificate	Chứng chỉ IPSec CA			ui	w	A	
+ipsec identifier	Số nhận dạng IPSec			ui	w	A	
+ipsec pre-shared key	Khóa chia sẻ trước IPSec			ui	w	A	
+ipsec server certificate	Chứng chỉ máy chủ IPSec			ui	w	A	
+ipsec user certificate	Chứng chỉ người dùng IPSec			ui	w	A	
+is this message helpful	Tin nhắn này có hữu ích không?			ui	w	A	
+isolate cross-site cookies	Cô lập cookie trên nhiều trang web			ui	w	F	
+issue recorder	Trình ghi sự cố			ui	w	A	
+issue recording saved	Đã lưu bản ghi sự cố			ui	w	A	
+issue with face unlock	Vấn đề với tính năng Mở khóa bằng khuôn mặt			ui	w	A	
+issue with sim combination	Sự cố kết hợp SIM			ui	w	A	
+issued on	Cấp vào			ui	w	A	
+issued to	Cấp cho			ui	w	A	
+jump back in	Trang đã xem gần đây			ui	w	F	
+junior legal	Legal khổ nhỏ			ui	w	A	
+just once	Chỉ một lần			ui	w	A	
+keep current language	Giữ ngôn ngữ hiện tại			ui	w	A	
+keep in mind	Lưu ý			ui	w	A	
+keep listening	Tiếp tục nghe			ui	w	A	
+keep on	Tiếp tục bật			ui	w	A	
+keep the screen dark	Tiếp tục dùng màn hình tối			ui	w	A	
+kept unlocked by trustagent	Luôn được TrustAgent mở khóa			ui	w	A	
+kernel version	Phiên bản Kernel			ui	w	A	
+keyboard backlight	Đèn nền bàn phím			ui	w	A	
+keyboard layouts	Bố cục bàn phím			ui	w	A	
+keyboard settings	Cài đặt bàn phím			ui	w	A	
+keyboard shortcuts	Phím tắt			ui	w	A	
+keyboard vibration	Rung khi thao tác với bàn phím			ui	w	A	
+keyboard, haptics, vibrate,	Bàn phím, xúc giác, rung,			ui	w	A	
+know your rights	Biết về quyền lợi của bạn			ui	w	F	
+label created	Đã tạo nhãn			ui	w	A	
+label deleted	Đã xóa nhãn			ui	w	A	
+label name	Tên nhãn			ui	w	A	
+label updated	Đã cập nhật nhãn			ui	w	A	
+label your sims	Đặt nhãn cho SIM			ui	w	A	
+language settings	Cài đặt ngôn ngữ			ui	w	A	
+languages	Ngôn ngữ			ui	x	A	
+languages, gestures, time, backup	Ngôn ngữ, cử chỉ, ngày giờ, bản sao lưu			ui	w	A	
+large mouse pointer	Con trỏ chuột lớn			ui	w	A	
+last full charge	Lần sạc đầy gần đây nhất			ui	w	A	
+last hour	Một tiếng gần đây			ui	w	F	
+last month	Tháng trước			ui	w	A	
+last name	Họ			ui	w	A,F,M	
+last name first	Họ trước			ui	w	A	
+last synced: never	Lần đồng bộ gần nhất: không có			ui	w	F	
+last tab	Thẻ cuối cùng			ui	w	F	
+launch assistant	Khởi chạy Trợ lý			ui	w	A	
+launch browser	Chạy trình duyệt?			ui	w	A	
+launch via nfc	Khởi động qua NFC			ui	w	A	
+learn about sending tabs	Tìm hiểu thêm về việc gửi các thẻ			ui	w	F	
+learn keyboards shortcuts	Tìm hiểu về phím tắt			ui	w	A	
+learn more about auto-rotate	Tìm hiểu thêm về chế độ tự động xoay			ui	w	A	
+learn more about magnification	Tìm hiểu thêm về tính năng phóng to			ui	w	A	
+learn more about mte	Tìm hiểu thêm về MTE			ui	w	A	
+learn more about sync	Tìm hiểu thêm về đồng bộ hóa			ui	w	F	
+learn more about thread	Tìm hiểu thêm về giao thức Thread			ui	w	A	
+lease never expires	Thuê vĩnh viễn			ui	w	A	
+leave broadcast	Thóat khỏi nội dung truyền phát			ui	w	A	
+leave this page	Rời khỏi trang này			ui	w	A	
+left edge	Cạnh bên trái			ui	w	A	
+left handle	Ô điều khiển bên trái			ui	w	A	
+left icon	Biểu tượng bên trái			ui	w	A	
+left keycode	Mã phím bên trái			ui	w	A	
+left shortcut	Lối tắt bên trái			ui	w	A	
+left shortcut also unlocks	Lối tắt bên trái cũng mở khóa			ui	w	A	
+less options	Ít tùy chọn hơn			ui	w	A	
+less than a minute	Chưa đến 1 phút			ui	w	A	
+less time	Ít thời gian hơn			ui	w	A	
+let’s chat tonight	Tối nay nói chuyện nhé!			ui	w	A	
+libraries that we use	Thư viện mà chúng tôi sử dụng			ui	w	F	
+licensing information	Thông tin giấy phép			ui	w	F	
+lift to wake	Nhấc lên để đánh thức			ui	w	A	
+lift, then touch again	Nhấc ngón tay lên rồi chạm lại			ui	w	A	
+limit background activity	Giới hạn hoạt động nền?			ui	w	A	
+limit interruptions	Hạn chế bị gián đoạn			ui	w	A	
+limiting data usage	Giới hạn mức sử dụng dữ liệu			ui	w	A	
+link speed	Tốc độ liên kết			ui	w	A	
+linked contacts	Liên hệ đã liên kết			ui	w	A	
+links available	Liên kết khả dụng			ui	w	F	
+listen to audio stream	Nghe luồng âm thanh			ui	w	A	
+listen to nearby audio	Nghe âm thanh ở gần			ui	w	A	
+listen to stream	Nghe luồng âm thanh			ui	w	A	
+listening now	Đang nghe			ui	w	A	
+listening to	Đang nghe			ui	w	A	
+live caption	Phụ đề trực tiếp			ui	w	A	
+loading recommendations	Đang tải các đề xuất			ui	w	A	
+location active	Vị trí đang hoạt động			ui	w	A	
+location for private space	Vị trí dành cho không gian riêng tư			ui	w	A	
+location for work profile	Vị trí của hồ sơ công việc			ui	w	A	
+location is off	Dịch vụ vị trí hiện đang tắt			ui	w	A	
+location permissions	Quyền truy cập vị trí			ui	w	A	
+location request	Yêu cầu truy cập vị trí			ui	w	A	
+location requests active	Yêu cầu về thông tin vị trí đang hoạt động			ui	w	A	
+location service	Dịch vụ vị trí			ui	w	A	
+location services	Dịch vụ vị trí			ui	w	A,M	
+location settings	Cài đặt vị trí			ui	w	A	
+lock after screen timeout	Khóa sau khi hết thời gian chờ			ui	w	A	
+lock device when unpinning	Khóa thiết bị khi bỏ ghim			ui	w	A	
+lock display	Màn hình khóa			ui	w	A	
+lock private space automatically	Tự động khóa không gian riêng tư			ui	w	A	
+lock screen	Màn hình khóa	Khóa màn hình		ui	w	A,M	
+lock screen notification minimalism	Giảm thiểu thông báo trên màn hình khóa			ui	w	A	
+lock screen notification, notifications	Thông báo trên màn hình khóa, thông báo			ui	w	A	
+lock screen settings	Cài đặt màn hình khóa			ui	w	A	
+lock screen widgets	Tiện ích trên màn hình khóa			ui	w	A	
+lock the screen	Khóa màn hình			ui	w	A	
+logging level	Mức ghi nhật ký			ui	w	A	
+login options	Tùy chọn thông tin đăng nhập			ui	w	F	
+logins and passwords	Thông tin đăng nhập và mật khẩu			ui	w	F	
+long background tasks	Tác vụ trong nền dài hạn			ui	w	A	
+looking for your face	Đang tìm khuôn mặt của bạn			ui	w	A	
+low battery	Pin yếu			ui	w	A	
+low battery use	Mức sử dụng pin thấp			ui	w	A	
+lower volume	Giảm âm lượng			ui	w	A	
+magnification	Phóng to			ui	x	A	
+magnification shortcut	Lối tắt cho tính năng phóng to			ui	w	A	
+magnification switch	Nút chuyển phóng to			ui	w	A	
+magnification type	Kiểu phóng to			ui	w	A	
+magnification window	Cửa sổ phóng to			ui	w	A	
+magnification window controls	Các tùy chọn điều khiển cửa sổ phóng to			ui	w	A	
+magnifier size	Kích thước phóng to			ui	w	A	
+magnifier window settings	Chế độ cài đặt cửa sổ phóng to			ui	w	A	
+magnify full screen	Phóng to toàn màn hình			ui	w	A	
+magnify part of screen	Phóng to một phần màn hình			ui	w	A	
+magnify typing	Phóng to nội dung nhập			ui	w	A	
+magnify with shortcut	Phóng to bằng phím tắt			ui	w	A	
+main process in use	Quá trình chính đang sử dụng			ui	w	A	
+make all apps dark	Áp dụng chế độ tối cho mọi ứng dụng			ui	w	A	
+make app always run	Đặt ứng dụng luôn chạy			ui	w	A	
+make emergency calls	Thực hiện cuộc gọi khẩn cấp			ui	w	A	
+make larger	Phóng to			ui	w	A	
+make pattern visible	Hiển thị hình mở khóa			ui	w	A	
+make privacy a habit	Làm cho sự riêng tư thành một thói quen			ui	w	F	
+make profile pattern visible	Hiển thị hình mở khóa hồ sơ			ui	w	A	
+make screen extra dim	Đặt màn hình ở chế độ siêu tối			ui	w	A	
+make smaller	Thu nhỏ			ui	w	A	
+make video call	Gọi video			ui	w	A	
+manage access	Quản lý quyền truy cập			ui	w	A	
+manage account	Quản lý tài khoản			ui	w	F	
+manage addresses	Quản lý địa chỉ			ui	w	F	
+manage alternative search engines	Quản lý công cụ tìm kiếm thay thế			ui	w	F	
+manage app if unused	Quản lý ứng dụng nếu không dùng			ui	w	A	
+manage apps	Quản lý ứng dụng			ui	w	A	
+manage apps automatically	Tự động quản lý ứng dụng			ui	w	A	
+manage backup account	Quản lý tài khoản sao lưu			ui	w	A	
+manage battery usage	Quản lý mức sử dụng pin			ui	w	A	
+manage cards	Quản lý thẻ tín dụng			ui	w	F	
+manage credit cards	Quản lý thẻ tín dụng			ui	w	F	
+manage fingerprint hardware	Quản lý phần cứng vân tay			ui	w	A	
+manage in settings	Quản lý trong phần cài đặt			ui	w	A	
+manage logins	Quản lý đăng nhập			ui	w	F	
+manage network policy	Quản lý chính sách mạng			ui	w	A	
+manage on-screen keyboards	Quản lý bàn phím ảo			ui	w	A	
+manage ongoing calls	Quản lý cuộc gọi đang diễn ra			ui	w	A	
+manage passwords	Quản lý mật khẩu			ui	w	F	
+manage permissions	Quản lý quyền			ui	w	A	
+manage saved cards	Quản lý thẻ tín dụng đã lưu			ui	w	F	
+manage service	Quản lý dịch vụ			ui	w	A	
+manage sites	Quản lý trang web			ui	w	F	
+manage storage	Quản lý bộ nhớ			ui	w	A	
+manage telecom connections	Quản lý kết nối viễn thông			ui	w	A	
+manage users	Quản lý ng.dùng			ui	w	A	
+managed device info	Thông tin thiết bị được quản lý			ui	w	A	
+manufacture date	Ngày sản xuất			ui	w	A	
+manufactured year	Năm sản xuất			ui	w	A	
+map app	Ứng dụng Bản đồ			ui	w	A	
+marketing data	Dữ liệu tiếp thị			ui	w	F	
+max requests per session	Số yêu cầu tối đa trong mỗi phiên hoạt động			ui	w	A	
+max resolution	Độ phân giải tối đa			ui	w	A	
+max visible datasets	Số tập dữ liệu hiển thị tối đa			ui	w	A	
+maximize text contrast	Tăng tối đa độ tương phản văn bản			ui	w	A	
+maximize window	Phóng to cửa sổ			ui	w	A	
+maximum memory use	Sử dụng bộ nhớ tối đa			ui	w	A	
+maximum usage	Mức sử dụng tối đa			ui	w	A	
+measure app storage space	Đo dung lượng lưu trữ ứng dụng			ui	w	A	
+media	Nội dung nghe nhìn			ui	x	A	
+media and system sounds	Âm thanh nội dung nghe nhìn và hệ thống			ui	w	A	
+media audio only	Chỉ âm thanh nội dung nghe nhìn			ui	w	A	
+media controls	Điều khiển phương tiện			ui	w	A	
+media device	Thiết bị phương tiện			ui	w	A	
+media devices	Thiết bị truyền thông			ui	w	A	
+media drm settings	Cài đặt DRM cho nội dung đa phương tiện			ui	w	A	
+media management apps	Ứng dụng quản lý nội dung nghe nhìn			ui	w	A	
+media sounds	Âm thanh nội dung nghe nhìn			ui	w	A	
+media vibration	Rung khi có nội dung nghe nhìn			ui	w	A	
+media volume	Âm lượng nội dung nghe nhìn			ui	w	A	
+memory details	Chi tiết bộ nhớ			ui	w	A	
+memory profiling disabled	Đã tắt chế độ phân tích bộ nhớ			ui	w	A	
+memory tagging extension	Tiện ích gắn thẻ bộ nhớ			ui	w	A	
+memory usage	Sử dụng bộ nhớ			ui	w	A,M	
+memory use	Mức sử dụng bộ nhớ			ui	w	A	
+memory used by apps	Bộ nhớ do ứng dụng sử dụng			ui	w	A	
+message access request	Yêu cầu truy cập tin nhắn			ui	w	A	
+messages that can interrupt	Những tin nhắn có thể làm gián đoạn chế độ Không làm phiền			ui	w	A	
+mic access	Quyền truy cập micrô			ui	w	A	
+mic is off	Micrô đã bị tắt			ui	w	A	
+microphone and camera available	Micrô và máy ảnh đang bật			ui	w	A	
+microphone available	Micrô đang bật			ui	w	A	
+microphone blocked	Micrô bị chặn			ui	w	A	
+microphone is available	Micrô đang hoạt động			ui	w	A	
+microphone permissions	Quyền truy cập micrô			ui	w	A	
+microphone turned off	Đã tắt micrô			ui	w	A	
+microphone turned on	Đã bật micrô			ui	w	A	
+microphone unavailable	Không dùng được micrô			ui	w	A	
+middle click	Nhấp chuột giữa			ui	w	A	
+middle name	Tên đệm			ui	w	A,F	
+midi and supplying power	MIDI và cấp điện			ui	w	A	
+migrate data	Di chuyển dữ liệu			ui	w	A	
+minimize window	Thu nhỏ cửa sổ			ui	w	A	
+minimum tls version	Phiên bản TLS tối thiểu			ui	w	A	
+minutes circular slider	Thanh trượt phút hình tròn			ui	w	A	
+mirror display	Phản chiếu màn hình			ui	w	A	
+mirror to external display	Phản chiếu sang màn hình ngoài?			ui	w	A	
+mmi complete	MMI hòan tất			ui	w	A	
+mms message	Tin nhắn MMS			ui	w	A	
+mms messages	Tin nhắn MMS			ui	w	A	
+mms port	Cổng MMS			ui	w	A	
+mms proxy	Proxy của MMS			ui	w	A	
+mobile	Di động	Di Động		ui	x	A,M	
+mobile data active	Đã bật dữ liệu di động			ui	w	A	
+mobile data is off	Dữ liệu di động đang tắt			ui	w	A	
+mobile data is paused	Dữ liệu di động đã bị tạm dừng			ui	w	A	
+mobile data is unavailable	Không có dữ liệu di động			ui	w	A	
+mobile data limit reached	Đã đạt đến giới hạn dữ liệu di động			ui	w	A	
+mobile data network type	Loại mạng dữ liệu di động			ui	w	A	
+mobile data off	Đã tắt dữ liệu di động			ui	w	A	
+mobile data status	Trạng thái dữ liệu di động			ui	w	A	
+mobile data usage	Mức sử dụng dữ liệu di động			ui	w	A	
+mobile data usage cycle	Chu kỳ sử dụng dữ liệu di động			ui	w	A	
+mobile network	Mạng di động			ui	w	A	
+mobile network security	Bảo mật mạng di động			ui	w	A	
+mobile network security settings	Cài đặt an ninh mạng di động			ui	w	A	
+mobile network state	Trạng thái mạng di động			ui	w	A	
+mobile voice network type	Loại mạng thoại di động			ui	w	A	
+mode change	Thay đổi chế độ			ui	w	A	
+mode name	Tên chế độ			ui	w	A	
+mode not found	Không tìm thấy chế độ nào			ui	w	A	
+modes	Chế độ			ui	x	A	
+modes access	Quyền truy cập vào Chế độ			ui	w	A	
+modes settings	Cài đặt Chế độ			ui	w	A	
+modifier keys	Phím bổ trợ			ui	w	A	
+modify graphics driver settings	Sửa đổi các chế độ cài đặt về trình điều khiển đồ hoạ			ui	w	A	
+modify network usage accounting	Sửa đổi hạch toán sử dụng mạng			ui	w	A	
+modify system settings	Sửa đổi các chế độ cài đặt hệ thống			ui	w	A	
+modify your contacts	Sửa đổi danh sách liên hệ của bạn			ui	w	A	
+modify your music collection	Sửa đổi bộ sưu tập nhạc			ui	w	A	
+modify your photo collection	Sửa đổi bộ sưu tập ảnh			ui	w	A	
+modify your video collection	Sửa đổi bộ sưu tập video			ui	w	A	
+monitor screen unlock attempts	Giám sát những lần thử mở khóa màn hình			ui	w	A	
+mono audio	Âm thanh đơn âm			ui	w	A	
+more details	Thông tin chi tiết khác			ui	w	A	
+more fields	Thông tin khác			ui	w	A	
+more language settings	Cài đặt ngôn ngữ khác			ui	w	A	
+more languages	Ngôn ngữ khác			ui	w	A	
+more options	Tùy chọn khác			ui	w	A,F	
+more options button	Nút tùy chọn khác			ui	w	F	
+more privacy settings	Các chế độ cài đặt quyền riêng tư khác			ui	w	A	
+more security settings	Chế độ cài đặt bảo mật khác			ui	w	A	
+more settings	Chế độ cài đặt khác			ui	w	A	
+more time	Nhiều thời gian hơn			ui	w	A	
+more to consider	Thêm điều cần xem xét			ui	w	F	
+most frequent	Thường xuyên nhất			ui	w	A	
+most recent	Gần đây nhất			ui	w	A	
+most recent bug report	Báo cáo lỗi gần đây nhất			ui	w	A	
+most recent security log	Nhật ký bảo mật gần đây nhất			ui	w	A	
+mouse keys	Các phím điều khiển chuột			ui	w	A	
+mouse reverse scrolling	Đảo ngược hướng cuộn chuột			ui	w	A	
+move bottom left	Chuyển tới dưới cùng bên trái			ui	w	A	
+move bottom right	Chuyển tới dưới cùng bên phải			ui	w	A	
+move content	Di chuyển nội dung			ui	w	A	
+move content later	Di chuyển nội dung sau			ui	w	A	
+move left	Di chuyển sang trái			ui	w	A	
+move phone closer	Đưa điện thoại lại gần hơn			ui	w	A	
+move phone farther away	Đưa điện thoại ra xa hơn			ui	w	A	
+move phone higher	Nâng điện thoại lên cao hơn			ui	w	A	
+move phone lower	Hạ thấp điện thoại xuống			ui	w	A	
+move right	Di chuyển sang phải			ui	w	A	
+move tile	Di chuyển ô			ui	w	A	
+move to bottom	Chuyển xuống dưới cùng			ui	w	A	
+move to top	Chuyển lên trên cùng			ui	w	A	
+move top left	Chuyển lên trên cùng bên trái			ui	w	A	
+move top right	Chuyển lên trên cùng bên phải			ui	w	A	
+moving data	Di chuyển dữ liệu			ui	w	A	
+mte is already enabled	MTE đã được bật			ui	w	A	
+music and audio	Nhạc và âm thanh			ui	w	A	
+music recognition manager service	Dịch vụ quản lý tính năng nhận dạng nhạc			ui	w	A	
+must have a title	Phải có tiêu đề			ui	w	F	
+must specify a domain	Phải chỉ định một miền			ui	w	A	
+mute sound and vibration	Tắt âm thanh và rung			ui	w	A	
+mute until device restarts	Tắt tiếng cho đến khi thiết bị khởi động lại			ui	w	A	
+mvno type	Kiểu MVNO			ui	w	A	
+mvno value	Giá trị MVNO			ui	w	A	
+my info	Thông tin của tôi			ui	w	A	
+my local profile	T.sử cục bộ của tôi			ui	w	A	
+name collection	Tên bộ sưu tập			ui	w	F	
+name format	Định dạng tên			ui	w	A	
+name prefix	Tiền tố tên			ui	w	A	
+name suffix	Hậu tố tên			ui	w	A	
+names of your contacts	Tên danh bạ của bạn			ui	w	A	
+navigate forward	Điều hướng tiến			ui	w	F	
+navigate home	Điều hướng về trang chủ			ui	w	A	
+navigate using your keyboard	Di chuyển bằng bàn phím			ui	w	A	
+navigate using your touchpad	Di chuyển bằng bàn di chuột			ui	w	A	
+navigation bar	Thanh điều hướng			ui	w	A,M	
+navigation mode	Chế độ thao tác			ui	w	A	
+navigation, home button	Thao tác, nút màn hình chính			ui	w	A	
+need help	Bạn cần được trợ giúp?			ui	w	A	
+network activation	Kích hoạt mạng			ui	w	A	
+network alerts	Cảnh báo mạng			ui	w	A	
+network available	Có mạng			ui	w	A	
+network details	Chi tiết mạng			ui	w	A	
+network download rate limit	Giới hạn tốc độ tải xuống của mạng			ui	w	A	
+network generations	Các thế hệ mạng			ui	w	A	
+network locked	Mạng đã khóa			ui	w	A	
+network logging	Ghi nhật ký mạng			ui	w	A	
+network may be monitored	Mạng có thể được giám sát			ui	w	A	
+network name	Tên mạng			ui	w	A,M	
+network not in range	Đang nằm ngoài vùng phủ sóng của mạng			ui	w	A	
+network notifications	Thông báo về mạng			ui	w	A	
+network operators	Nhà cung cấp dịch vụ mạng			ui	w	A	
+network or sim error	Lỗi mạng hoặc SIM			ui	w	A	
+network preferences	Lựa chọn ưu tiên về mạng			ui	w	A	
+network prefix length	Độ dài tiền tố mạng			ui	w	A	
+network status	Trạng thái mạng			ui	w	A	
+network type	Loại mạng			ui	w	A	
+network usage	Mức sử dụng mạng			ui	w	A	
+networks available	Có mạng			ui	w	A	
+networks saved	Đã lưu mạng			ui	w	A	
+networks unavailable	Không có mạng			ui	w	A	
+never	Không bao giờ	Thủ công		ui	x	A,F	
+never allow	Không bao giờ cho phép			ui	w	A	
+never expires	Vĩnh viễn không hết hạn			ui	w	A	
+never save	Không bao giờ lưu			ui	w	F	
+never show again	Không bao giờ hiển thị lại			ui	w	A	
+never show these notifications	Không bao giờ hiển thị các thông báo này			ui	w	A	
+never translate	Không bao giờ dịch			ui	w	F	
+never translate these sites	Không bao giờ dịch các trang này			ui	w	F	
+never translate this site	Không bao giờ dịch trang này			ui	w	F	
+new add-ons now available	Tiện ích mới hiện đã có sẵn			ui	w	F	
+new apn	APN mới			ui	w	A	
+new custom url added	URL tùy chỉnh mới đã được thêm vào			ui	w	F	
+new info to check	Thông tin mới cần kiểm tra			ui	w	F	
+new information	Thông tin mới			ui	w	A	
+new magnification settings	Chế độ phóng to mới			ui	w	A	
+new notification	Thông báo mới			ui	w	A	
+new pin	Mã PIN mới			ui	w	A	
+new pin code	Mã PIN mới			ui	w	A	
+new private tab	Thẻ riêng tư mới			ui	w	F	
+new search engine added	Đã thêm công cụ tìm kiếm mới			ui	w	F	
+new sim inserted	Đã lắp SIM mới			ui	w	A	
+new sim pin	Mã PIN mới của SIM			ui	w	A	
+new story	Tin bài mới			ui	w	A	
+new tab	Thẻ mới			ui	w	F	
+new tab opened	Đã mở thẻ mới			ui	w	F	
+next month	Tháng sau			ui	w	A	
+next track	Bản nhạc tiếp theo			ui	w	A	
+nfc is disabled	NFC đã được tắt			ui	w	A	
+nfc is enabled	NFC đã được bật			ui	w	A	
+nfc nci unfiltered log	Nhật ký chưa lọc NCI NFC			ui	w	A	
+nfc, tag, reader	Nfc, thẻ, trình đọc			ui	w	A	
+night light	Ánh sáng đêm			ui	w	A,M	
+night light is on	Ánh sáng đêm đang bật			ui	w	A	
+no active apps	Không có ứng dụng nào đang hoạt động			ui	w	A	
+no active sims available	Không có SIM nào đang hoạt động			ui	w	A	
+no add-ons here	Không có tiện ích nào ở đây			ui	w	F	
+no alarm set	Chưa đặt chuông báo			ui	w	A	
+no apps	Không có ứng dụng nào			ui	w	A	
+no apps can interrupt	Không có ứng dụng nào có thể làm gián đoạn			ui	w	A	
+no apps connected	Chưa kết nối ứng dụng nào			ui	w	A	
+no apps selected	Chưa chọn ứng dụng nào			ui	w	A	
+no autofill suggestions	Không có đề xuất tự động điền			ui	w	A	
+no available trust agents	Không có tác nhân tin cậy nào			ui	w	A	
+no bookmarks here	Không có dấu trang ở đây			ui	w	F	
+no connected apps	Bạn chưa kết nối ứng dụng nào			ui	w	A	
+no contacts	Không có địa chỉ liên hệ nào			ui	w	A	
+no data transfer	Không truyền dữ liệu			ui	w	A	
+no data used	Không sử dụng dữ liệu			ui	w	A	
+no default set	Chưa đặt tài khoản mặc định nào			ui	w	A	
+no defaults set	Chưa đặt mặc định			ui	w	A	
+no description provided	Không có mô tả nào được cung cấp			ui	w	A	
+no devices available	Không có thiết bị nào			ui	w	A	
+no devices connected	Không có thiết bị nào được kết nối			ui	w	F	
+no downloaded files	Không có tập tin đã tải xuống			ui	w	F	
+no file chosen	Không có tệp nào được chọn			ui	w	A	
+no fingerprints enrolled	Chưa đăng ký vân tay			ui	w	A	
+no hearing devices connected	Chưa kết nối với thiết bị trợ thính nào			ui	w	A	
+no history here	Không có lịch sử ở đây			ui	w	F	
+no internet	Không có Internet			ui	w	A	
+no limit	Không giới hạn			ui	w	A	
+no matches	Không có kết quả nào phù hợp			ui	w	A	
+no matching activities found	Không tìm thấy hoạt động nào phù hợp			ui	w	A	
+no mobile data service	Không có dịch vụ dữ liệu di động			ui	w	A	
+no network connection	Không có kết nối mạng			ui	w	F	
+no networks available	Không có mạng			ui	w	A	
+no networks found	Không tìm thấy mạng nào			ui	w	A	
+no new notifications	Không có thông báo mới			ui	w	A	
+no notifications	Không có thông báo nào			ui	w	A	
+no one can interrupt	Không ai có thể làm gián đoạn			ui	w	A	
+no open tabs	Không có thẻ đang mở			ui	w	F	
+no other networks available	Không có mạng nào khác			ui	w	A	
+no paired devices available	Không có thiết bị nào được ghép nối			ui	w	A	
+no password	Không có mật khẩu			ui	w	A	
+no password set	Chưa đặt mật khẩu			ui	w	A	
+no permissions granted	Chưa được cấp quyền nào			ui	w	A	
+no permissions requested	Không yêu cầu quyền			ui	w	A	
+no permissions required	Không yêu cầu quyền			ui	w	A	
+no personal apps	Không có ứng dụng cá nhân			ui	w	A	
+no printers found	Không tìm thấy máy in			ui	w	A	
+no priority conversations	Không có cuộc trò chuyện ưu tiên			ui	w	A	
+no recent apps	Không có ứng dụng nào gần đây			ui	w	A	
+no recent notifications	Không có thông báo gần đây			ui	w	A	
+no schedule	Chưa có lịch biểu nào			ui	w	A	
+no search results	Không có kết quả tìm kiếm nào			ui	w	A	
+no service selected	Không có dịch vụ nào được chọn			ui	w	A	
+no services installed	Chưa có dịch vụ nào được cài đặt			ui	w	A	
+no shortcuts found	Không tìm thấy lối tắt			ui	w	A	
+no sim	Không có SIM			ui	w	A	
+no sim available	Không có SIM			ui	w	A	
+no sim in phone	Không có SIM nào trong điện thoại			ui	w	A	
+no site exceptions	Không có ngoại lệ trang web			ui	w	F	
+no sound from notifications	Không phát âm thanh khi có thông báo			ui	w	A	
+no sound or vibration	Không phát âm thanh hoặc rung			ui	w	A	
+no thanks	Không, cảm ơn			ui	w	A,F	
+no time remaining	Không còn thời gian			ui	w	A	
+no title	Không có tiêu đề			ui	w	A	
+no user credentials installed	Không có thông tin xác thực người dùng nào được cài đặt			ui	w	A	
+no voice service	Không có dịch vụ thoại			ui	w	A	
+no vpns added	Chưa thêm VPN nào			ui	w	A	
+no wi-fi networks available	Không có mạng Wi-Fi			ui	w	A	
+no work apps	Không có ứng dụng công việc			ui	w	A	
+noise control	Kiểm soát tiếng ồn			ui	w	A	
+non-carrier data usage	Mức sử dụng dữ liệu không phải của nhà mạng			ui	w	A	
+non-priority conversations	Cuộc trò chuyện không ưu tiên			ui	w	A	
+none selected	Chưa chọn mục nào			ui	w	A	
+not a conversation	Không phải là cuộc trò chuyện			ui	w	A	
+not active	Không hoạt động			ui	w	A	
+not checked	Chưa chọn			ui	w	A	
+not connected	Chưa kết nối	Chưa được kết nối		ui	w	A	
+not enough light	Không đủ ánh sáng			ui	w	A	
+not enough reviews yet	Chưa đủ đánh giá			ui	w	F	
+not enough storage space	Không đủ dung lượng lưu trữ			ui	w	A	
+not inserted	Chưa được lắp			ui	w	A	
+not optimized	Không được tối ưu hóa			ui	w	A	
+not recognized	Không nhận dạng được			ui	w	A	
+not roaming	Không chuyển vùng			ui	w	A	
+not selected	Chưa được chọn			ui	w	A	
+not set	Chưa đặt			ui	w	A	
+not set up	Chưa thiết lập			ui	w	A	
+not specified	Chưa chỉ định			ui	w	A	
+nothing can bubble	Không cuộc trò chuyện nào có thể tạo bong bóng trò chuyện			ui	w	A	
+nothing can interrupt	Không âm thanh nào có thể làm gián đoạn			ui	w	A	
+nothing running	Không có dịch vụ nào chạy			ui	w	A	
+nothing to import	Không còn gì để nhập			ui	w	A	
+notification alerted	Đã gửi thông báo			ui	w	A	
+notification bundles	Gói thông báo			ui	w	A	
+notification category	Loại thông báo			ui	w	A	
+notification controls	Điều khiển thông báo			ui	w	A	
+notification cooldown	Giảm dần âm lượng cho thông báo			ui	w	A	
+notification filters	Bộ lọc thông báo			ui	w	A	
+notification history	Nhật ký thông báo			ui	w	A	
+notification history turned off	Đã tắt nhật ký thông báo			ui	w	A	
+notification history, conversations	Nhật ký thông báo, cuộc trò chuyện			ui	w	A	
+notification listener	Trình xử lý thông báo			ui	w	A	
+notification log	Nhật ký thông báo			ui	w	A	
+notification ranker service	Dịch vụ xếp hạng thông báo			ui	w	A	
+notification settings	Cài đặt thông báo			ui	w	A	
+notification shade	Bóng thông báo			ui	w	A	
+notification snooze options	Tùy chọn báo lại thông báo			ui	w	A	
+notification sounds	Âm thanh thông báo			ui	w	A	
+notification vibration	Rung khi có thông báo			ui	w	A	
+notification volume	Âm lượng thông báo			ui	w	A	
+notifications and alarms	Thông báo và chuông báo			ui	w	A	
+notifications hidden	Đã ẩn thông báo			ui	w	A	
+notifications on lock screen	Thông báo trên màn hình khóa			ui	w	A	
+notifications shown	Thông báo hiển thị			ui	w	A	
+notifications that can interrupt	Những thông báo có thể làm gián đoạn chế độ Không làm phiền			ui	w	A	
+notify for help	Thông báo để được trợ giúp			ui	w	A	
+notify for public networks	Thông báo về mạng công cộng			ui	w	A	
+number of trackers blocked	Số trình theo dõi đã chặn			ui	w	F	
+numbers preferences	Lựa chọn ưu tiên về số			ui	w	A	
+observe companion device presence	Phát hiện thiết bị đồng hành			ui	w	A	
+observe text you type	Quan sát nội dung bạn nhập			ui	w	A	
+off after restart	Tắt sau khi hệ thống khởi động lại			ui	w	A	
+old sim pin	Mã PIN cũ của SIM			ui	w	A	
+on - face-based	Đang bật – Dựa trên khuôn mặt			ui	w	A	
+on after restart	Bật sau khi hệ thống khởi động lại			ui	w	A	
+on at bedtime	Bật vào giờ đi ngủ			ui	w	A	
+on at sunset	Bật khi trời tối			ui	w	A	
+on in all tabs	Bật trong tất cả các thẻ			ui	w	F	
+on in private tabs	Bật trong các thẻ riêng tư			ui	w	F	
+on-device recognition	Nhận dạng trên thiết bị			ui	w	A	
+on-device recognition settings	Cài đặt nhận dạng trên thiết bị			ui	w	A	
+on-device speech recognition	Nhận dạng giọng nói trên thiết bị			ui	w	A	
+on-screen accessibility shortcut	Lối tắt hỗ trợ tiếp cận trên màn hình			ui	w	A	
+on-screen accessibility shortcut chooser	Bộ chọn lối tắt hỗ trợ tiếp cận trên màn hình			ui	w	A	
+on-screen keyboard	Bàn phím ảo			ui	w	A	
+on-screen keyboard for work	Bàn phím ảo cho công việc			ui	w	A	
+on-screen keyboard, tools	Bàn phím ảo, công cụ			ui	w	A	
+one more time	Vui lòng chạm lần nữa			ui	w	A	
+one-handed mode	Chế độ một tay			ui	w	A	
+one-handed mode shortcut	Lối tắt cho chế độ một tay			ui	w	A	
+ongoing call	Cuộc gọi đang thực hiện			ui	w	A	
+ongoing phone call	Đang gọi điện thoại			ui	w	A	
+online certificate status	Trạng thái chứng chỉ trực tuyến			ui	w	A	
+only after device restarts	Chỉ sau khi khởi động lại thiết bị			ui	w	A	
+only in private tabs	Chỉ trong thẻ riêng tư			ui	w	F	
+open anyway	VẪN MỞ			ui	w	A	
+open app	Mở ứng dụng			ui	w	A	
+open app again	Mở lại ứng dụng			ui	w	A	
+open apps	Ứng dụng đang mở			ui	w	A	
+open apps list	Mở danh sách ứng dụng			ui	w	A	
+open assistant	Mở Trợ lý			ui	w	A	
+open by default	Mở theo mặc định			ui	w	A	
+open camera	Mở Máy ảnh			ui	w	A	
+open conversation	Mở cuộc trò chuyện			ui	w	A	
+open in	Mở bằng			ui	w	F	
+open in app	Mở trong ứng dụng			ui	w	F	
+open in new tab	Mở trong thẻ mới			ui	w	F	
+open in private tab	Mở trong thẻ riêng tư			ui	w	F	
+open in regular tab	Mở trong thẻ thông thường			ui	w	F	
+open input method picker	Mở bộ chọn phương thức nhập			ui	w	A	
+open links in apps	Mở liên kết trong ứng dụng			ui	w	F	
+open links with	Mở đường liên kết bằng			ui	w	A	
+open magnification settings	Mở chế độ cài đặt phóng to			ui	w	A	
+open messages	Mở ứng dụng Tin nhắn			ui	w	A	
+open navigation drawer	Mở ngăn điều hướng			ui	w	A	
+open notification	Mở thông báo			ui	w	A	
+open notifications settings	Mở phần cài đặt thông báo			ui	w	A	
+open on homepage	Mở trên trang chủ			ui	w	F	
+open on last tab	Mở trên thẻ cuối cùng			ui	w	F	
+open quick settings	Mở cài đặt nhanh			ui	w	A	
+open review checker	Mở trình kiểm tra đánh giá			ui	w	F	
+open site	Mở trang web			ui	w	A	
+open site in browser	Mở trang web trong trình duyệt			ui	w	F	
+open supported links	Mở các đường liên kết được hỗ trợ			ui	w	A	
+open tabs	Các thẻ đang mở	Mở các thẻ		ui	w	F	
+open tabs menu	Menu các thẻ đang mở			ui	w	F	
+open vpn settings	Mở phần cài đặt VPN			ui	w	A	
+open wallet	Mở Wallet			ui	w	A	
+open with	Mở bằng			ui	w	A,M	
+opening links	Mở đường liên kết			ui	w	A	
+opening screen	Khi mở ứng dụng, hãy vào			ui	w	F	
+operator info	Thông tin nhà mạng			ui	w	A	
+optimizing battery use	Tối ưu hóa mức sử dụng pin			ui	w	A	
+optional shortcut	Lối tắt tùy chọn			ui	w	A	
+organization	Tổ chức			ui	x	A,M	
+organizational unit	Đơn vị tổ chức			ui	w	A,M	
+other	Khác			ui	x	A	
+other apps	Ứng dụng khác			ui	w	A	
+other bookmarks	Dấu trang khác			ui	w	F	
+other default preferences	Các tùy chọn mặc định khác			ui	w	A	
+other device	Thiết bị khác			ui	w	A	
+other devices	Thiết bị khác			ui	w	A	
+other display controls	Các chế độ điều khiển màn hình khác			ui	w	A	
+other fax	Số fax Khác			ui	w	A	
+other media devices	Các thiết bị đa phương tiện khác			ui	w	A	
+other networks	Các mạng khác			ui	w	A	
+other options	Tùy chọn khác			ui	w	A	
+other users	Người dùng khác			ui	w	A	
+out of building	Ngoài Toà nhà			ui	w	A	
+out of neighborhood	Ngoài Vùng lân cận			ui	w	A	
+out of service	Không có dịch vụ			ui	w	A	
+over limit	Vượt quá giới hạn			ui	w	A	
+override do not disturb	Làm gián đoạn chế độ Không làm phiền			ui	w	A	
+override force-dark	Vô hiệu hóa tính năng buộc dùng chế độ tối			ui	w	A	
+overrides all other settings	Ghi đè tất cả các cài đặt khác			ui	w	F	
+overrides offers to translate	Ghi đè đề xuất dịch			ui	w	F	
+pac url	URL PAC			ui	w	A	
+packaging and appearance	Đóng gói và ngoại hình			ui	w	F	
+pair hearing aids	Ghép nối máy trợ thính			ui	w	A	
+pair hearing device	Ghép nối thiết bị trợ thính			ui	w	A	
+pair left ear	Ghép nối tai trái			ui	w	A	
+pair new device	Ghép nối thiết bị mới			ui	w	A	
+pair right ear	Ghép nối tai phải			ui	w	A	
+pair with bluetooth devices	Ghép nối với thiết bị Bluetooth			ui	w	A	
+pair your other ear	Ghép nối tai khác			ui	w	A	
+pairing request	Yêu cầu ghép nối			ui	w	A,M	
+parcel size	Kích thước bưu kiện			ui	w	A	
+parent needed	Cần có sự đồng ý của cha mẹ			ui	w	A	
+partial screen	Một phần màn hình			ui	w	A	
+password change	Thay đổi mật khẩu			ui	w	A	
+password copied to clipboard	Đã sao chép mật khẩu vào bộ nhớ tạm			ui	w	F	
+password has been set	Mật khẩu đã được đặt			ui	w	A	
+password options	Cài đặt mật khẩu			ui	w	F	
+password required	Yêu cầu mật khẩu			ui	w	F	
+password unlock	Mở khóa bằng mật khẩu			ui	w	A	
+passwords	Mật khẩu			ui	x	A,F	
+passwords shortcut	Lối tắt mật khẩu			ui	w	F	
+paste as plain text	Dán dưới dạng văn bản thuần túy			ui	w	A	
+paste or enter url	Dán hoặc nhập URL			ui	w	F	
+pattern cleared	Đã xóa hình			ui	w	A	
+pattern completed	Đã vẽ xong hình			ui	w	A	
+pattern has been set	Hình đã được đặt			ui	w	A	
+pattern recorded	Đã ghi lại hình mở khóa			ui	w	A	
+pattern started	Đã bắt đầu vẽ hình			ui	w	A	
+pattern unlock	Mở khóa bằng hình			ui	w	A	
+paused by host	Do máy chủ tạm dừng			ui	w	A	
+pay, tap, payments	Thanh toán, nhấn, khoản thanh toán			ui	w	A	
+paying at the terminal	Thanh toán trên thiết bị thanh toán			ui	w	A	
+payment card	Thẻ thanh toán			ui	w	A	
+payment default	Ứng dụng thanh toán mặc định			ui	w	A	
+payment methods	Phương thức thanh toán			ui	w	F	
+payment, default	Thanh toán, mặc định			ui	w	A	
+peer devices	Thiết bị ngang hàng			ui	w	A	
+perform gestures	Thực hiện cử chỉ			ui	w	A	
+performance	Hiệu suất			ui	x	A,F	
+permission manager	Trình quản lý quyền			ui	w	A	
+permission request suppressed	Yêu cầu quyền đã bị chặn			ui	w	A	
+permission requested	Đã yêu cầu quyền			ui	w	A	
+permit usage access	Cho phép truy cập dữ liệu sử dụng			ui	w	A	
+persistent storage	Bộ nhớ liên tục			ui	w	F	
+personal dictionary	Từ điển cá nhân			ui	w	A	
+personal dictionary for work	Từ điển cá nhân dành cho công việc			ui	w	A	
+personal profile accounts	Tài khoản hồ sơ cá nhân			ui	w	A	
+personal view	Chế độ xem cá nhân			ui	w	A	
+personalize your screen	Cá nhân hóa màn hình của bạn			ui	w	A	
+phishing alert	Cảnh báo về hành vi lừa đảo			ui	w	A	
+phone	Điện thoại			ui	x	A,F,M	
+phone app	Ứng dụng điện thoại			ui	w	A	
+phone book access request	Yêu cầu truy cập danh bạ			ui	w	A	
+phone call	Cuộc gọi điện thoại			ui	w	A	
+phone muted	Điện thoại đã tắt tiếng			ui	w	A	
+phone number is missing	Thiếu số điện thoại			ui	w	A	
+phone options	Tùy chọn điện thoại			ui	w	A	
+phone ringtone	Nhạc chuông điện thoại			ui	w	A	
+phone settings unavailable	Không dùng được các chế độ cài đặt của điện thoại			ui	w	A	
+phonetic first name	Tên theo phiên âm			ui	w	A	
+phonetic last name	Họ theo phiên âm			ui	w	A	
+phonetic middle name	Tên đệm theo phiên âm			ui	w	A	
+phonetic name	Tên theo phiên âm			ui	w	A	
+photo id	ID ảnh			ui	w	A	
+photos and videos	Ảnh và video			ui	w	A	
+physical activity	Hoạt động thể chất			ui	w	A	
+physical keyboard	Bàn phím vật lý			ui	w	A	
+physical keyboard accessibility	Hỗ trợ tiếp cận cho bàn phím vật lý			ui	w	A	
+physical keyboard layout picker	Bộ chọn bố cục bàn phím thực			ui	w	A	
+physical keyboard layouts	Bố cục bàn phím thực			ui	w	A	
+physical keyboard options	Các lựa chọn bàn phím thực			ui	w	A	
+physical keyboard settings	Cài đặt bàn phím vật lý			ui	w	A	
+physical keyboards configured	Đã định cấu hình bàn phím vật lý			ui	w	A	
+pick a month	Chọn tháng			ui	w	F	
+pin change	Thay đổi mã PIN			ui	w	A	
+pin has been set	Mã PIN đã được đặt			ui	w	A	
+pin media player	Ghim trình phát nội dung nghe nhìn			ui	w	A	
+pin unlock	Mở khóa bằng mã pin			ui	w	A	
+pip picture in	Ảnh trong ảnh			ui	w	A	
+place selected widget	Đặt tiện ích đã chọn vào vị trí			ui	w	A	
+place video call	Gọi video			ui	w	A	
+play a test sound	Phát thử âm thanh			ui	w	A	
+play countdown alarm	Phát cảnh báo đếm ngược			ui	w	A	
+play media to	Phát nội dung nghe nhìn tới			ui	w	A	
+play store unavailable	Cửa hàng Play không có sẵn			ui	w	A	
+playing through bluetooth	Đang phát qua Bluetooth			ui	w	A	
+please enable tab syncing	Vui lòng bật đồng bộ hóa thẻ			ui	w	F	
+please re-authenticate	Vui lòng xác thực lại			ui	w	F	
+please re-enroll your face	Vui lòng đăng ký lại khuôn mặt của bạn			ui	w	A	
+please select	Vui lòng chọn			ui	w	A	
+please try again	Vui lòng thử lại			ui	w	A	
+plus icon	Biểu tượng dấu cộng			ui	w	A	
+pointer color	Màu con trỏ			ui	w	A	
+pointer color customization	Tùy chỉnh màu con trỏ			ui	w	A	
+pointer scale	Kích thước con trỏ			ui	w	A	
+pointer speed	Tốc độ con trỏ			ui	w	A	
+pointer speed, gestures	Tốc độ con trỏ, cử chỉ			ui	w	A	
+pointer stroke color	Màu đường viền của con trỏ			ui	w	A	
+poor connection	Kết nối kém			ui	w	A	
+pop on screen	Bật ra trên màn hình			ui	w	A	
+popup window	Cửa sổ bật lên			ui	w	A	
+portable hotspot	Điểm phát sóng di động			ui	w	A	
+position invalid	Vị trí không hợp lệ			ui	w	A	
+possible duplicates	Có thể trùng lặp			ui	w	A	
+power button ends call	Kết thúc cuộc gọi bằng nút nguồn			ui	w	A	
+power button instantly locks	Khóa tức thì bằng nút nguồn			ui	w	A	
+power button pressed	Đã nhấn nút nguồn			ui	w	A	
+power dialog	Hộp thoại thao tác với nguồn			ui	w	A	
+power menu	Trình đơn nguồn			ui	w	A	
+power off	Tắt nguồn			ui	w	A	
+power on sounds	Âm thanh bật nguồn			ui	w	A	
+power options	Tùy chọn nguồn điện			ui	w	A	
+power press detected	Phát hiện thấy thao tác nhấn nút Nguồn			ui	w	A	
+power up your privacy	Tăng quyền riêng tư của bạn			ui	w	F	
+power usage, charge	Phí sử dụng năng lượng, phí			ui	w	A	
+preferred engine	Công cụ ưu tiên			ui	w	A	
+preferred for calls	Ưu tiên thực hiện/nhận cuộc gọi			ui	w	A	
+preferred for sms	Ưu tiên gửi/nhận tin nhắn SMS			ui	w	A	
+preferred frequency	Tần số ưu tiên			ui	w	A	
+preferred language	Ngôn ngữ ưu tiên			ui	w	A	
+preferred language order	Thứ tự ngôn ngữ ưu tiên			ui	w	A	
+preferred network mode: cdma	Chế độ mạng ưa thích: CDMA			ui	w	A	
+preferred network mode: global	Chế độ mạng ưa thích: Toàn cầu			ui	w	A	
+preferred network mode: lte	Chế độ mạng ưa thích: LTE			ui	w	A	
+preferred network mode: tdscdma	Chế độ mạng ưa thích: TDSCDMA			ui	w	A	
+preferred network type	Loại mạng ưu tiên			ui	w	A	
+preferred service	Dịch vụ ưu tiên			ui	w	A	
+premium sms	Tin nhắn dịch vụ			ui	w	A	
+press key	Nhấn phím			ui	w	A	
+press menu for help	Nhấn vào Menu để được trợ giúp			ui	w	A	
+press menu to unlock	Nhấn vào Menu để mở khóa			ui	w	A	
+prevent phone from sleeping	Ngăn điện thoại chuyển sang chế độ ngủ			ui	w	A	
+prevent ringing	Ngăn đổ chuông			ui	w	A	
+previous month	Tháng trước			ui	w	A	
+previous track	Bản nhạc trước			ui	w	A	
+previously connected	Đã kết nối trước đây			ui	w	A	
+previously used with account	Đã dùng trước đây với tài khoản			ui	w	A	
+primary data	Dữ liệu chính			ui	w	A	
+print job	Lệnh in			ui	w	A	
+print jobs	Lệnh in			ui	w	A	
+print service not enabled	Dịch vụ in không được kích hoạt			ui	w	A	
+print services	Dịch vụ in			ui	w	A	
+priority conversations	Cuộc trò chuyện ưu tiên			ui	w	A	
+priority mode	Chế độ ưu tiên			ui	w	A	
+privacy and security	Riêng tư và bảo mật			ui	w	F	
+privacy dashboard	Bảng tổng quan về quyền riêng tư			ui	w	A	
+private	Riêng tư			ui	x	A,F,M	
+private browsing data deleted	Đã xóa dữ liệu duyệt web riêng tư			ui	w	F	
+private browsing session	Phiên duyệt web riêng tư			ui	w	F	
+private space	Không gian riêng tư			ui	w	A	
+private space deleted	Đã xóa không gian riêng tư			ui	w	A	
+private space lock	Phương thức khóa không gian riêng tư			ui	w	A	
+private space removed	Đã xóa không gian riêng tư			ui	w	A	
+private space unlocked	Đã mở khóa không gian riêng tư			ui	w	A	
+private tab closed	Đã đóng thẻ riêng tư			ui	w	F	
+private tabs	Các thẻ riêng tư			ui	w	F	
+private tabs closed	Đã đóng các thẻ riêng tư			ui	w	F	
+prl version	Phiên bản PRL			ui	w	A	
+process stats	Số liệu thống kê về quy trình			ui	w	A	
+processing issue recording	Đang xử lý bản ghi sự cố			ui	w	A	
+processing screen recording	Đang xử lý video ghi màn hình			ui	w	A	
+product is not available	Sản phẩm không có sẵn			ui	w	F	
+profile notifications	Thông báo hồ sơ			ui	w	A	
+protection settings	Cài đặt bảo vệ			ui	w	F	
+provide bundle feedback	Phản hồi về gói			ui	w	A	
+provide feedback	Gửi ý kiến phản hồi			ui	w	A	
+provided by apps	Do các ứng dụng cung cấp			ui	w	A	
+proxied notification	Thông báo đã xử lý qua máy chủ proxy			ui	w	A	
+proxy hostname	Tên máy chủ proxy			ui	w	A	
+proxy port	Cổng proxy			ui	w	A	
+ptp and supplying power	PTP và cấp điện			ui	w	A	
+puk unlock successful	Mở khóa mã PUK thành công			ui	w	A	
+puk unlock unsuccessful	Mở khóa mã PUK không thành công			ui	w	A	
+pull screen into reach	Kéo màn hình vào tầm tay			ui	w	A	
+pull to refresh	Kéo trang để làm mới			ui	w	F	
+pulldown menu	Trình đơn kéo xuống			ui	w	A	
+qr code scanner	Trình quét mã QR			ui	w	A	
+query all packages	Truy vấn tất cả các gói			ui	w	A	
+quick settings	Cài đặt nhanh			ui	w	A,M	
+quick settings developer tiles	Ô cài đặt nhanh dành cho nhà phát triển			ui	w	A	
+quick settings editor	Trình chỉnh sửa cài đặt nhanh			ui	w	A	
+quick settings sheet	Bảng cài đặt nhanh			ui	w	F	
+quick settings shortcut	Lối tắt Cài đặt nhanh			ui	w	A	
+quickly access accessibility features	Truy cập nhanh vào bộ tính năng hỗ trợ tiếp cận			ui	w	A	
+quickly open camera	Mở nhanh camera			ui	w	A	
+radio off	Đài đã tắt			ui	w	A	
+ram use	Sử dụng RAM			ui	w	A	
+randomized mac	Địa chỉ MAC gán ngẫu nhiên			ui	w	A	
+randomized mac address	Địa chỉ MAC ngẫu nhiên			ui	w	A	
+ranking object is missing	Thiếu đối tượng xếp hạng			ui	w	A	
+re-enter your password	Nhập lại mật khẩu			ui	w	A	
+re-enter your pin	Nhập lại mã PIN			ui	w	A	
+re-enter your work password	Nhập lại mật khẩu cho hồ sơ công việc			ui	w	A	
+re-enter your work pin	Nhập lại mã PIN cho hồ sơ công việc			ui	w	A	
+read call log	Đọc nhật ký cuộc gọi			ui	w	A	
+read cell broadcast messages	Đọc tin nhắn quảng bá			ui	w	A	
+read historical network usage	Đọc quá trình sử dụng mạng trước đây			ui	w	A	
+read install sessions	Đọc phiên cài đặt			ui	w	A	
+read more	Đọc thêm			ui	w	A	
+read phone numbers	Đọc số điện thoại			ui	w	A	
+read subscribed feeds	Đọc nguồn cấp dữ liệu đã đăng ký			ui	w	A	
+read sync settings	Đọc cài đặt đồng bộ hóa			ui	w	A	
+read sync statistics	Đọc thống kê đồng bộ hóa			ui	w	A	
+read the article	Đọc bài viết			ui	w	F	
+read your contacts	Đọc danh sách liên hệ của bạn			ui	w	A	
+read your notifications	Đọc thông báo			ui	w	A	
+reader view	Chế độ đọc sách			ui	w	F	
+ready to scan	Sẵn sàng để quét			ui	w	F	
+rear-facing camera	Máy ảnh sau			ui	w	F	
+reboot later	Khởi động lại sau			ui	w	A	
+reboot now	Khởi động lại ngay			ui	w	A	
+reboot to safe mode	Khởi động lại ở chế độ an toàn			ui	w	A	
+receive link speed	Tốc độ nhận			ui	w	A	
+received tabs	Các thẻ đã nhận			ui	w	F	
+recent access	Quyền truy cập gần đây			ui	w	A	
+recent app use	Hoạt động sử dụng gần đây của ứng dụng			ui	w	A	
+recent apps	Ứng dụng gần đây			ui	w	A	
+recent apps, default apps	Ứng dụng gần đây, ứng dụng mặc định			ui	w	A	
+recent bookmarks	Dấu trang gần đây			ui	w	F	
+recent conversations	Cuộc trò chuyện gần đây			ui	w	A	
+recent conversations removed	Đã xóa các cuộc trò chuyện gần đây			ui	w	A	
+recent location requests	Các yêu cầu gần đây về vị trí			ui	w	A	
+recently closed	Đã đóng gần đây			ui	w	F	
+recently closed tabs	Các thẻ đã đóng gần đây			ui	w	F	
+recently dismissed	Đã đóng gần đây			ui	w	A	
+recently opened apps	Ứng dụng đã mở gần đây			ui	w	A	
+recently saved	Đã lưu gần đây			ui	w	F	
+recently used	Sử dụng gần đây			ui	w	F	
+recently visited	Đã xem gần đây			ui	w	F	
+recognize physical activity	Nhận dạng hoạt động thể chất			ui	w	A	
+reconnect to resume syncing	Kết nối lại để tiếp tục đồng bộ hóa			ui	w	F	
+reconnect to sync	Kết nối lại với Sync			ui	w	F	
+record audio	Ghi âm			ui	w	A	
+record entire screen	Ghi toàn màn hình			ui	w	A	
+record issue	Ghi sự cố			ui	w	A	
+record one app	Ghi một ứng dụng			ui	w	A	
+record screen	Ghi màn hình			ui	w	A	
+record your screen	Ghi màn hình?			ui	w	A	
+recording issue	Đang ghi sự cố			ui	w	A	
+recording screen	Đang ghi màn hình			ui	w	A	
+recording screen and audio	Đang ghi màn hình và âm thanh			ui	w	A	
+red-green, green weak	Khó phân biệt màu đỏ – xanh lục, xanh lục			ui	w	A	
+red-green, red weak	Khó phân biệt màu đỏ – xanh lục, đỏ			ui	w	A	
+redirect trackers	Trình theo dõi chuyển hướng			ui	w	F	
+redirect vibration	Chuyển hướng rung			ui	w	A	
+reduce flicker	Giảm nhấp nháy			ui	w	A	
+referred by	Được giới thiệu bởi			ui	w	A	
+region preference	Tùy chọn khu vực			ui	w	A	
+regional preferences	Lựa chọn ưu tiên theo khu vực			ui	w	A	
+register new telecom connections	Đăng ký kết nối viễn thông mới			ui	w	A	
+registration was successful	Đăng ký thành công			ui	w	A	
+regulatory labels	Nhãn thông tin quy định			ui	w	A	
+release finger when done	Thả ngón tay khi xong			ui	w	A	
+reliable reviews	Đánh giá đáng tin cậy			ui	w	F	
+reload website	Tải lại trang web			ui	w	F	
+remember my choice	Nhớ lựa chọn của tôi			ui	w	A	
+remembered groups	Các nhóm đã nhớ			ui	w	A	
+remind me	Nhắc tôi			ui	w	A	
+remind me later	Nhắc tôi sau			ui	w	A	
+remote authenticator unlock	Mở khóa từ xa bằng Authenticator			ui	w	A	
+remote debugging via usb	Gỡ lỗi từ xa qua USB			ui	w	F	
+remote inputs	Đầu vào từ xa			ui	w	A	
+remove admin privileges	Xóa đặc quyền của quản trị viên?			ui	w	A	
+remove all certificates	Xóa tất cả chứng chỉ			ui	w	A	
+remove all the contents	Xóa tất cả nội dung?			ui	w	A	
+remove all websites	Xóa tất cả các trang web			ui	w	F	
+remove animations	Xóa hiệu ứng động			ui	w	A	
+remove app	Xóa ứng dụng			ui	w	A	
+remove association	Hủy liên kết			ui	w	A	
+remove attachment	Xóa tệp đính kèm			ui	w	A	
+remove bubbles	Xóa bong bóng trò chuyện			ui	w	A	
+remove contacts	Xóa liên hệ			ui	w	A	
+remove custom setting	Xóa cài đặt tùy chỉnh			ui	w	A	
+remove custom urls	Loại bỏ các URL tùy chỉnh			ui	w	F	
+remove drm certificates	Xóa chứng chỉ DRM			ui	w	A	
+remove extra dim shortcuts	Xóa lối tắt đến tính năng siêu tối			ui	w	A	
+remove from favorites	Xóa khỏi mục ưa thích			ui	w	A	
+remove from label	Xóa khỏi nhãn			ui	w	A	
+remove from settings	Xóa khỏi Cài đặt			ui	w	A	
+remove from shortcuts	Xóa khỏi lối tắt			ui	w	F	
+remove language	Xóa ngôn ngữ			ui	w	A	
+remove photo	Xóa ảnh			ui	w	A	
+remove profile protection	Xóa tính năng bảo vệ hồ sơ?			ui	w	A	
+remove restriction	Xóa hạn chế?			ui	w	A	
+remove restrictions	Xóa các hạn chế			ui	w	A	
+remove search engines	Gỡ bỏ công cụ tìm kiếm			ui	w	F	
+remove shortcut	Xóa phím tắt?			ui	w	A	
+remove sync group	Xóa nhóm đồng bộ hóa			ui	w	A	
+remove tab from collection	Xóa thẻ khỏi bộ sưu tập			ui	w	F	
+remove this app	Xóa ứng dụng này?			ui	w	A	
+remove this profile	Xóa hồ sơ này?			ui	w	A	
+remove this suggestion	Xóa nội dung đề xuất này?			ui	w	A	
+remove tile	Xóa ô			ui	w	A	
+remove user	Xóa người dùng?			ui	w	A	
+remove watch	Xóa đồng hồ			ui	w	A	
+remove widget	Xóa tiện ích			ui	w	A	
+removed apps	Ứng dụng đã xóa			ui	w	A	
+removed apps and users	Ứng dụng và người dùng bị xóa			ui	w	A	
+removed from favorites	Đã xóa khỏi mục ưa thích			ui	w	A	
+removed from label	Đã bị xóa khỏi nhãn			ui	w	A	
+removed unsafely	Đã tháo một cách không an toàn			ui	w	A	
+removed user	Người dùng đã xóa			ui	w	A	
+rename collection	Đổi tên bộ sưu tập			ui	w	F	
+rename device	Đổi tên thiết bị			ui	w	A	
+rename label	Đổi tên nhãn			ui	w	A	
+rename storage	Đổi tên bộ nhớ			ui	w	A	
+rename this device	Đổi tên thiết bị này			ui	w	A	
+reorder running apps	Sắp xếp lại những ứng dụng đang chạy			ui	w	A	
+repeat callers	Người gọi nhiều lần			ui	w	A	
+repeat callers can interrupt	Những người gọi nhiều lần có thể gây gián đoạn			ui	w	A	
+repeat keys	Lặp lại phím			ui	w	A	
+repeat rate	Tốc độ lặp lại			ui	w	A	
+replace existing vpn	Thay thế VPN hiện có?			ui	w	A	
+reply to messages	Trả lời tin nhắn			ui	w	A	
+report site issue	Báo cáo vấn đề về trang			ui	w	F	
+request delete packages	Yêu cầu xóa gói			ui	w	A	
+request desktop site	Yêu cầu trang web trên máy tính			ui	w	F	
+request install packages	Yêu cầu gói cài đặt			ui	w	A	
+request screen lock complexity	Cần biết độ phức tạp của khóa màn hình			ui	w	A	
+request sent	Đã gửi yêu cầu			ui	w	F	
+request support	Yêu cầu hỗ trợ			ui	w	F	
+require pattern	Yêu cầu hình			ui	w	A	
+require vpn connection	Yêu cầu kết nối VPN?			ui	w	A	
+requires sim to connect	Cần có SIM để kết nối			ui	w	A	
+reroute outgoing calls	Định tuyến lại cuộc gọi đi			ui	w	A	
+resend data	Gửi lại dữ liệu			ui	w	F	
+reset all	Đặt lại tất cả			ui	w	A	
+reset all tiles	Đặt lại mọi ô?			ui	w	A	
+reset apps	Đặt lại ứng dụng			ui	w	A	
+reset back to default	Đặt lại về phím tắt mặc định?			ui	w	A	
+reset notification importance	Đặt lại mức độ quan trọng của thông báo			ui	w	A	
+reset notification importance completed	Đã hòan tất việc đặt lại mức độ quan trọng của thông báo			ui	w	A	
+reset options	Tùy chọn đặt lại			ui	w	A	
+reset settings	Đặt lại chế độ cài đặt			ui	w	A	
+reset shortcutmanager rate-limiting	Đặt lại giới hạn tốc độ trong ShortcutManager			ui	w	A	
+reset to default values	Đặt lại về giá trị mặc định			ui	w	A	
+reset your internet	Đặt lại Internet của bạn?			ui	w	A	
+reset, preferences, default	Đặt lại, tùy chọn, mặc định			ui	w	A	
+reset, restore, factory	Đặt lại, khôi phục, cài đặt gốc			ui	w	A	
+restart	Khởi động lại	Bắt đầu lại		ui	x	A,M	
+restart device	Khởi động lại thiết bị?			ui	w	A	
+restore default	Khôi phục giá trị mặc định			ui	w	A	
+restore default search engines	Khôi phục công cụ tìm kiếm mặc định			ui	w	F	
+restore defaults	Khôi phục mặc định			ui	w	A	
+restore tab	Khôi phục thẻ			ui	w	F	
+restoring	Đang khôi phục			ui	x	A	
+restoring default apn settings	Đang khôi phục cài đặt APN mặc định			ui	w	A	
+restoring failed	Không khôi phục được			ui	w	A	
+restrict background data	Giới hạn dữ liệu nền?			ui	w	A	
+restricted apps	Ứng dụng bị hạn chế			ui	w	A	
+restricted profile	Hồ sơ bị hạn chế			ui	w	A	
+restricted setting	Chế độ cài đặt bị hạn chế			ui	w	A	
+restriction, restrict, restricted	Giới hạn, hạn chế, bị hạn chế			ui	w	A	
+resume charging	Tiếp tục sạc			ui	w	A	
+retail demo	Giới thiệu bán lẻ			ui	w	A	
+retrieve running apps	Truy xuất các ứng dụng đang chạy			ui	w	A	
+retrieve window content	Truy xuất nội dung cửa sổ			ui	w	A	
+retry face authentication	Thử xác thực lại khuôn mặt			ui	w	A	
+return to call	Quay lại cuộc gọi			ui	w	A	
+return to previous app	Quay về ứng dụng trước đó			ui	w	F	
+reverse scrolling	Cuộn ngược			ui	w	A	
+review checker	Trình kiểm tra đánh giá			ui	w	F	
+review notification settings	Xem lại chế độ cài đặt thông báo			ui	w	A	
+review schedule	Xem lại lịch biểu			ui	w	A	
+right click, tap	Nhấp chuột phải, nhấn			ui	w	A	
+right edge	Cạnh bên phải			ui	w	A	
+right handle	Ô điều khiển bên phải			ui	w	A	
+right icon	Biểu tượng bên phải			ui	w	A	
+right keycode	Mã phím bên phải			ui	w	A	
+right shortcut	Lối tắt bên phải			ui	w	A	
+right shortcut also unlocks	Lối tắt bên phải cũng mở khóa			ui	w	A	
+ring vibration	Rung khi đổ chuông			ui	w	A	
+ring volume	Âm lượng chuông			ui	w	A	
+ringer mode	Chế độ chuông			ui	w	A	
+ringer muted	Đã tắt chuông			ui	w	A	
+ringer off	Tắt chuông			ui	w	A	
+ringer on	Bật chuông			ui	w	A	
+ringer volume	Âm lượng chuông			ui	w	A	
+ringtone and alarms	Nhạc chuông và chuông báo			ui	w	A	
+ringtone volume	Âm lượng nhạc chuông			ui	w	A	
+roaming - alliance partner	Chuyển vùng - Đối tác Liên minh			ui	w	A	
+roaming - available system	Chuyển vùng - Hệ thống Khả dụng			ui	w	A	
+roaming - preferred system	Chuyển vùng - Hệ thống Ưa thích			ui	w	A	
+roaming - premium partner	Chuyển vùng - Đối tác Cao cấp			ui	w	A	
+roaming banner off	Biểu ngữ Chuyển vùng Tắt			ui	w	A	
+roaming banner on	Biểu ngữ Chuyển vùng Bật			ui	w	A	
+roaming charges may apply	Bạn có thể bị tính phí chuyển vùng			ui	w	A	
+roaming indicator flashing	Chỉ báo Chuyển vùng Nhấp nháy			ui	w	A	
+roaming indicator off	Chỉ báo Chuyển vùng Tắt			ui	w	A	
+roaming indicator on	Chỉ báo Chuyển vùng Bật			ui	w	A	
+roaming preference	Tùy chọn chuyển vùng			ui	w	A	
+rotate screen	Xoay màn hình			ui	w	A	
+route media output	Định tuyến thiết bị ra phương tiện			ui	w	A	
+route to voicemail	Chuyển tới thư thoại			ui	w	A	
+routine mode info notification	Thông báo cung cấp thông tin về chế độ sạc thông thường			ui	w	A	
+ruim corporate unlock pin	Mã PIN mở khóa RUIM corporate			ui	w	A	
+ruim corporate unlock successful	Mở khóa RUIM Corporate thành công			ui	w	A	
+ruim hrpd unlock pin	Mã PIN mở khóa RUIM hrpd			ui	w	A	
+ruim hrpd unlock successful	Mở khóa RUIM Hrpd thành công			ui	w	A	
+ruim unlock pin	Mã PIN mở khóa RUIM			ui	w	A	
+ruim unlock request unsuccessful	Yêu cầu mở khóa RUIM không thành công			ui	w	A	
+ruim unlock successful	Mở khóa RUIM thành công			ui	w	A	
+rule not found	Không tìm thấy quy tắc			ui	w	A	
+run at startup	Chạy khi khởi động			ui	w	A	
+run foreground service	Chạy dịch vụ trên nền trước			ui	w	A	
+run in the background	Chạy trong nền			ui	w	A	
+run ping test	Chạy kiểm tra ping			ui	w	A	
+run time	Thời gian chạy			ui	w	A,M	
+running app	Ứng dụng đang chạy			ui	w	A	
+safe mode	Chế độ an toàn			ui	w	A	
+same as personal profile	Giống như hồ sơ cá nhân			ui	w	A	
+satellite connectivity	Kết nối vệ tinh			ui	w	A	
+satellite messaging	Nhắn tin qua vệ tinh			ui	w	A	
+satellite messaging available	Tính năng nhắn tin qua vệ tinh đang hoạt động			ui	w	A	
+satellite messaging not available	Tính năng nhắn tin qua vệ tinh chưa hoạt động			ui	w	A	
+satellite messaging not supported	Chưa hỗ trợ tính năng nhắn tin qua vệ tinh			ui	w	A	
+satellite messaging, satellite connectivity	Nhắn tin qua vệ tinh, kết nối vệ tinh			ui	w	A	
+satellite sos	Liên lạc khẩn cấp qua vệ tinh			ui	w	A	
+satellite, connection available	Hiện có kết nối vệ tinh			ui	w	A	
+satellite, good connection	Kết nối vệ tinh tốt			ui	w	A	
+satellite, no connection	Không có kết nối vệ tinh			ui	w	A	
+satellite, poor connection	Kết nối vệ tinh kém			ui	w	A	
+save account information	Lưu thông tin tài khoản			ui	w	A	
+save address	Lưu địa chỉ			ui	w	F	
+save and autofill addresses	Lưu và tự động điền địa chỉ			ui	w	F	
+save and autofill cards	Lưu và tự động điền thẻ tín dụng			ui	w	F	
+save and fill addresses	Lưu và điền địa chỉ			ui	w	F	
+save and link	Lưu và liên kết			ui	w	A	
+save and unlink	Lưu và hủy liên kết			ui	w	A	
+save as pdf	Lưu dưới dạng PDF			ui	w	F	
+save changes to login	Lưu các thay đổi vào thông tin đăng nhập			ui	w	F	
+save for autofill	Lưu cho Tự động điền			ui	w	A	
+save imported contacts to	Lưu danh bạ đã nhập vào			ui	w	A	
+save logins and passwords	Lưu thông tin đăng nhập và mật khẩu			ui	w	F	
+save networks	Bạn có muốn lưu mạng không?			ui	w	A	
+save password	Lưu mật khẩu?			ui	w	F	
+save passwords	Lưu mật khẩu			ui	w	F	
+save tabs to collection	Lưu các thẻ vào bộ sưu tập			ui	w	F	
+save this login	Lưu thông tin đăng nhập này?			ui	w	F	
+save this network	Bạn có muốn lưu mạng này không?			ui	w	A	
+save to collection	Lưu vào bộ sưu tập			ui	w	F	
+saved cards	Thẻ tín dụng đã lưu			ui	w	F	
+saved devices	Thiết bị đã lưu			ui	w	A	
+saved logins	Thông tin đăng nhập đã lưu			ui	w	F	
+saved networks	Mạng đã lưu			ui	w	A	
+saved via	Đã lưu thông qua			ui	w	A	
+saving screenshot to private	Đang lưu ảnh chụp màn hình vào hồ sơ riêng tư			ui	w	A	
+saving to	Lưu vào			ui	w	A	
+scale app	Chia tỷ lệ ứng dụng			ui	w	A	
+scan the code	Quét mã			ui	w	F	
+scanning face	Quét tìm khuôn mặt			ui	w	A	
+scanning for deceptive apps	Đang quét tìm ứng dụng lừa đảo			ui	w	A	
+schedule based on	Lịch biểu dựa vào			ui	w	A	
+schedule name	Tên lịch biểu			ui	w	A	
+schedule precisely timed actions	Lên lịch cho các hành động được xác định thời gian chính xác			ui	w	A	
+schedules	Lịch biểu			ui	x	A	
+screen attention	Phát hiện ánh mắt			ui	w	A	
+screen casting stopped	Đã ngừng truyền màn hình			ui	w	A	
+screen compatibility	Khả năng tương thích với màn hình			ui	w	A	
+screen flash	Đèn flash của màn hình			ui	w	A	
+screen flash color	Màu đèn flash của màn hình			ui	w	A	
+screen lock options	Các phương thức khóa màn hình			ui	w	A	
+screen locked	Màn hình đã khóa			ui	w	A	
+screen locking sound	Âm thanh khóa màn hình			ui	w	A	
+screen pinning	Ghim màn hình			ui	w	A	
+screen reader	Trình đọc màn hình			ui	w	A	
+screen record	Ghi màn hình			ui	w	A	
+screen recorder	Trình ghi màn hình			ui	w	A	
+screen recording	Ghi màn hình			ui	w	A	
+screen recording saved	Đã lưu bản ghi màn hình			ui	w	A	
+screen resolution	Độ phân giải màn hình			ui	w	A	
+screen size, large screen	Kích thước màn hình, màn hình lớn			ui	w	A	
+screen time	Thời gian sử dụng thiết bị			ui	w	A	
+screen timeout	Thời gian chờ khóa màn hình			ui	w	A	
+screen tinted amber	Màn hình được phủ màu hổ phách			ui	w	A	
+screen, touchscreen	Màn hình, màn hình cảm ứng			ui	w	A	
+screen, unlock	Màn hình, mở khóa			ui	w	A	
+screen-off fingerprint unlock	Mở khóa bằng vân tay khi màn hình tắt			ui	w	A	
+screen-off, unlock	Màn hình tắt, Mở khóa			ui	w	A	
+screening an incoming call	Đang sàng lọc cuộc gọi đến			ui	w	A	
+screenshot preview	Xem trước ảnh chụp màn hình			ui	w	A	
+screenshot saved	Đã lưu ảnh chụp màn hình			ui	w	A	
+scroll to hide toolbar	Cuộn trang để ẩn thanh công cụ			ui	w	F	
+sd card	Thẻ SD			ui	w	A	
+search bookmarks	Tìm kiếm dấu trang			ui	w	F	
+search box hidden	Ẩn hộp tìm kiếm			ui	w	A	
+search box shown	Hiển thị hộp tìm kiếm			ui	w	A	
+search browsing history	Tìm kiếm lịch sử duyệt web			ui	w	F	
+search contacts	Tìm kiếm trong danh bạ			ui	w	A	
+search engine	Công cụ tìm kiếm			ui	w	F,M	
+search engine name	Tên công cụ tìm kiếm			ui	w	F	
+search engine settings	Cài đặt công cụ tìm kiếm			ui	w	F	
+search engines	Công cụ tìm kiếm			ui	w	F	
+search for devices	Tìm thiết bị			ui	w	A	
+search history	Tìm kiếm lịch sử			ui	w	F	
+search in klar	Tìm kiếm trong Klar			ui	w	F	
+search language	Tìm kiếm ngôn ngữ			ui	w	F	
+search logins	Tìm thông tin đăng nhập			ui	w	F	
+search or enter address	Tìm kiếm hoặc nhập địa chỉ			ui	w	F	
+search passwords	Tìm kiếm mật khẩu			ui	w	F	
+search query	Truy vấn tìm kiếm			ui	w	A,M	
+search region	Tìm kiếm khu vực			ui	w	A	
+search shortcuts	Tìm phím tắt			ui	w	A	
+search string to use	Chuỗi tìm kiếm để sử dụng			ui	w	F	
+search string url	Chuỗi URL tìm kiếm			ui	w	F	
+search suggestion api url	URL API gợi ý tìm kiếm			ui	w	F	
+search synced tabs	Tìm kiếm các thẻ đã đồng bộ hóa			ui	w	F	
+search tabs	Tìm kiếm thẻ			ui	w	F	
+search the web	Tìm kiếm trên mạng			ui	w	F	
+search widget	Widget tìm kiếm			ui	w	F	
+searching for printers	Đang tìm kiếm máy in			ui	w	A	
+searching for service	Đang tìm kiếm Dịch vụ			ui	w	A	
+secure element transaction event	Sự kiện giao dịch trên Phần tử bảo mật			ui	w	A	
+secure site not available	Trang web an toàn không khả dụng			ui	w	F	
+secure your credit cards	Bảo mật thẻ tín dụng của bạn			ui	w	F	
+secure your phone	Bảo mật điện thoại của bạn			ui	w	A	
+secure your saved passwords	Giữ mật khẩu đã lưu của bạn một cách an toàn			ui	w	F	
+securely save this card	Lưu thẻ này một cách an toàn?			ui	w	F	
+security certificate	Chứng chỉ bảo mật			ui	w	A	
+security status	Trạng thái bảo mật			ui	w	A	
+see all	Xem tất cả			ui	w	A	
+see all apps	Xem tất cả ứng dụng			ui	w	A	
+see all notifications	Xem tất cả thông báo			ui	w	A	
+see all synced tabs	Xem tất cả các thẻ đã đồng bộ hóa			ui	w	F	
+see care steps	Xem các bước chăm sóc			ui	w	A	
+see less	Ẩn bớt			ui	w	A	
+see more	Xem thêm			ui	w	A	
+see more devices	Xem các thiết bị khác			ui	w	A	
+see notifications quickly	Xem nhanh thông báo			ui	w	A	
+see other apps	Xem ứng dụng khác			ui	w	A	
+see recent access	Xem hoạt động truy cập gần đây			ui	w	A	
+select a home app	Chọn ứng dụng Home			ui	w	A	
+select address	Chọn địa chỉ			ui	w	F	
+select angle enabled app	Chọn ứng dụng hỗ trợ ANGLE			ui	w	A	
+select app	Chọn ứng dụng			ui	w	A	
+select by region	Chọn theo khu vực			ui	w	A	
+select by utc offset	Chọn theo độ lệch UTC			ui	w	A	
+select collection	Chọn bộ sưu tập			ui	w	F	
+select contacts	Chọn liên hệ			ui	w	A	
+select credit card	Chọn thẻ tín dụng			ui	w	F	
+select folder	Chọn thư mục			ui	w	F	
+select grammatical gender	Chọn giống trong ngữ pháp			ui	w	A	
+select graphics driver	Chọn trình điều khiển đồ họa			ui	w	A	
+select hours	Chọn giờ			ui	w	A	
+select issue type	Chọn loại sự cố			ui	w	A	
+select minutes	Chọn phút			ui	w	A	
+select month and day	Chọn tháng và ngày			ui	w	A	
+select more apps	Chọn ứng dụng khác			ui	w	A	
+select new photo	Chọn ảnh mới			ui	w	A	
+select one	Chọn một			ui	w	F	
+select tabs	Chọn các thẻ			ui	w	F	
+select tabs to save	Chọn các thẻ để lưu			ui	w	F	
+select text	Chọn văn bản			ui	w	A	
+select time zone	Chọn múi giờ			ui	w	A	
+select user	Chọn người dùng			ui	w	A	
+select utc offset	Chọn độ lệch UTC			ui	w	A	
+select widget	Chọn tiện ích			ui	w	A	
+select year	Chọn năm			ui	w	A	
+select your preferred engine	Chọn công cụ ưa thích của bạn			ui	w	F	
+selected	Đã chọn			ui	x	A,F	
+selected apps	Các ứng dụng được chọn			ui	w	A	
+selected language	Ngôn ngữ được chọn			ui	w	F	
+selected tabs menu	Menu thẻ đã chọn			ui	w	F	
+selection required	Lựa chọn là bắt buộc			ui	w	A	
+send contacts to carrier	Gửi danh bạ cho nhà mạng			ui	w	A	
+send device name	Gửi tên thiết bị			ui	w	A	
+send email	Gửi email			ui	w	A	
+send feedback	Gửi ý kiến phản hồi			ui	w	A	
+send feedback about time	Gửi ý kiến phản hồi về múi giờ			ui	w	A	
+send message	Gửi tin nhắn			ui	w	A,M	
+send request	Gửi yêu cầu			ui	w	F	
+send sticky broadcast	Gửi truyền phát hấp dẫn người xem			ui	w	A	
+send to all devices	Gửi đến tất cả các thiết bị			ui	w	F	
+send to device	Gửi đến thiết bị			ui	w	F	
+send to nearby device	Gửi đến thiết bị ở gần			ui	w	A	
+send usage data	Gửi dữ liệu sử dụng			ui	w	F	
+send using	Gửi bằng			ui	w	A	
+sending sms messages	Đang gửi tin nhắn SMS			ui	w	A	
+sensitive notification content hidden	Đã ẩn nội dung thông báo nhạy cảm			ui	w	A	
+sensitive notifications	Thông báo nhạy cảm			ui	w	A	
+sensitive work profile notifications	Thông báo hồ sơ công việc nhạy cảm			ui	w	A	
+sensor notification service	Dịch vụ Thông báo của cảm biến			ui	w	A	
+sensor privacy	Quyền riêng tư khi sử dụng cảm biến			ui	w	A	
+sensors off	Tắt cảm biến			ui	w	A	
+sensors off active	Tùy chọn tắt cảm biến đang hoạt động			ui	w	A	
+sent an image	Đã gửi hình ảnh			ui	w	A	
+serial console enabled	Đã bật bảng điều khiển cổng nối tiếp			ui	w	A	
+serial number, hardware version	Số sê-ri, phiên bản phần cứng			ui	w	A	
+server address	Địa chỉ máy chủ			ui	w	A	
+server name	Tên máy chủ			ui	w	A,M	
+server not found	Không tìm thấy máy chủ			ui	w	F	
+service disabled	Dịch vụ in đã bị tắt			ui	w	A	
+service has been disabled	Dịch vụ đã bị vô hiệu hóa			ui	w	A	
+service not provisioned	Dịch vụ không được cấp phép			ui	w	A	
+service state	Trạng thái dịch vụ			ui	w	A	
+service was enabled	Dịch vụ đã được bật			ui	w	A	
+service was enabled for	Dịch vụ đã được bật cho			ui	w	A	
+set	Đặt	Thiết lập		ui	x	A,F	
+set a password	Đặt mật khẩu			ui	w	A	
+set a pattern	Đặt hình mở khóa			ui	w	A	
+set a pin	Đặt mã PIN			ui	w	A	
+set a work password	Đặt mật khẩu cho hồ sơ công việc			ui	w	A	
+set a work pattern	Đặt hình mở khóa cho hồ sơ công việc			ui	w	A	
+set a work pin	Đặt mã PIN cho hồ sơ công việc			ui	w	A	
+set always-on vpn	Đặt VPN luôn bật?			ui	w	A	
+set am	Đặt SA			ui	w	A	
+set an alarm	Đặt chuông báo			ui	w	A	
+set app restrictions	Đặt hạn chế ứng dụng			ui	w	A	
+set as default browser	Đặt làm trình duyệt mặc định			ui	w	F	
+set backup password	Đặt mật khẩu sao lưu			ui	w	A	
+set by battery saver	Đặt theo trình tiết kiệm pin			ui	w	F	
+set data limit	Đặt hạn mức dữ liệu			ui	w	A	
+set data usage limit	Đặt hạn mức sử dụng dữ liệu			ui	w	A	
+set data usage warning	Đặt cảnh báo mức sử dụng dữ liệu			ui	w	A	
+set data warning	Đặt cảnh báo dữ liệu			ui	w	A	
+set date	Đặt ngày			ui	w	A	
+set default payment app	Đặt ứng dụng thanh toán mặc định			ui	w	A	
+set default, autocomplete	Đặt làm mặc định, tự đồng điền			ui	w	F	
+set filters	Đặt bộ lọc			ui	w	A	
+set mobile data limit	Đặt hạn mức dữ liệu di động			ui	w	A	
+set night light schedule	Lên lịch ánh sáng đêm			ui	w	A	
+set password rules	Đặt quy tắc mật khẩu			ui	w	A	
+set pm	Đặt CH			ui	w	A	
+set ringtone	Đặt nhạc chuông			ui	w	A	
+set shortcut	Đặt phím tắt			ui	w	A	
+set storage encryption	Đặt mã hóa dung lượng lưu trữ			ui	w	A	
+set time zone	Đặt múi giờ			ui	w	A	
+set unlock pattern	Đặt hình mở khóa			ui	w	A	
+set up	Thiết lập			ui	w	A,M	
+set up data service	Thiết lập dịch vụ dữ liệu			ui	w	A	
+set up face unlock	Thiết lập tính năng Mở khóa bằng khuôn mặt			ui	w	A	
+set up fingerprint unlock	Thiết lập tính năng Mở khóa bằng vân tay			ui	w	A	
+set up keyboard layouts	Thiết lập bố cục bàn phím			ui	w	A	
+set up later	Thiết lập sau			ui	w	A	
+set up now	Thiết lập ngay			ui	w	F	
+set up screen lock	Thiết lập phương thức khóa màn hình			ui	w	A	
+set up your fingerprint	Thiết lập vân tay			ui	w	A	
+set up your profile	Thiết lập hồ sơ của bạn			ui	w	A	
+set up your watch	Thiết lập đồng hồ			ui	w	A	
+set wallpaper	Đặt hình nền			ui	w	A	
+set your primary sims	Đặt SIM chính			ui	w	A	
+set your sim preferences	Đặt lựa chọn ưu tiên về SIM			ui	w	A	
+settings panel	Bảng Cài đặt			ui	w	A	
+settings shortcut	Lối tắt cài đặt			ui	w	A	
+setup needed	Cần thiết lập			ui	w	A	
+severe threats	Các mối đe dọa nghiêm trọng			ui	w	A	
+share all contacts	Chia sẻ tất cả các liên hệ			ui	w	A	
+share all tabs	Chia sẻ tất cả các thẻ			ui	w	F	
+share audio	Chia sẻ âm thanh			ui	w	A	
+share bug report	Chia sẻ báo cáo lỗi?			ui	w	A	
+share entire screen	Chia sẻ toàn bộ màn hình			ui	w	A	
+share favorite contacts	Chia sẻ liên hệ yêu thích			ui	w	A	
+share heap dump	Chia sẻ tệp báo lỗi?			ui	w	A	
+share hotspot	Chia sẻ điểm phát sóng			ui	w	A	
+share one app	Chia sẻ một ứng dụng			ui	w	A	
+share screen	Chia sẻ màn hình			ui	w	A	
+share screenshot	Chia sẻ ảnh chụp màn hình			ui	w	A	
+share selected tabs	Chia sẻ các thẻ đã chọn			ui	w	F	
+share this app instead	Chia sẻ ứng dụng này			ui	w	A	
+share via	Chia sẻ qua			ui	w	F	
+share with	Chia sẻ với			ui	w	A	
+share your audio	Chia sẻ âm thanh của bạn			ui	w	A	
+sharing audio	Đang chia sẻ âm thanh			ui	w	A	
+sharing content	Chia sẻ nội dung			ui	w	A	
+sharing location	Đang chia sẻ vị trí			ui	w	A	
+sharing screen	Đang chia sẻ màn hình			ui	w	A	
+shortcut cannot be set	Không đặt được lối tắt			ui	w	A	
+shortcut is disabled	Đã vô hiệu hóa lối tắt			ui	w	A	
+shortcut limit reached	Đã đạt đến giới hạn lối tắt			ui	w	F	
+shortcut name	Tên lối tắt			ui	w	F	
+shortcut on	Phím tắt đang bật			ui	w	A	
+shortcut settings	Cài đặt phím tắt			ui	w	A	
+shortcut to prevent ringing	Phím tắt để ngăn đổ chuông			ui	w	A	
+shortcut, hearing aid compatibility	Phím tắt, khả năng tương thích với thiết bị trợ thính			ui	w	A	
+show additional information	Hiện thêm thông tin			ui	w	A	
+show advanced options	Hiện tùy chọn nâng cao			ui	w	A	
+show all notification content	Hiện mọi nội dung thông báo			ui	w	A	
+show all past explorations	Hiển thị tất cả các khám phá trong quá khứ			ui	w	F	
+show all saved bookmarks	Hiển thị tất cả các dấu trang đã lưu			ui	w	F	
+show assistant media recommendations	Hiện nội dung nghe nhìn mà Trợ lý đề xuất			ui	w	A	
+show bubble	Hiển thị bong bóng			ui	w	A	
+show cached processes	Hiện quá trình lưu trong cache			ui	w	A	
+show captions	Hiện phụ đề			ui	w	A	
+show clipboard access	Hiện quyền truy cập vào bảng nhớ tạm			ui	w	A	
+show clipboard suggestions	Hiển thị đề xuất khay nhớ tạm			ui	w	F	
+show demo mode	Hiển thị chế độ trình diễn			ui	w	A	
+show device controls	Hiện các nút điều khiển thiết bị			ui	w	A	
+show full history	Hiện toàn bộ lịch sử			ui	w	F	
+show home controls	Hiện các nút điều khiển nhà			ui	w	A	
+show in private sessions	Hiển thị trong phiên riêng tư			ui	w	F	
+show in quick settings	Hiển thị trong Cài đặt nhanh			ui	w	A	
+show less	Xem ít hơn			ui	w	F	
+show list of shortcuts	Hiện danh sách phím tắt			ui	w	A	
+show low-priority notification icons	Hiển thị biểu tượng thông báo có mức ưu tiên thấp			ui	w	A	
+show more name fields	Hiện thêm trường tên			ui	w	A	
+show notification dot	Hiện dấu chấm thông báo			ui	w	A	
+show original	Hiển thị bản gốc			ui	w	F	
+show passwords	Hiện mật khẩu			ui	w	A	
+show percentages	Hiển thị phần trăm			ui	w	A	
+show player	Hiện trình phát			ui	w	A	
+show pointer while hovering	Hiện con trỏ khi di chuột			ui	w	A	
+show qr code	Hiện mã QR			ui	w	A	
+show qr code scanner	Hiện Trình quét mã QR			ui	w	A	
+show refresh rate	Hiện tốc độ làm mới			ui	w	A	
+show running services	Hiện dịch vụ đang chạy			ui	w	A	
+show screensaver button	Hiện nút trình bảo vệ màn hình			ui	w	A	
+show shortcuts	Hiện phím tắt			ui	w	A	
+show system	Hiển thị hệ thống			ui	w	A	
+show touches on screen	Hiện vị trí của các thao tác chạm trên màn hình			ui	w	A	
+show unused categories	Hiện các danh mục không dùng đến			ui	w	A	
+show verified links list	Hiển thị danh sách đường liên kết đã xác minh			ui	w	A	
+show voice search	Hiển thị tìm kiếm bằng giọng nói			ui	w	F	
+show wallet	Hiện ví			ui	w	A	
+showing input shortcuts	Hiện các phím tắt cho phương thức nhập			ui	w	A	
+showing search results	Hiện các kết quả tìm kiếm			ui	w	A	
+showing system shortcuts	Hiện các phím tắt cho hệ thống			ui	w	A	
+sign in to network	Đăng nhập vào mạng			ui	w	A	
+sign in to reconnect	Đăng nhập để kết nối lại			ui	w	F	
+sign in to sync	Đăng nhập vào đồng bộ hóa			ui	w	F	
+silent	Im lặng			ui	x	A,M	
+silent mode	Chế độ im lặng			ui	w	A	
+silent ringtone set	Đã đặt nhạc chuông im lặng			ui	w	A	
+sim access request	Yêu cầu truy cập vào SIM			ui	w	A	
+sim added	Đã thêm SIM			ui	w	A	
+sim combination	Kết hợp SIM			ui	w	A	
+sim corporate unlock pin	Mã PIN mở khóa SIM corporate			ui	w	A	
+sim corporate unlock successful	Mở khóa SIM Corporate thành công			ui	w	A	
+sim is locked	SIM này đang bị khóa			ui	w	A	
+sim is not activated	SIM chưa được kích hoạt			ui	w	A	
+sim is puk-locked	SIM này đang bị khóa PUK			ui	w	A	
+sim label	Nhãn SIM			ui	w	A	
+sim label and color	Màu và nhãn SIM			ui	w	A	
+sim lock settings	Cài đặt khóa SIM			ui	w	A	
+sim network unlock pin	Mã PIN mở khóa mạng SIM			ui	w	A	
+sim network unlock successful	Mở khóa Mạng SIM thành công			ui	w	A	
+sim pin	Mã PIN của SIM			ui	w	A,M	
+sim pin changed successfully	Mã PIN của SIM đã được thay đổi thành công			ui	w	A	
+sim pin operation failed	Thao tác mã PIN của SIM không thành công!			ui	w	A	
+sim pin unlock	Mở khóa bằng mã PIN của SIM			ui	w	A	
+sim puk unlock	Mở khóa bằng mã PUK của SIM			ui	w	A	
+sim removed	Đã xóa SIM			ui	w	A	
+sim selection	Chọn SIM			ui	w	A	
+sim status	Trạng thái SIM			ui	w	A	
+sim unlock pin	Mã PIN mở khóa SIM			ui	w	A	
+sim unlock request unsuccessful	Yêu cầu mở khóa SIM không thành công			ui	w	A	
+sim unlock successful	Mở khóa SIM thành công			ui	w	A	
+simple speech to text	Lời nói thành văn bản đơn giản			ui	w	A	
+since last full charge	Kể từ lần sạc đầy gần nhất			ui	w	A	
+site permissions	Quyền hạn trang web			ui	w	F	
+site removed	Đã xóa trang			ui	w	F	
+site security	Bảo mật trang web			ui	w	F	
+skip anyway	Vẫn bỏ qua			ui	w	A	
+skip fingerprint	Bạn muốn bỏ qua vân tay?			ui	w	A	
+skip fingerprint setup	Bỏ qua thiết lập vân tay?			ui	w	A	
+skip lock screen	Bỏ qua màn hình khóa			ui	w	A	
+skip password setup	Bỏ qua bước thiết lập mật khẩu?			ui	w	A	
+skip pattern setup	Bỏ qua bước thiết lập hình mở khóa?			ui	w	A	
+skip pin setup	Bỏ qua bước thiết lập mã PIN?			ui	w	A	
+skip screen lock	Bạn muốn bỏ qua phương thức khóa màn hình?			ui	w	A	
+slide area	Khu vực trượt			ui	w	A	
+slide unlock	Mở khóa bằng cách trượt			ui	w	A	
+slow keys	Phím chậm			ui	w	A	
+smallest width	Độ rộng nhỏ nhất			ui	w	A	
+smart forwarding	Chuyển tiếp thông minh			ui	w	A	
+smart forwarding disabled	Đã tắt tính năng chuyển tiếp thông minh			ui	w	A	
+smart forwarding enabled	Đã bật tính năng chuyển tiếp thông minh			ui	w	A	
+smooth display	Hình ảnh mượt			ui	w	A	
+sms app	Ứng dụng SMS			ui	w	A	
+sms messages	Tin nhắn SMS			ui	w	A	
+sms preference	Lựa chọn ưu tiên cho SMS			ui	w	A	
+social media trackers	Trình theo dõi truyền thông xã hội			ui	w	F	
+some notifications	Một số thông báo			ui	w	A	
+some people can interrupt	Một số người có thể làm gián đoạn			ui	w	A	
+sort by app name	Sắp xếp theo tên ứng dụng			ui	w	A	
+sort by avg use	Sắp xếp theo sử dụng trung bình			ui	w	A	
+sort by max use	Sắp xếp theo sử dụng tối đa			ui	w	A	
+sort by name	Sắp xếp theo tên			ui	w	A	
+sort by size	Sắp xếp theo kích thước			ui	w	A	
+sort by usage time	Sắp xếp theo thời gian dùng			ui	w	A	
+sort logins menu	Sắp xếp menu đăng nhập			ui	w	F	
+sort passwords menu	Menu sắp xếp mật khẩu			ui	w	F	
+sound and vibration	Âm thanh và rung			ui	w	A	
+sound is off	Âm thanh TẮT			ui	w	A	
+sound is on	Âm thanh BẬT			ui	w	A	
+sound off	Tắt âm thanh			ui	w	A	
+sound on	Bật âm thanh			ui	w	A	
+sound settings	Cài đặt âm thanh			ui	w	A	
+space used	Dung lượng đã dùng			ui	w	A	
+spatial audio	Âm thanh không gian			ui	w	A	
+speak now	Nói bây giờ			ui	w	F	
+special app access	Quyền truy cập đặc biệt			ui	w	A	
+special date	Ngày đặc biệt			ui	w	A	
+spell checker	Kiểm tra chính tả			ui	w	A	
+spell checker for work	Trình kiểm tra chính tả cho công việc			ui	w	A	
+spelling, dictionary, spellcheck, auto-correct	Chính tả, từ điển, kiểm tra chính tả, tự động sửa			ui	w	A	
+split screen	Chia đôi màn hình			ui	w	A	
+spn unlock pin	Mã PIN mở khóa SPN			ui	w	A	
+spn unlock request unsuccessful	Yêu cầu mở khóa SPN không thành công			ui	w	A	
+spn unlock successful	Mở khóa SPN thành công			ui	w	A	
+spoken language	Ngôn ngữ nói			ui	w	A	
+sponsored shortcuts	Các lối tắt được tài trợ			ui	w	F	
+sponsored stories	Câu chuyện được tài trợ			ui	w	F	
+spring green	Xanh lục lơ			ui	w	A	
+standard	Tiêu chuẩn			ui	x	A,F,M	
+standard options	Tùy chọn chuẩn			ui	w	A	
+standard time	Giờ chuẩn			ui	w	A	
+starred contacts	Người liên hệ có gắn dấu sao			ui	w	A	
+starred contacts settings	Cài đặt người liên hệ có gắn dấu sao			ui	w	A	
+start now	Bắt đầu ngay			ui	w	A	
+start over	Bắt đầu lại			ui	w	A	
+start recording or casting	Bắt đầu ghi hoặc truyền?			ui	w	A	
+start sharing	Bắt đầu chia sẻ?			ui	w	A	
+start time	Thời gian bắt đầu			ui	w	A	
+start view app features	Bắt đầu xem các tính năng của ứng dụng			ui	w	A	
+start view permission decisions	Bắt đầu xem các quyết định cấp quyền			ui	w	A	
+start view permission usage	Cấp quyền xem			ui	w	A	
+start your first search	Bắt đầu tìm kiếm đầu tiên của bạn			ui	w	F	
+started by app	Được khởi động bằng ứng dụng			ui	w	A	
+starting apps	Khởi động ứng dụng			ui	w	A	
+stats type	Kiểu trạng thái			ui	w	A	
+status bar	Thanh trạng thái			ui	w	A,M	
+status bar location indicator	Chỉ báo vị trí trên thanh trạng thái			ui	w	A	
+stay in private browsing	Vẫn ở lại chế độ duyệt web riêng tư			ui	w	F	
+stay on this page	Ở lại trang này			ui	w	A	
+sticky keys	Phím cố định			ui	w	A	
+stop allowing wep networks	Ngừng cho phép các mạng WEP?			ui	w	A	
+stop listening	Dừng nghe			ui	w	A	
+stop loading website	Dừng tải trang web			ui	w	F	
+stop searching	Ngừng tìm kiếm			ui	w	A	
+stop sharing screen	Dừng chia sẻ màn hình?			ui	w	A	
+stop system service	Dừng dịch vụ hệ thống?			ui	w	A	
+storage manager	Trình quản lý bộ nhớ			ui	w	A	
+storage settings	Cài đặt bộ nhớ			ui	w	A	
+storage space running out	Sắp hết dung lượng lưu trữ			ui	w	A	
+storage use	Sử dụng bộ nhớ			ui	w	A	
+storage used	Bộ nhớ đã dùng			ui	w	A	
+stories by topic	Các câu chuyện theo chủ đề			ui	w	F	
+stylus battery low	Bút cảm ứng bị yếu pin			ui	w	A	
+stylus handwriting	Viết tay bằng bút cảm ứng			ui	w	A	
+submit query	Gửi truy vấn			ui	w	A	
+subnet mask	Mặt nạ mạng con			ui	w	A,M	
+suggest strong password	Đề xuất mật khẩu mạnh			ui	w	F	
+suggested actions and replies	Câu trả lời và hành động đề xuất			ui	w	A	
+suggested apps	Ứng dụng đề xuất			ui	w	A	
+suggested contacts	Liên hệ được đề xuất			ui	w	A	
+suggested devices	Thiết bị được đề xuất			ui	w	A	
+suggested languages	Ngôn ngữ đề xuất			ui	w	A	
+suggested logins	Thông tin đăng nhập được đề xuất			ui	w	F	
+suggested regions	Khu vực đề xuất			ui	w	A	
+suggestions from search engines	Đề xuất từ công cụ tìm kiếm			ui	w	F	
+suggestions from sponsors	Đề xuất từ nhà tài trợ			ui	w	F	
+support request sent	Đã gửi yêu cầu hỗ trợ			ui	w	F	
+supported links	Các đường liên kết được hỗ trợ			ui	w	A	
+supports audio sharing	Hỗ trợ tính năng chia sẻ âm thanh			ui	w	A	
+swipe down to	Vuốt xuống để			ui	w	A	
+swipe fingerprint	Vuốt vân tay			ui	w	A	
+swipe fingerprint for notifications	Vuốt cảm biến vân tay để xem thông báo			ui	w	A	
+swipe to invoke assistant	Vuốt để gọi trợ lý			ui	w	A	
+swipe to see more	Vuốt để xem thêm			ui	w	A	
+swipe to unlock	Trượt để mở khóa			ui	w	A	
+swipe up to continue	Vuốt lên để tiếp tục			ui	w	A	
+swipe up to open	Vuốt lên để mở			ui	w	A	
+switch	Chuyển			ui	x	A,F,M	
+switch apps	Chuyển đổi ứng dụng			ui	w	A	
+switch back	Chuyển trở lại			ui	w	A	
+switch input method	Chuyển phương thức nhập			ui	w	A	
+switch keyboard layout	Chuyển đổi bố cục bàn phím			ui	w	A	
+switch mobile data automatically	Tự động chuyển đổi dữ liệu di động			ui	w	A	
+switch output	Chuyển đổi đầu ra			ui	w	A	
+switch screens	Chuyển đổi màn hình?			ui	w	A	
+switch screens now	Chuyển đổi màn hình ngay			ui	w	A	
+switch to full screen	Chuyển sang chế độ toàn màn hình			ui	w	A	
+switch to mobile	Chuyển sang mạng di động			ui	w	A	
+switch to next language	Chuyển sang ngôn ngữ tiếp theo			ui	w	A	
+switch to personal profile	Chuyển sang hồ sơ cá nhân			ui	w	A	
+switch to previous language	Chuyển về ngôn ngữ trước			ui	w	A	
+switch to work app	Chuyển sang ứng dụng công việc?			ui	w	A	
+switch to work profile	Chuyển sang hồ sơ công việc			ui	w	A	
+switch user	Chuyển đổi người dùng			ui	w	A	
+switch your default browser	Đặt làm trình duyệt mặc định của bạn			ui	w	F	
+switched to another carrier	Đã chuyển sang nhà mạng khác			ui	w	A	
+switching apps	Chuyển đổi ứng dụng			ui	w	F	
+sync across devices	Đồng bộ hóa thiết bị			ui	w	A	
+sync active	Đồng bộ hóa hoạt động			ui	w	A	
+sync and save data	Đồng bộ hóa và lưu dữ liệu			ui	w	F	
+sync cards	Đồng bộ hóa thẻ tín dụng			ui	w	F	
+sync cards across devices	Đồng bộ thông tin thẻ tín dụng trên các thiết bị			ui	w	F	
+sync disabled	Đồng bộ hóa đã bị tắt			ui	w	A	
+sync enabled	Đồng bộ hóa đã được bật			ui	w	A	
+sync error	Lỗi đồng bộ hóa			ui	w	A	
+sync is off	Tính năng đồng bộ hóa đang TẮT			ui	w	A	
+sync logins	Đồng bộ hóa thông tin đăng nhập			ui	w	F	
+sync logins across devices	Đồng bộ hóa thông tin đăng nhập trên các thiết bị			ui	w	F	
+sync passwords	Đồng bộ mật khẩu			ui	w	F	
+sync passwords across devices	Đồng bộ hóa mật khẩu giữa các thiết bị			ui	w	F	
+sync permissions from phone	Đồng bộ hóa các quyền từ điện thoại			ui	w	A	
+synced device	Thiết bị được đồng bộ hóa			ui	w	F	
+synced tabs	Các thẻ đã đồng bộ			ui	w	F	
+syncing now	Đang đồng bộ hóa			ui	w	A	
+system	Hệ thống			ui	x	A,M	
+system apps	Ứng dụng hệ thống			ui	w	A	
+system certificate	Chứng chỉ hệ thống			ui	w	A	
+system changes	Thay đổi hệ thống			ui	w	A	
+system controls	Điều khiển hệ thống			ui	w	A	
+system default	Theo chế độ mặc định của hệ thống	Mặc định của hệ thống		ui	w	A,F	
+system graphics driver	Trình điều khiển đồ họa hệ thống			ui	w	A	
+system language	Ngôn ngữ hệ thống			ui	w	A	
+system languages	Ngôn ngữ hệ thống			ui	w	A	
+system select	Chọn hệ thống			ui	w	A	
+system ui	Giao diện người dùng hệ thống			ui	w	A	
+system ui demo mode	Chế độ thử nghiệm giao diện người dùng hệ thống			ui	w	A	
+system ui tuner	Bộ điều hướng giao diện người dùng hệ thống			ui	w	A	
+system updates	Bản cập nhật hệ thống			ui	w	A	
+system webview license	Giấy phép WebView hệ thống			ui	w	A	
+tab closed	Đã đóng thẻ			ui	w	F	
+tab count	Số lượng thẻ			ui	w	F	
+tab crashed	Thẻ bị hỏng			ui	w	F	
+tab creation tool	Công cụ tạo thẻ			ui	w	F	
+tab quantity to create	Số lượng thẻ cần tạo			ui	w	F	
+tab received	Thẻ đã nhận			ui	w	F	
+tab saved	Đã lưu thẻ!			ui	w	F	
+tab sent	Đã gửi thẻ!			ui	w	F	
+tab settings	Cài đặt thẻ			ui	w	F	
+tab tools	Công cụ thẻ			ui	w	F	
+tab view	Chế độ xem thẻ			ui	w	F	
+tabs closed	Đã đóng các thẻ			ui	w	F	
+tabs saved	Đã lưu các thẻ!			ui	w	F	
+tabs sent	Đã gửi các thẻ!			ui	w	F	
+tail button press	Nhấp vào nút ở đuôi			ui	w	A	
+take a note	Tạo ghi chú			ui	w	A	
+take call on	Thực hiện cuộc gọi trên			ui	w	A	
+take new photo	Chụp ảnh mới			ui	w	A	
+take photo	Chụp ảnh			ui	w	A	
+take pictures and videos	Chụp ảnh và quay video			ui	w	A	
+take screenshot	Chụp ảnh màn hình			ui	w	A	
+take survey	Thực hiện khảo sát			ui	w	F	
+tap a notification	Nhấn vào thông báo			ui	w	A	
+tap again	Nhấn lại			ui	w	A	
+tap again to open	Nhấn lại để mở			ui	w	A	
+tap confirm to complete	Nhấn vào Xác nhận để hòan tất			ui	w	A	
+tap dragging	Kéo khi nhấn			ui	w	A	
+tap for more information	Nhấn để biết thêm thông tin			ui	w	A	
+tap for more options	Nhấn để biết thêm tùy chọn			ui	w	A	
+tap for options	Nhấn để biết tùy chọn			ui	w	A	
+tap the floating button	Nhấn vào nút nổi			ui	w	A	
+tap to cancel authentication	Nhấn để hủy quá trình xác thực			ui	w	A	
+tap to click	Gõ để nhấp			ui	w	A	
+tap to connect anyway	Nhấn để tiếp tục kết nối			ui	w	A	
+tap to enable	Nhấn để bật			ui	w	A	
+tap to mute sound	Nhấn để tắt tiếng			ui	w	A	
+tap to open	Nhấn để mở			ui	w	A,M	
+tap to remove restriction	Nhấn để xóa giới hạn			ui	w	A	
+tap to set up	Nhấn để thiết lập			ui	w	A	
+tap to share contacts	Nhấp để chia sẻ liên hệ			ui	w	A	
+tap to show info	Nhấn để hiện thông tin			ui	w	A	
+tap to type password	Nhấn để nhập mật khẩu			ui	w	A	
+tap to view	Nhấn để xem			ui	w	A	
+tap to view files	Nhấn để xem tệp			ui	w	A	
+tap to view keyboards	Nhấn để xem bàn phím			ui	w	A	
+tap to wake	Nhấn để đánh thức			ui	w	A	
+teletypewriter enabled	Đã bật TeleTypewriter			ui	w	A	
+temporarily connected	Tạm thời có kết nối			ui	w	A	
+temporarily unavailable	Tạm thời không sử dụng được			ui	w	A	
+temporary system files	Các tệp hệ thống tạm thời			ui	w	A	
+test harness mode enabled	Đã bật Chế độ khai thác kiểm thử			ui	w	A	
+tethering	Chia sẻ Internet			ui	x	A	
+tethering unavailable	Không dùng được tính năng chia sẻ Internet			ui	w	A	
+text actions	Tác vụ văn bản			ui	w	A	
+text callback	Nhắn tin tới số gọi lại			ui	w	A	
+text car	Nhắn tin tới số điện thoại trên ô tô			ui	w	A	
+text color	Màu văn bản			ui	w	A	
+text company main	Nhắn tin tới số điện thoại chính của công ty			ui	w	A	
+text copied	Đã sao chép văn bản			ui	w	A	
+text fax	Nhắn tin tới số fax			ui	w	A	
+text home	Nhắn tin tới số điện thoại nhà riêng			ui	w	A	
+text home fax	Nhắn tin tới số fax nhà riêng			ui	w	A	
+text isdn	Nhắn tin tới số điện thoại ISDN			ui	w	A	
+text main	Nhắn tin tới số điện thoại chính			ui	w	A	
+text message	Tin nhắn văn bản			ui	w	A,M	
+text mms	Nhắn tin tới số điện thoại MMS			ui	w	A	
+text mobile	Nhắn tin tới số điện thoại di động			ui	w	A	
+text opacity	Độ mờ văn bản			ui	w	A	
+text pager	Nhắn tin tới số máy nhắn tin			ui	w	A	
+text radio	Nhắn tin tới số điện thoại radio			ui	w	A	
+text selection	Lựa chọn văn bản			ui	w	A	
+text size	Cỡ chữ			ui	w	A	
+text telex	Nhắn tin tới số telex			ui	w	A	
+text work	Nhắn tin tới số điện thoại cơ quan			ui	w	A	
+text work fax	Nhắn tin tới số fax cơ quan			ui	w	A	
+text work mobile	Nhắn tới số điện thoại di động tại cơ quan			ui	w	A	
+text work pager	Nhắn tin tới số máy nhắn tin tại cơ quan			ui	w	A	
+thanks for reporting	Cảm ơn bạn đã báo cáo!			ui	w	F	
+that label already exists	Nhãn đó đã tồn tại			ui	w	A	
+the independent voices collection	Bộ sưu tập Tiếng nói độc lập			ui	w	F	
+third-party licenses	Giấy phép của bên thứ ba			ui	w	A	
+this certificate is valid	Chứng chỉ này hợp lệ			ui	w	A	
+this contact	Liên hệ này			ui	w	A	
+this device	Thiết bị này			ui	w	A	
+this entry contains	Mục này chứa			ui	w	A	
+this is a conversation	Đây là một cuộc trò chuyện			ui	w	A	
+this service is malfunctioning	Dịch vụ này đang hoạt động không bình thường			ui	w	A	
+this time search in	Lần này tìm kiếm trong			ui	w	F	
+thought-provoking stories	Những câu chuyện kích động tư tưởng			ui	w	F	
+three buttons	Ba nút			ui	w	A	
+three way calling	Gọi ba chiều			ui	w	A	
+tile added	Đã thêm thẻ thông tin			ui	w	A	
+tile removed	Đã xóa thẻ thông tin			ui	w	A	
+time format	Định dạng thời gian			ui	w	A	
+time range to delete	Khoảng thời gian để xóa			ui	w	F	
+time schedule	Lịch biểu			ui	w	A	
+time to take action	Thời gian thực hiện hành động			ui	w	A	
+time zone	Múi giờ			ui	w	A,M	
+timing controls	Điều khiển có hẹn giờ			ui	w	A	
+to allow it	Để cho phép nó			ui	w	F	
+to switch, press control-spacebar	Để chuyển, nhấn Control-Phím cách			ui	w	A	
+today and yesterday	Hôm nay và hôm qua			ui	w	F	
+toggle app compatibility changes	Bật/tắt các thay đổi về khả năng tương thích của ứng dụng			ui	w	A	
+toggle expansion	Chuyển đổi mở rộng			ui	w	A	
+toggle overview	Bật/tắt chế độ xem Tổng quan			ui	w	A	
+too bright	Quá sáng			ui	w	A	
+too many password attempts	Quá nhiều lần nhập mật khẩu			ui	w	A	
+too many pattern attempts	Quá nhiều lần nhập hình			ui	w	A	
+top handle	Ô điều khiển trên cùng			ui	w	A	
+total memory	Tổng bộ nhớ			ui	w	A	
+touch feedback	Phản hồi khi chạm			ui	w	A	
+touch sounds	Âm thanh khi chạm			ui	w	A	
+touch the fingerprint sensor	Chạm vào cảm biến vân tay			ui	w	A	
+touch the sensor	Chạm vào cảm biến			ui	w	A	
+touch to unlock anytime	Chạm để mở khóa bất cứ lúc nào			ui	w	A	
+touchpad gestures	Cử chỉ trên bàn di chuột			ui	w	A	
+trackers blocked	Trình theo dõi đã chặn			ui	w	F	
+tracking content	Trình theo dõi nội dung			ui	w	F	
+tracking, cookies, data choices	Theo dõi, cookie, lựa chọn dữ liệu			ui	w	F	
+translate from	Dịch từ			ui	w	F	
+translate page	Dịch trang			ui	w	F	
+translate this page	Dịch trang này?			ui	w	F	
+translate to	Dịch sang			ui	w	F	
+translating in progress	Đang dịch trang			ui	w	F	
+translation options	Tùy chọn dịch			ui	w	F	
+translation preferences	Tùy chọn dịch			ui	w	F	
+translation settings	Cài đặt dịch			ui	w	F	
+transmit infrared	Phát hồng ngoại			ui	w	A	
+transmit link speed	Tốc độ truyền			ui	w	A	
+trash is empty	Thùng rác trống			ui	w	A	
+triple tap	Nhấn 3 lần			ui	w	A	
+triple tap screen	Nhấn 3 lần vào màn hình			ui	w	A	
+triple tap shortcut	Lối tắt cho cử chỉ nhấn 3 lần			ui	w	A	
+trust agents	Tác nhân tin cậy			ui	w	A	
+trust on first use	Tin cậy vào lần sử dụng đầu tiên			ui	w	A	
+trusted credentials	Thông tin xác thực tin cậy			ui	w	A	
+try adjusting	Hãy thử điều chỉnh			ui	w	A	
+try another fingerprint	Hãy thử một vân tay khác			ui	w	A	
+try another pin	Thử một mã PIN khác			ui	w	A	
+try dark theme	Thử dùng Giao diện tối			ui	w	A	
+try face unlock again	Hãy thử lại thao tác Mở khóa bằng khuôn mặt			ui	w	A	
+try moving content again	Thử di chuyển lại nội dung			ui	w	A	
+try private browsing	Thử duyệt web riêng tư			ui	w	F	
+try restarting add-ons	Thử khởi động lại tiện ích			ui	w	F	
+try review checker	Hãy thử trình kiểm tra đánh giá			ui	w	F	
+try taking screenshot again	Hãy thử chụp lại màn hình			ui	w	A	
+turn auto-sync data off	Tắt tính năng tự động đồng bộ hóa dữ liệu?			ui	w	A	
+turn auto-sync data on	Bật tính năng tự động đồng bộ hóa dữ liệu?			ui	w	A	
+turn off airplane mode	Tắt chế độ trên máy bay			ui	w	A	
+turn off battery saver	Tắt trình tiết kiệm pin			ui	w	A	
+turn off hotspot automatically	Tự động tắt điểm phát sóng			ui	w	A	
+turn off in settings	Tắt trong cài đặt			ui	w	F	
+turn off mobile data	Tắt dữ liệu di động?			ui	w	A	
+turn off notifications	Tắt thông báo			ui	w	A	
+turn off review checker	Tắt trình kiểm tra đánh giá			ui	w	F	
+turn off screen	Tắt màn hình			ui	w	A	
+turn off shortcut	Tắt phím tắt			ui	w	A	
+turn off sim	Tắt SIM?			ui	w	A	
+turn off until sunset	Tắt cho đến hòang hôn			ui	w	A	
+turn off volte	Tắt VoLTE?			ui	w	A	
+turn off when charged	Tắt khi sạc đầy			ui	w	A	
+turn off wireless	Tắt không dây			ui	w	A	
+turn on auto close	BẬT TỰ ĐỘNG ĐÓNG			ui	w	F	
+turn on auto-close	Bật tự động đóng			ui	w	F	
+turn on auto-sync	Bật tính năng tự động đồng bộ hóa?			ui	w	A	
+turn on automatically	Tự động bật			ui	w	A	
+turn on battery manager	Bật Trình tiết kiệm pin			ui	w	A	
+turn on bluetooth	Bật Bluetooth?			ui	w	A	
+turn on data saver	Bật Trình tiết kiệm dữ liệu?			ui	w	A	
+turn on in settings	Bật trong phần Cài đặt			ui	w	A	
+turn on notifications	Bật thông báo			ui	w	F	
+turn on now	Bật ngay			ui	w	A	
+turn on screen attention	Bật tính năng phát hiện ánh mắt			ui	w	A	
+turn on sim	Bật SIM?			ui	w	A	
+turn on sound	Bật âm thanh			ui	w	A	
+turn on the screen	Bật màn hình			ui	w	A	
+turn on until sunrise	Bật cho đến lúc mặt trời mọc			ui	w	A	
+turn on wireless	Bật không dây			ui	w	A	
+turn screen darker	Giảm bớt độ sáng màn hình			ui	w	A	
+turned off	Đã tắt			ui	w	A	
+turning off sim	Đang tắt SIM			ui	w	A	
+turning on	Đang bật			ui	w	A	
+turns on at bedtime	Bật vào giờ đi ngủ			ui	w	A	
+twilight service	Dịch vụ Twilight			ui	w	A	
+type a word	Nhập từ			ui	w	A	
+type in time	Nhập thời gian			ui	w	A	
+type language name	Nhập tên ngôn ngữ			ui	w	A	
+type password to unlock	Nhập mật khẩu để mở khóa			ui	w	A	
+type pin code	Nhập mã PIN			ui	w	A	
+type pin to unlock	Nhập mã PIN để mở khóa			ui	w	A	
+unable to generate pdf	Không thể tạo PDF			ui	w	F	
+unable to save login	Không thể lưu thông tin đăng nhập			ui	w	F	
+unable to send	Không thể gửi			ui	w	F	
+unavailable during calls	Không hoạt động khi có cuộc gọi			ui	w	A	
+unavailable on carrier-locked devices	Không khả dụng trên thiết bị do nhà cung cấp dịch vụ khóa			ui	w	A	
+undo notification snooze	Hủy tạm ngưng thông báo			ui	w	A	
+undo the deletes	Hoàn tác việc xóa			ui	w	A	
+unfold phone	Mở điện thoại			ui	w	A	
+uninstall app	Gỡ cài đặt ứng dụng			ui	w	A	
+uninstall certificates	Gỡ cài đặt các chứng chỉ			ui	w	A	
+uninstall for all users	Gỡ cài đặt đối với tất cả người dùng			ui	w	A	
+uninstall shortcuts	Gỡ cài đặt lối tắt			ui	w	A	
+uninstall updates	Gỡ cài đặt bản cập nhật			ui	w	A	
+uninstalled apps	Ứng dụng đã gỡ cài đặt			ui	w	A	
+unknown app	Ứng dụng không xác định			ui	w	A	
+unknown error	Lỗi không xác định			ui	w	A	
+unknown landscape	Khổ ngang không xác định			ui	w	A	
+unknown portrait	Khổ dọc không xác định			ui	w	A	
+unknown sources	Không rõ nguồn gốc			ui	w	A	
+unlink	Hủy liên kết			ui	x	A,M	
+unlock area collapsed	Đã thu gọn vùng khóa			ui	w	A	
+unlock area expanded	Đã mở rộng vùng khóa			ui	w	A	
+unlock pattern	Hình mở khóa			ui	w	A	
+unlock selection	Chọn phương thức mở khóa			ui	w	A	
+unlock to customize widgets	Mở khóa để tùy chỉnh các tiện ích			ui	w	A	
+unlock to use	Mở khóa để sử dụng			ui	w	A	
+unlock to use nfc	Mở khóa để sử dụng NFC			ui	w	A	
+unlock to view	Mở khóa để xem			ui	w	A	
+unlock to view networks	Mở khóa để xem mạng			ui	w	A	
+unlock with your face	Mở khóa bằng khuôn mặt của bạn			ui	w	A	
+unlock your device	Mở khóa thiết bị của bạn			ui	w	F	
+unlock your phone	Mở khóa điện thoại			ui	w	A	
+unlock your private space	Mở khóa không gian riêng tư			ui	w	A	
+unlocked by face	Đã mở khóa bằng khuôn mặt			ui	w	A	
+unnamed bluetooth device	Thiết bị Bluetooth chưa được đặt tên			ui	w	A	
+unnamed device	Thiết bị không có tên			ui	w	A	
+unpause app	Mở lại ứng dụng			ui	w	A	
+unplug your device	Rút thiết bị ra			ui	w	A	
+unreliable reviews	Đánh giá không đáng tin cậy			ui	w	F	
+unrestricted mobile data	Dữ liệu di động không bị hạn chế			ui	w	A	
+unrestricted mobile data usage	Sử dụng dữ liệu di động không bị hạn chế			ui	w	A	
+unroute to voicemail	Bỏ định tuyến đến thư thoại			ui	w	A	
+unselect widget	Bỏ chọn tiện ích			ui	w	A	
+until bedtime ends	Đến khi giờ đi ngủ kết thúc			ui	w	A	
+until fully charged	Cho tới khi được sạc đầy			ui	w	A	
+until sunrise	Cho đến khi trời sáng			ui	w	A	
+until you turn off	Cho đến khi bạn tắt			ui	w	A	
+unusable sim	SIM không sử dụng được			ui	w	A	
+unused app settings	Chế độ cài đặt cho ứng dụng không dùng đến			ui	w	A	
+unused apps	Ứng dụng không dùng đến			ui	w	A	
+update card expiration date	Cập nhật ngày hết hạn thẻ?			ui	w	F	
+update default payment app	Cập nhật ứng dụng thanh toán mặc định			ui	w	A	
+update do not disturb	Cập nhật chế độ Không làm phiền			ui	w	A	
+update password	Cập nhật lại mật khẩu?			ui	w	F	
+update this login	Cập nhật thông tin đăng nhập này?			ui	w	F	
+updated by your admin	Do quản trị viên của bạn cập nhật			ui	w	A	
+updated just now	Vừa cập nhật xong			ui	w	A	
+updating settings	Đang cập nhật các tùy chọn cài đặt			ui	w	A	
+upgrade, android	Nâng cấp, android			ui	w	A	
+url already exists	URL đã tồn tại			ui	w	F	
+url autocomplete	URL tự động điền			ui	w	F	
+url copied	Đã sao chép URL			ui	w	F	
+url copied to clipboard	Đã sao chép URL vào bộ nhớ tạm			ui	w	F	
+url to add	URL muốn thêm			ui	w	F	
+usage access	Truy cập dữ liệu sử dụng			ui	w	A	
+usage and technical data	Sử dụng và dữ liệu kỹ thuật			ui	w	F	
+usage cycle reset date	Ngày đặt lại chu kỳ sử dụng			ui	w	A	
+usage statistics	Thống kê sử dụng			ui	w	A	
+usage time	Thời gian sử dụng			ui	w	A	
+usb accessory	Phụ kiện USB			ui	w	A	
+usb accessory connected	Đã kết nối phụ kiện USB			ui	w	A	
+usb connection	Kết nối USB			ui	w	A	
+usb controlled by	Thiết bị kiểm soát USB			ui	w	A	
+usb debugging	Gỡ lỗi qua USB			ui	w	A	
+usb debugging connected	Đã kết nối chế độ gỡ lỗi qua USB			ui	w	A	
+usb debugging not allowed	Không cho phép chế độ gỡ lỗi qua USB			ui	w	A	
+usb drive	Ổ USB			ui	w	A	
+usb only	Chỉ qua USB			ui	w	A	
+usb peripheral port	Cổng ngoại vi USB			ui	w	A	
+usb port disabled	Đã tắt cổng USB			ui	w	A	
+usb preferences	Lựa chọn ưu tiên về USB			ui	w	A	
+usb storage	Bộ lưu trữ USB			ui	w	A	
+usb storage app	Ứng dụng bộ lưu trữ USB			ui	w	A	
+usb tethering	Chia sẻ Internet qua USB			ui	w	A	
+usb tethering turned on	Đã bật tính năng chia sẻ Internet qua USB			ui	w	A	
+usb, bluetooth	Chỉ chia sẻ kết nối qua USB, Bluetooth			ui	w	A	
+use a different app	Sử dụng một ứng dụng khác			ui	w	A	
+use accessibility gesture	Sử dụng cử chỉ hỗ trợ tiếp cận			ui	w	A	
+use accessibility setup	Sử dụng thiết lập hỗ trợ tiếp cận			ui	w	A	
+use accessibility shortcut	Sử dụng phím tắt Hỗ trợ tiếp cận?			ui	w	A	
+use adaptive brightness	Sử dụng độ sáng thích ứng			ui	w	A	
+use adaptive connectivity	Dùng kết nối thích ứng			ui	w	A	
+use app pinning	Sử dụng tính năng ghim ứng dụng			ui	w	A	
+use auto-rotate	Sử dụng chế độ tự động xoay			ui	w	A	
+use battery manager	Sử dụng Trình quản lý pin			ui	w	A	
+use battery saver	Sử dụng Trình tiết kiệm pin			ui	w	A	
+use biometric hardware	Sử dụng phần cứng sinh trắc học			ui	w	A	
+use bluetooth	Bật Bluetooth			ui	w	A	
+use button or gesture	Sử dụng nút hoặc cử chỉ			ui	w	A	
+use color correction	Sử dụng tính năng chỉnh màu			ui	w	A	
+use color inversion	Sử dụng tính năng đảo màu			ui	w	A	
+use cooler display colors	Sử dụng màu hiển thị lạnh hơn			ui	w	A	
+use dark theme	Sử dụng Giao diện tối			ui	w	A	
+use data saver	Sử dụng Trình tiết kiệm dữ liệu			ui	w	A	
+use default	Dùng tùy chọn mặc định			ui	w	A	
+use default payment app	Dùng ứng dụng thanh toán mặc định			ui	w	A	
+use default settings	Dùng chế độ cài đặt mặc định			ui	w	A	
+use details	Chi tiết sử dụng			ui	w	A	
+use developer options	Sử dụng tùy chọn cho nhà phát triển			ui	w	A	
+use device controls	Sử dụng các chế độ điều khiển thiết bị			ui	w	A	
+use device screen lock	Sử dụng phương thức khóa màn hình thiết bị			ui	w	A	
+use double tap	Dùng cử chỉ nhấn đúp			ui	w	A	
+use email instead	Sử dụng email thay thế			ui	w	F	
+use emergency sos	Sử dụng tính năng SOS khẩn cấp			ui	w	A	
+use external display	Dùng màn hình ngoài			ui	w	A	
+use face unlock	Dùng tính năng Mở khóa bằng khuôn mặt			ui	w	A	
+use face unlock for	Dùng tính năng mở khóa bằng khuôn mặt cho			ui	w	A	
+use fingerprint	Dùng vân tay			ui	w	A	
+use fingerprint hardware	Sử dụng phần cứng vân tay			ui	w	A	
+use fingerprint instead	Hãy dùng vân tay			ui	w	A	
+use fingerprint to open	Dùng vân tay để mở			ui	w	A	
+use graphics driver preferences	Dùng các lựa chọn ưu tiên về trình điều khiển đồ hoạ			ui	w	A	
+use locale default	Sử dụng định dạng của địa phương			ui	w	A	
+use location	Sử dụng vị trí			ui	w	A	
+use mouse keys	Dùng các phím điều khiển chuột			ui	w	A	
+use nfc	Sử dụng NFC			ui	w	A	
+use night light	Sử dụng chế độ Ánh sáng đêm			ui	w	A	
+use notification bundling	Sử dụng tính năng nhóm thông báo			ui	w	A	
+use notification cooldown	Dùng tính năng giảm dần âm lượng thông báo			ui	w	A	
+use notification history	Sử dụng nhật ký thông báo			ui	w	A	
+use on-screen keyboard	Sử dụng bàn phím ảo			ui	w	A	
+use one lock	Sử dụng 1 kiểu khóa	Sử dụng 1 kiểu khóa?		ui	w	A	
+use one-handed mode	Sử dụng chế độ một tay			ui	w	A	
+use password	Dùng mật khẩu			ui	w	A	
+use pattern	Dùng hình mở khóa			ui	w	A	
+use personal browser	Dùng trình duyệt cá nhân			ui	w	A	
+use pin	Dùng mã PIN			ui	w	A	
+use prevent ringing	Sử dụng chế độ ngăn đổ chuông			ui	w	A	
+use print service	Dùng dịch vụ in			ui	w	A	
+use satellite messaging	Sử dụng tính năng nhắn tin qua vệ tinh?			ui	w	A	
+use saved card	Sử dụng thẻ đã lưu			ui	w	F	
+use schedule	Sử dụng lịch biểu			ui	w	A	
+use screen lock	Dùng phương thức khóa màn hình			ui	w	A	
+use screen saver	Sử dụng trình bảo vệ màn hình			ui	w	A	
+use screenshot	Sử dụng ảnh chụp màn hình			ui	w	A	
+use shortcut	Sử dụng phím tắt			ui	w	A	
+use spell checker	Sử dụng trình kiểm tra chính tả			ui	w	A	
+use storage manager	Sử dụng Trình quản lý bộ nhớ			ui	w	A	
+use system certificates	Sử dụng chứng chỉ hệ thống			ui	w	A	
+use text from screen	Sử dụng văn bản trên màn hình			ui	w	A	
+use the shortcut to	Dùng phím tắt để			ui	w	A	
+use this sim	Dùng SIM này			ui	w	A	
+use thread	Dùng giao thức Thread			ui	w	A	
+use three finger tap	Dùng cử chỉ nhấn bằng 3 ngón tay			ui	w	A	
+use triple-tap	Sử dụng tùy chọn nhấn 3 lần			ui	w	A	
+use usb for	Sử dụng USB cho			ui	w	A	
+use uss	Sử dụng Uss			ui	w	A	
+use watch to	Dùng đồng hồ để			ui	w	A	
+use wireless debugging	Sử dụng tính năng gỡ lỗi qua Wi-Fi			ui	w	A	
+use wi‑fi calling	Sử dụng tính năng Gọi qua Wi-Fi			ui	w	A	
+use work browser	Dùng trình duyệt công việc			ui	w	A	
+use your fingerprint	Sử dụng vân tay của bạn			ui	w	A	
+user certificate	Chứng chỉ người dùng			ui	w	A	
+user credentials	Thông tin xác thực người dùng			ui	w	A,M	
+user data	Dữ liệu người dùng			ui	w	A	
+user interface	Giao diện người dùng			ui	w	A,M	
+user limit reached	Đã đạt đến giới hạn người dùng			ui	w	A	
+user presence is detected	Phát hiện thấy người dùng đang hiện diện			ui	w	A	
+user selector	Bộ chọn người dùng			ui	w	A	
+username copied to clipboard	Đã sao chép tên người dùng vào bộ nhớ tạm			ui	w	F	
+username required	Yêu cầu tên đăng nhập			ui	w	F	
+using face	Dùng khuôn mặt			ui	w	A	
+using face or fingerprint	Dùng khuôn mặt hoặc vân tay			ui	w	A	
+using face or watch	Dùng khuôn mặt hoặc đồng hồ			ui	w	A	
+using fingerprint	Dùng vân tay			ui	w	A	
+using fingerprint or watch	Dùng vân tay hoặc đồng hồ			ui	w	A	
+using watch	Dùng đồng hồ			ui	w	A	
+valid hostname required	Cần có tên máy chủ hợp lệ			ui	w	F	
+verify password	Xác minh mật khẩu			ui	w	A	
+verify pattern	Xác minh hình mở khóa			ui	w	A	
+verify pin	Xác minh mã PIN			ui	w	A	
+vibrate on tap	Rung khi nhấn			ui	w	A	
+vibration only	Chỉ rung			ui	w	A	
+video camera	Máy quay video			ui	w	A	
+video chat	Trò chuyện qua video			ui	w	A	
+video problem	Sự cố video			ui	w	A	
+view address	Xem địa chỉ			ui	w	A	
+view all apps	Xem tất cả các ứng dụng			ui	w	A	
+view and control screen	Xem và điều khiển màn hình			ui	w	A	
+view and perform actions	Xem và thực hiện hành động			ui	w	A	
+view by apps	Xem theo ứng dụng			ui	w	A	
+view by systems	Xem theo hệ thống			ui	w	A	
+view controls	Xem các quyền kiểm soát			ui	w	A	
+view details	Xem chi tiết			ui	w	A	
+view home address	Xem địa chỉ nhà riêng			ui	w	A	
+view linked contacts	Xem các liên hệ đã liên kết			ui	w	A	
+view network connections	Xem kết nối mạng			ui	w	A	
+view notification settings	Xem tùy chọn cài đặt thông báo			ui	w	A	
+view notifications	Xem thông báo			ui	w	A	
+view only	Chỉ xem			ui	w	A	
+view options	Xem tùy chọn			ui	w	F	
+view or change subscription	Xem hoặc thay đổi tùy chọn đăng ký			ui	w	A	
+view policies	Xem chính sách			ui	w	A	
+view possible causes	Xem nguyên nhân có thể gây lỗi			ui	w	A	
+view recent apps	Xem các ứng dụng gần đây	Xem ứng dụng gần đây		ui	w	A	
+view settings	Xem mục Cài đặt			ui	w	A	
+view updates	Xem thông tin c.nhật			ui	w	A	
+view wi-fi connections	Xem kết nối Wi-Fi			ui	w	A	
+view work address	Xem địa chỉ nơi làm việc			ui	w	A	
+viewing full screen	Xem toàn màn hình			ui	w	A	
+vision settings	Cài đặt thị giác			ui	w	A	
+visit a repair provider	Hãy liên hệ với một nhà cung cấp dịch vụ sửa chữa			ui	w	A	
+voice assist	Trợ lý thoại			ui	w	A	
+voice calls	Cuộc gọi thoại			ui	w	A	
+voice input	Nhập bằng giọng nói			ui	w	A	
+voice input services	Dịch vụ nhập bằng giọng nói			ui	w	A	
+voice input settings	Cài đặt nhập bằng giọng nói			ui	w	A	
+voice search	Tìm kiếm bằng giọng nói			ui	w	A,F	
+voicemail messages	Thư thoại			ui	w	A	
+volume and vibration	Âm lượng và rung			ui	w	A	
+volume buttons shortcut	Phím tắt các nút âm lượng			ui	w	A	
+volume keys	Phím âm lượng			ui	w	A	
+volume keys shortcut	Lối tắt cho phím âm lượng			ui	w	A	
+volume sliders collapsed	Đã thu gọn thanh trượt âm lượng			ui	w	A	
+volume sliders expanded	Đã mở rộng thanh trượt âm lượng			ui	w	A	
+vpn activated	Đã kích hoạt VPN			ui	w	A	
+vpn on	VPN đang bật			ui	w	A	
+vpn status	Trạng thái VPN			ui	w	A	
+vr helper services	Dịch vụ trình trợ giúp thực tế ảo			ui	w	A	
+vr listener	Trình nghe VR			ui	w	A	
+w+ connections	Đường kết nối W+			ui	w	A	
+w+ network	Mạng W+			ui	w	A	
+wake screen for notifications	Đánh thức màn hình để xem thông báo			ui	w	A	
+wake up display	Đánh thức màn hình			ui	w	A	
+wallpaper credits	Tác giả của hình nền			ui	w	A	
+wallpaper updated	Đã cập nhật hình nền!			ui	w	F	
+watch added	Đã thêm đồng hồ			ui	w	A	
+watch unlock	Mở khóa bằng đồng hồ			ui	w	A	
+ways to unlock	Cách mở khóa			ui	w	A	
+web address not valid	Địa chỉ web không hợp lệ			ui	w	F	
+web content	Nội dung web			ui	w	F	
+web search	Tìm kiếm trên web			ui	w	A	
+webcam and supplying power	Webcam và nguồn cấp điện			ui	w	A	
+website loaded	Đã tải xong trang web			ui	w	F	
+welcome back, guest	Chào mừng bạn trở lại!			ui	w	A	
+well done	Rất tốt!			ui	w	A	
+what to show	Nội dung hiển thị			ui	w	A	
+what’s new	Có gì mới			ui	w	F	
+when screen is off	Khi màn hình đang tắt			ui	w	A	
+when screen is on	Khi màn hình đang bật			ui	w	A	
+when to show	Thời điểm hiển thị			ui	w	A	
+when to start	Thời điểm khởi động			ui	w	A	
+when using face unlock	Khi dùng tính năng Mở khóa bằng khuôn mặt			ui	w	A	
+when using fingerprint unlock	Khi dùng tính năng Mở khóa bằng vân tay			ui	w	A	
+where invite reply is	Khi thư trả lời cho thư mời là			ui	w	A	
+where reply is	Trong đó câu trả lời là			ui	w	A	
+where to save contacts	Vị trí lưu thông tin liên hệ			ui	w	A	
+while charging	Trong khi sạc			ui	w	A	
+while charging or docked	Trong khi sạc hoặc gắn vào đế sạc			ui	w	A	
+while docked	Trong khi gắn vào đế sạc			ui	w	A	
+while docked and charging	Khi gắn vào đế và đang sạc			ui	w	A	
+while driving	Trong khi lái xe			ui	w	A	
+who can interrupt	Những người có thể làm gián đoạn chế độ Không làm phiền			ui	w	A	
+wi-fi calling	Gọi qua Wi-Fi			ui	w	A	
+wi-fi control	Kiểm soát Wi-Fi			ui	w	A	
+wi-fi data limit reached	Đã đạt tới g.hạn dữ liệu Wi-Fi			ui	w	A	
+wi-fi is off	Wi-Fi đang tắt			ui	w	A	
+wi-fi not available	Không có Wi-Fi			ui	w	A	
+wi-fi only	Chỉ Wi-Fi			ui	w	A	
+widget reordering ended	Đã kết thúc sắp xếp lại tiện ích			ui	w	A	
+widget reordering started	Đã bắt đầu xắp xếp lại tiện ích			ui	w	A	
+widgets on lock screen	Các tiện ích trên màn hình khóa			ui	w	A	
+wifi call	Cuộc gọi qua Wi-Fi			ui	w	A	
+wifi, wi-fi, call, calling	Wifi, wi-fi, gọi, gọi điện			ui	w	A	
+wifi, wi-fi, toggle, control	Wifi, wi-fi, bật/tắt, kiểm soát			ui	w	A	
+wired headphones	Tai nghe có dây			ui	w	A	
+wireless debugging connected	Đã kết nối tính năng gỡ lỗi qua Wi-Fi			ui	w	A	
+wireless debugging not allowed	Không cho phép gỡ lỗi qua Wi-Fi			ui	w	A	
+wireless display	Hiển thị không dây			ui	w	A	
+wireless display options	Tùy chọn hiển thị không dây			ui	w	A	
+wireless emergency alerts	Cảnh báo khẩn cấp qua mạng không dây			ui	w	A	
+with exceptions	Có ngoại lệ			ui	w	A	
+wlan call	Cuộc gọi qua WLAN			ui	w	A	
+work	Nơi làm việc	Công việc		ui	x	A,M	
+work apps	Ứng dụng công việc			ui	w	A	
+work apps are paused	Các ứng dụng công việc đã bị tạm dừng			ui	w	A	
+work challenge, work, profile	Thách thức công việc, công việc, hồ sơ			ui	w	A	
+work directory	Thư mục công việc			ui	w	A	
+work fax	Số fax cơ quan			ui	w	A	
+work lock screen	Màn hình khóa công việc			ui	w	A	
+work mobile	Di dộng CQ			ui	w	A	
+work notifications	Thông báo công việc			ui	w	A	
+work pager	Số nhắn tin CQ			ui	w	A	
+work phone ringtone	Chuông điện thoại công việc			ui	w	A	
+work profile	Hồ sơ công việc			ui	w	A	
+work profile contacts	Liên hệ trên hồ sơ công việc			ui	w	A	
+work profile deleted	Đã xóa hồ sơ công việc			ui	w	A	
+work profile is off	Hồ sơ công việc đã tắt			ui	w	A	
+work profile lock	Kiểu khóa hồ sơ công việc			ui	w	A	
+work profile locked	Đã khóa hồ sơ công việc			ui	w	A	
+work profile screen lock	Phương thức khóa màn hình hồ sơ công việc			ui	w	A	
+work profile security	Bảo mật hồ sơ công việc			ui	w	A	
+work profile settings	Cài đặt hồ sơ công việc			ui	w	A	
+work profile sounds	Âm thanh hồ sơ công việc			ui	w	A	
+work sim	SIM công việc			ui	w	A	
+work view	Chế độ xem công việc			ui	w	A	
+write call log	Ghi nhật ký cuộc gọi			ui	w	A	
+write in text fields	Viết vào trường văn bản			ui	w	A	
+write modify system settings	Ghi/sửa đổi các chế độ cài đặt hệ thống			ui	w	A	
+write system preferences	Ghi các lựa chọn ưu tiên về hệ thống			ui	w	A	
+wrong hsum build configuration	Cấu hình bản dựng HSUM không chính xác			ui	w	A	
+wrong password	Mật khẩu sai			ui	w	A	
+wrong pattern	Hình mở khóa không chính xác			ui	w	A	
+wrong pin	Mã PIN sai	PIN sai		ui	w	A	
+yes or maybe	Có hoặc Có thể			ui	w	A	
+yes please	Có			ui	w	F	
+yes, continue	Có, tiếp tục			ui	w	A	
+yes, reset	Có, đặt lại			ui	w	A	
+yes, switch	Có, hãy chuyển			ui	w	A	
+yes, try it	Có, hãy thử nó			ui	w	F	
+you have new messages	Bạn có tin nhắn mới			ui	w	A	
+your audio device	Thiết bị âm thanh của bạn			ui	w	A	
+your autocomplete list	Danh sách tự động điền của bạn			ui	w	F	
+your carrier	Nhà mạng của bạn			ui	w	A	
+your credit provider can	Tổ chức tín dụng của bạn có thể			ui	w	A	
+your devices	Các thiết bị của bạn			ui	w	A	
+your new unlock pattern	Hình mở khóa mới			ui	w	A	
+your primary sims	SIM chính			ui	w	A	
+your rights	Quyền lợi của bạn			ui	w	F	
+your search, your way	Tìm kiếm của bạn, theo cách của bạn			ui	w	F	
+your sims changed	Đã thay đổi SIM			ui	w	A	
+your work policy info	Thông tin về chính sách công việc của bạn			ui	w	A	
+you’re protected	Bạn đã được bảo vệ!			ui	w	F	
+zip code	Mã ZIP			ui	w	A,M	
+zoom in on screen	Phóng to trên màn hình			ui	w	A	
+zoom on all websites	Thu phóng trên mọi trang web			ui	w	F	

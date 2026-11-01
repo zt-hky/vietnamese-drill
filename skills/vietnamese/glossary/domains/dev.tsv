@@ -1,0 +1,197 @@
+en	vi	alt	avoid	cat	match	src	note
+commit;git commit	commit	lần commit	cam kết	git	w	D,V	keep English; verb and noun
+commit message	nội dung commit	commit message		git	w	D,V	keep English commit
+push	push			git	w	D,V	keep English
+pull	pull			git	w	D,V	keep English
+pull request;pr	pull request	PR	yêu cầu kéo	git	w	D,V	keep English
+merge request	merge request	MR		git	w	D,V	keep English
+merge	merge	hợp nhất		git	w	D,V	keep English in dev UIs
+rebase	rebase			git	w	D,V	keep English
+branch;git branch	nhánh	branch	chi nhánh	git	w	D,V	Vietnamese 'nhánh' common; branch also kept
+default branch	nhánh mặc định			git	w	D,V	
+main branch	nhánh chính			git	w	D,V	
+fork	fork		ngã ba	git	w	D,V	keep English
+clone	clone			git	w	D,V	keep English
+repository;repo	kho mã nguồn	repository;repo;kho lưu trữ		git	w	D,V	'repository' commonly kept in UI
+git tag	tag	thẻ		git	w	D,V	keep English
+stash	stash		tàng trữ	git	w	D,V	keep English
+cherry-pick	cherry-pick			git	w	D,V	keep English
+revert commit	hoàn tác commit	revert		git	w	D,V	
+diff;git diff	diff	điểm khác biệt		git	w	D,V	
+merge conflict;conflict	xung đột merge	xung đột		git	w	D,V	
+resolve conflict	giải quyết xung đột			git	w	D,V	
+code review	đánh giá mã nguồn	code review		git	w	D,V	'code review' widely kept
+reviewer	người đánh giá	reviewer		git	w	D,V	
+approve pull request	phê duyệt pull request	approve		git	w	D,V	
+issue	issue	vấn đề		git	w	D,V	keep English in tracker UIs
+open source	mã nguồn mở			git	w	D,V	
+source code	mã nguồn			git	w	D,V	
+staging area	vùng staging	staging area		git	w	D,V	
+working directory	thư mục làm việc			git	w	D,V	
+git history	lịch sử commit			git	w	D,V	
+blame	blame			git	w	D,V	keep English
+gitignore	.gitignore			git	w	D,V	file name unchanged
+protected branch	nhánh được bảo vệ			git	w	D,V	
+release notes	ghi chú phát hành	release notes		release	w	D,V	
+release	bản phát hành	phát hành		release	w	D,V	noun; verb is 'phát hành'
+release candidate	bản phát hành thử nghiệm	release candidate (RC)		release	w	D,V	
+changelog	changelog	nhật ký thay đổi		release	w	D,V	
+semantic versioning	phiên bản ngữ nghĩa	semantic versioning (SemVer)		release	w	D,V	
+breaking change	thay đổi gây phá vỡ tương thích	breaking change		release	w	D,V	keep English common
+backward compatible	tương thích ngược			release	w	D,V	
+deprecated	đã lỗi thời	không dùng nữa		release	w	D,V	often kept 'deprecated'
+hotfix	hotfix	bản vá nóng		release	w	D,V	
+patch	bản vá			release	w	D,V	
+rollback	rollback	khôi phục phiên bản trước		release	w	D,V	
+roll back	rollback	khôi phục phiên bản trước		release	w	D,V	
+canary release	canary release	phát hành canary		release	w	D,V	
+blue-green deployment	blue-green deployment	triển khai blue-green		release	w	D,V	
+feature flag;feature toggle	feature flag			release	w	D,V	
+beta;beta version	bản beta			release	w	D,V	
+nightly build	bản build hằng đêm	nightly build		release	w	D,V	
+build	build	bản dựng	xây dựng	cicd	w	D,V	noun/verb; 'bản dựng' formal
+build failed	build thất bại			cicd	w	D,V	
+build artifact;artifact	artifact	tạo phẩm		cicd	w	D,V	keep English
+continuous integration;ci	tích hợp liên tục (CI)	CI		cicd	w	D,V	
+continuous delivery;cd	chuyển giao liên tục (CD)	CD		cicd	w	D,V	
+continuous deployment	triển khai liên tục			cicd	w	D,V	
+ci/cd pipeline;pipeline	pipeline	quy trình CI/CD	đường ống	cicd	w	D,V	keep English
+job;pipeline job	job	công việc		cicd	w	D,V	keep English in CI context
+stage;pipeline stage	stage	giai đoạn		cicd	w	D,V	
+workflow;github actions workflow	workflow	quy trình		cicd	w	D,V	
+runner	runner			cicd	w	D,V	
+trigger build	kích hoạt build	trigger		cicd	w	D,V	
+deploy	deploy	triển khai		cicd	w	D,V	'triển khai' fine in formal docs
+deployment	triển khai	deployment		cicd	w	D,V	'deployment' as noun both ok
+deploy to production	deploy lên production	triển khai lên môi trường production	triển khai lên sản xuất	cicd	w	D,V	
+production;production environment	môi trường production	production	sản xuất	env	w	D,V	not 'sản xuất'
+staging environment;staging	môi trường staging	staging		env	w	D,V	
+development environment	môi trường phát triển	môi trường dev		env	w	D,V	
+testing environment	môi trường kiểm thử			env	w	D,V	
+environment variable	biến môi trường			env	w	D,V	
+environment	môi trường			env	w	D,V	deploy/runtime context
+secret;secrets	secret		bí mật	env	w	D,V	keep English in CI/K8s
+config file;configuration file	tệp cấu hình			env	w	D,V	
+configuration	cấu hình			env	w	D,V	
+infrastructure as code;iac	hạ tầng dưới dạng mã (IaC)	IaC	cơ sở hạ tầng như mã	cloud	w	D,V	
+infrastructure	hạ tầng			cloud	w	D,V	
+container	container		thùng chứa	container	w	D,V	keep English
+docker image;container image	image	container image	ảnh	container	w	D,V	keep English
+dockerfile	Dockerfile			container	w	D,V	
+container registry;registry	registry			container	w	D,V	
+volume;docker volume	volume			container	w	D,V	
+port mapping	ánh xạ cổng			container	w	D,V	
+kubernetes cluster;cluster	cluster	cụm		container	w	D,V	'cụm' ok in formal docs
+node;worker node	node	nút		container	w	D,V	
+pod	pod			container	w	D,V	
+namespace	namespace	không gian tên		container	w	D,V	
+replica;replicas	replica	bản sao		container	w	D,V	
+scale up	scale up	mở rộng theo chiều dọc;tăng cấu hình		cloud	w	D,V	Vertical scaling
+scale out	scale out	mở rộng ngang		cloud	w	D,V	
+autoscaling;auto scaling	tự động co giãn (autoscaling)	auto scaling		cloud	w	D,V	
+scalability	khả năng mở rộng			cloud	w	D,V	
+load balancer	bộ cân bằng tải	load balancer		cloud	w	D,V	
+load balancing	cân bằng tải			cloud	w	D,V	
+virtual machine;vm	máy ảo (VM)	VM		cloud	w	D,V	
+instance;vm instance	instance	phiên bản máy ảo	thể hiện	cloud	w	D,V	keep English for cloud
+cloud region	region	vùng		cloud	w	D,V	cloud context
+availability zone	availability zone	vùng khả dụng		cloud	w	D,V	
+serverless	serverless	phi máy chủ		cloud	w	D,V	
+cloud provider	nhà cung cấp đám mây			cloud	w	D,V	
+cloud computing	điện toán đám mây			cloud	w	D,V	
+object storage	lưu trữ đối tượng	object storage		cloud	w	D,V	
+bucket	bucket			cloud	w	D,V	keep English
+cdn;content delivery network	CDN	mạng phân phối nội dung		cloud	w	D,V	
+domain name	tên miền			cloud	w	D,V	
+dns record	bản ghi DNS			cloud	w	D,V	
+ssl certificate;tls certificate	chứng chỉ SSL	chứng chỉ TLS		cloud	w	D,V	
+firewall	tường lửa	firewall		cloud	w	D,V	
+security group	security group	nhóm bảo mật		cloud	w	D,V	
+iam role	vai trò IAM			cloud	w	D,V	
+vpc;virtual private cloud	VPC			cloud	w	D,V	
+high availability	tính sẵn sàng cao	HA		cloud	w	D,V	
+disaster recovery	khôi phục sau thảm họa	DR		cloud	w	D,V	
+failover	failover	chuyển đổi dự phòng		cloud	w	D,V	
+uptime	thời gian hoạt động	uptime		monitor	w	D,V	
+downtime	thời gian ngừng hoạt động	downtime		monitor	w	D,V	
+outage	sự cố gián đoạn	outage		monitor	w	D,V	
+incident	sự cố	incident		monitor	w	D,V	
+postmortem	báo cáo sau sự cố	postmortem		monitor	w	D,V	
+on-call	trực on-call	on-call		monitor	w	D,V	
+monitoring	giám sát	monitoring		monitor	w	D,V	
+observability	khả năng quan sát	observability		monitor	w	D,V	
+metrics;metric	chỉ số	metric		monitor	w	D,V	
+alert rule	quy tắc cảnh báo			monitor	w	D,V	
+latency	độ trễ	latency		monitor	w	D,V	
+throughput	thông lượng	throughput		monitor	w	D,V	
+response time	thời gian phản hồi			monitor	w	D,V	
+health check	kiểm tra tình trạng	health check		monitor	w	D,V	
+memory leak	rò rỉ bộ nhớ			monitor	w	D,V	
+tracing;distributed tracing	truy vết	tracing		monitor	w	D,V	
+log;logs	log	nhật ký		log	w	D,V	'log' common; 'nhật ký' formal
+log level	mức log	cấp độ log		log	w	D,V	
+stack trace	stack trace	dấu vết ngăn xếp		log	w	D,V	keep English
+error log	log lỗi	nhật ký lỗi		log	w	D,V	
+debug	debug	gỡ lỗi		log	w	D,V	'gỡ lỗi' accepted
+debugger	trình gỡ lỗi	debugger		log	w	D,V	
+breakpoint	breakpoint	điểm dừng		log	w	D,V	
+exception	exception	ngoại lệ		log	w	D,V	
+crash report	báo cáo sự cố ứng dụng	crash report		log	w	D,V	
+bug	lỗi	bug		log	w	D,V	
+bug report	báo cáo lỗi			log	w	D,V	
+api	API			api	w	D,V	
+rest api	REST API			api	w	D,V	
+endpoint;api endpoint	endpoint	điểm cuối		api	w	D,V	keep English
+api key	khóa API	API key		api	w	D,V	
+access token	access token	mã truy cập		api	w	D,V	
+refresh token	refresh token			api	w	D,V	
+webhook	webhook			api	w	D,V	
+request	request	yêu cầu		api	w	D,V	HTTP context
+response	response	phản hồi		api	w	D,V	
+status code	mã trạng thái	status code		api	w	D,V	
+rate limit	giới hạn tần suất	rate limit;giới hạn số lượng yêu cầu		api	w	D,V	End-user UI: Vietnamese; developer docs may keep "rate limit"
+timeout	hết thời gian chờ	timeout		api	w	D,V	
+payload	payload			api	w	D,V	
+sdk	SDK			api	w	D,V	
+api documentation	tài liệu API			api	w	D,V	
+cors	CORS			api	w	D,V	
+database	cơ sở dữ liệu	database;CSDL		data	w	D,V	
+data migration;database migration	di chuyển dữ liệu	migration		data	w	D,V	DB schema 'migration' kept
+schema	schema	lược đồ		data	w	D,V	
+query	truy vấn	query		data	w	D,V	
+index;database index	chỉ mục	index		data	w	D,V	
+database transaction	giao dịch	transaction		data	w	D,V	not financial here
+cache	bộ nhớ đệm	cache		data	w	D,V	
+connection string	chuỗi kết nối			data	w	D,V	
+unit test	unit test	kiểm thử đơn vị		test	w	D,V	
+integration test	integration test	kiểm thử tích hợp		test	w	D,V	
+end-to-end test;e2e test	kiểm thử end-to-end (E2E)	E2E		test	w	D,V	
+test case	test case	ca kiểm thử		test	w	D,V	
+test suite	bộ kiểm thử	test suite		test	w	D,V	
+test coverage;code coverage	độ bao phủ kiểm thử	code coverage		test	w	D,V	
+regression test	kiểm thử hồi quy	regression test		test	w	D,V	
+test passed	kiểm thử thành công			test	w	D,V	
+test failed	kiểm thử thất bại			test	w	D,V	
+flaky test	flaky test	kiểm thử không ổn định		test	w	D,V	
+linter;lint	linter			test	w	D,V	
+code quality	chất lượng mã nguồn			test	w	D,V	
+technical debt	nợ kỹ thuật			dev	w	D,V	
+refactor	refactor	tái cấu trúc mã		dev	w	D,V	
+dependency;dependencies	dependency	thư viện phụ thuộc;phụ thuộc		dev	w	D,V	
+package manager	trình quản lý gói			dev	w	D,V	
+package;npm package	package	gói		dev	w	D,V	
+library	thư viện			dev	w	D,V	
+framework	framework			dev	w	D,V	
+sandbox	sandbox	môi trường thử nghiệm		dev	w	D,V	
+developer portal	cổng nhà phát triển			dev	w	D,V	
+developer;developers	nhà phát triển	developer; lập trình viên		dev	w	D,V	
+command line;cli	dòng lệnh	CLI		dev	w	D,V	
+terminal	terminal			dev	w	D,V	
+code snippet	đoạn mã	snippet		dev	w	D,V	
+syntax error	lỗi cú pháp			dev	w	D,V	
+compile	biên dịch	compile		dev	w	D,V	
+runtime error	lỗi runtime	lỗi khi chạy;runtime error		dev	w	D,V	
+frontend	frontend	giao diện người dùng		dev	w	D,V	
+backend	backend			dev	w	D,V	
+microservices	microservice			dev	w	D,V	
+monorepo	monorepo			git	w	D,V	

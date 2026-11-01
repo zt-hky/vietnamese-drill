@@ -1,0 +1,193 @@
+en	vi	alt	avoid	cat	match	src	note
+current account;checking account	tài khoản thanh toán	tài khoản vãng lai		account	w	D,V	Vietnam banks use "tài khoản thanh toán" for current accounts
+savings account	tài khoản tiết kiệm			account	w	D,V	
+account number	số tài khoản		số tài khoản số	account	w	D,V	
+account holder;account owner	chủ tài khoản			account	w	D,V	
+account name;beneficiary name	tên người thụ hưởng	tên chủ tài khoản		account	w	D,V	Use for recipient name on transfers
+beneficiary	người thụ hưởng	người nhận		transfer	w	D,V	
+beneficiary bank;receiving bank	ngân hàng thụ hưởng	ngân hàng nhận		transfer	w	D,V	
+sender	người chuyển			transfer	w	D,V	
+recipient;payee	người nhận	người thụ hưởng		transfer	w	D,V	
+bank account	tài khoản ngân hàng			account	w	D,V	
+linked bank account	tài khoản ngân hàng liên kết			account	w	D,V	
+link bank account;link account	liên kết tài khoản ngân hàng	liên kết tài khoản		account	w	D,V	
+unlink account	hủy liên kết tài khoản			account	w	D,V	
+primary account	tài khoản chính			account	w	D,V	
+dormant account	tài khoản không hoạt động	tài khoản ngủ đông		account	w	D,V	
+account freeze;frozen account	tài khoản bị phong tỏa			account	w	D,V	
+lock account	khóa tài khoản			account	w	D,V	
+close account	đóng tài khoản			account	w	D,V	
+virtual account	tài khoản định danh	tài khoản ảo		account	w	D,V	Banks use "tài khoản định danh" for virtual accounts
+account statement;bank statement	sao kê tài khoản	sao kê		statement	w	D,V	
+transaction history	lịch sử giao dịch			transaction	w	D,V	
+transaction details	chi tiết giao dịch			transaction	w	D,V	
+transaction code;transaction id;transaction reference	mã giao dịch			transaction	w	D,V	
+reference number	số tham chiếu			transaction	w	D,V	
+transaction limit	hạn mức giao dịch			limit	w	D,V	
+daily limit;daily transfer limit	hạn mức giao dịch trong ngày	hạn mức hàng ngày		limit	w	D,V	
+per-transaction limit;limit per transaction	hạn mức mỗi giao dịch	hạn mức một lần giao dịch		limit	w	D,V	
+monthly limit	hạn mức theo tháng			limit	w	D,V	
+change limit;adjust limit	thay đổi hạn mức			limit	w	D,V	
+credit limit	hạn mức tín dụng			card	w	D,V	
+available limit	hạn mức khả dụng			limit	w	D,V	
+available balance	số dư khả dụng			account	w	D,V	
+current balance;account balance	số dư hiện tại	số dư tài khoản		account	w	D,V	
+insufficient balance;insufficient funds	số dư không đủ		không đủ cân bằng	account	w	D,V	
+exceeds limit;limit exceeded	vượt quá hạn mức			limit	w	D,V	
+fast transfer;instant transfer;fast transfer 24/7	chuyển khoản nhanh 24/7	chuyển tiền nhanh		transfer	w	D,V	Napas 247 service
+interbank transfer	chuyển khoản liên ngân hàng			transfer	w	D,V	
+internal transfer;same-bank transfer	chuyển khoản trong ngân hàng	chuyển khoản nội bộ		transfer	w	D,V	
+transfer to account	chuyển khoản đến số tài khoản			transfer	w	D,V	
+transfer to card	chuyển khoản đến số thẻ			transfer	w	D,V	
+transfer content;transfer note;transfer message	nội dung chuyển khoản	lời nhắn		transfer	w	D,V	
+scheduled transfer	chuyển tiền đặt lịch	chuyển tiền hẹn lịch		transfer	w	D,V	Use "đặt lịch chuyển tiền" for one-time scheduled
+recurring transfer;standing order	chuyển tiền định kỳ	lệnh chuyển tiền định kỳ		transfer	w	D,V	
+transfer money	chuyển tiền			transfer	w	D,V	
+transfer fee	phí chuyển khoản	phí chuyển tiền		fee	w	D,V	
+fee payer;fee bearer	bên chịu phí	người chịu phí		fee	w	D,V	
+service fee	phí dịch vụ			fee	w	D,V	
+annual fee	phí thường niên			fee	w	D,V	
+maintenance fee;account maintenance fee	phí duy trì tài khoản			fee	w	D,V	
+withdrawal fee	phí rút tiền			fee	w	D,V	
+fee schedule	biểu phí			fee	w	D,V	
+free of charge;fee waived	miễn phí			fee	w	D,V	
+exchange rate	tỷ giá			fx	w	D,V	
+foreign currency	ngoại tệ			fx	w	D,V	
+currency exchange	đổi ngoại tệ			fx	w	D,V	
+international transfer;remittance	chuyển tiền quốc tế	kiều hối		fx	w	D,V	"kiều hối" only for inbound overseas remittance
+cash withdrawal	rút tiền mặt			atm	w	D,V	
+cash deposit	nộp tiền mặt	gửi tiền mặt		atm	w	D,V	
+atm	ATM	cây ATM		atm	w	D,V	
+withdraw at atm;cardless withdrawal	rút tiền không cần thẻ			atm	w	D,V	
+branch	chi nhánh			bank	w	D,V	
+transaction office	phòng giao dịch			bank	w	D,V	
+branch locator;find branch	tìm chi nhánh và ATM			bank	w	D,V	
+debit card	thẻ ghi nợ			card	w	D,V	
+credit card	thẻ tín dụng			card	w	D,V	
+prepaid card	thẻ trả trước			card	w	D,V	
+virtual card	thẻ ảo			card	w	D,V	
+physical card	thẻ vật lý	thẻ thật		card	w	D,V	
+domestic card	thẻ nội địa			card	w	D,V	
+international card	thẻ quốc tế			card	w	D,V	
+card number	số thẻ			card	w	D,V	
+card holder;cardholder	chủ thẻ			card	w	D,V	
+cardholder name;name on card	tên chủ thẻ			card	w	D,V	
+expiry date;expiration date	ngày hết hạn			card	w	D,V	
+cvv;cvc;security code	mã CVV	mã bảo mật thẻ		card	w	D,V	Keep CVV/CVC
+activate card	kích hoạt thẻ			card	w	D,V	
+lock card	khóa thẻ			card	w	D,V	
+unlock card	mở khóa thẻ			card	w	D,V	
+lost card;report lost card	báo mất thẻ			card	w	D,V	
+replace card;reissue card	phát hành lại thẻ	cấp lại thẻ		card	w	D,V	
+issue card;card issuance	phát hành thẻ	mở thẻ		card	w	D,V	
+card pin;pin code	mã PIN			card	w	D,V	
+change pin	đổi mã PIN			card	w	D,V	
+online payment setting;online transactions	giao dịch trực tuyến			card	w	D,V	
+contactless payment;tap to pay	thanh toán không chạm			card	w	D,V	
+card statement	sao kê thẻ			card	w	D,V	
+statement date	ngày sao kê			card	w	D,V	
+payment due date;due date	ngày đến hạn thanh toán	hạn thanh toán		card	w	D,V	
+minimum payment	số tiền thanh toán tối thiểu	thanh toán tối thiểu		card	w	D,V	
+statement balance	dư nợ sao kê			card	w	D,V	
+outstanding balance;outstanding debt	dư nợ			loan	w	D,V	
+interest-free period	thời gian miễn lãi			card	w	D,V	
+cash advance	rút tiền mặt từ thẻ tín dụng	ứng tiền mặt		card	w	D,V	
+installment plan;pay in installments	trả góp	thanh toán trả góp		card	w	D,V	
+convert to installments	chuyển đổi trả góp			card	w	D,V	
+reward points;loyalty points	điểm thưởng			card	w	D,V	
+cashback	hoàn tiền			card	w	D,V	
+add card to wallet	thêm thẻ vào ví			card	w	D,V	
+qr code payment;pay by qr;scan to pay	thanh toán bằng mã QR	quét mã QR để thanh toán		qr	w	D,V	
+scan qr code	quét mã QR			qr	w	D,V	
+my qr code;receive qr	mã QR của tôi	mã QR nhận tiền		qr	w	D,V	
+vietqr	VietQR			qr	w	D,V	Keep brand name
+napas	Napas			qr	w	D,V	Keep brand name
+create payment qr;generate qr	tạo mã QR thanh toán			qr	w	D,V	
+merchant qr	mã QR cửa hàng	mã QR merchant		qr	w	D,V	
+merchant	người bán	đơn vị chấp nhận thanh toán;merchant		merchant	w	D,V	Consumer UI: người bán; contracts/regulation: đơn vị chấp nhận thanh toán
+pos terminal;pos machine;card reader	máy POS			merchant	w	D,V	
+e-wallet;digital wallet	ví điện tử			wallet	w	D,V	
+wallet balance	số dư ví			wallet	w	D,V	
+link wallet	liên kết ví			wallet	w	D,V	
+wallet to bank;withdraw to bank	rút tiền về ngân hàng	rút tiền về tài khoản ngân hàng		wallet	w	D,V	
+bank to wallet;add money from bank	nạp tiền từ ngân hàng			wallet	w	D,V	
+send money	chuyển tiền		gửi tiền	wallet	w	D,V	"gửi tiền" means deposit/savings in banking
+request money	yêu cầu chuyển tiền			wallet	w	D,V	
+split bill	chia tiền	chia hóa đơn		wallet	w	D,V	
+bill payment;pay bills	thanh toán hóa đơn			bill	w	D,V	
+electricity bill	hóa đơn tiền điện			bill	w	D,V	
+customer code	mã khách hàng			bill	w	D,V	
+biller;service provider	nhà cung cấp dịch vụ			bill	w	D,V	
+auto debit;direct debit;autopay	thanh toán tự động	trích nợ tự động		bill	w	D,V	
+mobile top-up;phone credit	nạp tiền điện thoại			bill	w	D,V	
+e-invoice;electronic invoice	hóa đơn điện tử			bill	w	D,V	
+savings deposit;term deposit	tiền gửi tiết kiệm	gửi tiết kiệm		savings	w	D,V	
+open savings;deposit savings	gửi tiết kiệm			savings	w	D,V	
+online savings	tiết kiệm trực tuyến	gửi tiết kiệm online		savings	w	D,V	
+flexible savings;demand deposit	tiền gửi không kỳ hạn			savings	w	D,V	
+term;deposit term	kỳ hạn			savings	w	D,V	
+interest rate	lãi suất			savings	w	D,V	
+annual interest rate;interest per annum	lãi suất năm	lãi suất %/năm		savings	w	D,V	
+interest earned	tiền lãi	lãi nhận được		savings	w	D,V	
+maturity date	ngày đáo hạn	ngày tất toán		savings	w	D,V	
+settle early;early withdrawal;early settlement	tất toán trước hạn	rút trước hạn		savings	w	D,V	
+rollover;renew deposit	tái tục			savings	w	D,V	
+principal and interest;principal + interest	gốc và lãi			savings	w	D,V	
+principal	tiền gốc	gốc		loan	w	D,V	
+loan	khoản vay			loan	w	D,V	
+apply for loan;loan application	đăng ký vay	hồ sơ vay		loan	w	D,V	
+loan amount	số tiền vay			loan	w	D,V	
+loan term	thời hạn vay			loan	w	D,V	
+loan interest rate	lãi suất vay			loan	w	D,V	
+loan approval	phê duyệt khoản vay	duyệt khoản vay		loan	w	D,V	
+loan disbursement;disbursement	giải ngân			loan	w	D,V	
+repayment;loan repayment	trả nợ	thanh toán khoản vay		loan	w	D,V	
+monthly repayment;monthly installment	số tiền trả hàng tháng	tiền trả nợ hàng tháng		loan	w	D,V	
+repayment schedule;amortization schedule	lịch trả nợ			loan	w	D,V	
+early repayment;prepayment	trả nợ trước hạn			loan	w	D,V	
+overdue;past due	quá hạn			loan	w	D,V	
+overdue debt;delinquent	nợ quá hạn			loan	w	D,V	
+late payment fee;late fee	phí trả chậm	phí phạt chậm trả		fee	w	D,V	
+collateral	tài sản đảm bảo	tài sản thế chấp		loan	w	D,V	"thế chấp" is mortgage-type; "đảm bảo" is general
+mortgage	vay thế chấp			loan	w	D,V	
+unsecured loan;personal loan	vay tín chấp			loan	w	D,V	
+overdraft	thấu chi			loan	w	D,V	
+credit score	điểm tín dụng			loan	w	D,V	
+credit history	lịch sử tín dụng			loan	w	D,V	
+cic	CIC	Trung tâm Thông tin tín dụng Quốc gia Việt Nam		loan	w	D,V	
+buy now pay later;bnpl	mua trước trả sau			loan	w	D,V	
+ekyc;electronic identity verification	xác thực danh tính điện tử (eKYC)	eKYC		kyc	w	D,V	
+kyc	KYC	xác minh danh tính khách hàng		kyc	w	D,V	Abbreviation stays: KYC
+identity verification	xác minh danh tính			kyc	w	D,V	
+national id;citizen id;cccd	căn cước công dân (CCCD)	CCCD		kyc	w	D,V	
+identity card	chứng minh nhân dân (CMND)	CMND		kyc	w	D,V	Legacy; mostly replaced by CCCD
+passport	hộ chiếu			kyc	w	D,V	
+tax code;tax identification number	mã số thuế			kyc	w	D,V	
+capture id;take photo of id	chụp ảnh giấy tờ tùy thân			kyc	w	D,V	
+face verification;face id;facial recognition	xác thực khuôn mặt	nhận diện khuôn mặt		kyc	w	D,V	
+liveness check	kiểm tra người thật	xác thực người thật		kyc	w	D,V	
+nfc chip scan;scan chip	quét chip NFC			kyc	w	D,V	
+account verification;verify account	xác thực tài khoản			kyc	w	D,V	
+smart otp	Smart OTP			auth	w	D,V	Keep Smart OTP
+sms otp	OTP qua SMS			auth	w	D,V	
+transaction password;transaction pin	mật khẩu giao dịch	mã PIN giao dịch		auth	w	D,V	
+enter otp	nhập mã OTP			auth	w	D,V	
+resend otp	gửi lại mã OTP			auth	w	D,V	
+otp expired	mã OTP đã hết hạn			auth	w	D,V	
+biometric authentication;biometrics	xác thực sinh trắc học			auth	w	D,V	
+fingerprint login	đăng nhập bằng vân tay			auth	w	D,V	
+transaction confirmation;confirm transaction	xác nhận giao dịch			auth	w	D,V	
+trusted device	thiết bị tin cậy			auth	w	D,V	
+suspicious transaction	giao dịch đáng ngờ	giao dịch bất thường		fraud	w	D,V	
+fraud;scam	lừa đảo			fraud	w	D,V	
+anti-fraud warning	cảnh báo lừa đảo			fraud	w	D,V	
+transaction alert;balance alert;balance change notification	thông báo biến động số dư			notification	w	D,V	
+mutual fund;fund certificate	chứng chỉ quỹ			invest	w	D,V	
+open-ended fund	quỹ mở			invest	w	D,V	"quỹ mở" is open-ended fund; ETF stays ETF
+stock;shares	cổ phiếu			invest	w	D,V	
+securities account	tài khoản chứng khoán			invest	w	D,V	
+investment portfolio;portfolio	danh mục đầu tư			invest	w	D,V	
+profit and loss;pnl	lãi/lỗ			invest	w	D,V	
+risk disclosure	cảnh báo rủi ro			invest	w	D,V	
+static qr	mã QR tĩnh			qr	w	D,V	
+dynamic qr	mã QR động			qr	w	D,V	

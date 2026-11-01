@@ -1,0 +1,1487 @@
+[
+ {
+  "id": "fintech-1",
+  "domain": "fintech",
+  "en": "Top up your e-wallet via linked bank account"
+ },
+ {
+  "id": "fintech-2",
+  "domain": "fintech",
+  "en": "Transfer failed: insufficient balance. Please top up and try again."
+ },
+ {
+  "id": "fintech-3",
+  "domain": "fintech",
+  "en": "Enter the 6-digit OTP sent to your phone"
+ },
+ {
+  "id": "fintech-4",
+  "domain": "fintech",
+  "en": "Scan QR code to pay merchant"
+ },
+ {
+  "id": "fintech-5",
+  "domain": "fintech",
+  "en": "Your daily transfer limit is 100,000,000 VND"
+ },
+ {
+  "id": "fintech-6",
+  "domain": "fintech",
+  "en": "Link a debit card to withdraw money"
+ },
+ {
+  "id": "fintech-7",
+  "domain": "fintech",
+  "en": "Complete eKYC to unlock higher transaction limits"
+ },
+ {
+  "id": "fintech-8",
+  "domain": "fintech",
+  "en": "Interest rate 6.5% per year for 12-month term deposit"
+ },
+ {
+  "id": "fintech-9",
+  "domain": "fintech",
+  "en": "Loan application submitted. We will review within 24 hours."
+ },
+ {
+  "id": "fintech-10",
+  "domain": "fintech",
+  "en": "Transaction history"
+ },
+ {
+  "id": "fintech-11",
+  "domain": "fintech",
+  "en": "Pay your credit card statement before the due date to avoid late fees"
+ },
+ {
+  "id": "fintech-12",
+  "domain": "fintech",
+  "en": "Beneficiary account number is invalid"
+ },
+ {
+  "id": "ecommerce-1",
+  "domain": "ecommerce",
+  "en": "Add to cart"
+ },
+ {
+  "id": "ecommerce-2",
+  "domain": "ecommerce",
+  "en": "Free shipping for orders over 300,000đ"
+ },
+ {
+  "id": "ecommerce-3",
+  "domain": "ecommerce",
+  "en": "Apply voucher code at checkout"
+ },
+ {
+  "id": "ecommerce-4",
+  "domain": "ecommerce",
+  "en": "Your order has been confirmed and is being prepared"
+ },
+ {
+  "id": "ecommerce-5",
+  "domain": "ecommerce",
+  "en": "Cash on delivery (COD) is available in your area"
+ },
+ {
+  "id": "ecommerce-6",
+  "domain": "ecommerce",
+  "en": "Flash sale ends in 02:15:30"
+ },
+ {
+  "id": "ecommerce-7",
+  "domain": "ecommerce",
+  "en": "Request a return within 7 days of delivery"
+ },
+ {
+  "id": "ecommerce-8",
+  "domain": "ecommerce",
+  "en": "Seller has shipped your parcel"
+ },
+ {
+  "id": "ecommerce-9",
+  "domain": "ecommerce",
+  "en": "Rate this product and earn 200 coins"
+ },
+ {
+  "id": "ecommerce-10",
+  "domain": "ecommerce",
+  "en": "Out of stock. Notify me when available."
+ },
+ {
+  "id": "ecommerce-11",
+  "domain": "ecommerce",
+  "en": "Choose size and color before adding to cart"
+ },
+ {
+  "id": "ecommerce-12",
+  "domain": "ecommerce",
+  "en": "Shop's reply to your review"
+ },
+ {
+  "id": "healthcare-1",
+  "domain": "healthcare",
+  "en": "Book an appointment with a doctor"
+ },
+ {
+  "id": "healthcare-2",
+  "domain": "healthcare",
+  "en": "Your lab results are ready"
+ },
+ {
+  "id": "healthcare-3",
+  "domain": "healthcare",
+  "en": "View electronic medical record"
+ },
+ {
+  "id": "healthcare-4",
+  "domain": "healthcare",
+  "en": "Take 1 tablet twice daily after meals"
+ },
+ {
+  "id": "healthcare-5",
+  "domain": "healthcare",
+  "en": "Health insurance card number"
+ },
+ {
+  "id": "healthcare-6",
+  "domain": "healthcare",
+  "en": "Telemedicine consultation starts in 5 minutes"
+ },
+ {
+  "id": "healthcare-7",
+  "domain": "healthcare",
+  "en": "Allergies and chronic conditions"
+ },
+ {
+  "id": "healthcare-8",
+  "domain": "healthcare",
+  "en": "Remind me to take medication"
+ },
+ {
+  "id": "healthcare-9",
+  "domain": "healthcare",
+  "en": "Select a clinic near you"
+ },
+ {
+  "id": "healthcare-10",
+  "domain": "healthcare",
+  "en": "Vaccination schedule for your child"
+ },
+ {
+  "id": "healthcare-11",
+  "domain": "healthcare",
+  "en": "Prescription has been sent to the pharmacy"
+ },
+ {
+  "id": "healthcare-12",
+  "domain": "healthcare",
+  "en": "Please fast for 8 hours before the blood test"
+ },
+ {
+  "id": "education-1",
+  "domain": "education",
+  "en": "Enroll in this course"
+ },
+ {
+  "id": "education-2",
+  "domain": "education",
+  "en": "Assignment due tomorrow at 11:59 PM"
+ },
+ {
+  "id": "education-3",
+  "domain": "education",
+  "en": "Your grade has been posted"
+ },
+ {
+  "id": "education-4",
+  "domain": "education",
+  "en": "Submit homework"
+ },
+ {
+  "id": "education-5",
+  "domain": "education",
+  "en": "Attendance recorded for today's lesson"
+ },
+ {
+  "id": "education-6",
+  "domain": "education",
+  "en": "Join the live class"
+ },
+ {
+  "id": "education-7",
+  "domain": "education",
+  "en": "Download lecture slides"
+ },
+ {
+  "id": "education-8",
+  "domain": "education",
+  "en": "Student ID is required to register for the exam"
+ },
+ {
+  "id": "education-9",
+  "domain": "education",
+  "en": "Tuition fee for semester 2 is unpaid"
+ },
+ {
+  "id": "education-10",
+  "domain": "education",
+  "en": "Quiz completed. You scored 8/10."
+ },
+ {
+  "id": "education-11",
+  "domain": "education",
+  "en": "Certificate of completion"
+ },
+ {
+  "id": "education-12",
+  "domain": "education",
+  "en": "Timetable for next week"
+ },
+ {
+  "id": "logistics-1",
+  "domain": "logistics",
+  "en": "Track your shipment with the waybill number"
+ },
+ {
+  "id": "logistics-2",
+  "domain": "logistics",
+  "en": "Parcel is out for delivery"
+ },
+ {
+  "id": "logistics-3",
+  "domain": "logistics",
+  "en": "Delivery attempt failed. Rescheduling for tomorrow."
+ },
+ {
+  "id": "logistics-4",
+  "domain": "logistics",
+  "en": "Schedule a pickup"
+ },
+ {
+  "id": "logistics-5",
+  "domain": "logistics",
+  "en": "Shipping fee is calculated by weight and distance"
+ },
+ {
+  "id": "logistics-6",
+  "domain": "logistics",
+  "en": "Warehouse inbound receipt confirmed"
+ },
+ {
+  "id": "logistics-7",
+  "domain": "logistics",
+  "en": "Collect COD amount from recipient"
+ },
+ {
+  "id": "logistics-8",
+  "domain": "logistics",
+  "en": "Return to sender"
+ },
+ {
+  "id": "logistics-9",
+  "domain": "logistics",
+  "en": "Enter the consignee's phone number"
+ },
+ {
+  "id": "logistics-10",
+  "domain": "logistics",
+  "en": "Sorting center: Ho Chi Minh City"
+ },
+ {
+  "id": "logistics-11",
+  "domain": "logistics",
+  "en": "Proof of delivery uploaded"
+ },
+ {
+  "id": "logistics-12",
+  "domain": "logistics",
+  "en": "Create a bulk shipping order"
+ },
+ {
+  "id": "hr-1",
+  "domain": "hr",
+  "en": "Request annual leave"
+ },
+ {
+  "id": "hr-2",
+  "domain": "hr",
+  "en": "Your timesheet has been approved"
+ },
+ {
+  "id": "hr-3",
+  "domain": "hr",
+  "en": "Payslip for October 2026"
+ },
+ {
+  "id": "hr-4",
+  "domain": "hr",
+  "en": "Check in at the office"
+ },
+ {
+  "id": "hr-5",
+  "domain": "hr",
+  "en": "Overtime hours exceed the monthly limit"
+ },
+ {
+  "id": "hr-6",
+  "domain": "hr",
+  "en": "Upload your resume"
+ },
+ {
+  "id": "hr-7",
+  "domain": "hr",
+  "en": "Interview scheduled with the hiring manager"
+ },
+ {
+  "id": "hr-8",
+  "domain": "hr",
+  "en": "Social insurance contribution"
+ },
+ {
+  "id": "hr-9",
+  "domain": "hr",
+  "en": "Probation period ends on 15 Dec"
+ },
+ {
+  "id": "hr-10",
+  "domain": "hr",
+  "en": "Submit a resignation letter"
+ },
+ {
+  "id": "hr-11",
+  "domain": "hr",
+  "en": "Employee onboarding checklist"
+ },
+ {
+  "id": "hr-12",
+  "domain": "hr",
+  "en": "Performance review cycle is now open"
+ },
+ {
+  "id": "accounting-1",
+  "domain": "accounting",
+  "en": "Issue an electronic invoice"
+ },
+ {
+  "id": "accounting-2",
+  "domain": "accounting",
+  "en": "Tax code is invalid"
+ },
+ {
+  "id": "accounting-3",
+  "domain": "accounting",
+  "en": "Reconcile bank statement"
+ },
+ {
+  "id": "accounting-4",
+  "domain": "accounting",
+  "en": "Post journal entry"
+ },
+ {
+  "id": "accounting-5",
+  "domain": "accounting",
+  "en": "Accounts receivable aging report"
+ },
+ {
+  "id": "accounting-6",
+  "domain": "accounting",
+  "en": "VAT declaration for Q3"
+ },
+ {
+  "id": "accounting-7",
+  "domain": "accounting",
+  "en": "Fixed asset depreciation"
+ },
+ {
+  "id": "accounting-8",
+  "domain": "accounting",
+  "en": "Debit and credit totals do not match"
+ },
+ {
+  "id": "accounting-9",
+  "domain": "accounting",
+  "en": "Close the accounting period"
+ },
+ {
+  "id": "accounting-10",
+  "domain": "accounting",
+  "en": "Profit and loss statement"
+ },
+ {
+  "id": "accounting-11",
+  "domain": "accounting",
+  "en": "Import chart of accounts"
+ },
+ {
+  "id": "accounting-12",
+  "domain": "accounting",
+  "en": "Cash flow summary"
+ },
+ {
+  "id": "insurance-1",
+  "domain": "insurance",
+  "en": "Get an insurance quote"
+ },
+ {
+  "id": "insurance-2",
+  "domain": "insurance",
+  "en": "Your policy is active until 31/12/2027"
+ },
+ {
+  "id": "insurance-3",
+  "domain": "insurance",
+  "en": "File a claim"
+ },
+ {
+  "id": "insurance-4",
+  "domain": "insurance",
+  "en": "Premium is due in 5 days"
+ },
+ {
+  "id": "insurance-5",
+  "domain": "insurance",
+  "en": "Add beneficiary"
+ },
+ {
+  "id": "insurance-6",
+  "domain": "insurance",
+  "en": "Motor insurance renewal"
+ },
+ {
+  "id": "insurance-7",
+  "domain": "insurance",
+  "en": "Sum insured"
+ },
+ {
+  "id": "insurance-8",
+  "domain": "insurance",
+  "en": "Upload accident photos and police report"
+ },
+ {
+  "id": "insurance-9",
+  "domain": "insurance",
+  "en": "Your claim has been approved"
+ },
+ {
+  "id": "insurance-10",
+  "domain": "insurance",
+  "en": "Coverage excludes pre-existing conditions"
+ },
+ {
+  "id": "insurance-11",
+  "domain": "insurance",
+  "en": "Policyholder information"
+ },
+ {
+  "id": "insurance-12",
+  "domain": "insurance",
+  "en": "Waiting period of 30 days applies"
+ },
+ {
+  "id": "legal-1",
+  "domain": "legal",
+  "en": "Sign the contract electronically"
+ },
+ {
+  "id": "legal-2",
+  "domain": "legal",
+  "en": "Draft agreement is ready for review"
+ },
+ {
+  "id": "legal-3",
+  "domain": "legal",
+  "en": "Power of attorney"
+ },
+ {
+  "id": "legal-4",
+  "domain": "legal",
+  "en": "Terms and conditions"
+ },
+ {
+  "id": "legal-5",
+  "domain": "legal",
+  "en": "Notarized copy required"
+ },
+ {
+  "id": "legal-6",
+  "domain": "legal",
+  "en": "Submit a legal consultation request"
+ },
+ {
+  "id": "legal-7",
+  "domain": "legal",
+  "en": "Statute of limitations"
+ },
+ {
+  "id": "legal-8",
+  "domain": "legal",
+  "en": "Case status: pending hearing"
+ },
+ {
+  "id": "legal-9",
+  "domain": "legal",
+  "en": "Attach evidence documents"
+ },
+ {
+  "id": "legal-10",
+  "domain": "legal",
+  "en": "Defendant details"
+ },
+ {
+  "id": "legal-11",
+  "domain": "legal",
+  "en": "Lawyer's fee is calculated hourly"
+ },
+ {
+  "id": "legal-12",
+  "domain": "legal",
+  "en": "Confidentiality clause"
+ },
+ {
+  "id": "realestate-1",
+  "domain": "realestate",
+  "en": "View apartment details"
+ },
+ {
+  "id": "realestate-2",
+  "domain": "realestate",
+  "en": "Schedule a viewing"
+ },
+ {
+  "id": "realestate-3",
+  "domain": "realestate",
+  "en": "Price per square meter"
+ },
+ {
+  "id": "realestate-4",
+  "domain": "realestate",
+  "en": "Land use right certificate (red book)"
+ },
+ {
+  "id": "realestate-5",
+  "domain": "realestate",
+  "en": "Number of bedrooms and bathrooms"
+ },
+ {
+  "id": "realestate-6",
+  "domain": "realestate",
+  "en": "Contact the agent"
+ },
+ {
+  "id": "realestate-7",
+  "domain": "realestate",
+  "en": "Mortgage calculator"
+ },
+ {
+  "id": "realestate-8",
+  "domain": "realestate",
+  "en": "Handover date is expected in Q2 2027"
+ },
+ {
+  "id": "realestate-9",
+  "domain": "realestate",
+  "en": "Saved listings"
+ },
+ {
+  "id": "realestate-10",
+  "domain": "realestate",
+  "en": "Property for rent in District 7"
+ },
+ {
+  "id": "realestate-11",
+  "domain": "realestate",
+  "en": "Floor plan"
+ },
+ {
+  "id": "realestate-12",
+  "domain": "realestate",
+  "en": "Deposit to reserve this unit"
+ },
+ {
+  "id": "food-1",
+  "domain": "food",
+  "en": "Order food now"
+ },
+ {
+  "id": "food-2",
+  "domain": "food",
+  "en": "Your driver is arriving with your meal"
+ },
+ {
+  "id": "food-3",
+  "domain": "food",
+  "en": "Add note for the restaurant"
+ },
+ {
+  "id": "food-4",
+  "domain": "food",
+  "en": "Delivery fee and service fee"
+ },
+ {
+  "id": "food-5",
+  "domain": "food",
+  "en": "Rate your order"
+ },
+ {
+  "id": "food-6",
+  "domain": "food",
+  "en": "Restaurant is closed right now"
+ },
+ {
+  "id": "food-7",
+  "domain": "food",
+  "en": "Reorder from your last order"
+ },
+ {
+  "id": "food-8",
+  "domain": "food",
+  "en": "Choose toppings and sweetness level"
+ },
+ {
+  "id": "food-9",
+  "domain": "food",
+  "en": "Table reservation for 4 guests"
+ },
+ {
+  "id": "food-10",
+  "domain": "food",
+  "en": "Apply a food voucher"
+ },
+ {
+  "id": "food-11",
+  "domain": "food",
+  "en": "Minimum order value is 50,000đ"
+ },
+ {
+  "id": "food-12",
+  "domain": "food",
+  "en": "Estimated delivery time 25 minutes"
+ },
+ {
+  "id": "telecom-1",
+  "domain": "telecom",
+  "en": "Buy a data package"
+ },
+ {
+  "id": "telecom-2",
+  "domain": "telecom",
+  "en": "Your prepaid balance is low"
+ },
+ {
+  "id": "telecom-3",
+  "domain": "telecom",
+  "en": "Recharge with a scratch card"
+ },
+ {
+  "id": "telecom-4",
+  "domain": "telecom",
+  "en": "Monthly 4G plan with 5GB per day"
+ },
+ {
+  "id": "telecom-5",
+  "domain": "telecom",
+  "en": "Port your number to another carrier"
+ },
+ {
+  "id": "telecom-6",
+  "domain": "telecom",
+  "en": "SIM registration requires ID verification"
+ },
+ {
+  "id": "telecom-7",
+  "domain": "telecom",
+  "en": "Roaming is enabled"
+ },
+ {
+  "id": "telecom-8",
+  "domain": "telecom",
+  "en": "Check data usage"
+ },
+ {
+  "id": "telecom-9",
+  "domain": "telecom",
+  "en": "Pay your postpaid bill"
+ },
+ {
+  "id": "telecom-10",
+  "domain": "telecom",
+  "en": "Your package will auto-renew tomorrow"
+ },
+ {
+  "id": "telecom-11",
+  "domain": "telecom",
+  "en": "Activate eSIM"
+ },
+ {
+  "id": "telecom-12",
+  "domain": "telecom",
+  "en": "Report a network outage"
+ },
+ {
+  "id": "saas-1",
+  "domain": "saas",
+  "en": "Upgrade to the Pro plan"
+ },
+ {
+  "id": "saas-2",
+  "domain": "saas",
+  "en": "Your free trial ends in 3 days"
+ },
+ {
+  "id": "saas-3",
+  "domain": "saas",
+  "en": "Invite team members to your workspace"
+ },
+ {
+  "id": "saas-4",
+  "domain": "saas",
+  "en": "Manage subscription and billing"
+ },
+ {
+  "id": "saas-5",
+  "domain": "saas",
+  "en": "Seat limit reached"
+ },
+ {
+  "id": "saas-6",
+  "domain": "saas",
+  "en": "Single sign-on (SSO) is enabled"
+ },
+ {
+  "id": "saas-7",
+  "domain": "saas",
+  "en": "Export data to CSV"
+ },
+ {
+  "id": "saas-8",
+  "domain": "saas",
+  "en": "Connect integrations"
+ },
+ {
+  "id": "saas-9",
+  "domain": "saas",
+  "en": "Admin permissions required"
+ },
+ {
+  "id": "saas-10",
+  "domain": "saas",
+  "en": "Usage this month"
+ },
+ {
+  "id": "saas-11",
+  "domain": "saas",
+  "en": "Cancel subscription at the end of billing period"
+ },
+ {
+  "id": "saas-12",
+  "domain": "saas",
+  "en": "Workspace settings"
+ },
+ {
+  "id": "dev-1",
+  "domain": "dev",
+  "en": "Create a new repository"
+ },
+ {
+  "id": "dev-2",
+  "domain": "dev",
+  "en": "Merge pull request"
+ },
+ {
+  "id": "dev-3",
+  "domain": "dev",
+  "en": "Build failed. Check the logs."
+ },
+ {
+  "id": "dev-4",
+  "domain": "dev",
+  "en": "Generate API key"
+ },
+ {
+  "id": "dev-5",
+  "domain": "dev",
+  "en": "Rate limit exceeded"
+ },
+ {
+  "id": "dev-6",
+  "domain": "dev",
+  "en": "Deploy to production"
+ },
+ {
+  "id": "dev-7",
+  "domain": "dev",
+  "en": "Webhook endpoint URL"
+ },
+ {
+  "id": "dev-8",
+  "domain": "dev",
+  "en": "Commit message cannot be empty"
+ },
+ {
+  "id": "dev-9",
+  "domain": "dev",
+  "en": "Rollback to previous release"
+ },
+ {
+  "id": "dev-10",
+  "domain": "dev",
+  "en": "Environment variables"
+ },
+ {
+  "id": "dev-11",
+  "domain": "dev",
+  "en": "Run unit tests"
+ },
+ {
+  "id": "dev-12",
+  "domain": "dev",
+  "en": "Branch is behind main by 3 commits"
+ },
+ {
+  "id": "gaming-1",
+  "domain": "gaming",
+  "en": "Top up diamonds"
+ },
+ {
+  "id": "gaming-2",
+  "domain": "gaming",
+  "en": "Claim daily login reward"
+ },
+ {
+  "id": "gaming-3",
+  "domain": "gaming",
+  "en": "Match found. Accept?"
+ },
+ {
+  "id": "gaming-4",
+  "domain": "gaming",
+  "en": "Join a guild"
+ },
+ {
+  "id": "gaming-5",
+  "domain": "gaming",
+  "en": "Upgrade your character to level 50"
+ },
+ {
+  "id": "gaming-6",
+  "domain": "gaming",
+  "en": "Battle pass season 4"
+ },
+ {
+  "id": "gaming-7",
+  "domain": "gaming",
+  "en": "Rank reset at the end of the season"
+ },
+ {
+  "id": "gaming-8",
+  "domain": "gaming",
+  "en": "Reconnecting to server"
+ },
+ {
+  "id": "gaming-9",
+  "domain": "gaming",
+  "en": "Spin the lucky wheel"
+ },
+ {
+  "id": "gaming-10",
+  "domain": "gaming",
+  "en": "Equip skin"
+ },
+ {
+  "id": "gaming-11",
+  "domain": "gaming",
+  "en": "Friend request sent"
+ },
+ {
+  "id": "gaming-12",
+  "domain": "gaming",
+  "en": "Quest completed"
+ },
+ {
+  "id": "transport-1",
+  "domain": "transport",
+  "en": "Book a ride"
+ },
+ {
+  "id": "transport-2",
+  "domain": "transport",
+  "en": "Your driver is 2 minutes away"
+ },
+ {
+  "id": "transport-3",
+  "domain": "transport",
+  "en": "Pickup location"
+ },
+ {
+  "id": "transport-4",
+  "domain": "transport",
+  "en": "Fare estimate"
+ },
+ {
+  "id": "transport-5",
+  "domain": "transport",
+  "en": "Cancel trip"
+ },
+ {
+  "id": "transport-6",
+  "domain": "transport",
+  "en": "Rate your driver"
+ },
+ {
+  "id": "transport-7",
+  "domain": "transport",
+  "en": "Motorbike taxi or car"
+ },
+ {
+  "id": "transport-8",
+  "domain": "transport",
+  "en": "Add stop"
+ },
+ {
+  "id": "transport-9",
+  "domain": "transport",
+  "en": "Bus route 08 arrives in 6 minutes"
+ },
+ {
+  "id": "transport-10",
+  "domain": "transport",
+  "en": "Top up transit card"
+ },
+ {
+  "id": "transport-11",
+  "domain": "transport",
+  "en": "Surge pricing is in effect"
+ },
+ {
+  "id": "transport-12",
+  "domain": "transport",
+  "en": "Share trip status with a friend"
+ },
+ {
+  "id": "erp-1",
+  "domain": "erp",
+  "en": "Create purchase order"
+ },
+ {
+  "id": "erp-2",
+  "domain": "erp",
+  "en": "Goods receipt note"
+ },
+ {
+  "id": "erp-3",
+  "domain": "erp",
+  "en": "Approve requisition"
+ },
+ {
+  "id": "erp-4",
+  "domain": "erp",
+  "en": "Inventory by warehouse"
+ },
+ {
+  "id": "erp-5",
+  "domain": "erp",
+  "en": "Bill of materials"
+ },
+ {
+  "id": "erp-6",
+  "domain": "erp",
+  "en": "Sales quotation"
+ },
+ {
+  "id": "erp-7",
+  "domain": "erp",
+  "en": "Stock transfer between branches"
+ },
+ {
+  "id": "erp-8",
+  "domain": "erp",
+  "en": "Production order"
+ },
+ {
+  "id": "erp-9",
+  "domain": "erp",
+  "en": "Supplier list"
+ },
+ {
+  "id": "erp-10",
+  "domain": "erp",
+  "en": "Check stock availability"
+ },
+ {
+  "id": "erp-11",
+  "domain": "erp",
+  "en": "Vendor payment terms"
+ },
+ {
+  "id": "erp-12",
+  "domain": "erp",
+  "en": "Reorder point reached"
+ },
+ {
+  "id": "media-1",
+  "domain": "media",
+  "en": "Watch now"
+ },
+ {
+  "id": "media-2",
+  "domain": "media",
+  "en": "Add to watchlist"
+ },
+ {
+  "id": "media-3",
+  "domain": "media",
+  "en": "Subscribe to premium for ad-free streaming"
+ },
+ {
+  "id": "media-4",
+  "domain": "media",
+  "en": "Episode 5 is now available"
+ },
+ {
+  "id": "media-5",
+  "domain": "media",
+  "en": "Download for offline viewing"
+ },
+ {
+  "id": "media-6",
+  "domain": "media",
+  "en": "Skip intro"
+ },
+ {
+  "id": "media-7",
+  "domain": "media",
+  "en": "Follow this channel"
+ },
+ {
+  "id": "media-8",
+  "domain": "media",
+  "en": "Now playing"
+ },
+ {
+  "id": "media-9",
+  "domain": "media",
+  "en": "Create a playlist"
+ },
+ {
+  "id": "media-10",
+  "domain": "media",
+  "en": "Subtitles and audio settings"
+ },
+ {
+  "id": "media-11",
+  "domain": "media",
+  "en": "Breaking news"
+ },
+ {
+  "id": "media-12",
+  "domain": "media",
+  "en": "Podcast episodes"
+ },
+ {
+  "id": "gov-1",
+  "domain": "gov",
+  "en": "Submit an online application to the public service portal"
+ },
+ {
+  "id": "gov-2",
+  "domain": "gov",
+  "en": "Citizen ID number"
+ },
+ {
+  "id": "gov-3",
+  "domain": "gov",
+  "en": "Application status: processing"
+ },
+ {
+  "id": "gov-4",
+  "domain": "gov",
+  "en": "Residence registration"
+ },
+ {
+  "id": "gov-5",
+  "domain": "gov",
+  "en": "Pay administrative fee"
+ },
+ {
+  "id": "gov-6",
+  "domain": "gov",
+  "en": "Your dossier is missing required documents"
+ },
+ {
+  "id": "gov-7",
+  "domain": "gov",
+  "en": "Receipt number for the dossier"
+ },
+ {
+  "id": "gov-8",
+  "domain": "gov",
+  "en": "Look up traffic violations"
+ },
+ {
+  "id": "gov-9",
+  "domain": "gov",
+  "en": "Driver's license renewal"
+ },
+ {
+  "id": "gov-10",
+  "domain": "gov",
+  "en": "Verify identity with VNeID"
+ },
+ {
+  "id": "gov-11",
+  "domain": "gov",
+  "en": "Authorized by the People's Committee"
+ },
+ {
+  "id": "gov-12",
+  "domain": "gov",
+  "en": "Household registration book"
+ },
+ {
+  "id": "security-1",
+  "domain": "security",
+  "en": "Enable two-factor authentication"
+ },
+ {
+  "id": "security-2",
+  "domain": "security",
+  "en": "Suspicious login detected from a new device"
+ },
+ {
+  "id": "security-3",
+  "domain": "security",
+  "en": "Change your password"
+ },
+ {
+  "id": "security-4",
+  "domain": "security",
+  "en": "Biometric authentication failed"
+ },
+ {
+  "id": "security-5",
+  "domain": "security",
+  "en": "Your session has expired. Please sign in again."
+ },
+ {
+  "id": "security-6",
+  "domain": "security",
+  "en": "Verify it's you"
+ },
+ {
+  "id": "security-7",
+  "domain": "security",
+  "en": "Trusted devices"
+ },
+ {
+  "id": "security-8",
+  "domain": "security",
+  "en": "Passcode must be at least 6 digits"
+ },
+ {
+  "id": "security-9",
+  "domain": "security",
+  "en": "Phishing warning: do not share your OTP"
+ },
+ {
+  "id": "security-10",
+  "domain": "security",
+  "en": "Revoke access"
+ },
+ {
+  "id": "security-11",
+  "domain": "security",
+  "en": "Security alert"
+ },
+ {
+  "id": "security-12",
+  "domain": "security",
+  "en": "Account locked after too many attempts"
+ },
+ {
+  "id": "travel-1",
+  "domain": "travel",
+  "en": "Search flights from Hanoi to Da Nang"
+ },
+ {
+  "id": "travel-2",
+  "domain": "travel",
+  "en": "Hotel with free cancellation"
+ },
+ {
+  "id": "travel-3",
+  "domain": "travel",
+  "en": "Boarding pass"
+ },
+ {
+  "id": "travel-4",
+  "domain": "travel",
+  "en": "Check-in opens 24 hours before departure"
+ },
+ {
+  "id": "travel-5",
+  "domain": "travel",
+  "en": "Baggage allowance 20kg"
+ },
+ {
+  "id": "travel-6",
+  "domain": "travel",
+  "en": "Passport must be valid for 6 months"
+ },
+ {
+  "id": "travel-7",
+  "domain": "travel",
+  "en": "Round trip or one way"
+ },
+ {
+  "id": "travel-8",
+  "domain": "travel",
+  "en": "Book a tour package"
+ },
+ {
+  "id": "travel-9",
+  "domain": "travel",
+  "en": "Guests and rooms"
+ },
+ {
+  "id": "travel-10",
+  "domain": "travel",
+  "en": "Visa requirements"
+ },
+ {
+  "id": "travel-11",
+  "domain": "travel",
+  "en": "Pick your seat"
+ },
+ {
+  "id": "travel-12",
+  "domain": "travel",
+  "en": "Itinerary has been sent to your email"
+ },
+ {
+  "id": "gen-1",
+  "domain": "none",
+  "en": "Save changes"
+ },
+ {
+  "id": "gen-2",
+  "domain": "none",
+  "en": "Cancel"
+ },
+ {
+  "id": "gen-3",
+  "domain": "none",
+  "en": "Are you sure you want to delete this item?"
+ },
+ {
+  "id": "gen-4",
+  "domain": "none",
+  "en": "Something went wrong. Please try again."
+ },
+ {
+  "id": "gen-5",
+  "domain": "none",
+  "en": "No internet connection"
+ },
+ {
+  "id": "gen-6",
+  "domain": "none",
+  "en": "Loading..."
+ },
+ {
+  "id": "gen-7",
+  "domain": "none",
+  "en": "Search"
+ },
+ {
+  "id": "gen-8",
+  "domain": "none",
+  "en": "Select all"
+ },
+ {
+  "id": "gen-9",
+  "domain": "none",
+  "en": "Sign out"
+ },
+ {
+  "id": "gen-10",
+  "domain": "none",
+  "en": "Update available"
+ },
+ {
+  "id": "gen-11",
+  "domain": "none",
+  "en": "Allow notifications"
+ },
+ {
+  "id": "gen-12",
+  "domain": "none",
+  "en": "Copy link"
+ },
+ {
+  "id": "gen-13",
+  "domain": "none",
+  "en": "Share"
+ },
+ {
+  "id": "gen-14",
+  "domain": "none",
+  "en": "Back"
+ },
+ {
+  "id": "gen-15",
+  "domain": "none",
+  "en": "Next"
+ },
+ {
+  "id": "gen-16",
+  "domain": "none",
+  "en": "Done"
+ },
+ {
+  "id": "gen-17",
+  "domain": "none",
+  "en": "Confirm"
+ },
+ {
+  "id": "gen-18",
+  "domain": "none",
+  "en": "Settings"
+ },
+ {
+  "id": "gen-19",
+  "domain": "none",
+  "en": "Edit profile"
+ },
+ {
+  "id": "gen-20",
+  "domain": "none",
+  "en": "Required field"
+ },
+ {
+  "id": "gen-21",
+  "domain": "none",
+  "en": "No results found"
+ },
+ {
+  "id": "gen-22",
+  "domain": "none",
+  "en": "Changes saved successfully"
+ },
+ {
+  "id": "gen-23",
+  "domain": "none",
+  "en": "Try again later"
+ },
+ {
+  "id": "gen-24",
+  "domain": "none",
+  "en": "Choose language"
+ },
+ {
+  "id": "gen-25",
+  "domain": "none",
+  "en": "Dark mode"
+ },
+ {
+  "id": "mix-1",
+  "domain": "fintech",
+  "en": "Money sent to Linh"
+ },
+ {
+  "id": "mix-2",
+  "domain": "fintech",
+  "en": "Your savings earn more every day"
+ },
+ {
+  "id": "mix-3",
+  "domain": "fintech",
+  "en": "Pay in 3 monthly installments"
+ },
+ {
+  "id": "mix-4",
+  "domain": "ecommerce",
+  "en": "Your package is waiting in the cart"
+ },
+ {
+  "id": "mix-5",
+  "domain": "ecommerce",
+  "en": "Compare prices from other shops"
+ },
+ {
+  "id": "mix-6",
+  "domain": "healthcare",
+  "en": "How are you feeling today?"
+ },
+ {
+  "id": "mix-7",
+  "domain": "healthcare",
+  "en": "Next dose at 8:00 PM"
+ },
+ {
+  "id": "mix-8",
+  "domain": "education",
+  "en": "Your teacher left feedback"
+ },
+ {
+  "id": "mix-9",
+  "domain": "education",
+  "en": "Revise before the test"
+ },
+ {
+  "id": "mix-10",
+  "domain": "logistics",
+  "en": "Driver is on the way to pick up your goods"
+ },
+ {
+  "id": "mix-11",
+  "domain": "hr",
+  "en": "Your day off request was approved"
+ },
+ {
+  "id": "mix-12",
+  "domain": "hr",
+  "en": "Clock in"
+ },
+ {
+  "id": "mix-13",
+  "domain": "accounting",
+  "en": "Totals do not balance"
+ },
+ {
+  "id": "mix-14",
+  "domain": "insurance",
+  "en": "You are protected until next year"
+ },
+ {
+  "id": "mix-15",
+  "domain": "legal",
+  "en": "Review and sign before the deadline"
+ },
+ {
+  "id": "mix-16",
+  "domain": "realestate",
+  "en": "3 bedrooms, near the metro, ready to move in"
+ },
+ {
+  "id": "mix-17",
+  "domain": "travel",
+  "en": "Your flight departs at 06:40"
+ },
+ {
+  "id": "mix-18",
+  "domain": "food",
+  "en": "Craving something? Your meal is on its way"
+ },
+ {
+  "id": "mix-19",
+  "domain": "telecom",
+  "en": "Your 5GB expires tonight"
+ },
+ {
+  "id": "mix-20",
+  "domain": "gaming",
+  "en": "Victory! You earned 300 gold"
+ }
+]

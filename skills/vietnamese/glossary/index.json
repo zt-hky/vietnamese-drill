@@ -1,0 +1,260 @@
+{
+ "version": 2,
+ "core": 330,
+ "uiExt": 3499,
+ "domains": [
+  {
+   "id": "accounting",
+   "terms": 197,
+   "cats": [
+    "tax",
+    "invoice",
+    "ledger",
+    "report",
+    "asset",
+    "voucher"
+   ]
+  },
+  {
+   "id": "dev",
+   "terms": 196,
+   "cats": [
+    "git",
+    "cloud",
+    "dev",
+    "release",
+    "monitor",
+    "api"
+   ]
+  },
+  {
+   "id": "ecommerce",
+   "terms": 196,
+   "cats": [
+    "seller",
+    "listing",
+    "shipping",
+    "returns",
+    "inventory",
+    "voucher"
+   ]
+  },
+  {
+   "id": "education",
+   "terms": 197,
+   "cats": [
+    "assessment",
+    "grading",
+    "platform",
+    "course",
+    "people",
+    "enrollment"
+   ]
+  },
+  {
+   "id": "erp",
+   "terms": 197,
+   "cats": [
+    "inventory",
+    "manufacturing",
+    "procurement",
+    "quality",
+    "workflow",
+    "item"
+   ]
+  },
+  {
+   "id": "fintech",
+   "terms": 192,
+   "cats": [
+    "card",
+    "loan",
+    "account",
+    "transfer",
+    "savings",
+    "kyc"
+   ]
+  },
+  {
+   "id": "food",
+   "terms": 182,
+   "cats": [
+    "menu",
+    "pos",
+    "customize",
+    "delivery",
+    "booking",
+    "partner"
+   ]
+  },
+  {
+   "id": "gaming",
+   "terms": 158,
+   "cats": [
+    "combat",
+    "monetization",
+    "rank",
+    "match-play",
+    "item",
+    "quest"
+   ]
+  },
+  {
+   "id": "gov",
+   "terms": 181,
+   "cats": [
+    "dossier",
+    "id",
+    "residence",
+    "status",
+    "result",
+    "procedure"
+   ]
+  },
+  {
+   "id": "healthcare",
+   "terms": 184,
+   "cats": [
+    "pharmacy",
+    "department",
+    "lab",
+    "record",
+    "appointment",
+    "insurance"
+   ]
+  },
+  {
+   "id": "hr",
+   "terms": 201,
+   "cats": [
+    "payroll",
+    "recruiting",
+    "attendance",
+    "employee",
+    "leave",
+    "org"
+   ]
+  },
+  {
+   "id": "insurance",
+   "terms": 197,
+   "cats": [
+    "policy",
+    "coverage",
+    "product",
+    "premium",
+    "claim",
+    "health"
+   ]
+  },
+  {
+   "id": "legal",
+   "terms": 197,
+   "cats": [
+    "privacy",
+    "contract",
+    "terms",
+    "ip",
+    "rights",
+    "consent"
+   ]
+  },
+  {
+   "id": "logistics",
+   "terms": 198,
+   "cats": [
+    "warehouse",
+    "delivery",
+    "parcel",
+    "fee",
+    "tracking",
+    "service"
+   ]
+  },
+  {
+   "id": "media",
+   "terms": 184,
+   "cats": [
+    "post",
+    "video",
+    "report",
+    "monetize",
+    "social",
+    "privacy"
+   ]
+  },
+  {
+   "id": "realestate",
+   "terms": 197,
+   "cats": [
+    "attr",
+    "type",
+    "legal",
+    "project",
+    "listing",
+    "rent"
+   ]
+  },
+  {
+   "id": "saas",
+   "terms": 200,
+   "cats": [
+    "crm",
+    "analytics",
+    "marketing",
+    "helpdesk",
+    "billing",
+    "workspace"
+   ]
+  },
+  {
+   "id": "security",
+   "terms": 187,
+   "cats": [
+    "permission",
+    "alert",
+    "phish",
+    "privacy",
+    "password",
+    "2fa"
+   ]
+  },
+  {
+   "id": "telecom",
+   "terms": 191,
+   "cats": [
+    "plan",
+    "internet",
+    "billing",
+    "data",
+    "voice",
+    "sim"
+   ]
+  },
+  {
+   "id": "transport",
+   "terms": 197,
+   "cats": [
+    "ride",
+    "ev",
+    "vehicle",
+    "fare",
+    "rental",
+    "parking"
+   ]
+  },
+  {
+   "id": "travel",
+   "terms": 200,
+   "cats": [
+    "hotel",
+    "flight",
+    "booking",
+    "fare",
+    "tour",
+    "loyalty"
+   ]
+  }
+ ],
+ "total": 7858
+}

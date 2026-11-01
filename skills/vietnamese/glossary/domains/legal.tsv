@@ -1,0 +1,198 @@
+en	vi	alt	avoid	cat	match	src	note
+terms of use;tos	Điều khoản sử dụng	Điều khoản dịch vụ		terms	w	D,V	
+cookie policy	Chính sách cookie			privacy	w	D,V	keep "cookie"
+cookie consent	Sự đồng ý sử dụng cookie	Đồng ý cookie		privacy	w	D,V	
+accept all cookies	Chấp nhận tất cả cookie			privacy	w	D,V	
+reject all cookies	Từ chối tất cả cookie			privacy	w	D,V	
+manage cookie preferences;cookie settings	Tùy chọn cookie	Quản lý cookie	Cài đặt bánh quy	privacy	w	D,V	
+essential cookies;strictly necessary cookies	Cookie cần thiết	Cookie thiết yếu		privacy	w	D,V	
+analytics cookies;performance cookies	Cookie phân tích	Cookie hiệu suất		privacy	w	D,V	
+advertising cookies;targeting cookies	Cookie quảng cáo			privacy	w	D,V	
+third-party cookies	Cookie của bên thứ ba			privacy	w	D,V	
+personal data	Dữ liệu cá nhân			privacy	w	D,V	
+personal information	Thông tin cá nhân			privacy	w	D,V	
+sensitive personal data	Dữ liệu cá nhân nhạy cảm			privacy	w	D,V	
+basic personal data	Dữ liệu cá nhân cơ bản			privacy	w	D,V	
+data subject	Chủ thể dữ liệu			privacy	w	D,V	
+data controller	Bên kiểm soát dữ liệu cá nhân	Bên kiểm soát dữ liệu		privacy	w	D,V	
+data processor	Bên xử lý dữ liệu cá nhân	Bên xử lý dữ liệu		privacy	w	D,V	
+data controller and processor	Bên kiểm soát và xử lý dữ liệu cá nhân			privacy	w	D,V	Term from Decree 13/2023
+data protection officer;dpo	Cán bộ bảo vệ dữ liệu cá nhân	Người phụ trách bảo vệ dữ liệu (DPO)		privacy	w	D,V	
+data protection	Bảo vệ dữ liệu cá nhân	Bảo vệ dữ liệu		privacy	w	D,V	
+data protection impact assessment;dpia	Đánh giá tác động xử lý dữ liệu cá nhân			privacy	w	D,V	
+data processing	Xử lý dữ liệu cá nhân	Xử lý dữ liệu		privacy	w	D,V	
+data collection	Thu thập dữ liệu			privacy	w	D,V	
+data retention	Lưu trữ dữ liệu	Thời gian lưu giữ dữ liệu		privacy	w	D,V	
+retention period	Thời gian lưu trữ	Thời hạn lưu giữ		privacy	w	D,V	
+data breach;personal data breach	Vi phạm dữ liệu cá nhân	Rò rỉ dữ liệu		privacy	w	D,V	Rò rỉ = leak; breach notice often "sự cố"
+data security	An toàn dữ liệu	Bảo mật dữ liệu		privacy	w	D,V	
+data sharing	Chia sẻ dữ liệu			privacy	w	D,V	
+data transfer;cross-border data transfer	Chuyển dữ liệu cá nhân ra nước ngoài	Chuyển dữ liệu xuyên biên giới		privacy	w	D,V	For cross-border context
+data portability	Quyền di chuyển dữ liệu	Khả năng di chuyển dữ liệu		rights	w	D,V	
+data export;export my data	Xuất dữ liệu của bạn	Xuất dữ liệu		rights	w	D,V	
+download my data;download your data	Tải xuống dữ liệu của bạn	Tải dữ liệu của bạn		rights	w	D,V	
+data subject rights	Quyền của chủ thể dữ liệu			rights	w	D,V	
+right to access	Quyền truy cập	Quyền được truy cập		rights	w	D,V	
+right to rectification	Quyền chỉnh sửa dữ liệu	Quyền đính chính		rights	w	D,V	
+right to erasure;right to be forgotten	Quyền xóa dữ liệu	Quyền được lãng quên		rights	w	D,V	
+right to object	Quyền phản đối xử lý dữ liệu	Quyền phản đối		rights	w	D,V	
+right to restrict processing	Quyền hạn chế xử lý dữ liệu			rights	w	D,V	
+right to withdraw consent;withdraw consent	Rút lại sự đồng ý	Rút lại đồng ý	Rút tiền đồng ý	rights	w	D,V	
+right to be informed	Quyền được biết			rights	w	D,V	
+right to complain;right to lodge a complaint	Quyền khiếu nại			rights	w	D,V	
+right to claim damages	Quyền yêu cầu bồi thường thiệt hại			rights	w	D,V	
+data subject request;data request	Yêu cầu của chủ thể dữ liệu	Yêu cầu về dữ liệu		rights	w	D,V	
+consent	Sự đồng ý	Đồng ý	Sự ưng thuận	consent	w	D,V	
+give consent;grant consent	Đồng ý	Cho phép		consent	w	D,V	
+explicit consent	Sự đồng ý rõ ràng			consent	w	D,V	
+informed consent	Sự đồng ý trên cơ sở được thông báo	Sự đồng ý có hiểu biết		consent	w	D,V	
+parental consent	Sự đồng ý của cha mẹ	Sự đồng ý của phụ huynh		consent	w	D,V	
+consent form	Mẫu đồng ý	Phiếu đồng ý		consent	w	D,V	
+i agree to the terms	Tôi đồng ý với các điều khoản			consent	w	D,V	
+i have read and agree	Tôi đã đọc và đồng ý			consent	w	D,V	
+by continuing, you agree	Bằng việc tiếp tục, bạn đồng ý			consent	w	D,V	
+by signing up, you agree	Bằng việc đăng ký, bạn đồng ý			consent	w	D,V	
+marketing consent	Đồng ý nhận thông tin tiếp thị			consent	w	D,V	
+opt in	Đồng ý tham gia	Chọn tham gia		consent	w	D,V	
+opt out	Từ chối nhận	Chọn không tham gia	Chọn không	consent	w	D,V	
+unsubscribe from marketing	Hủy đăng ký nhận tin tiếp thị			consent	w	D,V	
+do not sell my personal information	Không bán thông tin cá nhân của tôi			privacy	w	D,V	
+do not track	Không theo dõi	Không theo dõi (Do Not Track)		privacy	w	D,V	
+legal basis	Cơ sở pháp lý			privacy	w	D,V	
+legitimate interest	Lợi ích hợp pháp			privacy	w	D,V	
+purpose of processing	Mục đích xử lý dữ liệu	Mục đích xử lý		privacy	w	D,V	
+third party	Bên thứ ba			privacy	w	D,V	
+third-party service provider	Nhà cung cấp dịch vụ bên thứ ba	Đơn vị cung cấp dịch vụ bên thứ ba		privacy	w	D,V	
+affiliate	Công ty liên kết	Đơn vị liên kết		terms	w	D,V	Corporate affiliate; not affiliate marketing
+subsidiary	Công ty con			terms	w	D,V	
+service provider	Nhà cung cấp dịch vụ	Bên cung cấp dịch vụ		terms	w	D,V	
+anonymization;anonymize	Ẩn danh hóa	Ẩn danh		privacy	w	D,V	
+pseudonymization	Bí danh hóa			privacy	w	D,V	
+encryption	Mã hóa			privacy	w	D,V	
+profiling	Lập hồ sơ cá nhân	Phân tích hồ sơ		privacy	w	D,V	
+automated decision-making	Ra quyết định tự động			privacy	w	D,V	
+location data	Dữ liệu vị trí	Dữ liệu định vị		privacy	w	D,V	
+biometric data	Dữ liệu sinh trắc học			privacy	w	D,V	
+device identifier	Mã định danh thiết bị			privacy	w	D,V	
+advertising identifier	Mã định danh quảng cáo			privacy	w	D,V	
+log data	Dữ liệu nhật ký	Dữ liệu log		privacy	w	D,V	
+usage data	Dữ liệu sử dụng			privacy	w	D,V	
+personalized ads;personalised ads	Quảng cáo được cá nhân hóa	Quảng cáo cá nhân hóa		privacy	w	D,V	
+children's privacy	Quyền riêng tư của trẻ em	Bảo vệ thông tin cá nhân của trẻ em		privacy	w	D,V	
+minor	Người chưa thành niên	Trẻ vị thành niên		age	w	D,V	
+age requirement	Yêu cầu về độ tuổi			age	w	D,V	
+age verification	Xác minh độ tuổi			age	w	D,V	
+you must be at least * years old	Bạn phải từ đủ * tuổi trở lên			age	w	D,V	Use "đủ ... tuổi" for legal age
+legal age	Độ tuổi luật định	Độ tuổi hợp pháp;Tuổi theo quy định pháp luật		age	w	D,V	
+legal guardian	Người giám hộ hợp pháp	Người giám hộ		age	w	D,V	
+parent or guardian	Cha mẹ hoặc người giám hộ			age	w	D,V	
+user agreement	Thỏa thuận người dùng	Thỏa thuận sử dụng		terms	w	D,V	
+service agreement	Thỏa thuận dịch vụ	Hợp đồng dịch vụ		terms	w	D,V	
+license agreement	Thỏa thuận cấp phép	Hợp đồng cấp phép		terms	w	D,V	
+end user license agreement;eula	Thỏa thuận cấp phép người dùng cuối (EULA)			terms	w	D,V	
+community guidelines	Tiêu chuẩn cộng đồng	Nguyên tắc cộng đồng		terms	w	D,V	
+acceptable use policy	Chính sách sử dụng được chấp nhận	Chính sách sử dụng hợp lệ		terms	w	D,V	
+code of conduct	Quy tắc ứng xử			terms	w	D,V	
+prohibited content	Nội dung bị cấm	Nội dung bị nghiêm cấm		terms	w	D,V	
+prohibited activities	Hành vi bị cấm			terms	w	D,V	
+user content	Nội dung của người dùng	Nội dung do người dùng tạo		terms	w	D,V	
+user-generated content	Nội dung do người dùng tạo			terms	w	D,V	
+intellectual property	Sở hữu trí tuệ	Tài sản trí tuệ		ip	w	D,V	
+intellectual property rights	Quyền sở hữu trí tuệ			ip	w	D,V	
+copyright	Bản quyền	Quyền tác giả		ip	w	D,V	
+copyright infringement	Vi phạm bản quyền	Xâm phạm quyền tác giả		ip	w	D,V	
+trademark	Nhãn hiệu	Thương hiệu		ip	w	D,V	Legal term is "nhãn hiệu"
+registered trademark	Nhãn hiệu đã đăng ký	Nhãn hiệu đã được bảo hộ		ip	w	D,V	
+trade secret	Bí mật kinh doanh			ip	w	D,V	
+patent	Bằng sáng chế			ip	w	D,V	
+all rights reserved	Bảo lưu mọi quyền	Mọi quyền được bảo lưu		ip	w	D,V	
+license	Giấy phép	Giấy phép sử dụng		ip	w	D,V	
+grant of license;license grant	Cấp phép sử dụng			ip	w	D,V	
+non-exclusive license	Giấy phép không độc quyền			ip	w	D,V	
+exclusive license	Giấy phép độc quyền			ip	w	D,V	
+royalty-free	Miễn phí bản quyền	Không thu phí bản quyền		ip	w	D,V	
+dmca notice;takedown notice	Thông báo gỡ bỏ nội dung vi phạm			ip	w	D,V	
+report a violation;report violation	Báo cáo vi phạm			terms	w	D,V	
+content removal	Gỡ bỏ nội dung			terms	w	D,V	
+account suspension	Tạm khóa tài khoản	Đình chỉ tài khoản		account	w	D,V	
+account termination	Chấm dứt tài khoản	Chấm dứt sử dụng tài khoản		account	w	D,V	
+delete account;delete my account	Xóa tài khoản			account	w	D,V	
+account deletion	Xóa tài khoản			account	w	D,V	
+permanently delete	Xóa vĩnh viễn			account	w	D,V	
+deactivate account	Vô hiệu hóa tài khoản	Ngừng kích hoạt tài khoản		account	w	D,V	
+reactivate account	Kích hoạt lại tài khoản			account	w	D,V	
+this action cannot be undone	Hành động này không thể hoàn tác			account	w	D,V	
+close account	Đóng tài khoản			account	w	D,V	
+deletion request	Yêu cầu xóa	Yêu cầu xóa dữ liệu		account	w	D,V	
+disclaimer	Tuyên bố miễn trừ trách nhiệm	Miễn trừ trách nhiệm		liability	w	D,V	
+disclaimer of warranties	Tuyên bố từ chối bảo đảm	Từ chối bảo hành		liability	w	D,V	
+as is;"as is" basis	"nguyên trạng"	"như hiện có"		liability	w	D,V	
+limitation of liability	Giới hạn trách nhiệm	Giới hạn trách nhiệm pháp lý		liability	w	D,V	
+liability	Trách nhiệm pháp lý	Trách nhiệm		liability	w	D,V	
+indemnification;indemnify	Bồi thường	Bồi hoàn		liability	w	D,V	
+compensation for damages	Bồi thường thiệt hại			liability	w	D,V	
+indirect damages	Thiệt hại gián tiếp			liability	w	D,V	
+direct damages	Thiệt hại trực tiếp			liability	w	D,V	
+warranty	Bảo đảm	Bảo hành		liability	w	D,V	Legal warranty = bảo đảm; product warranty = bảo hành
+force majeure	Bất khả kháng	Sự kiện bất khả kháng		liability	w	D,V	
+negligence	Sơ suất	Sự cẩu thả		liability	w	D,V	
+breach of contract	Vi phạm hợp đồng			contract	w	D,V	
+breach of terms	Vi phạm điều khoản			contract	w	D,V	
+governing law	Luật điều chỉnh	Pháp luật áp dụng		dispute	w	D,V	
+jurisdiction	Thẩm quyền xét xử	Cơ quan có thẩm quyền		dispute	w	D,V	
+dispute resolution	Giải quyết tranh chấp			dispute	w	D,V	
+arbitration	Trọng tài	Tố tụng trọng tài		dispute	w	D,V	
+mediation	Hòa giải			dispute	w	D,V	
+court	Tòa án			dispute	w	D,V	
+class action waiver	Từ bỏ quyền khởi kiện tập thể			dispute	w	D,V	
+complaint handling	Giải quyết khiếu nại	Xử lý khiếu nại		dispute	w	D,V	
+file a complaint	Gửi khiếu nại	Nộp đơn khiếu nại		dispute	w	D,V	
+statute of limitations	Thời hiệu khởi kiện			dispute	w	D,V	
+contract	Hợp đồng			contract	w	D,V	
+electronic contract	Hợp đồng điện tử			contract	w	D,V	
+contract term	Thời hạn hợp đồng			contract	w	D,V	
+party	Bên			contract	w	D,V	Contract party
+contracting parties	Các bên giao kết	Các bên trong hợp đồng		contract	w	D,V	
+party a	Bên A			contract	w	D,V	
+party b	Bên B			contract	w	D,V	
+effective date	Ngày có hiệu lực			contract	w	D,V	
+entire agreement	Toàn bộ thỏa thuận	Toàn bộ nội dung thỏa thuận		contract	w	D,V	
+severability	Tính độc lập của các điều khoản	Điều khoản tách rời		contract	w	D,V	
+waiver	Từ bỏ quyền	Miễn trừ		contract	w	D,V	
+assignment of rights	Chuyển nhượng quyền			contract	w	D,V	
+amendment	Sửa đổi	Sửa đổi, bổ sung		contract	w	D,V	
+changes to these terms	Thay đổi điều khoản này	Sửa đổi các điều khoản này		terms	w	D,V	
+last updated	Cập nhật lần cuối	Cập nhật gần nhất		terms	w	D,V	
+terms update;updated terms	Điều khoản được cập nhật			terms	w	D,V	
+termination of contract	Chấm dứt hợp đồng			contract	w	D,V	
+confidentiality	Bảo mật thông tin	Tính bảo mật		contract	w	D,V	
+confidential information	Thông tin mật	Thông tin bảo mật		contract	w	D,V	
+non-disclosure agreement;nda	Thỏa thuận bảo mật thông tin (NDA)	Thỏa thuận không tiết lộ thông tin		contract	w	D,V	
+electronic signature;e-signature	Chữ ký điện tử			esign	w	D,V	
+digital signature	Chữ ký số			esign	w	D,V	Legally distinct from e-signature in VN
+sign document	Ký tài liệu	Ký văn bản		esign	w	D,V	
+sign here	Ký tại đây			esign	w	D,V	
+signatory;signer	Người ký			esign	w	D,V	
+witness	Người làm chứng			contract	w	D,V	
+notarization	Công chứng			contract	w	D,V	
+power of attorney	Giấy ủy quyền	Ủy quyền		contract	w	D,V	
+authorized representative	Người đại diện theo ủy quyền	Người đại diện ủy quyền		contract	w	D,V	
+legal representative	Người đại diện theo pháp luật			contract	w	D,V	
+applicable law	Pháp luật áp dụng	Pháp luật hiện hành		dispute	w	D,V	
+compliance	Tuân thủ	Tuân thủ quy định		compliance	w	D,V	
+regulatory compliance	Tuân thủ quy định pháp luật			compliance	w	D,V	
+legal notice	Thông báo pháp lý			terms	w	D,V	
+legal information	Thông tin pháp lý			terms	w	D,V	
+regulator;regulatory authority	Cơ quan quản lý	Cơ quan có thẩm quyền		compliance	w	D,V	
+competent authority	Cơ quan nhà nước có thẩm quyền			compliance	w	D,V	
+law enforcement	Cơ quan thực thi pháp luật	Cơ quan chức năng		compliance	w	D,V	
+government request	Yêu cầu của cơ quan nhà nước			compliance	w	D,V	
+anti-money laundering;aml	Phòng chống rửa tiền	Chống rửa tiền (AML)		compliance	w	D,V	
+audit log	Nhật ký kiểm toán	Nhật ký kiểm tra		compliance	w	D,V	
+whistleblower	Người tố giác			compliance	w	D,V	
+conflict of interest	Xung đột lợi ích			compliance	w	D,V	
+transparency report	Báo cáo minh bạch			compliance	w	D,V	
+contact our data protection officer	Liên hệ cán bộ bảo vệ dữ liệu cá nhân			privacy	w	D,V	
+privacy settings	Cài đặt quyền riêng tư			privacy	w	D,V	
+privacy notice	Thông báo về quyền riêng tư	Thông báo quyền riêng tư		privacy	w	D,V	
+privacy center	Trung tâm quyền riêng tư			privacy	w	D,V	

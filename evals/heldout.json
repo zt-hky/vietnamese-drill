@@ -1,0 +1,942 @@
+[
+ {
+  "id": "h-fintech-1",
+  "domain": "fintech",
+  "en": "Link your bank account to enable instant top-ups"
+ },
+ {
+  "id": "h-fintech-2",
+  "domain": "fintech",
+  "en": "Transfer limit exceeded for today's remaining quota"
+ },
+ {
+  "id": "h-fintech-3",
+  "domain": "fintech",
+  "en": "Scan the QR code to split the bill with friends"
+ },
+ {
+  "id": "h-fintech-4",
+  "domain": "fintech",
+  "en": "Your virtual card is frozen until you verify your identity"
+ },
+ {
+  "id": "h-fintech-5",
+  "domain": "fintech",
+  "en": "Cashback of 2% will be credited within 48 hours"
+ },
+ {
+  "id": "h-fintech-6",
+  "domain": "fintech",
+  "en": "Enter the one-time passcode sent to your registered number"
+ },
+ {
+  "id": "h-fintech-7",
+  "domain": "fintech",
+  "en": "Beneficiary name does not match the account number"
+ },
+ {
+  "id": "h-fintech-8",
+  "domain": "fintech",
+  "en": "Set up auto-debit for your monthly loan installment"
+ },
+ {
+  "id": "h-ecommerce-1",
+  "domain": "ecommerce",
+  "en": "Add to cart"
+ },
+ {
+  "id": "h-ecommerce-2",
+  "domain": "ecommerce",
+  "en": "Voucher cannot be combined with flash sale items"
+ },
+ {
+  "id": "h-ecommerce-3",
+  "domain": "ecommerce",
+  "en": "Only 3 left in stock, order soon"
+ },
+ {
+  "id": "h-ecommerce-4",
+  "domain": "ecommerce",
+  "en": "Track your parcel and see the estimated delivery window"
+ },
+ {
+  "id": "h-ecommerce-5",
+  "domain": "ecommerce",
+  "en": "Request a return within 7 days of receiving the item"
+ },
+ {
+  "id": "h-ecommerce-6",
+  "domain": "ecommerce",
+  "en": "Choose cash on delivery or pay online at checkout"
+ },
+ {
+  "id": "h-ecommerce-7",
+  "domain": "ecommerce",
+  "en": "Seller has not confirmed your order yet"
+ },
+ {
+  "id": "h-ecommerce-8",
+  "domain": "ecommerce",
+  "en": "Write a review and attach photos to earn loyalty points"
+ },
+ {
+  "id": "h-healthcare-1",
+  "domain": "healthcare",
+  "en": "Book an appointment with a specialist near you"
+ },
+ {
+  "id": "h-healthcare-2",
+  "domain": "healthcare",
+  "en": "Fasting for 8 hours is required before this blood test"
+ },
+ {
+  "id": "h-healthcare-3",
+  "domain": "healthcare",
+  "en": "Your prescription is ready for pickup at the pharmacy"
+ },
+ {
+  "id": "h-healthcare-4",
+  "domain": "healthcare",
+  "en": "Upload your referral letter before the consultation"
+ },
+ {
+  "id": "h-healthcare-5",
+  "domain": "healthcare",
+  "en": "Allergies and current medications must be listed"
+ },
+ {
+  "id": "h-healthcare-6",
+  "domain": "healthcare",
+  "en": "Lab results are now available in your health record"
+ },
+ {
+  "id": "h-healthcare-7",
+  "domain": "healthcare",
+  "en": "Telehealth session starts in 10 minutes"
+ },
+ {
+  "id": "h-healthcare-8",
+  "domain": "healthcare",
+  "en": "Share vaccination history with your family doctor"
+ },
+ {
+  "id": "h-education-1",
+  "domain": "education",
+  "en": "Submit your assignment before the deadline"
+ },
+ {
+  "id": "h-education-2",
+  "domain": "education",
+  "en": "Enroll in the course to unlock all lectures"
+ },
+ {
+  "id": "h-education-3",
+  "domain": "education",
+  "en": "Your quiz score has been recorded in the gradebook"
+ },
+ {
+  "id": "h-education-4",
+  "domain": "education",
+  "en": "Request a transcript for your completed semester"
+ },
+ {
+  "id": "h-education-5",
+  "domain": "education",
+  "en": "Parents can view attendance and tuition balance here"
+ },
+ {
+  "id": "h-education-6",
+  "domain": "education",
+  "en": "Join the live class using the link below"
+ },
+ {
+  "id": "h-education-7",
+  "domain": "education",
+  "en": "Plagiarism check found 18% similarity with other sources"
+ },
+ {
+  "id": "h-education-8",
+  "domain": "education",
+  "en": "Mark lesson as complete and continue to the next module"
+ },
+ {
+  "id": "h-logistics-1",
+  "domain": "logistics",
+  "en": "Print the waybill and attach it to the package"
+ },
+ {
+  "id": "h-logistics-2",
+  "domain": "logistics",
+  "en": "Shipment is held at customs pending documents"
+ },
+ {
+  "id": "h-logistics-3",
+  "domain": "logistics",
+  "en": "Assign a driver to this delivery route"
+ },
+ {
+  "id": "h-logistics-4",
+  "domain": "logistics",
+  "en": "Proof of delivery photo is required to close the order"
+ },
+ {
+  "id": "h-logistics-5",
+  "domain": "logistics",
+  "en": "Estimated arrival at the sorting hub is tomorrow morning"
+ },
+ {
+  "id": "h-logistics-6",
+  "domain": "logistics",
+  "en": "Consolidate multiple orders into a single pallet"
+ },
+ {
+  "id": "h-logistics-7",
+  "domain": "logistics",
+  "en": "Last-mile delivery attempt failed, recipient unavailable"
+ },
+ {
+  "id": "h-logistics-8",
+  "domain": "logistics",
+  "en": "Scan the barcode to update inventory at the warehouse"
+ },
+ {
+  "id": "h-hr-1",
+  "domain": "hr",
+  "en": "Submit your leave request for manager approval"
+ },
+ {
+  "id": "h-hr-2",
+  "domain": "hr",
+  "en": "Your payslip for this month is ready to download"
+ },
+ {
+  "id": "h-hr-3",
+  "domain": "hr",
+  "en": "Clock in from the office network only"
+ },
+ {
+  "id": "h-hr-4",
+  "domain": "hr",
+  "en": "Complete onboarding paperwork before your first day"
+ },
+ {
+  "id": "h-hr-5",
+  "domain": "hr",
+  "en": "Probation review is scheduled for next Friday"
+ },
+ {
+  "id": "h-hr-6",
+  "domain": "hr",
+  "en": "Overtime hours exceed the monthly allowance"
+ },
+ {
+  "id": "h-hr-7",
+  "domain": "hr",
+  "en": "Update your emergency contact and dependents"
+ },
+ {
+  "id": "h-hr-8",
+  "domain": "hr",
+  "en": "Referral bonus is paid after the new hire passes probation"
+ },
+ {
+  "id": "h-accounting-1",
+  "domain": "accounting",
+  "en": "Post the journal entry to the general ledger"
+ },
+ {
+  "id": "h-accounting-2",
+  "domain": "accounting",
+  "en": "Invoice number is already used for another record"
+ },
+ {
+  "id": "h-accounting-3",
+  "domain": "accounting",
+  "en": "Reconcile bank statement with recorded transactions"
+ },
+ {
+  "id": "h-accounting-4",
+  "domain": "accounting",
+  "en": "Debit and credit totals must balance"
+ },
+ {
+  "id": "h-accounting-5",
+  "domain": "accounting",
+  "en": "Export the aged receivables report as a spreadsheet"
+ },
+ {
+  "id": "h-accounting-6",
+  "domain": "accounting",
+  "en": "VAT rate applied to this line item is 8%"
+ },
+ {
+  "id": "h-accounting-7",
+  "domain": "accounting",
+  "en": "Close the fiscal period to lock prior entries"
+ },
+ {
+  "id": "h-accounting-8",
+  "domain": "accounting",
+  "en": "Attach the supporting receipt to this expense claim"
+ },
+ {
+  "id": "h-insurance-1",
+  "domain": "insurance",
+  "en": "File a claim within 30 days of the incident"
+ },
+ {
+  "id": "h-insurance-2",
+  "domain": "insurance",
+  "en": "Your policy renews automatically on the due date"
+ },
+ {
+  "id": "h-insurance-3",
+  "domain": "insurance",
+  "en": "Premium payment is overdue, coverage may lapse"
+ },
+ {
+  "id": "h-insurance-4",
+  "domain": "insurance",
+  "en": "Upload photos of the vehicle damage"
+ },
+ {
+  "id": "h-insurance-5",
+  "domain": "insurance",
+  "en": "Add a rider for critical illness coverage"
+ },
+ {
+  "id": "h-insurance-6",
+  "domain": "insurance",
+  "en": "Deductible applies before the insurer pays out"
+ },
+ {
+  "id": "h-insurance-7",
+  "domain": "insurance",
+  "en": "Beneficiary details can be changed at any time"
+ },
+ {
+  "id": "h-insurance-8",
+  "domain": "insurance",
+  "en": "Get a quote based on your age and occupation"
+ },
+ {
+  "id": "h-legal-1",
+  "domain": "legal",
+  "en": "Sign the contract electronically to finalize the agreement"
+ },
+ {
+  "id": "h-legal-2",
+  "domain": "legal",
+  "en": "Draft is awaiting review by the supervising attorney"
+ },
+ {
+  "id": "h-legal-3",
+  "domain": "legal",
+  "en": "Notarized copy is required for this filing"
+ },
+ {
+  "id": "h-legal-4",
+  "domain": "legal",
+  "en": "Statute of limitations may affect your case"
+ },
+ {
+  "id": "h-legal-5",
+  "domain": "legal",
+  "en": "Add a clause on confidentiality and termination"
+ },
+ {
+  "id": "h-legal-6",
+  "domain": "legal",
+  "en": "Power of attorney has expired"
+ },
+ {
+  "id": "h-legal-7",
+  "domain": "legal",
+  "en": "Upload evidence exhibits in PDF format only"
+ },
+ {
+  "id": "h-legal-8",
+  "domain": "legal",
+  "en": "Schedule a hearing date with the court clerk"
+ },
+ {
+  "id": "h-realestate-1",
+  "domain": "realestate",
+  "en": "Schedule a viewing of this apartment"
+ },
+ {
+  "id": "h-realestate-2",
+  "domain": "realestate",
+  "en": "Property title deed has not been verified"
+ },
+ {
+  "id": "h-realestate-3",
+  "domain": "realestate",
+  "en": "Filter listings by price, area, and number of bedrooms"
+ },
+ {
+  "id": "h-realestate-4",
+  "domain": "realestate",
+  "en": "Monthly maintenance fee is not included in rent"
+ },
+ {
+  "id": "h-realestate-5",
+  "domain": "realestate",
+  "en": "Contact the agent to negotiate the asking price"
+ },
+ {
+  "id": "h-realestate-6",
+  "domain": "realestate",
+  "en": "Floor plan and legal documents are available on request"
+ },
+ {
+  "id": "h-realestate-7",
+  "domain": "realestate",
+  "en": "Mortgage calculator estimates your monthly repayment"
+ },
+ {
+  "id": "h-realestate-8",
+  "domain": "realestate",
+  "en": "Save this listing to your shortlist"
+ },
+ {
+  "id": "h-travel-1",
+  "domain": "travel",
+  "en": "Select departure and return dates"
+ },
+ {
+  "id": "h-travel-2",
+  "domain": "travel",
+  "en": "Your e-ticket has been sent to your email"
+ },
+ {
+  "id": "h-travel-3",
+  "domain": "travel",
+  "en": "Check-in opens 24 hours before departure"
+ },
+ {
+  "id": "h-travel-4",
+  "domain": "travel",
+  "en": "Baggage allowance is 20 kg for economy class"
+ },
+ {
+  "id": "h-travel-5",
+  "domain": "travel",
+  "en": "Free cancellation until 3 days before arrival"
+ },
+ {
+  "id": "h-travel-6",
+  "domain": "travel",
+  "en": "Passport must be valid for at least six months"
+ },
+ {
+  "id": "h-travel-7",
+  "domain": "travel",
+  "en": "Add airport transfer to your booking"
+ },
+ {
+  "id": "h-travel-8",
+  "domain": "travel",
+  "en": "Layover of 5 hours in Singapore"
+ },
+ {
+  "id": "h-food-1",
+  "domain": "food",
+  "en": "Your order is being prepared by the restaurant"
+ },
+ {
+  "id": "h-food-2",
+  "domain": "food",
+  "en": "Add a note for the kitchen, such as no peanuts"
+ },
+ {
+  "id": "h-food-3",
+  "domain": "food",
+  "en": "Rider is 5 minutes away from your location"
+ },
+ {
+  "id": "h-food-4",
+  "domain": "food",
+  "en": "Apply a promo code to get free delivery"
+ },
+ {
+  "id": "h-food-5",
+  "domain": "food",
+  "en": "Restaurant is currently closed, schedule for later"
+ },
+ {
+  "id": "h-food-6",
+  "domain": "food",
+  "en": "Rate your meal and the delivery driver"
+ },
+ {
+  "id": "h-food-7",
+  "domain": "food",
+  "en": "Minimum order value for this shop is not met"
+ },
+ {
+  "id": "h-food-8",
+  "domain": "food",
+  "en": "Reorder your favorite dishes in one tap"
+ },
+ {
+  "id": "h-telecom-1",
+  "domain": "telecom",
+  "en": "Top up your prepaid balance"
+ },
+ {
+  "id": "h-telecom-2",
+  "domain": "telecom",
+  "en": "Your data package expires in 2 days"
+ },
+ {
+  "id": "h-telecom-3",
+  "domain": "telecom",
+  "en": "Register your SIM with a valid ID"
+ },
+ {
+  "id": "h-telecom-4",
+  "domain": "telecom",
+  "en": "Switch to a postpaid plan with unlimited calls"
+ },
+ {
+  "id": "h-telecom-5",
+  "domain": "telecom",
+  "en": "Roaming is turned off while you are abroad"
+ },
+ {
+  "id": "h-telecom-6",
+  "domain": "telecom",
+  "en": "Router is offline, restart it and try again"
+ },
+ {
+  "id": "h-telecom-7",
+  "domain": "telecom",
+  "en": "Fiber broadband installation is scheduled for Monday"
+ },
+ {
+  "id": "h-telecom-8",
+  "domain": "telecom",
+  "en": "Block spam calls and unknown numbers"
+ },
+ {
+  "id": "h-saas-1",
+  "domain": "saas",
+  "en": "Upgrade your plan to add more team seats"
+ },
+ {
+  "id": "h-saas-2",
+  "domain": "saas",
+  "en": "Your free trial ends in 3 days"
+ },
+ {
+  "id": "h-saas-3",
+  "domain": "saas",
+  "en": "Invite teammates by email or share a workspace link"
+ },
+ {
+  "id": "h-saas-4",
+  "domain": "saas",
+  "en": "API usage has reached 80% of the monthly quota"
+ },
+ {
+  "id": "h-saas-5",
+  "domain": "saas",
+  "en": "Manage billing details and download invoices"
+ },
+ {
+  "id": "h-saas-6",
+  "domain": "saas",
+  "en": "Single sign-on is available on the enterprise tier"
+ },
+ {
+  "id": "h-saas-7",
+  "domain": "saas",
+  "en": "Workspace owner can transfer ownership to another admin"
+ },
+ {
+  "id": "h-saas-8",
+  "domain": "saas",
+  "en": "Export all your data before deleting the account"
+ },
+ {
+  "id": "h-dev-1",
+  "domain": "dev",
+  "en": "Merge conflict detected in the main branch"
+ },
+ {
+  "id": "h-dev-2",
+  "domain": "dev",
+  "en": "Build failed: check the pipeline logs for details"
+ },
+ {
+  "id": "h-dev-3",
+  "domain": "dev",
+  "en": "Rotate your API key and update environment variables"
+ },
+ {
+  "id": "h-dev-4",
+  "domain": "dev",
+  "en": "Pull request needs at least one approving review"
+ },
+ {
+  "id": "h-dev-5",
+  "domain": "dev",
+  "en": "Deploy to staging before releasing to production"
+ },
+ {
+  "id": "h-dev-6",
+  "domain": "dev",
+  "en": "Unhandled exception thrown at runtime"
+ },
+ {
+  "id": "h-dev-7",
+  "domain": "dev",
+  "en": "Rollback to the previous release"
+ },
+ {
+  "id": "h-dev-8",
+  "domain": "dev",
+  "en": "Run the linter and fix all warnings before committing"
+ },
+ {
+  "id": "h-gaming-1",
+  "domain": "gaming",
+  "en": "Matchmaking is searching for opponents"
+ },
+ {
+  "id": "h-gaming-2",
+  "domain": "gaming",
+  "en": "Claim your daily login reward"
+ },
+ {
+  "id": "h-gaming-3",
+  "domain": "gaming",
+  "en": "Server maintenance will begin in 15 minutes"
+ },
+ {
+  "id": "h-gaming-4",
+  "domain": "gaming",
+  "en": "Equip this skin to your character"
+ },
+ {
+  "id": "h-gaming-5",
+  "domain": "gaming",
+  "en": "Top up gems to buy the battle pass"
+ },
+ {
+  "id": "h-gaming-6",
+  "domain": "gaming",
+  "en": "Your squad has been disconnected from the lobby"
+ },
+ {
+  "id": "h-gaming-7",
+  "domain": "gaming",
+  "en": "Report a player for cheating or abusive chat"
+ },
+ {
+  "id": "h-gaming-8",
+  "domain": "gaming",
+  "en": "Level up to unlock new weapons and ranked mode"
+ },
+ {
+  "id": "h-transport-1",
+  "domain": "transport",
+  "en": "Your driver is arriving in 3 minutes"
+ },
+ {
+  "id": "h-transport-2",
+  "domain": "transport",
+  "en": "Fare may change if you alter the destination"
+ },
+ {
+  "id": "h-transport-3",
+  "domain": "transport",
+  "en": "Top up your metro card at any station"
+ },
+ {
+  "id": "h-transport-4",
+  "domain": "transport",
+  "en": "Choose a pickup point on the map"
+ },
+ {
+  "id": "h-transport-5",
+  "domain": "transport",
+  "en": "Surge pricing is in effect due to high demand"
+ },
+ {
+  "id": "h-transport-6",
+  "domain": "transport",
+  "en": "Cancel the ride; a fee may apply"
+ },
+ {
+  "id": "h-transport-7",
+  "domain": "transport",
+  "en": "Next bus arrives at this stop in 8 minutes"
+ },
+ {
+  "id": "h-transport-8",
+  "domain": "transport",
+  "en": "Share your trip status with a trusted contact"
+ },
+ {
+  "id": "h-erp-1",
+  "domain": "erp",
+  "en": "Create a purchase order for this supplier"
+ },
+ {
+  "id": "h-erp-2",
+  "domain": "erp",
+  "en": "Bill of materials is incomplete for this product"
+ },
+ {
+  "id": "h-erp-3",
+  "domain": "erp",
+  "en": "Goods receipt does not match the purchase order"
+ },
+ {
+  "id": "h-erp-4",
+  "domain": "erp",
+  "en": "Run material requirements planning for next quarter"
+ },
+ {
+  "id": "h-erp-5",
+  "domain": "erp",
+  "en": "Approve the requisition to release budget"
+ },
+ {
+  "id": "h-erp-6",
+  "domain": "erp",
+  "en": "Stock level is below the reorder point"
+ },
+ {
+  "id": "h-erp-7",
+  "domain": "erp",
+  "en": "Assign cost center to each department"
+ },
+ {
+  "id": "h-erp-8",
+  "domain": "erp",
+  "en": "Production order has been scheduled on line 2"
+ },
+ {
+  "id": "h-media-1",
+  "domain": "media",
+  "en": "Subscribe to watch unlimited episodes without ads"
+ },
+ {
+  "id": "h-media-2",
+  "domain": "media",
+  "en": "Download for offline viewing"
+ },
+ {
+  "id": "h-media-3",
+  "domain": "media",
+  "en": "Subtitles are not available for this video"
+ },
+ {
+  "id": "h-media-4",
+  "domain": "media",
+  "en": "Resume playing from where you left off"
+ },
+ {
+  "id": "h-media-5",
+  "domain": "media",
+  "en": "Follow this channel to get notified about new releases"
+ },
+ {
+  "id": "h-media-6",
+  "domain": "media",
+  "en": "Content is not available in your region"
+ },
+ {
+  "id": "h-media-7",
+  "domain": "media",
+  "en": "Add this track to your playlist"
+ },
+ {
+  "id": "h-media-8",
+  "domain": "media",
+  "en": "Switch video quality to save mobile data"
+ },
+ {
+  "id": "h-gov-1",
+  "domain": "gov",
+  "en": "Submit your application for a residence permit"
+ },
+ {
+  "id": "h-gov-2",
+  "domain": "gov",
+  "en": "Enter your citizen ID number to look up records"
+ },
+ {
+  "id": "h-gov-3",
+  "domain": "gov",
+  "en": "Pay the administrative fee online"
+ },
+ {
+  "id": "h-gov-4",
+  "domain": "gov",
+  "en": "Your dossier is under review by the district office"
+ },
+ {
+  "id": "h-gov-5",
+  "domain": "gov",
+  "en": "Download the certified copy of your household registration"
+ },
+ {
+  "id": "h-gov-6",
+  "domain": "gov",
+  "en": "Appointment is required at the public service center"
+ },
+ {
+  "id": "h-gov-7",
+  "domain": "gov",
+  "en": "Tax code is invalid, please check again"
+ },
+ {
+  "id": "h-gov-8",
+  "domain": "gov",
+  "en": "Register a business and obtain a license"
+ },
+ {
+  "id": "h-security-1",
+  "domain": "security",
+  "en": "Enable two-factor authentication to protect your account"
+ },
+ {
+  "id": "h-security-2",
+  "domain": "security",
+  "en": "Unusual sign-in attempt detected from a new device"
+ },
+ {
+  "id": "h-security-3",
+  "domain": "security",
+  "en": "Your password must include a symbol and a number"
+ },
+ {
+  "id": "h-security-4",
+  "domain": "security",
+  "en": "Log out of all other sessions"
+ },
+ {
+  "id": "h-security-5",
+  "domain": "security",
+  "en": "Biometric login is not supported on this device"
+ },
+ {
+  "id": "h-security-6",
+  "domain": "security",
+  "en": "Report a phishing message"
+ },
+ {
+  "id": "h-security-7",
+  "domain": "security",
+  "en": "Session expired for your security, please sign in again"
+ },
+ {
+  "id": "h-security-8",
+  "domain": "security",
+  "en": "Review apps with access to your account"
+ },
+ {
+  "id": "h-gen-1",
+  "domain": "none",
+  "en": "Save"
+ },
+ {
+  "id": "h-gen-2",
+  "domain": "none",
+  "en": "Cancel"
+ },
+ {
+  "id": "h-gen-3",
+  "domain": "none",
+  "en": "Delete"
+ },
+ {
+  "id": "h-gen-4",
+  "domain": "none",
+  "en": "Edit"
+ },
+ {
+  "id": "h-gen-5",
+  "domain": "none",
+  "en": "Search"
+ },
+ {
+  "id": "h-gen-6",
+  "domain": "none",
+  "en": "Settings"
+ },
+ {
+  "id": "h-gen-7",
+  "domain": "none",
+  "en": "Something went wrong. Please try again."
+ },
+ {
+  "id": "h-gen-8",
+  "domain": "none",
+  "en": "Loading..."
+ },
+ {
+  "id": "h-gen-9",
+  "domain": "none",
+  "en": "No results found"
+ },
+ {
+  "id": "h-gen-10",
+  "domain": "none",
+  "en": "Are you sure you want to continue?"
+ },
+ {
+  "id": "h-gen-11",
+  "domain": "none",
+  "en": "Changes saved successfully"
+ },
+ {
+  "id": "h-gen-12",
+  "domain": "none",
+  "en": "Required field"
+ },
+ {
+  "id": "h-gen-13",
+  "domain": "none",
+  "en": "Next"
+ },
+ {
+  "id": "h-gen-14",
+  "domain": "none",
+  "en": "Back"
+ },
+ {
+  "id": "h-gen-15",
+  "domain": "none",
+  "en": "Sign in"
+ },
+ {
+  "id": "h-gen-16",
+  "domain": "none",
+  "en": "Sign out"
+ },
+ {
+  "id": "h-gen-17",
+  "domain": "none",
+  "en": "Copy link"
+ },
+ {
+  "id": "h-gen-18",
+  "domain": "none",
+  "en": "Select all"
+ },
+ {
+  "id": "h-gen-19",
+  "domain": "none",
+  "en": "Try again later"
+ },
+ {
+  "id": "h-gen-20",
+  "domain": "none",
+  "en": "You are offline. Check your connection."
+ }
+]

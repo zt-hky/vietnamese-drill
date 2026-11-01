@@ -1,9 +1,8 @@
 # Scope, limits and sources
 
 ## Components
-- skills/vietnamese-product: product/docs/UI/notification/i18n workflow. Portable Agent Skill.
-- skills/vietnamese-replies: assistant conversational style. Portable Agent Skill.
-- skills/vietnamese-product/scripts/check.mjs: offline checker. Node.js only, no dependencies, no network, no file access, no rewrite.
+- skills/vietnamese: one portable Agent Skill. SKILL.md is a router; modes/ui.md, modes/replies.md, modes/review.md are sub-skills loaded on demand.
+- skills/vietnamese/scripts/vi.mjs (+ glossary.mjs): offline CLI `check`, `lookup`, `route`, `packs`, `build-index`. Node.js only, no dependencies, no network; reads only glossary/ and a project TSV you pass.
 - rules/vietnamese.md, tools/vi-check.ts, agents/vietnamese-reviewer.md: oh-my-pi (OMP) plugin extras: always-on routing rule, `vi_check` tool, Gemini Flash reviewer subagent (falls back to the `smol` role).
 
 ## Checker coverage
@@ -23,7 +22,7 @@ Original rules, informed by:
 - https://gtelocalize.net/vietnamese-localization/ (GTE Localize, 2026): date/time/name/address conventions, pronoun and regional-vocabulary tables, SEO and testing advice. Adopted selectively; NOT adopted: "no English words ever", fixed 30–37% expansion, "formal tone for young audiences", statute numbers and market statistics (unverified). Details in references/locale-and-glossary.md.
 - https://github.com/JuliusBrussee/caveman: answer first, no filler, exact payload. Not adopted: broken grammar, proxy, automatic model routing.
 
-## UI glossary provenance (assets/glossary.vi-ui.tsv, 329 entries)
+## Core UI glossary provenance (glossary/core.tsv, 329 entries)
 Method (2026-11-01): 364 candidate UI terms were looked up in three real corpora, then curated by hand.
 - Microsoft Terminology Collection, Vietnamese TBX (19,427 English terms): https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology (downloaded for analysis; not redistributed).
 - Android Open Source Project strings, aligned `values/` vs `values-vi/` from framework, Settings, SystemUI and Contacts (Apache-2.0): https://github.com/aosp-mirror
@@ -37,3 +36,20 @@ Method (2026-11-01): 364 candidate UI terms were looked up in three real corpora
 Disagreements are resolved to the shorter, more current form and the other form is listed as `alt` (for example Android "Hủy" and Firefox "Hủy bỏ" → Hủy; Microsoft "Thiết đặt" → Cài đặt). `avoid` holds forms that machine translation really produces and that shipped products do not use (Học thêm, Đăng ký for Sign in, Tiết kiệm for Save). Context-dependent terms carry a note or a gap alias (`mute * conversation`).
 
 Validation and results: ../../../evals/README.md. Maintainers: rerun `evals/` after editing the glossary; keep `avoid` strict (a false positive costs trust).
+
+## v2 data (2026-11-01)
+
+### Industry packs (glossary/domains/*.tsv, 21 packs, about 4,030 entries)
+- Drafted by 21 parallel Claude Sonnet agents from a fixed contract (8 TSV columns, traditional tone placement, avoid only for real machine-translation errors, no statute numbers), one industry each, without seeing each other's packs or the eval strings.
+- Cross-model review: Gemini 3.8 Flash reviewed every pack and flagged 2% of rows (wrong / unnatural / bad avoid). Each flag was adjudicated: 60 fixes, 7 avoid forms removed, 6 rows that merged two concepts split, 1 uncertain row dropped. 46 aliases identical to core were removed.
+- Independent spot check: GPT-6 Sol rated 210 random domain rows: 85.7% standard, 13.3% acceptable, 1.0% wrong (both wrong rows fixed). Microsoft Terminology agrees with only 20–57% of covered rows per pack; it is dated and Windows-centric, so it is not used as ground truth for industry terms.
+- `src`: `D,V` = drafted and cross-reviewed. Treat packs as strong defaults, not law; a project glossary overrides them. Known soft spots (per drafter notes): region-dependent words (máy lạnh/điều hòa, ngò/rau mùi), brand-specific labels (Shopee "xu", VNeID "ví giấy tờ"), administrative units after the 2025 reorganisation.
+
+### ui-ext (glossary/ui-ext.tsv, 3,499 phrases)
+Mined automatically from aligned Android (AOSP) and Firefox for Android strings: 1–4-word labels, translation consistent in ≥70% of occurrences, single words need ≥3 occurrences, brand strings and placeholders excluded, nothing that duplicates core or a pack. Shipped professional translations; GPT spot check of 60 rows: 70% standard, 27% acceptable, 3% awkward. Used for lookup only (optional phrasing), never for lint.
+
+### UI surfaces (glossary/surfaces.tsv, 35 slots)
+Hard limits from platform documentation: App Store name and subtitle 30, Google Play title 30 and short description 80, App Store promotional text 170, SMS 160 GSM-7 / 70 UCS-2 characters per single segment (153/67 when multipart; Vietnamese diacritics force UCS-2). Button ≤ 25 from the MoMo UX Writing Guideline; error and confirmation patterns from the Microsoft vi-VN guide. All other recommended lengths are editorial (`E`) defaults to tune per product; `ctx.max` always overrides them.
+
+### Routing
+Deterministic: each pack is scored by its matches in the batch (multi-word alias 2, single word 1); aliases that are also generic UI phrases (core/ui-ext) do not count. Threshold 1 for batches of ≤3 strings, else 2; packs within 34% of the best score, at most 3. Measured on 297 independent strings: batch-level top-1 21/21; single-string top-1 66%, correct pack among those selected 76%, generic strings falsely routed 2/25.

@@ -1,0 +1,198 @@
+en	vi	alt	avoid	cat	match	src	note
+e-invoice;electronic invoice	hóa đơn điện tử	HĐĐT		invoice	w	D,V	
+invoice issuance;issue invoice	phát hành hóa đơn	lập hóa đơn		invoice	w	D,V	
+invoice template	mẫu hóa đơn			invoice	w	D,V	
+invoice series;invoice symbol	ký hiệu hóa đơn			invoice	w	D,V	
+invoice number	số hóa đơn			invoice	w	D,V	
+invoice lookup code	mã tra cứu hóa đơn			invoice	w	D,V	
+tax authority code	mã của cơ quan thuế			invoice	w	D,V	
+invoice from cash register	hóa đơn khởi tạo từ máy tính tiền			invoice	w	D,V	
+adjustment invoice	hóa đơn điều chỉnh			invoice	w	D,V	
+replacement invoice	hóa đơn thay thế			invoice	w	D,V	
+cancelled invoice	hóa đơn hủy	hóa đơn đã hủy		invoice	w	D,V	
+invoice cancellation	hủy hóa đơn			invoice	w	D,V	
+invoice minutes	biên bản hóa đơn			invoice	w	D,V	Document recording invoice cancellation/adjustment
+invoice error notice	thông báo hóa đơn điện tử có sai sót			invoice	w	D,V	
+input invoice	hóa đơn đầu vào			invoice	w	D,V	
+output invoice	hóa đơn đầu ra			invoice	w	D,V	
+sales invoice	hóa đơn bán hàng			invoice	w	D,V	
+VAT invoice	hóa đơn giá trị gia tăng	hóa đơn GTGT		invoice	w	D,V	
+invoice management	quản lý hóa đơn			invoice	w	D,V	
+invoice usage report	báo cáo tình hình sử dụng hóa đơn			invoice	w	D,V	
+invoice registration	đăng ký sử dụng hóa đơn			invoice	w	D,V	
+digital signature;electronic signature	chữ ký số			invoice	w	D,V	
+signing certificate	chứng thư số			invoice	w	D,V	
+USB token	USB token	chữ ký số USB		invoice	w	D,V	
+buyer	người mua			invoice	w	D,V	
+seller	người bán			invoice	w	D,V	
+buyer tax code	mã số thuế người mua			invoice	w	D,V	
+buyer name;buyer company name	tên đơn vị mua hàng			invoice	w	D,V	
+taxpayer	người nộp thuế			tax	w	D,V	
+tax code;tax identification number;tax id	mã số thuế	MST		tax	w	D,V	
+personal income tax	thuế thu nhập cá nhân	thuế TNCN		tax	w	D,V	
+corporate income tax	thuế thu nhập doanh nghiệp	thuế TNDN		tax	w	D,V	
+value added tax;vat	thuế giá trị gia tăng	thuế GTGT		tax	w	D,V	
+vat rate;vat percentage	thuế suất GTGT	thuế suất thuế GTGT		tax	w	D,V	
+vat amount	tiền thuế GTGT			tax	w	D,V	
+vat deduction	khấu trừ thuế GTGT			tax	w	D,V	
+deductible input vat	thuế GTGT đầu vào được khấu trừ			tax	w	D,V	
+output vat	thuế GTGT đầu ra			tax	w	D,V	
+input vat	thuế GTGT đầu vào			tax	w	D,V	
+vat refund	hoàn thuế GTGT			tax	w	D,V	
+vat declaration;vat return	tờ khai thuế GTGT			tax	w	D,V	
+tax return;tax declaration	tờ khai thuế			tax	w	D,V	
+tax filing;file tax return	nộp tờ khai thuế	khai thuế		tax	w	D,V	
+tax period	kỳ tính thuế			tax	w	D,V	
+tax payable	thuế phải nộp			tax	w	D,V	
+tax payment slip	giấy nộp tiền vào ngân sách nhà nước			tax	w	D,V	
+tax exempt	miễn thuế			tax	w	D,V	
+non-taxable	không chịu thuế			tax	w	D,V	
+tax-inclusive price	giá đã bao gồm thuế	giá đã có thuế		tax	w	D,V	
+tax-exclusive price	giá chưa bao gồm thuế	giá chưa thuế		tax	w	D,V	
+special consumption tax	thuế tiêu thụ đặc biệt	thuế TTĐB		tax	w	D,V	
+import tax	thuế nhập khẩu			tax	w	D,V	
+export tax	thuế xuất khẩu			tax	w	D,V	
+withholding tax	thuế khấu trừ tại nguồn	thuế nhà thầu		tax	w	D,V	
+foreign contractor tax	thuế nhà thầu nước ngoài			tax	w	D,V	
+environmental protection tax	thuế bảo vệ môi trường			tax	w	D,V	
+license tax;business license fee	lệ phí môn bài			tax	w	D,V	
+tax finalization	quyết toán thuế			tax	w	D,V	
+personal income tax finalization	quyết toán thuế TNCN			tax	w	D,V	
+tax authority	cơ quan thuế			tax	w	D,V	
+tax agent	đại lý thuế			tax	w	D,V	
+dependent deduction	giảm trừ người phụ thuộc			tax	w	D,V	
+taxable income	thu nhập chịu thuế			tax	w	D,V	
+assessable income	thu nhập tính thuế			tax	w	D,V	
+tax-deductible expense	chi phí được trừ			tax	w	D,V	
+non-deductible expense	chi phí không được trừ			tax	w	D,V	
+social insurance	bảo hiểm xã hội	BHXH		payroll	w	D,V	
+health insurance contribution	bảo hiểm y tế	BHYT		payroll	w	D,V	
+unemployment insurance	bảo hiểm thất nghiệp	BHTN		payroll	w	D,V	
+trade union fee	kinh phí công đoàn			payroll	w	D,V	
+payroll;salary sheet	bảng lương			payroll	w	D,V	
+gross salary	lương gộp	lương gross		payroll	w	D,V	
+net salary	lương thực nhận	lương net		payroll	w	D,V	
+timesheet	bảng chấm công			payroll	w	D,V	
+receipt voucher	phiếu thu			voucher	w	D,V	
+payment voucher	phiếu chi			voucher	w	D,V	
+cash receipt	phiếu thu tiền mặt			voucher	w	D,V	
+cash payment	phiếu chi tiền mặt			voucher	w	D,V	
+bank deposit slip;bank receipt	giấy báo có			voucher	w	D,V	Bank credit advice
+bank debit advice	giấy báo nợ			voucher	w	D,V	
+goods receipt note;stock in voucher	phiếu nhập kho			voucher	w	D,V	
+goods issue note;stock out voucher	phiếu xuất kho			voucher	w	D,V	
+inventory transfer voucher	phiếu chuyển kho			voucher	w	D,V	
+journal voucher;general voucher	chứng từ nghiệp vụ khác	phiếu kế toán		voucher	w	D,V	
+voucher	chứng từ			voucher	w	D,V	Accounting source document
+voucher number	số chứng từ			voucher	w	D,V	
+voucher date	ngày chứng từ			voucher	w	D,V	
+posting date;accounting date	ngày hạch toán			ledger	w	D,V	
+post to ledger;post entry	ghi sổ			ledger	w	D,V	
+unpost;unrecord	bỏ ghi sổ			ledger	w	D,V	
+journal entry	bút toán			ledger	w	D,V	
+adjusting entry	bút toán điều chỉnh			ledger	w	D,V	
+closing entry	bút toán kết chuyển			ledger	w	D,V	
+carry forward;carry-over	kết chuyển			ledger	w	D,V	
+reversing entry	bút toán đảo			ledger	w	D,V	
+general ledger	sổ cái			ledger	w	D,V	
+general journal	sổ nhật ký chung			ledger	w	D,V	
+subsidiary ledger	sổ chi tiết			ledger	w	D,V	
+cash book	sổ quỹ tiền mặt			ledger	w	D,V	
+bank deposit book	sổ tiền gửi ngân hàng			ledger	w	D,V	
+inventory ledger	sổ chi tiết vật tư hàng hóa			ledger	w	D,V	
+trial balance	bảng cân đối số phát sinh			report	w	D,V	
+account balance sheet	bảng cân đối tài khoản			report	w	D,V	
+debit	nợ	bên Nợ		ledger	w	D,V	Accounting side; not "ghi nợ" unless a verb
+credit	có	bên Có		ledger	w	D,V	Accounting side
+debit account	tài khoản ghi nợ	TK Nợ		ledger	w	D,V	
+credit account	tài khoản ghi có	TK Có		ledger	w	D,V	
+opening balance	số dư đầu kỳ			ledger	w	D,V	
+closing balance	số dư cuối kỳ			ledger	w	D,V	
+debit balance	số dư Nợ			ledger	w	D,V	
+credit balance	số dư Có			ledger	w	D,V	
+period turnover;period activity	số phát sinh trong kỳ			ledger	w	D,V	
+chart of accounts	hệ thống tài khoản kế toán	danh mục tài khoản		account	w	D,V	
+account code;account number	số hiệu tài khoản	mã tài khoản		account	w	D,V	
+account name	tên tài khoản			account	w	D,V	
+parent account	tài khoản tổng hợp	tài khoản cha		account	w	D,V	
+sub-account	tài khoản chi tiết			account	w	D,V	
+accounting object;accounting entity	đối tượng kế toán			account	w	D,V	
+cost center	trung tâm chi phí			account	w	D,V	
+cost object	đối tượng tập hợp chi phí			account	w	D,V	
+project code	mã công trình	mã dự án		account	w	D,V	
+statistical code	mã thống kê			account	w	D,V	
+accounts receivable	phải thu khách hàng	công nợ phải thu		receivable	w	D,V	
+accounts payable	phải trả nhà cung cấp	công nợ phải trả		payable	w	D,V	
+receivables ledger	sổ chi tiết công nợ phải thu			receivable	w	D,V	
+payables ledger	sổ chi tiết công nợ phải trả			payable	w	D,V	
+debt reconciliation;balance confirmation	đối chiếu công nợ			receivable	w	D,V	
+debt confirmation letter	biên bản đối chiếu công nợ			receivable	w	D,V	
+customer debt	công nợ khách hàng			receivable	w	D,V	
+supplier debt	công nợ nhà cung cấp			payable	w	D,V	
+overdue debt	nợ quá hạn			receivable	w	D,V	
+debt aging;aging report	tuổi nợ	báo cáo tuổi nợ		receivable	w	D,V	
+due date	hạn thanh toán			receivable	w	D,V	Payment due date on invoices
+advance from customer	khách hàng ứng trước			receivable	w	D,V	
+advance to supplier	ứng trước cho nhà cung cấp			payable	w	D,V	
+employee advance	tạm ứng			payable	w	D,V	
+advance settlement	quyết toán tạm ứng			payable	w	D,V	
+bad debt provision	dự phòng nợ phải thu khó đòi			receivable	w	D,V	
+write-off	xóa nợ			receivable	w	D,V	
+offset;clearing	bù trừ công nợ			receivable	w	D,V	
+bank reconciliation	đối chiếu ngân hàng	đối chiếu sổ phụ ngân hàng		reconcile	w	D,V	
+bank statement	sao kê ngân hàng	sổ phụ ngân hàng		reconcile	w	D,V	
+reconciled	đã đối chiếu			reconcile	w	D,V	
+unreconciled	chưa đối chiếu			reconcile	w	D,V	
+auto match;automatic matching	đối chiếu tự động			reconcile	w	D,V	
+fixed asset	tài sản cố định	TSCĐ		asset	w	D,V	
+depreciation	khấu hao			asset	w	D,V	
+accumulated depreciation	hao mòn lũy kế			asset	w	D,V	
+depreciation method	phương pháp khấu hao			asset	w	D,V	
+straight-line depreciation	khấu hao đường thẳng			asset	w	D,V	
+declining balance depreciation	khấu hao theo số dư giảm dần			asset	w	D,V	
+useful life	thời gian sử dụng	thời gian trích khấu hao		asset	w	D,V	
+original cost;historical cost	nguyên giá			asset	w	D,V	
+residual value;salvage value	giá trị thanh lý ước tính			asset	w	D,V	Net book value; salvage is "giá trị thanh lý ước tính"
+asset disposal	thanh lý tài sản			asset	w	D,V	
+asset revaluation	đánh giá lại tài sản			asset	w	D,V	
+asset transfer	điều chuyển tài sản			asset	w	D,V	
+tools and supplies;low-value assets	công cụ dụng cụ	CCDC		asset	w	D,V	
+prepaid expenses	chi phí trả trước			asset	w	D,V	
+allocation;cost allocation	phân bổ	phân bổ chi phí		asset	w	D,V	
+inventory valuation	tính giá xuất kho			inventory	w	D,V	
+weighted average cost	bình quân gia quyền			inventory	w	D,V	
+fifo;first in first out	nhập trước xuất trước	FIFO		inventory	w	D,V	
+stock count;inventory count	kiểm kê	kiểm kê kho		inventory	w	D,V	
+cost of goods sold	giá vốn hàng bán			inventory	w	D,V	
+financial statements	báo cáo tài chính	BCTC		report	w	D,V	
+balance sheet	bảng cân đối kế toán			report	w	D,V	
+income statement;profit and loss statement	báo cáo kết quả hoạt động kinh doanh	báo cáo lãi lỗ		report	w	D,V	
+cash flow statement	báo cáo lưu chuyển tiền tệ			report	w	D,V	
+notes to financial statements	thuyết minh báo cáo tài chính			report	w	D,V	
+management report	báo cáo quản trị			report	w	D,V	
+consolidated financial statements	báo cáo tài chính hợp nhất			report	w	D,V	
+owner's equity	vốn chủ sở hữu			report	w	D,V	
+retained earnings	lợi nhuận sau thuế chưa phân phối			report	w	D,V	
+gross profit	lợi nhuận gộp			report	w	D,V	
+net profit;profit after tax	lợi nhuận sau thuế			report	w	D,V	
+profit before tax	lợi nhuận trước thuế			report	w	D,V	
+operating expenses	chi phí hoạt động			report	w	D,V	
+selling expenses	chi phí bán hàng			report	w	D,V	
+general and administrative expenses	chi phí quản lý doanh nghiệp			report	w	D,V	
+fiscal year	năm tài chính			period	w	D,V	
+fiscal period;accounting period	kỳ kế toán			period	w	D,V	
+period lock;lock period	khóa sổ	khóa kỳ kế toán		period	w	D,V	
+unlock period	bỏ khóa sổ	mở khóa sổ		period	w	D,V	
+year-end closing;period-end closing	kết chuyển cuối kỳ			period	w	D,V	
+start of accounting period	bắt đầu kỳ kế toán			period	w	D,V	
+accounting policy	chính sách kế toán			period	w	D,V	
+accounting standard	chuẩn mực kế toán	VAS		period	w	D,V	
+accounting software	phần mềm kế toán			general	w	D,V	
+chief accountant	kế toán trưởng			general	w	D,V	
+cashier	thủ quỹ			general	w	D,V	
+audit trail	nhật ký thay đổi	nhật ký truy vết		general	w	D,V	
+exchange rate	tỷ giá			general	w	D,V	
+foreign exchange gain	lãi chênh lệch tỷ giá			general	w	D,V	
+foreign exchange loss	lỗ chênh lệch tỷ giá			general	w	D,V	
+revaluation of foreign currency	đánh giá lại ngoại tệ			general	w	D,V	
+unit of measure	đơn vị tính	ĐVT		inventory	w	D,V	

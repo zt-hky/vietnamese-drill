@@ -1,0 +1,198 @@
+en	vi	alt	avoid	cat	match	src	note
+course;online course	khóa học	khóa học trực tuyến		course	w	D,V	
+lesson	bài học	buổi học		course	w	D,V	A scheduled session = buổi học; content unit = bài học
+class;classroom	lớp học			class	w	D,V	Physical or virtual class
+virtual classroom	lớp học trực tuyến	lớp học ảo		class	w	D,V	
+lecture	bài giảng			course	w	D,V	
+syllabus	đề cương môn học	đề cương chi tiết		course	w	D,V	
+curriculum	chương trình học	chương trình đào tạo		course	w	D,V	
+module	học phần	chương		course	w	D,V	Course unit; "mô-đun" in tech training
+chapter	chương			course	w	D,V	
+unit	bài	đơn vị học		course	w	D,V	
+subject	môn học			course	w	D,V	
+semester	học kỳ			schedule	w	D,V	
+academic year;school year	năm học			schedule	w	D,V	
+school year start	khai giảng			schedule	w	D,V	
+course catalog	danh mục khóa học			course	w	D,V	
+course description	mô tả khóa học			course	w	D,V	
+course material;learning material	tài liệu học tập	học liệu		course	w	D,V	
+learning path	lộ trình học			course	w	D,V	
+learning outcome	chuẩn đầu ra	kết quả học tập		course	w	D,V	
+prerequisite	môn tiên quyết	điều kiện tiên quyết		course	w	D,V	
+credit hour;credit	tín chỉ			course	w	D,V	Higher education credit
+credit hours required	số tín chỉ yêu cầu			course	w	D,V	
+elective	môn tự chọn	học phần tự chọn		course	w	D,V	
+required course;compulsory course	môn bắt buộc	học phần bắt buộc		course	w	D,V	
+major	chuyên ngành	ngành học		program	w	D,V	
+minor	ngành phụ			program	w	D,V	
+degree program	chương trình đào tạo			program	w	D,V	
+bachelor's degree	bằng cử nhân			program	w	D,V	
+master's degree	bằng thạc sĩ			program	w	D,V	
+doctorate;phd	tiến sĩ			program	w	D,V	
+diploma	bằng tốt nghiệp			certificate	w	D,V	
+certificate of completion	chứng nhận hoàn thành	giấy chứng nhận hoàn thành khóa học		certificate	w	D,V	
+certificate	chứng chỉ	giấy chứng nhận		certificate	w	D,V	Certificate/credential; "chứng nhận" = attestation
+download certificate	tải chứng chỉ			certificate	w	D,V	
+enroll;enrol	đăng ký học	ghi danh		enrollment	w	D,V	
+enrollment;enrolment	ghi danh	đăng ký học		enrollment	w	D,V	"đăng ký học phần" for credit registration
+enrolled students	học viên đã đăng ký			enrollment	w	D,V	
+enrollment key	mã ghi danh			enrollment	w	D,V	
+course registration	đăng ký học phần			enrollment	w	D,V	University context
+admission	tuyển sinh	nhập học		enrollment	w	D,V	
+admission application	hồ sơ xét tuyển			enrollment	w	D,V	
+admission score	điểm chuẩn			enrollment	w	D,V	Cutoff score in Vietnam
+entrance exam	thi đầu vào	kỳ thi tuyển sinh		enrollment	w	D,V	
+placement test	bài kiểm tra xếp lớp	kiểm tra đầu vào		enrollment	w	D,V	
+waitlist	danh sách chờ			enrollment	w	D,V	
+drop course;withdraw from course	rút học phần			enrollment	w	D,V	
+join class	tham gia lớp học			class	w	D,V	
+class code	mã lớp			class	w	D,V	
+class list;class roster	danh sách lớp			class	w	D,V	
+student	học sinh	sinh viên;học viên		people	w	D,V	Học sinh=school; sinh viên=university; học viên=courses
+learner	học viên	người học		people	w	D,V	
+teacher	giáo viên			people	w	D,V	
+instructor	giảng viên			people	w	D,V	
+lecturer	giảng viên			people	w	D,V	
+tutor	gia sư	trợ giảng		people	w	D,V	
+teaching assistant	trợ giảng			people	w	D,V	
+homeroom teacher	giáo viên chủ nhiệm			people	w	D,V	
+principal	hiệu trưởng			people	w	D,V	
+parent;guardian	phụ huynh			people	w	D,V	
+alumni	cựu sinh viên	cựu học sinh		people	w	D,V	
+classmate	bạn cùng lớp			people	w	D,V	
+student id;student number	mã số sinh viên	mã học sinh		people	w	D,V	MSSV abbreviation
+student profile	hồ sơ học sinh	hồ sơ sinh viên		people	w	D,V	
+student account	tài khoản học sinh			people	w	D,V	
+parent portal	cổng thông tin phụ huynh			people	w	D,V	
+assignment	bài tập			assessment	w	D,V	
+homework	bài tập về nhà			assessment	w	D,V	
+due date;deadline	hạn nộp	hạn chót		assessment	w	D,V	
+submit assignment	nộp bài	nộp bài tập		assessment	w	D,V	
+late submission	nộp muộn	nộp trễ		assessment	w	D,V	
+submitted	đã nộp bài			assessment	w	D,V	
+not submitted	chưa nộp bài			assessment	w	D,V	
+resubmit	nộp lại bài			assessment	w	D,V	
+assign homework	giao bài tập			assessment	w	D,V	
+assignment instructions	hướng dẫn làm bài			assessment	w	D,V	
+project	đồ án	dự án		assessment	w	D,V	Đồ án in university; dự án in school
+essay	bài luận			assessment	w	D,V	
+presentation	bài thuyết trình			assessment	w	D,V	
+quiz	bài kiểm tra ngắn	câu đố;bài trắc nghiệm		assessment	w	D,V	"quiz" often kept in LMS UI
+exam;examination	kỳ thi	dự thi		assessment	w	D,V	"Register for the exam" = đăng ký dự thi
+midterm exam	thi giữa kỳ	kiểm tra giữa kỳ		assessment	w	D,V	
+final exam	thi cuối kỳ	kiểm tra cuối kỳ		assessment	w	D,V	
+test	bài kiểm tra			assessment	w	D,V	
+mock test;practice test	bài thi thử	đề thi thử		assessment	w	D,V	
+exam schedule	lịch thi			assessment	w	D,V	
+exam room	phòng thi			assessment	w	D,V	
+exam proctoring	giám sát thi	coi thi		assessment	w	D,V	
+proctor	giám thị			assessment	w	D,V	
+question bank	ngân hàng câu hỏi			assessment	w	D,V	
+multiple choice	trắc nghiệm	câu hỏi trắc nghiệm		assessment	w	D,V	
+true or false	đúng hoặc sai	đúng/sai		assessment	w	D,V	
+fill in the blank	điền vào chỗ trống			assessment	w	D,V	
+short answer	trả lời ngắn			assessment	w	D,V	
+essay question	câu hỏi tự luận	tự luận		assessment	w	D,V	
+correct answer	đáp án đúng			assessment	w	D,V	
+answer key	đáp án			assessment	w	D,V	
+wrong answer;incorrect answer	đáp án sai			assessment	w	D,V	
+time limit	thời gian làm bài	giới hạn thời gian		assessment	w	D,V	
+time remaining	thời gian còn lại			assessment	w	D,V	
+attempt	lượt làm bài	lần làm bài		assessment	w	D,V	
+attempts allowed	số lần làm bài tối đa			assessment	w	D,V	
+start quiz;start exam	bắt đầu làm bài			assessment	w	D,V	
+submit quiz;finish attempt	nộp bài thi			assessment	w	D,V	
+review answers	xem lại bài làm			assessment	w	D,V	
+retake	thi lại	làm lại bài		assessment	w	D,V	
+passing score	điểm đạt			grading	w	D,V	
+grade;mark	điểm	điểm số		grading	w	D,V	
+grade submission;grade papers	chấm điểm			grading	w	D,V	Verb
+gradebook	sổ điểm	bảng điểm		grading	w	D,V	
+grade report	bảng điểm			grading	w	D,V	
+transcript;academic transcript	bảng điểm	học bạ		grading	w	D,V	Học bạ = school record
+report card	phiếu điểm	sổ liên lạc		grading	w	D,V	
+score	điểm số			grading	w	D,V	
+total score	tổng điểm			grading	w	D,V	
+average score;grade point average	điểm trung bình			grading	w	D,V	
+gpa	điểm trung bình tích lũy (GPA)	GPA		grading	w	D,V	
+semester average	điểm trung bình học kỳ			grading	w	D,V	
+letter grade	điểm chữ			grading	w	D,V	
+pass;passed	đạt			grading	w	D,V	
+fail;failed	không đạt	trượt		grading	w	D,V	"trượt" for exam failing
+incomplete	chưa hoàn thành			grading	w	D,V	
+excellent	xuất sắc			grading	w	D,V	
+rank;class rank	xếp hạng	thứ hạng		grading	w	D,V	
+academic ranking	xếp loại học lực			grading	w	D,V	
+conduct;conduct grade	hạnh kiểm			grading	w	D,V	
+academic performance	kết quả học tập	học lực		grading	w	D,V	
+rubric	tiêu chí chấm điểm	rubric		grading	w	D,V	
+feedback from teacher	nhận xét của giáo viên			grading	w	D,V	
+grading scale	thang điểm			grading	w	D,V	
+weighted grade	điểm theo trọng số			grading	w	D,V	
+extra credit;bonus points	điểm cộng			grading	w	D,V	
+grade appeal	phúc khảo			grading	w	D,V	Re-marking request
+publish grades	công bố điểm			grading	w	D,V	
+attendance	điểm danh	chuyên cần		attendance	w	D,V	"chuyên cần" as grade criterion
+take attendance	điểm danh			attendance	w	D,V	
+present	có mặt			attendance	w	D,V	
+absent	vắng mặt	vắng		attendance	w	D,V	
+excused absence	vắng có phép	nghỉ có phép		attendance	w	D,V	
+unexcused absence	vắng không phép	nghỉ không phép		attendance	w	D,V	
+late arrival;tardy	đi muộn	đến muộn		attendance	w	D,V	
+absence request;leave request	đơn xin nghỉ học			attendance	w	D,V	
+attendance rate	tỷ lệ chuyên cần	tỷ lệ đi học		attendance	w	D,V	
+timetable;class schedule	thời khóa biểu			schedule	w	D,V	
+period	tiết học	tiết		schedule	w	D,V	
+session	buổi học			schedule	w	D,V	Class session, not login session
+recurring class	lớp học định kỳ			schedule	w	D,V	
+make-up class	buổi học bù	học bù		schedule	w	D,V	
+class cancelled	lớp học bị hủy	buổi học bị hủy		schedule	w	D,V	
+holiday break	kỳ nghỉ	nghỉ lễ		schedule	w	D,V	
+summer break	nghỉ hè			schedule	w	D,V	
+tuition;tuition fee	học phí			fees	w	D,V	
+tuition payment	đóng học phí	thanh toán học phí		fees	w	D,V	
+unpaid tuition	học phí còn nợ			fees	w	D,V	
+scholarship	học bổng			fees	w	D,V	
+financial aid	hỗ trợ tài chính			fees	w	D,V	
+tuition waiver	miễn giảm học phí			fees	w	D,V	
+installment tuition	đóng học phí theo đợt			fees	w	D,V	
+course fee	phí khóa học			fees	w	D,V	
+registration fee	lệ phí đăng ký			fees	w	D,V	
+boarding fee	phí nội trú			fees	w	D,V	
+learning management system	hệ thống quản lý học tập (LMS)	LMS		platform	w	D,V	
+lms	LMS			platform	w	D,V	Abbreviation stays
+e-learning	học trực tuyến	e-learning		platform	w	D,V	
+online learning	học trực tuyến			platform	w	D,V	
+distance learning	đào tạo từ xa	học từ xa		platform	w	D,V	
+blended learning	học kết hợp			platform	w	D,V	
+self-paced	học theo tốc độ riêng	tự học theo lộ trình		platform	w	D,V	
+live class;live session	buổi học trực tuyến			platform	w	D,V	
+recorded lecture	bài giảng ghi hình			platform	w	D,V	
+discussion forum	diễn đàn thảo luận			platform	w	D,V	
+group project	dự án nhóm	bài tập nhóm		platform	w	D,V	
+study group	nhóm học tập			platform	w	D,V	
+whiteboard	bảng trắng			platform	w	D,V	
+raise hand	giơ tay			platform	w	D,V	
+progress;course progress	tiến độ học tập			platform	w	D,V	
+completion rate	tỷ lệ hoàn thành			platform	w	D,V	
+mark as complete	đánh dấu đã hoàn thành			platform	w	D,V	
+resume learning;continue learning	tiếp tục học			platform	w	D,V	
+my courses	khóa học của tôi			platform	w	D,V	
+flashcard	thẻ ghi nhớ	flashcard		platform	w	D,V	
+badge	huy hiệu			platform	w	D,V	
+leaderboard	bảng xếp hạng			platform	w	D,V	
+learning streak	chuỗi ngày học			platform	w	D,V	
+study reminder	nhắc nhở học tập			platform	w	D,V	
+course rating;course review	đánh giá khóa học			platform	w	D,V	
+free trial lesson	buổi học thử miễn phí	học thử		platform	w	D,V	
+course voucher	mã giảm giá khóa học			fees	w	D,V	
+school;school name	trường học			institution	w	D,V	
+university	trường đại học	đại học		institution	w	D,V	
+faculty;department	khoa			institution	w	D,V	
+campus	cơ sở	khuôn viên		institution	w	D,V	
+kindergarten	mầm non	trường mầm non		institution	w	D,V	
+primary school	tiểu học			institution	w	D,V	
+secondary school;middle school	trung học cơ sở	THCS		institution	w	D,V	
+high school	trung học phổ thông	THPT		institution	w	D,V	
+language center	trung tâm ngoại ngữ			institution	w	D,V	
+grade level	khối lớp			institution	w	D,V	

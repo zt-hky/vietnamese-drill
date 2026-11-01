@@ -1,7 +1,7 @@
 {
   "name": "vietnamese-drill",
-  "version": "1.3.0",
-  "description": "Skills, rules and an offline checker that make AI coding agents write natural Vietnamese for software: docs, UI/UX, notifications, i18n.",
+  "version": "2.0.0",
+  "description": "One Vietnamese skill for AI coding agents: UI/UX copy with surface and length metadata, 7,800-term glossary with 21 industry packs, offline checker, reviewer subagent.",
   "license": "MIT",
   "type": "module",
   "repository": {

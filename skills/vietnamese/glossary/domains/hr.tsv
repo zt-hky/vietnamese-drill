@@ -1,0 +1,202 @@
+en	vi	alt	avoid	cat	match	src	note
+job posting;job post;job opening	tin tuyển dụng	vị trí tuyển dụng		recruiting	w	D,V	
+candidate	ứng viên			recruiting	w	D,V	
+applicant	ứng viên			recruiting	w	D,V	
+application	hồ sơ ứng tuyển	đơn ứng tuyển		recruiting	w	D,V	in recruiting context, not app
+apply for job;apply now	ứng tuyển			recruiting	w	D,V	
+resume;curriculum vitae;cv	CV	hồ sơ năng lực;sơ yếu lý lịch		recruiting	w	D,V	keep CV
+cover letter	thư xin việc	thư ứng tuyển		recruiting	w	D,V	
+recruiter	chuyên viên tuyển dụng	nhà tuyển dụng		recruiting	w	D,V	
+hiring manager	quản lý trực tiếp của vị trí	quản lý tuyển dụng;hiring manager		recruiting	w	D,V	Manager of the team that is hiring, not the recruiter
+talent pool	kho ứng viên	nguồn nhân tài		recruiting	w	D,V	
+recruitment pipeline;hiring pipeline	quy trình tuyển dụng	pipeline tuyển dụng		recruiting	w	D,V	
+screening	sàng lọc hồ sơ	sàng lọc		recruiting	w	D,V	
+shortlist	danh sách rút gọn	danh sách ứng viên tiềm năng		recruiting	w	D,V	
+interview	phỏng vấn			recruiting	w	D,V	
+interview schedule	lịch phỏng vấn			recruiting	w	D,V	
+interviewer	người phỏng vấn	nhà tuyển dụng		recruiting	w	D,V	
+interview feedback	đánh giá phỏng vấn	nhận xét phỏng vấn		recruiting	w	D,V	
+job offer;offer letter	thư mời nhận việc	offer;đề nghị tuyển dụng		recruiting	w	D,V	
+accept offer	chấp nhận thư mời nhận việc			recruiting	w	D,V	
+reject candidate	loại ứng viên	từ chối ứng viên		recruiting	w	D,V	
+reference check	kiểm tra tham chiếu	xác minh thông tin ứng viên		recruiting	w	D,V	
+background check	xác minh lý lịch	kiểm tra lý lịch		recruiting	w	D,V	
+job description	mô tả công việc	JD		recruiting	w	D,V	
+job requirements	yêu cầu công việc	yêu cầu tuyển dụng		recruiting	w	D,V	
+job title	chức danh	chức danh công việc		org	w	D,V	
+position	vị trí	chức vụ		org	w	D,V	position in org; chức vụ = rank
+headcount	định biên nhân sự	số lượng nhân sự;headcount		org	w	D,V	keep headcount in HR planning
+vacancy	vị trí trống	vị trí tuyển dụng		recruiting	w	D,V	
+employee	nhân viên			employee	w	D,V	
+employee id;staff id	mã nhân viên			employee	w	D,V	
+employee record;employee profile	hồ sơ nhân viên			employee	w	D,V	
+employee directory	danh bạ nhân viên			employee	w	D,V	
+employer	người sử dụng lao động	nhà tuyển dụng;công ty		employee	w	D,V	legal term in contracts
+employment type	loại hình làm việc	hình thức làm việc		employee	w	D,V	
+full-time	toàn thời gian			employee	w	D,V	
+part-time	bán thời gian			employee	w	D,V	
+intern;internship	thực tập sinh			employee	w	D,V	internship = thực tập
+probation;probationary period	thử việc	thời gian thử việc		employee	w	D,V	
+probationary employee	nhân viên thử việc			employee	w	D,V	
+permanent employee;regular employee	nhân viên chính thức			employee	w	D,V	
+contractor;freelancer	cộng tác viên	freelancer		employee	w	D,V	
+seasonal worker	lao động thời vụ			employee	w	D,V	
+department	phòng ban	bộ phận		org	w	D,V	
+division	khối	bộ phận		org	w	D,V	large unit above department
+branch office	chi nhánh			org	w	D,V	
+org chart;organizational chart;organization chart	sơ đồ tổ chức			org	w	D,V	
+reporting line	tuyến báo cáo			org	w	D,V	
+reports to	báo cáo trực tiếp cho	quản lý trực tiếp		org	w	D,V	
+direct manager;line manager	quản lý trực tiếp	trưởng bộ phận		org	w	D,V	
+direct report	nhân viên báo cáo trực tiếp	cấp dưới trực tiếp		org	w	D,V	
+supervisor	người giám sát	giám sát viên		org	w	D,V	
+human resources;hr	nhân sự	hành chính nhân sự;HR		org	w	D,V	department label: Phòng Nhân sự
+human resource management;hrm	quản trị nhân sự	quản lý nhân sự		org	w	D,V	
+onboarding	hội nhập nhân viên mới	onboarding		onboarding	w	D,V	onboarding is also kept in English
+offboarding	quy trình nghỉ việc	offboarding		onboarding	w	D,V	
+orientation	định hướng nhân viên mới	đào tạo hội nhập		onboarding	w	D,V	
+onboarding checklist	danh sách việc cần làm cho nhân viên mới	danh mục nhận việc		onboarding	w	D,V	
+start date;joining date	ngày bắt đầu làm việc	ngày nhận việc;ngày vào làm		onboarding	w	D,V	
+probation end date	ngày kết thúc thử việc			onboarding	w	D,V	
+employment contract;labor contract;labour contract	hợp đồng lao động	HĐLĐ		contract	w	D,V	
+contract type	loại hợp đồng			contract	w	D,V	
+fixed-term contract	hợp đồng lao động xác định thời hạn			contract	w	D,V	
+indefinite-term contract;open-ended contract	hợp đồng lao động không xác định thời hạn			contract	w	D,V	
+probation contract	hợp đồng thử việc			contract	w	D,V	
+service contract	hợp đồng dịch vụ	hợp đồng cộng tác viên		contract	w	D,V	
+contract addendum	phụ lục hợp đồng			contract	w	D,V	
+contract renewal	gia hạn hợp đồng	tái ký hợp đồng		contract	w	D,V	
+contract expiry date;contract end date	ngày hết hạn hợp đồng			contract	w	D,V	
+contract termination	chấm dứt hợp đồng lao động	chấm dứt hợp đồng		contract	w	D,V	
+resignation	nghỉ việc	thôi việc		offboarding	w	D,V	
+resignation letter	đơn xin nghỉ việc	đơn xin thôi việc		offboarding	w	D,V	
+notice period	thời gian báo trước			offboarding	w	D,V	
+last working day	ngày làm việc cuối cùng			offboarding	w	D,V	
+dismissal	sa thải			contract	w	D,V	Disciplinary dismissal only
+termination of employment	chấm dứt hợp đồng lao động	chấm dứt quan hệ lao động		contract	w	D,V	
+exit interview	phỏng vấn nghỉ việc			offboarding	w	D,V	
+handover	bàn giao công việc	bàn giao		offboarding	w	D,V	
+severance pay	trợ cấp thôi việc			offboarding	w	D,V	
+job-loss allowance	trợ cấp mất việc làm			offboarding	w	D,V	
+unemployment insurance	bảo hiểm thất nghiệp	BHTN		insurance	w	D,V	
+attendance	chấm công	điểm danh		attendance	w	D,V	
+timekeeping	chấm công			attendance	w	D,V	
+time and attendance	chấm công và quản lý thời gian			attendance	w	D,V	
+timesheet	bảng chấm công	bảng công		attendance	w	D,V	
+check in;clock in	chấm công vào	check-in		attendance	w	D,V	
+check out;clock out	chấm công ra	check-out		attendance	w	D,V	
+check-in time	giờ vào			attendance	w	D,V	
+check-out time	giờ ra			attendance	w	D,V	
+late arrival;late check-in	đi muộn	đi trễ		attendance	w	D,V	
+early departure;leave early	về sớm			attendance	w	D,V	
+missed check-in;missing punch	quên chấm công	thiếu chấm công		attendance	w	D,V	
+attendance correction;timesheet adjustment	điều chỉnh công	giải trình chấm công		attendance	w	D,V	
+attendance explanation	giải trình chấm công			attendance	w	D,V	
+working days;work days	ngày công			attendance	w	D,V	
+working hours	giờ làm việc	thời gian làm việc		attendance	w	D,V	
+standard working days	ngày công chuẩn			attendance	w	D,V	
+absent;absence	vắng mặt	nghỉ không phép		attendance	w	D,V	unexcused absence: nghỉ không phép
+unauthorized absence	nghỉ không phép			attendance	w	D,V	
+face recognition attendance	chấm công bằng khuôn mặt	chấm công khuôn mặt		attendance	w	D,V	
+fingerprint attendance	chấm công bằng vân tay			attendance	w	D,V	
+geofence;check-in location	vị trí chấm công	phạm vi chấm công		attendance	w	D,V	
+remote work;work from home;wfh	làm việc từ xa	làm việc tại nhà;WFH		attendance	w	D,V	
+shift	ca làm việc	ca		shift	w	D,V	
+shift schedule;work schedule;roster	lịch làm việc	lịch ca;bảng phân ca		shift	w	D,V	
+shift assignment	phân ca	xếp ca		shift	w	D,V	
+shift swap	đổi ca			shift	w	D,V	
+morning shift	ca sáng			shift	w	D,V	
+afternoon shift	ca chiều			shift	w	D,V	
+night shift	ca đêm			shift	w	D,V	
+split shift	ca gãy			shift	w	D,V	
+flexible hours;flextime	giờ làm việc linh hoạt			shift	w	D,V	
+break time;rest break	giờ nghỉ giải lao	thời gian nghỉ		shift	w	D,V	
+overtime;ot	làm thêm giờ	tăng ca;OT		overtime	w	D,V	
+overtime request	đơn đăng ký làm thêm giờ	yêu cầu làm thêm giờ;đăng ký OT		overtime	w	D,V	
+overtime hours	số giờ làm thêm	giờ làm thêm;giờ OT		overtime	w	D,V	
+overtime pay	tiền lương làm thêm giờ	lương làm thêm;lương OT		overtime	w	D,V	
+leave request	đơn xin nghỉ phép	đơn nghỉ phép;yêu cầu nghỉ phép		leave	w	D,V	
+leave type	loại nghỉ phép	loại nghỉ		leave	w	D,V	
+leave balance	số ngày phép còn lại	phép còn lại		leave	w	D,V	not "cân bằng nghỉ phép"
+annual leave	nghỉ phép năm	phép năm		leave	w	D,V	
+sick leave	nghỉ ốm	nghỉ bệnh		leave	w	D,V	
+maternity leave	nghỉ thai sản			leave	w	D,V	
+paternity leave	nghỉ thai sản cho nam	nghỉ chăm vợ sinh		leave	w	D,V	
+unpaid leave	nghỉ không lương			leave	w	D,V	
+paid leave	nghỉ có lương	nghỉ hưởng lương		leave	w	D,V	
+compensatory leave;comp off	nghỉ bù			leave	w	D,V	
+marriage leave	nghỉ cưới	nghỉ kết hôn		leave	w	D,V	
+bereavement leave	nghỉ tang	nghỉ việc riêng khi có tang		leave	w	D,V	
+public holiday;national holiday	ngày nghỉ lễ	nghỉ lễ		leave	w	D,V	
+half-day leave	nghỉ nửa ngày			leave	w	D,V	
+leave approval	duyệt nghỉ phép			leave	w	D,V	
+leave accrual	phép tích lũy	số ngày phép được cộng		leave	w	D,V	
+carry over leave	phép chuyển sang năm sau	phép tồn		leave	w	D,V	
+payroll	bảng lương	lương;tính lương		payroll	w	D,V	module name: Tính lương
+payroll period	kỳ lương			payroll	w	D,V	
+pay period	kỳ trả lương	kỳ lương		payroll	w	D,V	
+pay date;payday	ngày trả lương	ngày phát lương		payroll	w	D,V	
+run payroll;process payroll	tính lương			payroll	w	D,V	
+payslip;pay slip;salary slip	phiếu lương			payroll	w	D,V	
+base salary;basic salary	lương cơ bản			payroll	w	D,V	
+gross salary;gross pay	lương gộp	lương Gross;lương gross		payroll	w	D,V	Gross/Net are kept in practice
+net salary;net pay;take-home pay	lương thực nhận	lương Net;lương net		payroll	w	D,V	
+salary	lương	tiền lương		payroll	w	D,V	
+salary grade;pay grade	ngạch lương	bậc lương		payroll	w	D,V	
+salary scale	thang lương			payroll	w	D,V	
+salary adjustment;salary revision	điều chỉnh lương	tăng lương		payroll	w	D,V	
+salary advance	tạm ứng lương	ứng lương		payroll	w	D,V	
+payroll deduction;deduction	khoản khấu trừ	khoản trừ		payroll	w	D,V	
+bonus	thưởng			payroll	w	D,V	
+year-end bonus	thưởng cuối năm			payroll	w	D,V	
+13th month salary	lương tháng 13			payroll	w	D,V	
+performance bonus	thưởng hiệu suất	thưởng hiệu quả công việc		payroll	w	D,V	
+commission	hoa hồng			payroll	w	D,V	
+allowance	phụ cấp			payroll	w	D,V	
+meal allowance	phụ cấp ăn trưa	tiền ăn ca		payroll	w	D,V	
+transport allowance;travel allowance	phụ cấp đi lại			payroll	w	D,V	
+phone allowance	phụ cấp điện thoại			payroll	w	D,V	
+position allowance	phụ cấp chức vụ			payroll	w	D,V	
+seniority allowance	phụ cấp thâm niên			payroll	w	D,V	
+dependent	người phụ thuộc			tax	w	D,V	
+dependent deduction;family deduction	giảm trừ gia cảnh			tax	w	D,V	
+personal income tax;pit	thuế thu nhập cá nhân	thuế TNCN;TNCN		tax	w	D,V	
+tax code;tax identification number;tin	mã số thuế	MST		tax	w	D,V	
+taxable income	thu nhập chịu thuế			tax	w	D,V	
+assessable income	thu nhập tính thuế			tax	w	D,V	
+tax finalization	quyết toán thuế	quyết toán thuế TNCN		tax	w	D,V	
+social insurance	bảo hiểm xã hội	BHXH		insurance	w	D,V	
+health insurance	bảo hiểm y tế	BHYT		insurance	w	D,V	
+social insurance number;social insurance book	số sổ bảo hiểm xã hội	mã số BHXH;sổ BHXH		insurance	w	D,V	
+insurance contribution	đóng bảo hiểm	mức đóng bảo hiểm		insurance	w	D,V	
+insurance salary base	mức lương đóng bảo hiểm	lương đóng BHXH		insurance	w	D,V	
+employer contribution	phần đóng của doanh nghiệp	phần đóng của công ty		insurance	w	D,V	
+employee contribution	phần đóng của người lao động			insurance	w	D,V	
+union fee	đoàn phí	kinh phí công đoàn		insurance	w	D,V	
+performance review;performance appraisal;performance evaluation	đánh giá hiệu suất	đánh giá năng lực;đánh giá nhân viên		performance	w	D,V	
+review cycle;appraisal cycle	kỳ đánh giá			performance	w	D,V	
+self-assessment;self review	tự đánh giá			performance	w	D,V	
+manager review	quản lý đánh giá	đánh giá của quản lý		performance	w	D,V	
+peer review;peer feedback	đánh giá đồng nghiệp	đánh giá chéo		performance	w	D,V	
+360 feedback;360-degree feedback	đánh giá 360 độ			performance	w	D,V	
+kpi;key performance indicator	KPI	chỉ số đánh giá hiệu suất		performance	w	D,V	abbreviation stays: KPI
+okr;objectives and key results	OKR	mục tiêu và kết quả then chốt		performance	w	D,V	abbreviation stays: OKR
+goal setting	thiết lập mục tiêu	đặt mục tiêu		performance	w	D,V	
+performance rating	xếp loại hiệu suất	xếp loại		performance	w	D,V	
+promotion	thăng chức	thăng tiến		career	w	D,V	
+career path	lộ trình thăng tiến	lộ trình nghề nghiệp		career	w	D,V	
+succession planning	kế hoạch kế nhiệm			career	w	D,V	
+training course	khóa đào tạo			training	w	D,V	
+training plan	kế hoạch đào tạo			training	w	D,V	
+competency	năng lực			training	w	D,V	
+skill matrix	ma trận kỹ năng			training	w	D,V	
+disciplinary action	xử lý kỷ luật	kỷ luật		discipline	w	D,V	
+reward and discipline	khen thưởng và kỷ luật			discipline	w	D,V	
+internal regulations;work rules	nội quy lao động			discipline	w	D,V	
+labor union	công đoàn	tổ chức công đoàn		discipline	w	D,V	
+employee benefits;benefits	phúc lợi	chế độ phúc lợi		benefits	w	D,V	
+employee engagement	mức độ gắn kết nhân viên	gắn kết nhân viên		benefits	w	D,V	
+employee turnover;turnover rate	tỷ lệ nghỉ việc	tỷ lệ biến động nhân sự		benefits	w	D,V	
+self-service portal;ess	cổng thông tin nhân viên	cổng tự phục vụ		employee	w	D,V	
+citizen id;national id	căn cước công dân	CCCD		employee	w	D,V	
+emergency contact	người liên hệ khẩn cấp			employee	w	D,V	

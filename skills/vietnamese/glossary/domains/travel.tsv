@@ -1,0 +1,201 @@
+en	vi	alt	avoid	cat	match	src	note
+flight;flights	chuyến bay			flight	w	D,V	
+flight number	số hiệu chuyến bay	mã chuyến bay		flight	w	D,V	
+one-way;one way	một chiều			flight	w	D,V	
+round trip;round-trip;return trip	khứ hồi			flight	w	D,V	
+multi-city	nhiều chặng			flight	w	D,V	
+departure;departing	khởi hành			flight	w	D,V	
+departure date	ngày đi	ngày khởi hành		flight	w	D,V	
+return date	ngày về			flight	w	D,V	
+departure time	giờ khởi hành	giờ đi		flight	w	D,V	
+arrival time	giờ đến			flight	w	D,V	
+origin	điểm đi	nơi đi		flight	w	D,V	
+destination	điểm đến	nơi đến		flight	w	D,V	
+layover;stopover	quá cảnh	điểm dừng		flight	w	D,V	
+connecting flight	chuyến bay nối chuyến	chuyến bay quá cảnh		flight	w	D,V	
+direct flight;nonstop;non-stop	bay thẳng	chuyến bay thẳng		flight	w	D,V	
+airline	hãng hàng không			flight	w	D,V	
+airport	sân bay			flight	w	D,V	
+boarding gate	cổng ra máy bay	cửa lên máy bay		flight	w	D,V	
+boarding pass	thẻ lên máy bay			flight	w	D,V	
+delayed flight;flight delay	chuyến bay bị hoãn	chuyến bay trễ		flight	w	D,V	
+flight status	trạng thái chuyến bay	tình trạng chuyến bay		flight	w	D,V	
+flight schedule	lịch bay			flight	w	D,V	
+flight itinerary	hành trình bay			flight	w	D,V	
+itinerary	hành trình	lịch trình		trip	w	D,V	
+check-in online;online check-in;web check-in	làm thủ tục trực tuyến	check-in online		flight	w	D,V	
+check-in counter;check-in desk	quầy làm thủ tục			flight	w	D,V	
+self check-in kiosk	ki-ốt tự làm thủ tục			flight	w	D,V	
+check out;check-out;checkout	trả phòng			hotel	w	D,V	hotel stay; flights use "làm thủ tục"
+seat selection;choose seat	chọn chỗ ngồi	chọn ghế		flight	w	D,V	
+seat map	sơ đồ chỗ ngồi	sơ đồ ghế		flight	w	D,V	
+window seat	ghế cạnh cửa sổ			flight	w	D,V	
+aisle seat	ghế cạnh lối đi			flight	w	D,V	
+extra legroom seat	ghế có chỗ để chân rộng	ghế rộng chân;ghế có khoảng để chân rộng		flight	w	D,V	
+economy class;economy	hạng phổ thông			flight	w	D,V	
+premium economy	hạng phổ thông đặc biệt			flight	w	D,V	
+business class	hạng thương gia			flight	w	D,V	
+first class	hạng nhất			flight	w	D,V	
+cabin class	hạng ghế	hạng vé		flight	w	D,V	
+fare	giá vé			fare	w	D,V	
+fare rules;fare conditions	điều kiện giá vé	điều kiện vé		fare	w	D,V	
+fare class	hạng đặt chỗ	hạng giá vé		fare	w	D,V	
+base fare	giá vé cơ bản			fare	w	D,V	
+promotional fare;promo fare	giá vé khuyến mãi			fare	w	D,V	
+flexible fare	vé linh hoạt			fare	w	D,V	
+non-refundable	không hoàn tiền	không hoàn vé		fare	w	D,V	
+refundable	được hoàn tiền	có thể hoàn tiền		fare	w	D,V	
+taxes and fees;taxes & fees	thuế và phí			fare	w	D,V	
+airport tax	thuế sân bay			fare	w	D,V	
+airport fee;airport charge	phí sân bay			fare	w	D,V	
+service fee;booking fee	phí dịch vụ			fare	w	D,V	
+fuel surcharge	phụ thu nhiên liệu			fare	w	D,V	
+total price;total fare	tổng tiền	tổng giá		fare	w	D,V	
+price per person;per person	giá mỗi người	giá/người		fare	w	D,V	
+per night	mỗi đêm	/đêm		hotel	w	D,V	
+e-ticket	vé điện tử			ticket	w	D,V	
+ticket number	số vé			ticket	w	D,V	
+ticket issuance;issue ticket	xuất vé			ticket	w	D,V	
+change ticket;change flight	đổi vé	đổi chuyến bay		ticket	w	D,V	
+change fee	phí đổi vé			ticket	w	D,V	
+cancellation fee	phí hủy	phí hủy vé		policy	w	D,V	
+free cancellation	miễn phí hủy	hủy miễn phí		policy	w	D,V	
+cancellation policy	chính sách hủy	chính sách hủy phòng		policy	w	D,V	
+refund policy	chính sách hoàn tiền			policy	w	D,V	
+no-show	không đến nhận dịch vụ	vắng mặt;no-show		policy	w	D,V	
+name change	đổi tên hành khách			ticket	w	D,V	
+booking;reservation	đặt chỗ	đặt phòng;đặt vé		booking	w	D,V	
+book now	đặt ngay			booking	w	D,V	
+book a flight	đặt vé máy bay			booking	w	D,V	
+book a room;book hotel	đặt phòng			booking	w	D,V	
+book a tour	đặt tour			booking	w	D,V	
+booking code;booking reference;reservation code	mã đặt chỗ	mã đặt chỗ (PNR)		booking	w	D,V	
+confirmation code;confirmation number	mã xác nhận			booking	w	D,V	
+PNR;record locator	mã đặt chỗ (PNR)	PNR		booking	w	D,V	abbreviation PNR kept
+booking confirmation	xác nhận đặt chỗ	xác nhận đặt phòng		booking	w	D,V	
+booking details	chi tiết đặt chỗ	thông tin đặt chỗ		booking	w	D,V	
+booking history	lịch sử đặt chỗ	lịch sử đặt vé		booking	w	D,V	
+booking status	trạng thái đặt chỗ			booking	w	D,V	
+my bookings;my trips	đặt chỗ của tôi	chuyến đi của tôi		booking	w	D,V	
+manage booking	quản lý đặt chỗ			booking	w	D,V	
+modify booking;change booking	thay đổi đặt chỗ			booking	w	D,V	
+cancel booking;cancel reservation	hủy đặt chỗ	hủy đặt phòng		booking	w	D,V	
+hold booking;hold seat	giữ chỗ			booking	w	D,V	
+waitlist	danh sách chờ			booking	w	D,V	
+passenger;passengers	hành khách			passenger	w	D,V	
+passenger details;passenger information	thông tin hành khách			passenger	w	D,V	
+adult	người lớn			passenger	w	D,V	
+child	trẻ em			passenger	w	D,V	child aged 2–11
+infant	em bé	trẻ sơ sinh		passenger	w	D,V	child under 2 on lap
+unaccompanied minor	trẻ em đi một mình			passenger	w	D,V	
+special assistance	hỗ trợ đặc biệt			passenger	w	D,V	
+frequent flyer	khách hàng thường xuyên	hội viên bay thường xuyên		loyalty	w	D,V	
+frequent flyer number	số hội viên	số thẻ hội viên		loyalty	w	D,V	
+passport	hộ chiếu			document	w	D,V	
+passport number	số hộ chiếu			document	w	D,V	
+passport expiry date;passport expiration date	ngày hết hạn hộ chiếu			document	w	D,V	
+nationality	quốc tịch			document	w	D,V	
+country of issue	quốc gia cấp	nước cấp		document	w	D,V	
+date of birth	ngày sinh			document	w	D,V	
+as shown on passport	như trên hộ chiếu	đúng như trên hộ chiếu		document	w	D,V	
+visa	thị thực	visa		visa	w	D,V	official term thị thực; visa common in consumer UI
+visa requirements	yêu cầu thị thực	điều kiện xin visa		visa	w	D,V	
+visa on arrival	thị thực tại cửa khẩu	thị thực khi đến;visa on arrival		visa	w	D,V	
+e-visa;evisa;electronic visa	thị thực điện tử	e-visa		visa	w	D,V	
+visa exemption;visa-free	miễn thị thực	miễn visa		visa	w	D,V	
+entry requirements	yêu cầu nhập cảnh			visa	w	D,V	
+immigration	nhập cảnh	xuất nhập cảnh		visa	w	D,V	
+travel document	giấy tờ thông hành			document	w	D,V	
+travel insurance	bảo hiểm du lịch			insurance	w	D,V	
+baggage;luggage	hành lý			baggage	w	D,V	
+checked baggage;checked bag;checked luggage	hành lý ký gửi			baggage	w	D,V	
+carry-on;cabin baggage;hand luggage;hand baggage	hành lý xách tay			baggage	w	D,V	
+baggage allowance	hành lý miễn cước	hạn mức hành lý		baggage	w	D,V	
+extra baggage;excess baggage	hành lý quá cước	hành lý mua thêm		baggage	w	D,V	
+baggage fee	phí hành lý			baggage	w	D,V	
+baggage claim	nhận hành lý	băng chuyền hành lý		baggage	w	D,V	
+lost baggage;lost luggage	hành lý thất lạc			baggage	w	D,V	
+add baggage;add luggage	mua thêm hành lý	thêm hành lý		baggage	w	D,V	
+meal;in-flight meal	suất ăn	bữa ăn trên máy bay		flight	w	D,V	
+special meal	suất ăn đặc biệt			flight	w	D,V	
+vegetarian meal	suất ăn chay			flight	w	D,V	
+add-ons;add ons	dịch vụ bổ sung	dịch vụ thêm		booking	w	D,V	
+fast track	làm thủ tục ưu tiên	lối đi ưu tiên		flight	w	D,V	
+priority boarding	lên máy bay ưu tiên			flight	w	D,V	
+airport lounge;lounge access	phòng chờ	phòng chờ sân bay;phòng chờ hạng thương gia		flight	w	D,V	
+airport transfer;airport shuttle	đưa đón sân bay	xe đưa đón sân bay		trip	w	D,V	
+hotel	khách sạn			hotel	w	D,V	
+resort	khu nghỉ dưỡng	resort		hotel	w	D,V	
+homestay	homestay			hotel	w	D,V	keep English
+villa	biệt thự	villa		hotel	w	D,V	
+apartment;serviced apartment	căn hộ dịch vụ	căn hộ		hotel	w	D,V	
+guesthouse;hostel	nhà nghỉ	hostel		hotel	w	D,V	
+room	phòng			hotel	w	D,V	
+room type	loại phòng	hạng phòng		hotel	w	D,V	
+single room	phòng đơn			hotel	w	D,V	
+double room	phòng đôi	phòng giường đôi		hotel	w	D,V	
+twin room	phòng hai giường đơn	phòng twin		hotel	w	D,V	
+family room	phòng gia đình			hotel	w	D,V	
+suite	phòng suite			hotel	w	D,V	
+deluxe room	phòng deluxe			hotel	w	D,V	
+standard room	phòng tiêu chuẩn			hotel	w	D,V	
+king bed	giường cỡ king	giường đôi lớn		hotel	w	D,V	
+extra bed	giường phụ			hotel	w	D,V	
+sea view;ocean view	hướng biển	view biển		hotel	w	D,V	
+smoking room	phòng hút thuốc			hotel	w	D,V	
+non-smoking room	phòng không hút thuốc			hotel	w	D,V	
+room available;rooms left	còn phòng			hotel	w	D,V	
+sold out	hết phòng	đã hết chỗ		hotel	w	D,V	hotel; for tickets use "hết vé"
+guests	khách			hotel	w	D,V	
+number of guests	số lượng khách	số khách		hotel	w	D,V	
+guest review;guest reviews	đánh giá của khách			hotel	w	D,V	
+primary guest;lead guest	khách đại diện	người đặt phòng		hotel	w	D,V	
+number of rooms	số phòng			hotel	w	D,V	
+number of nights	số đêm			hotel	w	D,V	
+check-in date	ngày nhận phòng			hotel	w	D,V	
+check-out date	ngày trả phòng			hotel	w	D,V	
+check-in time	giờ nhận phòng			hotel	w	D,V	
+check-out time	giờ trả phòng			hotel	w	D,V	
+early check-in	nhận phòng sớm			hotel	w	D,V	
+late check-out	trả phòng muộn			hotel	w	D,V	
+front desk;reception	lễ tân	quầy lễ tân		hotel	w	D,V	
+concierge	nhân viên hướng dẫn khách	concierge		hotel	w	D,V	
+housekeeping	dọn phòng	buồng phòng		hotel	w	D,V	
+room service	phục vụ phòng	dịch vụ phòng		hotel	w	D,V	
+breakfast included	bao gồm bữa sáng	gồm ăn sáng		hotel	w	D,V	
+half board	bao gồm bữa sáng và bữa tối	nửa pension		hotel	w	D,V	
+full board	bao gồm ba bữa			hotel	w	D,V	
+amenities;facilities	tiện nghi	tiện ích		hotel	w	D,V	
+swimming pool	hồ bơi	bể bơi		hotel	w	D,V	
+star rating;hotel star	hạng sao			hotel	w	D,V	
+pay at hotel	thanh toán tại khách sạn			payment	w	D,V	
+deposit	tiền đặt cọc	đặt cọc		payment	w	D,V	travel booking deposit
+city tax;tourism tax	phí du lịch			fare	w	D,V	
+VAT included;tax included	đã bao gồm thuế	đã gồm VAT		fare	w	D,V	
+VAT invoice;request invoice	xuất hóa đơn VAT	yêu cầu hóa đơn		payment	w	D,V	
+tour;tour package	tour	tour du lịch		tour	w	D,V	keep English
+package tour	tour trọn gói			tour	w	D,V	
+tour guide	hướng dẫn viên			tour	w	D,V	
+group tour	tour ghép đoàn	tour đoàn		tour	w	D,V	
+private tour	tour riêng			tour	w	D,V	
+day trip	tour trong ngày			tour	w	D,V	
+tour duration	thời gian tour			tour	w	D,V	
+attractions	điểm tham quan			tour	w	D,V	
+sightseeing	tham quan			tour	w	D,V	
+admission ticket;entrance ticket	vé vào cổng	vé tham quan		tour	w	D,V	
+meeting point	điểm hẹn	điểm tập trung		tour	w	D,V	
+pick-up location;pickup point	điểm đón			tour	w	D,V	
+drop-off location	điểm trả			tour	w	D,V	
+inclusions	dịch vụ bao gồm	bao gồm		tour	w	D,V	
+exclusions	dịch vụ không bao gồm	không bao gồm		tour	w	D,V	
+highlights	điểm nổi bật			tour	w	D,V	
+cruise	du thuyền			tour	w	D,V	
+car rental;rent a car	thuê xe			trip	w	D,V	
+driver's license	giấy phép lái xe	bằng lái xe		document	w	D,V	
+loyalty points;reward points	điểm thưởng	điểm tích lũy		loyalty	w	D,V	
+earn points	tích điểm			loyalty	w	D,V	
+redeem points	đổi điểm	dùng điểm		loyalty	w	D,V	
+member rate	giá dành cho hội viên	giá thành viên		loyalty	w	D,V	
+membership tier	hạng thành viên			loyalty	w	D,V	
+miles;air miles	dặm bay			loyalty	w	D,V	
+travel voucher;travel credit	phiếu du lịch			loyalty	w	D,V	

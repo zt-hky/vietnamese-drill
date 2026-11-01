@@ -1,36 +1,58 @@
-# Evals: does the glossary actually help?
+# Evals: what v2 improves, and what it does not
 
-Measured 2026-11-01 with `omp` (models: Gemini 3.8 Flash, Gemini 2.5 Flash-Lite, Claude Haiku 4.5; judge: Claude Sonnet 5.5). Run it yourself:
+Measured 2026-11-01. Generator: Gemini 3.8 Flash (low thinking). Judges: Claude Sonnet 5.5 and GPT-6 Sol, blind pairwise, order randomised per item. Every number below comes from these scripts; rerun them yourself.
 
 ```bash
-node evals/build-set.mjs ui-fresh          # 62 original English UI strings (no references)
-for c in A C; do node evals/run.mjs ui-fresh $c 1; done
-node evals/score.mjs ui-fresh A C           # term adherence
-node evals/judge.mjs ui-fresh A_1 C_1       # blind naturalness judge (needs a second model)
+node evals/make-sets.mjs
+node evals/run.mjs heldout A 1 && node evals/run.mjs heldout C 1     # A = plain, C = skill
+node evals/score.mjs heldout A C                                    # term adherence
+node evals/judge.mjs heldout A_1 C_1                                 # VI_JUDGE=openai-codex/gpt-6-sol for a 2nd judge
+node evals/run.mjs context C 1 && node evals/run.mjs context X 1 && node evals/repair.mjs context X_1
+node evals/ctxscore.mjs context C X XR                               # length / punctuation / context compliance
+node --test tests/                                                   # engine regression tests
 ```
 
-Conditions: **A** plain "translate to Vietnamese"; **B** + the style rules from `SKILL.md`; **S** + glossary slice only; **C** rules + slice; **D** rules + the whole glossary pasted in.
-**Adherence** = share of matched glossary terms (preferred or accepted alternative) present in the output. It measures standardisation, not overall quality, so a blind judge compares the outputs too.
+Conditions: **A** plain "translate to Vietnamese" · **K** v1.3 behaviour (style rules + core-only slice) · **C** v2 (style rules + auto-routed slice: core + industry packs + ui-ext) · **B** rules only · **S** slice only · **X** C + per-item UI context (`surface`, `max`, `near`, `standalone`) + surface specs · **XR** X + one repair round driven by `vi.mjs check`.
+**Term adherence** = share of glossary terms (gold industry pack + core) whose preferred or accepted form appears in the output. It measures consistency with the glossary, not prose quality; the judges cover quality.
 
-## Results (what held up)
+## Sets
+| Set | Size | Origin | Role |
+|---|---|---|---|
+| `heldout.json` | 188 (21 industries × 8 + 20 generic) | written by an independent agent **after** all glossary fixes, no access to the glossary | final numbers |
+| `domains.json` | 297 | independent agent, before fixes | development: routing tuning, failure analysis (biased after tuning) |
+| `context.json` | 44 | written by the maintainer; same source text in different UI slots | surface/length/context metadata |
+| `proref.json` | 150 | random shipped Android/Firefox strings with professional Vietnamese references (Apache-2.0 / MPL-2.0) | closeness to human professional output |
+| `ui-fresh.txt` | 62 | maintainer, v1.3 | regression |
 
-| Check | Result |
-|---|---|
-| Glossary vs real shipped Vietnamese (1,394 held-out Android/Firefox sentences, 2,299 term occurrences) | shipped text uses the glossary form **94.6%**; uses an `avoid` form **0.0%**. Caveat: about 20 entries were adjusted after this check, so treat it as validation of the method, not a clean test. |
-| Checker false positives on those professional translations | any warning on 2.0% of pairs (v1.2.0: 1.9%); `GLOSSARY_AVOID` on 1 of 1,394 |
-| **Fresh set** (62 strings written after the glossary was frozen; fintech, health, education, logistics, games, smart home), Gemini 3.8 Flash | adherence **A 90.2% → C 96.7%**; judge prefers C **27 : 19** over A |
-| Same fresh set, Claude Haiku 4.5 | adherence **A 94.6–95.7% → C 96.7–97.8%**; judge **C 38 : A 30** |
-| Earlier held-out set (44 strings, used for tuning once) | A 93.7–97.5% → S/C 98.8–100%; D (whole glossary) 98.7% |
-| Token cost (o200k) | whole glossary 5,110 · lookup slice for 10 strings **116**, 30 strings 413, 62 strings 908 · `SKILL.md` 1,660 · reviewer playbook 660 |
+## Results
 
-## What did not work (kept on purpose)
+**Held-out (final).** Industry-term adherence **78.3% → 94.0%**, all terms 83.9% → 94.6%, avoid forms 1 → 0. Naturalness judged equal: Claude 56 : 56 (3 ties), GPT 59 : 55 (A : C). The skill makes terminology consistent without making the Vietnamese worse.
 
-- **First eval was saturated.** On 70 real Android/Firefox sentences the no-skill baseline already scored 100%: those strings are public and models have seen them. The skill proved nothing there, so the evidence above comes from new strings.
-- **Rules without a glossary do nothing for translation.** Condition B (style rules only) scored the same or lower than A (92.4% vs 93.7–94.9%). The rules cost about 1,400 tokens and mostly help when *reviewing*; the translate prompt now relies on the glossary slice plus a one-line naturalness reminder.
-- **A bare glossary made output worse.** With only the glossary (S) the blind judge preferred plain A 31 : 4 over two runs: the model copied English structure ("của bạn" everywhere, "Di chuyển", "mở khóa"). Adding the naturalness reminder (now part of `lookup` output) and fixing context-sensitive entries (mute chat vs audio, block contact vs card, move, sync, unlock, reload page) flipped dev to C 41 : 12; the earlier test set stayed slightly in favour of A (17 : 11), which is why the numbers above come from the fresh set.
-- **Pasting the whole glossary (D) is both costlier and slightly worse** than a slice.
-- Remaining "misses" on the fresh set are valid variants (`thông tin thanh toán` for "details", `đang được giao` for "out for delivery"). I stopped tuning there to avoid overfitting.
+**UI context metadata (44 strings, 2 runs each).**
+| | LENGTH_HARD | LENGTH_OVER | SMS 2+ segments | END_PUNCT | NO_NEXT_STEP | total chars |
+|---|---|---|---|---|---|---|
+| C (no context) | 2, 2 | 5, 5 | 1, 1 | 2, 2 | 2, 2 | 1474, 1497 |
+| X (with context) | 1, 0 | 0, 1 | 0, 0 | 0, 0 | 1, 1 | 1203, 1227 |
+| XR (+ check & repair) | 0, 0 | 0, 0 | 0, 0 | 0, 0 | 0, 0 | 1193, 1244 |
+With context the model writes "Xóa" for a dialog button under "Xóa thẻ này?", "Đã lưu" after the user's own tap, "Nạp tiền ngay" for an 18-character button. Models cannot count characters reliably (a store description stayed at 83/80 until the checker flagged it), which is why the workflow runs `check` and repairs. Judges rate C and X about equal (13 : 18, 17 : 14) and slightly prefer X over the repaired XR (3 : 0, 2 : 1, only 3 items repaired per run): fitting a hard limit can cost nuance.
+
+**Closeness to professional translations (150 shipped strings).** chrF A 79.4 vs C 78.3; judges with the reference shown: Claude 50 : 42, GPT 46 : 45 (A : C); without reference 45 : 47. Neutral. Caveat: these strings are public, so the plain model may simply remember the shipped translation.
+
+**Routing (297 strings).** Batch of 12 strings from one app → correct pack 21/21. Single string → correct pack among those selected 76%, top-1 66%, generic strings wrongly routed 2/25.
+
+**Glossary quality.** Cross-model review (Gemini) flagged 2.0% of 4,027 industry rows; all adjudicated. Independent GPT spot check of 210 random industry rows: 85.7% standard, 13.3% acceptable, 1.0% wrong (fixed). ui-ext (60 rows): 70% / 27% / 3%.
+
+**Tokens (o200k).** Whole glossary 133,858 · average lookup slice per 12-string batch 345 (max 610) · with UI context specs 773–1,154 per 11-item batch · router `SKILL.md` 1,161 · `modes/ui.md` 1,490 · `modes/review.md` 861 · `modes/replies.md` 268.
+
+## What went wrong on the way (kept on purpose)
+- **First v2 run lost to the plain model.** On the development set the judges preferred A over C 90 : 59 and 94 : 70 (Claude), 84 : 65 (GPT), although term adherence was 97% vs 77%. Ablation showed both parts contributed (rules only lost 73 : 58, glossary only 75 : 59). Failure analysis found real defects, not just judge taste:
+  - generic core words forced into the wrong sense inside sentences (submit → "Gửi bài tập" instead of "Nộp bài tập", pay → "Thanh toán lệ phí" instead of "Nộp phí", receipt → "biên lai nhập kho", report → "báo cáo của cảnh sát" instead of "biên bản");
+  - a shipped Android phrase carrying its settings sense ("Edit profile" → "Chỉnh sửa cấu hình") overriding core "Hồ sơ";
+  - matching bugs: "card" matched "car" (suffix rule), `{biller}` placeholders matched as terms;
+  - over-formal pack choices ("đơn vị chấp nhận thanh toán" for merchant in consumer UI) and a header that told the model to drop "của bạn" too eagerly.
+  Fixes: core lines are now presented as label defaults with context notes, conflicting senses are shown side by side instead of silently overridden, placeholders are stripped before matching, the "d" suffix was removed, a dozen entries got everyday preferred forms. Result on the development set improved to 88 : 63 / 77 : 77 (Claude) and 79 : 72 (GPT), and to parity on the fresh held-out set.
+- **The judges are LLMs.** Some of their preferences contradict the Microsoft vi-VN guide (they often prefer "Chuyển tiền thất bại" over "Không chuyển tiền được"). We kept the guide where it is explicit. Treat judge numbers as "no worse than plain", not as proof of better prose.
+- **An agent used the text-mode check and missed every length rule** (OMP end-to-end run: a button 45 chars for an 18-char slot). Text mode now returns a hint and the router says items mode explicitly; the rerun found the README limit, passed `ctx.max`, iterated, and ended with no errors.
 
 ## Limits
-
-Small samples (44–62 strings, 2 runs each), one judge model, adherence defined by this repo's own glossary. Gains are real but modest: expect fewer inconsistent or dated terms and a few percent better terminology, not a different class of quality. Not tested: Codex, long documents, non-UI copy.
+Generator and judges are LLMs; samples are small (44–297 strings, 1–2 runs); adherence is defined by this repo's own glossary; no native-speaker panel. Industry packs are drafted by a model and cross-reviewed by two other models, not by domain experts: use a project glossary for regulated wording. Codex was not run end-to-end.

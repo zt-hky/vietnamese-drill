@@ -1,0 +1,159 @@
+en	vi	alt	avoid	cat	match	src	note
+match	trận đấu	trận		match-play	w	D,V	
+ranked match;ranked mode	trận xếp hạng	chế độ xếp hạng		match-play	w	D,V	
+casual match;normal match	trận thường	chế độ thường		match-play	w	D,V	
+matchmaking	ghép trận	tìm trận		match-play	w	D,V	
+lobby	sảnh chờ	phòng chờ		match-play	w	D,V	Lobby is also kept in English
+create room;create lobby	tạo phòng			match-play	w	D,V	
+join room;join lobby	vào phòng	tham gia phòng		match-play	w	D,V	
+custom room;custom game	phòng tùy chỉnh			match-play	w	D,V	
+private room	phòng riêng	phòng kín		match-play	w	D,V	
+start game	bắt đầu trận	bắt đầu game		match-play	w	D,V	
+game over	kết thúc trận	trò chơi kết thúc		match-play	x	D,V	
+victory	chiến thắng	thắng		match-play	x	D,V	
+defeat	thất bại	thua		match-play	x	D,V	
+mvp	MVP			match-play	x	D,V	abbreviation stays: MVP
+surrender;forfeit match	đầu hàng			match-play	w	D,V	
+spectate	xem trận	quan sát		match-play	w	D,V	
+replay	xem lại trận	replay		match-play	w	D,V	
+kill	hạ gục	kill		combat	w	D,V	Gamers often keep "kill"
+death	bị hạ gục	chết		combat	x	D,V	
+assist	hỗ trợ	assist		combat	x	D,V	Stats label; gamers often keep "assist"
+kda	KDA			combat	x	D,V	abbreviation stays: KDA
+respawn	hồi sinh			combat	w	D,V	
+health points;hit points;hp	máu	điểm máu;HP		combat	w	D,V	Colloquial "máu"; HP also common
+mana	năng lượng	mana		combat	w	D,V	
+damage	sát thương			combat	w	D,V	
+critical hit;crit	chí mạng	bạo kích		combat	w	D,V	
+cooldown	thời gian hồi chiêu	hồi chiêu		combat	w	D,V	
+skill	kỹ năng	skill		combat	w	D,V	
+ultimate	chiêu cuối	tuyệt kỹ;ulti		combat	w	D,V	
+buff	buff	tăng cường		combat	w	D,V	Kept in English
+debuff	debuff	suy yếu		combat	w	D,V	Kept in English
+boss	boss	trùm		combat	w	D,V	Kept in English
+boss fight	trận đánh boss			combat	w	D,V	
+npc	NPC			combat	x	D,V	abbreviation stays: NPC
+pvp	PvP			combat	x	D,V	abbreviation stays: PvP
+pve	PvE			combat	x	D,V	abbreviation stays: PvE
+dungeon	hầm ngục	dungeon		combat	w	D,V	
+raid	raid	đột kích		combat	w	D,V	Group boss content; "raid" kept
+campaign	chiến dịch			combat	w	D,V	
+battle royale	battle royale	sinh tồn		combat	w	D,V	Kept in English
+rank	hạng	rank;hạng		rank	w	D,V	Players also say "rank"
+ranked points;rank points	điểm xếp hạng			rank	w	D,V	
+rank up;promotion	lên rank	thăng hạng		rank	w	D,V	
+rank down;demotion	xuống rank	rớt hạng		rank	w	D,V	
+placement match	trận phân hạng	trận xếp hạng khởi đầu		rank	w	D,V	
+season	mùa giải	mùa		rank	w	D,V	
+season reward	thưởng mùa giải	phần thưởng mùa giải		rank	w	D,V	
+bronze	Đồng			rank	x	D,V	Rank tier
+silver	Bạc			rank	x	D,V	Rank tier
+gold	Vàng			rank	x	D,V	Rank tier
+platinum	Bạch Kim			rank	x	D,V	Rank tier
+diamond	Kim Cương			rank	x	D,V	Rank tier
+master	Cao Thủ	Master		rank	x	D,V	Rank tier; Master often kept
+grandmaster	Đại Cao Thủ	Grandmaster		rank	x	D,V	Rank tier
+challenger	Thách Đấu	Challenger		rank	x	D,V	Rank tier
+leaderboard	bảng xếp hạng			rank	w	D,V	
+top player	người chơi hàng đầu	top đầu		rank	w	D,V	
+win rate	tỷ lệ thắng			rank	w	D,V	
+elo;mmr	điểm MMR	MMR		rank	x	D,V	abbreviation stays: MMR
+level up	lên cấp			progress	w	D,V	
+level cap;max level	cấp tối đa			progress	w	D,V	
+experience points;exp;xp	điểm kinh nghiệm	EXP;XP		progress	w	D,V	
+account level	cấp tài khoản			progress	w	D,V	
+skill tree	cây kỹ năng			progress	w	D,V	
+talent	thiên phú	talent		progress	w	D,V	
+achievement	thành tựu			progress	w	D,V	
+trophy	cúp			progress	w	D,V	
+badge	huy hiệu			progress	w	D,V	
+skip tutorial	bỏ qua hướng dẫn			progress	w	D,V	
+new player;newbie	tân thủ	người chơi mới		progress	w	D,V	
+beginner pack	gói tân thủ			progress	w	D,V	
+quest	nhiệm vụ			quest	w	D,V	
+main quest	nhiệm vụ chính			quest	w	D,V	
+side quest	nhiệm vụ phụ			quest	w	D,V	
+daily quest;daily mission;daily task	nhiệm vụ hàng ngày	nhiệm vụ ngày		quest	w	D,V	
+weekly quest;weekly mission	nhiệm vụ hàng tuần	nhiệm vụ tuần		quest	w	D,V	
+claim reward	nhận thưởng			quest	w	D,V	
+reward	phần thưởng	quà		quest	w	D,V	
+daily reward	thưởng hàng ngày	quà hàng ngày		quest	w	D,V	
+daily login;login reward	điểm danh	thưởng đăng nhập		quest	w	D,V	"Điểm danh" is the usual label for daily check-in
+check in daily	điểm danh hàng ngày			quest	w	D,V	
+login streak	chuỗi đăng nhập	chuỗi điểm danh		quest	w	D,V	
+gift code;redeem code	mã quà tặng	giftcode		quest	w	D,V	"Giftcode" common among gamers
+redeem gift code	nhập mã quà tặng	nhập giftcode		quest	w	D,V	
+item	vật phẩm	item		item	w	D,V	
+inventory	túi đồ	kho đồ		item	w	D,V	
+equip	trang bị			item	w	D,V	
+unequip	tháo trang bị	gỡ trang bị		item	w	D,V	
+weapon	vũ khí			item	w	D,V	
+armor	giáp	áo giáp		item	w	D,V	
+consumable	vật phẩm tiêu hao			item	w	D,V	
+craft	chế tạo			item	w	D,V	
+forge;enhance gear	cường hóa	rèn		item	w	D,V	
+rarity	độ hiếm			item	w	D,V	
+rare	hiếm			item	x	D,V	Rarity tier
+epic	sử thi	epic		item	x	D,V	Rarity tier; "epic" often kept
+legendary	huyền thoại			item	x	D,V	Rarity tier
+set bonus	hiệu ứng bộ trang bị			item	w	D,V	
+loot	chiến lợi phẩm	loot		item	w	D,V	Gamers often keep "loot"
+drop rate	tỷ lệ rơi			item	w	D,V	
+skin	skin	trang phục		cosmetic	w	D,V	Gamers keep "skin"
+costume;outfit	trang phục			cosmetic	w	D,V	
+emote	biểu cảm	emote		cosmetic	w	D,V	
+avatar frame	khung avatar			cosmetic	w	D,V	
+avatar	ảnh đại diện	avatar		cosmetic	w	D,V	
+character	nhân vật			cosmetic	w	D,V	
+hero;champion	tướng	anh hùng		cosmetic	w	D,V	"Tướng" common in MOBA
+select hero;pick hero	chọn tướng			cosmetic	w	D,V	
+ban hero;ban champion	cấm tướng			cosmetic	w	D,V	
+free rotation	tướng miễn phí hằng tuần	miễn phí tuần này		cosmetic	w	D,V	
+battle pass	battle pass	thẻ chiến lược		monetization	w	D,V	Kept in English; "Thẻ Chiến Dịch" in some games
+premium pass	gói cao cấp			monetization	w	D,V	
+in-game currency;game currency	tiền trong game	tiền tệ trong game		monetization	w	D,V	
+premium currency	tiền cao cấp			monetization	w	D,V	
+top up coins;recharge	nạp thẻ	nạp game		monetization	w	D,V	"Nạp" is typical for topping up game currency
+first top-up bonus;first recharge bonus	thưởng nạp lần đầu			monetization	w	D,V	
+game card	thẻ game	thẻ cào game		monetization	w	D,V	
+gacha	gacha	quay thưởng		monetization	w	D,V	Kept in English
+summon;pull	triệu hồi	quay		monetization	w	D,V	Gacha-style pulls
+single pull	quay 1 lần	triệu hồi 1 lần		monetization	w	D,V	
+multi pull;10x pull	quay 10 lần	triệu hồi 10 lần		monetization	w	D,V	
+pity;pity counter	bảo hiểm	pity		monetization	w	D,V	
+lucky wheel;lucky spin	vòng quay may mắn			monetization	w	D,V	
+loot box;loot crate	rương may mắn	hộp quà bí ẩn		monetization	w	D,V	
+chest	rương			monetization	w	D,V	
+banner	banner	sự kiện triệu hồi		monetization	w	D,V	Kept in English
+bundle;starter pack	gói ưu đãi	gói		monetization	w	D,V	
+limited-time offer	ưu đãi giới hạn thời gian			monetization	w	D,V	
+vip level	cấp VIP			monetization	w	D,V	
+watch ad for reward	xem quảng cáo nhận thưởng			monetization	w	D,V	
+remove ads	gỡ quảng cáo	tắt quảng cáo		monetization	w	D,V	
+guild;clan	bang hội	clan; guild		social	w	D,V	"Bang hội" for Asian-style MMOs; "clan" in shooters
+guild leader;clan leader	bang chủ	trưởng clan		social	w	D,V	
+guild member;clan member	thành viên bang hội	thành viên clan		social	w	D,V	
+guild war;clan war	bang chiến	chiến tranh bang hội		social	w	D,V	
+team up;party up	lập đội	tổ đội		social	w	D,V	
+voice chat	chat thoại	trò chuyện thoại		social	w	D,V	
+report player	báo cáo người chơi			social	w	D,V	
+cheating;hacking	gian lận	hack		social	w	D,V	
+toxic behavior	hành vi tiêu cực	toxic		social	w	D,V	
+afk;away from keyboard	treo máy	AFK		social	w	D,V	
+banned account;account ban	tài khoản bị khóa	tài khoản bị cấm		social	w	D,V	
+event	sự kiện			event	w	D,V	
+limited-time event	sự kiện giới hạn thời gian			event	w	D,V	
+event shop	cửa hàng sự kiện			event	w	D,V	
+tournament	giải đấu			event	w	D,V	
+esports	esports	thể thao điện tử		event	w	D,V	
+server maintenance	bảo trì máy chủ			server	w	D,V	
+under maintenance	đang bảo trì			server	w	D,V	
+maintenance compensation	quà đền bù bảo trì			server	w	D,V	
+game server	máy chủ game	server game		server	w	D,V	
+select server	chọn máy chủ	chọn server		server	w	D,V	
+server full	máy chủ đã đầy			server	w	D,V	
+ping;latency	độ trễ	ping		server	w	D,V	Gamers keep "ping"
+lag	giật lag	lag		server	w	D,V	
+patch notes	nội dung bản cập nhật	patch notes		server	w	D,V	
+aim assist	hỗ trợ ngắm			settings	w	D,V	
+link account to game	liên kết tài khoản game			settings	w	D,V	

@@ -1,6 +1,0 @@
-interface:
-  display_name: "Vietnamese UI writing"
-  short_description: "Tiếng Việt cho UI/UX, thông báo, i18n: từ điển chuẩn, checker offline"
-  default_prompt: "Dùng $vietnamese-product để viết, dịch hoặc review chuỗi giao diện tiếng Việt của dự án này."
-policy:
-  allow_implicit_invocation: true

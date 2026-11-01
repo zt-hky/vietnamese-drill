@@ -1,0 +1,198 @@
+en	vi	alt	avoid	cat	match	src	note
+purchase order;po	đơn mua hàng	đơn đặt hàng mua;PO		procurement	w	D,V	PO abbreviation commonly kept
+purchase request;purchase requisition	yêu cầu mua hàng	đề nghị mua hàng		procurement	w	D,V	
+request for quotation;rfq	yêu cầu báo giá	đề nghị báo giá;RFQ		procurement	w	D,V	
+supplier quotation;vendor quotation	báo giá nhà cung cấp			procurement	w	D,V	
+supplier;vendor	nhà cung cấp	NCC		procurement	w	D,V	
+supplier group	nhóm nhà cung cấp			procurement	w	D,V	
+supplier code;vendor code	mã nhà cung cấp			procurement	w	D,V	
+supplier evaluation;vendor rating	đánh giá nhà cung cấp			procurement	w	D,V	
+approved supplier list	danh sách nhà cung cấp được duyệt			procurement	w	D,V	
+purchase contract	hợp đồng mua hàng			procurement	w	D,V	
+blanket order	đơn hàng khung	hợp đồng nguyên tắc		procurement	w	D,V	
+purchase price	giá mua			procurement	w	D,V	
+purchase invoice;vendor bill	hóa đơn mua hàng	hóa đơn đầu vào		procurement	w	D,V	
+purchase return	trả hàng mua	trả hàng nhà cung cấp		procurement	w	D,V	
+purchase order status	trạng thái đơn mua hàng			procurement	w	D,V	
+purchasing department	bộ phận mua hàng	phòng mua hàng;phòng thu mua		procurement	w	D,V	
+procurement	thu mua	mua sắm;cung ứng		procurement	w	D,V	Use "mua sắm" for public/office procurement
+payment terms	điều khoản thanh toán			procurement	w	D,V	
+delivery terms	điều kiện giao hàng			procurement	w	D,V	
+expected delivery date;expected receipt date	ngày giao hàng dự kiến	ngày nhận hàng dự kiến		procurement	w	D,V	
+lead time	thời gian chờ giao hàng	lead time	thời gian dẫn	procurement	w	D,V	Often kept as "lead time" in industry
+minimum order quantity;moq	số lượng đặt hàng tối thiểu	MOQ		procurement	w	D,V	
+reorder point	điểm đặt hàng lại	mức tồn kho đặt hàng lại		inventory	w	D,V	
+reorder quantity	số lượng đặt hàng lại			inventory	w	D,V	
+safety stock	tồn kho an toàn			inventory	w	D,V	
+goods receipt;goods received note;grn	phiếu nhập kho	nhận hàng;GRN		inventory	w	D,V	Document = phiếu nhập kho; action = nhận hàng
+goods issue	xuất kho	phiếu xuất kho		inventory	w	D,V	
+stock in;stock receipt	nhập kho			inventory	w	D,V	
+stock out;stock issue	xuất kho			inventory	w	D,V	
+stock entry	phiếu kho	bút toán kho		inventory	w	D,V	
+stock transfer;inter-warehouse transfer	chuyển kho	điều chuyển kho		inventory	w	D,V	
+internal transfer	điều chuyển nội bộ			inventory	w	D,V	
+stock adjustment;inventory adjustment	điều chỉnh tồn kho			inventory	w	D,V	
+stock count;inventory count;physical inventory	kiểm kê kho	kiểm kê tồn kho;kiểm kho		inventory	w	D,V	
+cycle count	kiểm kê luân phiên			inventory	w	D,V	
+stocktake	kiểm kê			inventory	w	D,V	
+stock level;stock on hand;on-hand quantity	tồn kho	số lượng tồn kho;tồn thực tế		inventory	w	D,V	
+available quantity;available stock	số lượng khả dụng	tồn khả dụng		inventory	w	D,V	
+reserved quantity;reserved stock	số lượng đã giữ chỗ	tồn đã đặt trước;số lượng đã đặt giữ		inventory	w	D,V	
+committed quantity	số lượng cam kết			inventory	w	D,V	
+incoming quantity;quantity on order	số lượng đang về	số lượng đang đặt mua		inventory	w	D,V	
+projected quantity	số lượng dự kiến	tồn kho dự kiến		inventory	w	D,V	
+out of stock	hết hàng			inventory	w	D,V	
+low stock	sắp hết hàng	tồn kho thấp		inventory	w	D,V	
+overstock;excess stock	tồn kho dư	hàng tồn vượt mức		inventory	w	D,V	
+dead stock	hàng tồn đọng	hàng tồn kho lâu ngày		inventory	w	D,V	
+slow-moving stock	hàng tồn kho chậm luân chuyển	hàng chậm luân chuyển		inventory	w	D,V	
+stock aging;inventory aging	tuổi hàng tồn kho	phân tích tuổi tồn kho		inventory	w	D,V	
+inventory valuation	định giá hàng tồn kho	giá trị tồn kho		inventory	w	D,V	
+inventory turnover	vòng quay hàng tồn kho			inventory	w	D,V	
+stock ledger	sổ kho	sổ cái kho		inventory	w	D,V	
+stock card	thẻ kho			inventory	w	D,V	
+stock balance report	báo cáo tồn kho	báo cáo nhập xuất tồn		inventory	w	D,V	
+stock movement	biến động kho	nhập xuất kho		inventory	w	D,V	
+warehouse	kho	nhà kho;kho hàng		inventory	x	D,V	Standalone label; "kho" is the standard ERP term
+warehouse management	quản lý kho			inventory	w	D,V	
+warehouse manager	quản lý kho	thủ kho		inventory	w	D,V	"Thủ kho" is the storekeeper role
+storekeeper	thủ kho			inventory	w	D,V	
+storage location;bin location	vị trí lưu kho	vị trí kệ;ô chứa		inventory	w	D,V	
+bin	ô kho	ngăn kho;vị trí kệ		inventory	x	D,V	
+rack;shelf	kệ	kệ hàng		inventory	x	D,V	
+zone;storage zone	khu vực kho			inventory	w	D,V	
+transit warehouse	kho trung chuyển	kho quá cảnh		inventory	w	D,V	
+default warehouse	kho mặc định			inventory	w	D,V	
+source warehouse	kho xuất	kho nguồn		inventory	w	D,V	
+target warehouse;destination warehouse	kho nhận	kho đích		inventory	w	D,V	
+finished goods warehouse	kho thành phẩm			inventory	w	D,V	
+raw material warehouse	kho nguyên vật liệu	kho nguyên liệu		inventory	w	D,V	
+finished goods;finished product	thành phẩm			manufacturing	w	D,V	
+semi-finished goods;work in progress;wip	bán thành phẩm	sản phẩm dở dang;WIP		manufacturing	w	D,V	"Sản phẩm dở dang" in accounting context
+raw material	nguyên vật liệu	nguyên liệu;NVL		manufacturing	w	D,V	
+consumable	vật tư tiêu hao	vật tư		manufacturing	w	D,V	
+spare part	phụ tùng	linh kiện thay thế		manufacturing	w	D,V	
+packaging material	vật liệu đóng gói	bao bì		manufacturing	w	D,V	
+by-product	phụ phẩm	sản phẩm phụ		manufacturing	w	D,V	
+scrap	phế liệu	phế phẩm		manufacturing	w	D,V	Scrap material = phế liệu; defective product = phế phẩm
+scrap item	hàng phế phẩm			manufacturing	w	D,V	
+bill of materials;bom	định mức nguyên vật liệu	BOM;danh mục vật tư	hóa đơn vật liệu	manufacturing	w	D,V	Never "hóa đơn vật liệu"
+bom component;bom item	thành phần BOM	nguyên vật liệu thành phần		manufacturing	w	D,V	
+bom version	phiên bản BOM			manufacturing	w	D,V	
+multi-level bom	BOM nhiều cấp			manufacturing	w	D,V	
+component	thành phần	linh kiện		manufacturing	w	D,V	Use "linh kiện" for electronics/assembly
+sub-assembly	cụm lắp ráp	bán thành phẩm		manufacturing	w	D,V	
+routing	quy trình sản xuất	lộ trình sản xuất;routing		manufacturing	w	D,V	
+operation	công đoạn	thao tác		manufacturing	w	D,V	Manufacturing step
+production order;manufacturing order;work order	lệnh sản xuất	đơn sản xuất;LSX	lệnh làm việc	manufacturing	w	D,V	
+production plan	kế hoạch sản xuất			manufacturing	w	D,V	
+production schedule	lịch sản xuất			manufacturing	w	D,V	
+master production schedule	kế hoạch sản xuất tổng thể	MPS		manufacturing	w	D,V	
+material requirements planning;mrp	hoạch định nhu cầu nguyên vật liệu	MRP		manufacturing	w	D,V	
+production line	dây chuyền sản xuất	chuyền sản xuất		manufacturing	w	D,V	
+production batch	mẻ sản xuất	lô sản xuất		manufacturing	w	D,V	
+production capacity	năng lực sản xuất	công suất sản xuất		manufacturing	w	D,V	
+production cost	chi phí sản xuất	giá thành sản xuất		manufacturing	w	D,V	
+cost of goods manufactured	giá thành sản phẩm			manufacturing	w	D,V	
+work center;workstation	trạm làm việc	trung tâm sản xuất;tổ sản xuất		manufacturing	w	D,V	
+work shift;shift	ca làm việc	ca sản xuất		manufacturing	w	D,V	
+machine downtime;downtime	thời gian dừng máy	thời gian ngừng máy		manufacturing	w	D,V	
+machine	máy móc	thiết bị		manufacturing	x	D,V	
+equipment	thiết bị			manufacturing	x	D,V	
+job card	phiếu công việc	thẻ công việc		manufacturing	w	D,V	
+material consumption	tiêu hao nguyên vật liệu			manufacturing	w	D,V	
+material issue	xuất nguyên vật liệu	xuất vật tư		manufacturing	w	D,V	
+material request	yêu cầu vật tư	phiếu yêu cầu vật tư		manufacturing	w	D,V	
+material transfer for manufacture	chuyển nguyên vật liệu sản xuất			manufacturing	w	D,V	
+backflush	xuất kho tự động theo sản lượng			manufacturing	w	D,V	
+yield	tỷ lệ thành phẩm	hiệu suất sản xuất	năng suất	manufacturing	w	D,V	
+yield rate	tỷ lệ đạt			manufacturing	w	D,V	
+scrap rate;defect rate	tỷ lệ phế phẩm	tỷ lệ lỗi		manufacturing	w	D,V	
+overall equipment effectiveness;oee	hiệu suất thiết bị tổng thể	OEE		manufacturing	w	D,V	
+subcontracting	gia công ngoài	gia công		manufacturing	w	D,V	
+subcontractor	nhà thầu phụ	đơn vị gia công		manufacturing	w	D,V	
+make to order	sản xuất theo đơn hàng			manufacturing	w	D,V	
+make to stock	sản xuất để tồn kho	sản xuất theo kế hoạch		manufacturing	w	D,V	
+maintenance schedule	lịch bảo trì			maintenance	w	D,V	
+preventive maintenance	bảo trì phòng ngừa	bảo dưỡng định kỳ		maintenance	w	D,V	
+maintenance request	yêu cầu bảo trì	yêu cầu bảo dưỡng		maintenance	w	D,V	
+asset maintenance	bảo trì tài sản			maintenance	w	D,V	
+quality control	kiểm soát chất lượng	QC		quality	w	D,V	
+quality assurance	đảm bảo chất lượng	QA		quality	w	D,V	
+quality inspection	kiểm tra chất lượng	kiểm định chất lượng;QC		quality	w	D,V	
+incoming quality control;iqc	kiểm tra chất lượng đầu vào	IQC		quality	w	D,V	
+final inspection	kiểm tra thành phẩm	kiểm tra cuối cùng		quality	w	D,V	
+inspection template	mẫu kiểm tra chất lượng			quality	w	D,V	
+inspection criteria;quality parameter	tiêu chí kiểm tra	chỉ tiêu chất lượng		quality	w	D,V	
+sampling plan	kế hoạch lấy mẫu			quality	w	D,V	
+sample size	cỡ mẫu	số lượng mẫu		quality	w	D,V	
+acceptance criteria	tiêu chí chấp nhận			quality	w	D,V	
+pass;passed inspection	đạt			quality	x	D,V	
+fail;failed inspection	không đạt			quality	x	D,V	
+nonconformance;non-conformance	sự không phù hợp	không phù hợp;NCR		quality	w	D,V	
+corrective action	hành động khắc phục	biện pháp khắc phục		quality	w	D,V	
+preventive action	hành động phòng ngừa	biện pháp phòng ngừa		quality	w	D,V	
+defective product;defective goods	hàng lỗi	sản phẩm lỗi;hàng hỏng		quality	w	D,V	
+quarantine	cách ly	hàng chờ xử lý		quality	w	D,V	
+quality hold	tạm giữ chất lượng			quality	w	D,V	
+certificate of analysis	phiếu kết quả phân tích	COA;chứng nhận phân tích		quality	w	D,V	
+certificate of origin	giấy chứng nhận xuất xứ	C/O		quality	w	D,V	
+batch number;lot number	số lô	mã lô		traceability	w	D,V	
+batch;lot	lô hàng	lô		traceability	x	D,V	
+batch tracking;lot tracking	theo dõi theo lô			traceability	w	D,V	
+serial number	số sê-ri	số serial;số seri		traceability	w	D,V	
+serial number tracking	theo dõi theo số sê-ri			traceability	w	D,V	
+manufacturing date;production date	ngày sản xuất	NSX		traceability	w	D,V	
+expiry date;expiration date	hạn sử dụng	ngày hết hạn;HSD		traceability	w	D,V	
+shelf life	thời hạn sử dụng	hạn dùng		traceability	w	D,V	
+traceability	truy xuất nguồn gốc	truy vết		traceability	w	D,V	
+recall	thu hồi sản phẩm			traceability	w	D,V	
+fifo;first in first out	nhập trước xuất trước	FIFO		inventory	w	D,V	
+fefo;first expired first out	hết hạn trước xuất trước	FEFO		inventory	w	D,V	
+lifo;last in first out	nhập sau xuất trước	LIFO		inventory	w	D,V	
+weighted average cost	giá bình quân gia quyền			inventory	w	D,V	
+standard cost	giá thành định mức	giá chuẩn		inventory	w	D,V	
+unit cost	đơn giá	giá vốn đơn vị		inventory	w	D,V	
+landed cost	chi phí hàng về kho	chi phí nhập khẩu phân bổ;landed cost		inventory	w	D,V	
+unit of measure;uom	đơn vị tính	ĐVT		item	w	D,V	
+uom conversion	quy đổi đơn vị tính			item	w	D,V	
+conversion factor	hệ số quy đổi			item	w	D,V	
+base unit	đơn vị tính cơ bản			item	w	D,V	
+item code;material code	mã hàng	mã vật tư;mã hàng hóa		item	w	D,V	
+item name	tên hàng	tên hàng hóa;tên vật tư		item	w	D,V	
+item group;item category	nhóm hàng	nhóm vật tư;nhóm hàng hóa		item	w	D,V	
+item master	danh mục hàng hóa	dữ liệu gốc hàng hóa		item	w	D,V	
+item variant	biến thể hàng hóa			item	w	D,V	
+sku;stock keeping unit	mã SKU	SKU		item	w	D,V	SKU stays
+barcode	mã vạch	barcode		item	w	D,V	
+barcode scan	quét mã vạch			item	w	D,V	
+packing slip	phiếu đóng gói			logistics	w	D,V	
+packing list	danh sách đóng gói	phiếu đóng gói		logistics	w	D,V	
+delivery note	phiếu giao hàng			logistics	w	D,V	
+delivery order	lệnh giao hàng			logistics	w	D,V	
+sales order	đơn bán hàng	đơn hàng bán		sales	w	D,V	
+sales quotation	báo giá bán hàng			sales	w	D,V	
+sales return	trả hàng bán	hàng bán bị trả lại		sales	w	D,V	
+customer return	khách hàng trả hàng			sales	w	D,V	
+return to supplier	trả hàng cho nhà cung cấp			procurement	w	D,V	
+rejected quantity	số lượng bị từ chối	số lượng không đạt		quality	w	D,V	
+accepted quantity	số lượng chấp nhận	số lượng đạt		quality	w	D,V	
+received quantity	số lượng đã nhận	số lượng thực nhận		inventory	w	D,V	
+ordered quantity	số lượng đặt	số lượng đặt hàng		procurement	w	D,V	
+three-way matching	đối chiếu ba bên	đối chiếu 3 bên		procurement	w	D,V	PO, goods receipt, invoice
+approval workflow	quy trình phê duyệt	luồng phê duyệt;luồng duyệt		workflow	w	D,V	
+approval request	yêu cầu phê duyệt	đề nghị phê duyệt		workflow	w	D,V	
+approval level	cấp phê duyệt	cấp duyệt		workflow	w	D,V	
+approver	người phê duyệt	người duyệt		workflow	w	D,V	
+pending approval	chờ phê duyệt	chờ duyệt		workflow	w	D,V	
+approval history	lịch sử phê duyệt			workflow	w	D,V	
+approval limit	hạn mức phê duyệt			workflow	w	D,V	
+delegate approval	ủy quyền phê duyệt			workflow	w	D,V	
+submit for approval	gửi phê duyệt	trình duyệt		workflow	w	D,V	
+document status	trạng thái chứng từ			workflow	w	D,V	
+voucher	chứng từ	phiếu		workflow	w	D,V	Accounting/ERP document
+draft document	chứng từ nháp			workflow	w	D,V	
+cancel document	hủy chứng từ			workflow	w	D,V	
+amend document	sửa đổi chứng từ			workflow	w	D,V	
+cost center	trung tâm chi phí			finance	w	D,V	
+bill of lading	vận đơn	B/L		logistics	w	D,V	

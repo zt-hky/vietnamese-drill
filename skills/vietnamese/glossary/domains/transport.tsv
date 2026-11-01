@@ -1,0 +1,198 @@
+en	vi	alt	avoid	cat	match	src	note
+book a ride;request a ride	đặt xe	gọi xe		ride	w	D,V	
+book a trip	đặt chuyến	đặt chuyến đi		ride	w	D,V	
+ride request	yêu cầu chuyến xe	yêu cầu đặt xe		ride	w	D,V	
+pickup point;pickup location;pick-up point	điểm đón	địa điểm đón		ride	w	D,V	
+drop-off point;drop-off location	điểm trả	điểm xuống xe		ride	w	D,V	
+destination	điểm đến	điểm đến của bạn		ride	w	D,V	
+set destination;where to	chọn điểm đến	bạn muốn đi đâu		ride	w	D,V	
+add a stop;add stop	thêm điểm dừng			ride	w	D,V	
+multiple stops	nhiều điểm dừng			ride	w	D,V	
+home address	địa chỉ nhà			ride	w	D,V	
+work address	địa chỉ cơ quan	địa chỉ công ty		ride	w	D,V	
+saved places	địa điểm đã lưu			ride	w	D,V	
+recent places	địa điểm gần đây			ride	w	D,V	
+pin location;drop pin	ghim vị trí			ride	w	D,V	
+current location	vị trí hiện tại			ride	w	D,V	
+driver	tài xế			ride	w	D,V	Used for ride-hailing; bác tài is colloquial only
+driver partner	đối tác tài xế			ride	w	D,V	
+driver profile	hồ sơ tài xế			ride	w	D,V	
+driver rating	đánh giá tài xế			ride	w	D,V	
+rate your driver;rate the trip	đánh giá chuyến đi	đánh giá tài xế		ride	w	D,V	
+rider;passenger	hành khách	khách hàng		ride	w	D,V	
+looking for a driver;finding driver	đang tìm tài xế			ride	w	D,V	
+driver found	đã tìm thấy tài xế			ride	w	D,V	
+driver is on the way;driver on the way	tài xế đang đến	tài xế đang trên đường đến		ride	w	D,V	
+driver has arrived;driver arrived	tài xế đã đến			ride	w	D,V	
+driver is waiting	tài xế đang chờ bạn			ride	w	D,V	
+no drivers available	hiện không có tài xế	không có tài xế khả dụng		ride	w	D,V	
+arrival time;eta	thời gian đến dự kiến	giờ đến dự kiến		ride	w	D,V	
+estimated arrival	dự kiến đến lúc			ride	w	D,V	
+fare estimate;estimated fare	giá cước ước tính	giá ước tính;cước phí ước tính		fare	w	D,V	
+fare	giá cước	cước phí		fare	w	D,V	Trip fare; not public transport ticket price
+base fare	cước phí cơ bản	giá mở cửa		fare	w	D,V	
+surge pricing;surge	giá tăng cao điểm	phụ phí giờ cao điểm	tăng giá đột biến	fare	w	D,V	
+peak hours	giờ cao điểm			fare	w	D,V	
+peak hour surcharge	phụ phí giờ cao điểm			fare	w	D,V	
+night surcharge	phụ phí ban đêm			fare	w	D,V	
+waiting fee;wait time fee	phí chờ			fare	w	D,V	
+cancellation fee	phí hủy chuyến			fare	w	D,V	
+toll fee;toll	phí cầu đường	phí BOT;phí đường bộ		toll	w	D,V	
+toll station	trạm thu phí			toll	w	D,V	
+toll plaza *	trạm thu phí			toll	w	D,V	
+electronic toll collection;etc	thu phí tự động không dừng (ETC)	thu phí điện tử		toll	w	D,V	ETC stays in parentheses
+etc tag;rfid tag	thẻ ETC	thẻ thu phí không dừng		toll	w	D,V	
+etc account	tài khoản giao thông	tài khoản thu phí		toll	w	D,V	
+toll top up;top up etc	nạp tiền tài khoản giao thông	nạp tiền ETC		toll	w	D,V	
+toll-free route;avoid tolls	tránh trạm thu phí	tránh đường thu phí		toll	w	D,V	
+airport fee	phí sân bay			fare	w	D,V	
+parking fee	phí đỗ xe	phí gửi xe		parking	w	D,V	
+service fee	phí dịch vụ			fare	w	D,V	
+promo code for ride	mã khuyến mãi chuyến đi			fare	w	D,V	
+pay by cash;cash payment	thanh toán tiền mặt	trả tiền mặt		fare	w	D,V	
+cash on trip	trả tiền mặt cho tài xế			fare	w	D,V	
+fare details	chi tiết giá cước			fare	w	D,V	
+trip receipt	biên lai chuyến đi	hóa đơn chuyến đi		fare	w	D,V	
+trip history;ride history	lịch sử chuyến đi			trip	w	D,V	
+trip details	chi tiết chuyến đi			trip	w	D,V	
+trip summary	tóm tắt chuyến đi			trip	w	D,V	
+trip code;trip id	mã chuyến đi			trip	w	D,V	
+ongoing trip;current trip	chuyến đi đang diễn ra	chuyến đi hiện tại		trip	w	D,V	
+trip completed	chuyến đi đã hoàn thành			trip	w	D,V	
+cancel trip;cancel ride	hủy chuyến	hủy chuyến đi		trip	w	D,V	
+trip cancelled by driver	tài xế đã hủy chuyến			trip	w	D,V	
+reason for cancellation	lý do hủy chuyến			trip	w	D,V	
+rebook;book again	đặt lại	đặt lại chuyến		trip	w	D,V	
+share trip;share my trip	chia sẻ chuyến đi			safety	w	D,V	
+share trip status	chia sẻ hành trình			safety	w	D,V	
+trusted contact	người liên hệ tin cậy	người thân		safety	w	D,V	
+emergency contact	liên hệ khẩn cấp	số liên hệ khẩn cấp		safety	w	D,V	
+safety toolkit	công cụ an toàn			safety	w	D,V	
+sos button;emergency button	nút khẩn cấp	nút SOS		safety	w	D,V	
+report an issue with trip	báo cáo sự cố chuyến đi			safety	w	D,V	
+call driver	gọi cho tài xế			ride	w	D,V	
+chat with driver;message driver	nhắn tin cho tài xế	trò chuyện với tài xế		ride	w	D,V	
+masked number;anonymous call	cuộc gọi ẩn số			ride	w	D,V	
+lost item;lost property	đồ thất lạc	đồ bỏ quên		ride	w	D,V	
+report lost item	báo cáo đồ bỏ quên	báo cáo thất lạc đồ		ride	w	D,V	
+license plate;plate number;number plate	biển số xe	biển kiểm soát		vehicle	w	D,V	Formal: biển số / biển kiểm soát
+vehicle type	loại xe			vehicle	w	D,V	
+vehicle information	thông tin phương tiện	thông tin xe		vehicle	w	D,V	
+vehicle brand	hãng xe	thương hiệu xe		vehicle	w	D,V	
+vehicle model	dòng xe	mẫu xe		vehicle	w	D,V	
+vehicle color	màu xe			vehicle	w	D,V	
+motorbike;motorcycle	xe máy	mô tô		vehicle	w	D,V	xe máy is the everyday term; mô tô for formal/regulatory
+bike ride;motorbike taxi	xe máy	xe ôm công nghệ;xe máy công nghệ		ride	w	D,V	
+scooter	xe tay ga			vehicle	w	D,V	
+manual motorbike	xe số			vehicle	w	D,V	
+car;4-seater;4-seat car	ô tô 4 chỗ	xe 4 chỗ		vehicle	w	D,V	
+7-seater;7-seat car	ô tô 7 chỗ	xe 7 chỗ		vehicle	w	D,V	
+sedan	xe sedan			vehicle	w	D,V	
+suv	xe SUV			vehicle	w	D,V	
+minivan	xe đa dụng	xe MPV		vehicle	w	D,V	
+pickup truck	xe bán tải			vehicle	w	D,V	
+truck	xe tải			vehicle	w	D,V	
+van	xe van			vehicle	w	D,V	
+electric car	ô tô điện	xe hơi điện		vehicle	w	D,V	
+electric motorbike;electric scooter	xe máy điện			vehicle	w	D,V	
+electric vehicle;ev	xe điện	phương tiện chạy điện		ev	w	D,V	
+hybrid vehicle	xe hybrid	xe lai điện		vehicle	w	D,V	
+taxi	taxi			ride	w	D,V	
+shared ride;carpool	đi chung xe	đi ghép		ride	w	D,V	
+intercity ride	đi liên tỉnh	chuyến liên tỉnh		ride	w	D,V	
+airport transfer	đưa đón sân bay			ride	w	D,V	
+scheduled ride	đặt xe trước	đặt xe hẹn giờ		ride	w	D,V	
+ride now	đặt xe ngay			ride	w	D,V	
+delivery by bike	giao hàng bằng xe máy			ride	w	D,V	
+economy;standard ride	tiết kiệm			ride	x	D,V	Ride tier label
+premium ride	xe cao cấp			ride	w	D,V	
+charging station	trạm sạc	trạm sạc xe điện		ev	w	D,V	
+charging port;charging connector	cổng sạc	đầu sạc		ev	w	D,V	
+charger	bộ sạc	trụ sạc		ev	w	D,V	Trụ sạc for public charging post
+charging post	trụ sạc			ev	w	D,V	
+fast charging	sạc nhanh			ev	w	D,V	
+slow charging	sạc chậm			ev	w	D,V	
+start charging	bắt đầu sạc			ev	w	D,V	
+stop charging	dừng sạc			ev	w	D,V	
+charging session	phiên sạc			ev	w	D,V	
+charging history	lịch sử sạc			ev	w	D,V	
+charging fee	phí sạc	giá sạc		ev	w	D,V	
+charging time	thời gian sạc			ev	w	D,V	
+charging status	trạng thái sạc			ev	w	D,V	
+fully charged	đã sạc đầy			ev	w	D,V	
+battery level;battery percentage	mức pin	phần trăm pin		ev	w	D,V	
+battery swap	đổi pin			ev	w	D,V	
+swap station	trạm đổi pin			ev	w	D,V	
+range;remaining range	quãng đường còn lại	phạm vi hoạt động		ev	w	D,V	
+connector type	loại đầu sạc	loại cổng sạc		ev	w	D,V	
+available charger	trụ sạc trống	trụ sạc khả dụng		ev	w	D,V	
+occupied charger	trụ sạc đang sử dụng			ev	w	D,V	
+scan qr to charge	quét mã QR để sạc			ev	w	D,V	
+kwh	kWh			ev	w	D,V	Unit stays kWh
+price per kwh	giá mỗi kWh			ev	w	D,V	
+parking lot;car park	bãi đỗ xe	bãi giữ xe		parking	w	D,V	
+parking space;parking spot	chỗ đỗ xe			parking	w	D,V	
+find parking	tìm chỗ đỗ xe	tìm bãi đỗ xe		parking	w	D,V	
+parking ticket	vé gửi xe	vé đỗ xe		parking	w	D,V	Not traffic ticket; see traffic fine
+monthly parking pass	vé gửi xe tháng	vé tháng		parking	w	D,V	
+entry time	giờ vào	thời gian vào		parking	w	D,V	
+exit time	giờ ra	thời gian ra		parking	w	D,V	
+parking duration	thời gian đỗ xe			parking	w	D,V	
+valet parking	dịch vụ đỗ xe hộ			parking	w	D,V	
+no parking	cấm đỗ xe			parking	w	D,V	
+car rental;rent a car	thuê xe	cho thuê xe		rental	w	D,V	
+rental period	thời gian thuê			rental	w	D,V	
+rental price	giá thuê			rental	w	D,V	
+self-drive	xe tự lái	thuê xe tự lái		rental	w	D,V	
+car with driver	thuê xe có tài xế	xe có lái		rental	w	D,V	
+pick up car;car pickup	nhận xe			rental	w	D,V	
+return car	trả xe			rental	w	D,V	
+return location	địa điểm trả xe			rental	w	D,V	
+security deposit;vehicle deposit	tiền đặt cọc	tiền cọc		rental	w	D,V	
+rental contract	hợp đồng thuê xe			rental	w	D,V	
+vehicle handover	bàn giao xe			rental	w	D,V	
+fuel policy	chính sách nhiên liệu			rental	w	D,V	
+mileage limit	giới hạn số km	giới hạn quãng đường		rental	w	D,V	
+excess mileage	phí vượt km			rental	w	D,V	
+damage report	biên bản hư hỏng			rental	w	D,V	
+roadside assistance	cứu hộ giao thông	cứu hộ đường bộ		service	w	D,V	
+towing service	dịch vụ kéo xe	dịch vụ cứu hộ		service	w	D,V	
+car wash	rửa xe			service	w	D,V	
+maintenance schedule	lịch bảo dưỡng			service	w	D,V	
+book maintenance	đặt lịch bảo dưỡng			service	w	D,V	
+oil change	thay dầu			service	w	D,V	
+tire pressure	áp suất lốp			service	w	D,V	
+fuel level	mức nhiên liệu			service	w	D,V	
+petrol station;gas station	cây xăng	trạm xăng		service	w	D,V	
+odometer	đồng hồ công-tơ-mét	số km đã đi		service	w	D,V	
+vehicle registration	đăng ký xe			registration	w	D,V	
+vehicle registration certificate;registration papers	giấy đăng ký xe	cà vẹt		registration	w	D,V	cà vẹt is colloquial
+vehicle inspection	đăng kiểm	đăng kiểm xe		registration	w	D,V	
+inspection certificate	giấy chứng nhận kiểm định	giấy đăng kiểm		registration	w	D,V	
+inspection due date;inspection expiry	hạn đăng kiểm			registration	w	D,V	
+inspection center	trung tâm đăng kiểm			registration	w	D,V	
+book inspection	đặt lịch đăng kiểm			registration	w	D,V	
+driving license;driver's license	giấy phép lái xe	bằng lái xe;GPLX		registration	w	D,V	
+license class	hạng giấy phép lái xe	hạng bằng lái		registration	w	D,V	
+license expiry date	ngày hết hạn giấy phép lái xe			registration	w	D,V	
+compulsory vehicle insurance	bảo hiểm trách nhiệm dân sự bắt buộc	bảo hiểm bắt buộc xe cơ giới		insurance	w	D,V	
+vehicle insurance	bảo hiểm xe	bảo hiểm phương tiện		insurance	w	D,V	
+physical damage insurance	bảo hiểm vật chất xe			insurance	w	D,V	
+traffic fine;traffic violation fine	tiền phạt vi phạm giao thông			fines	w	D,V	Use phạt nguội for fines found via camera
+traffic violation	vi phạm giao thông			fines	w	D,V	
+check traffic fines	tra cứu phạt nguội	tra cứu vi phạm giao thông		fines	w	D,V	
+violation date	ngày vi phạm			fines	w	D,V	
+violation location	địa điểm vi phạm			fines	w	D,V	
+violation type	hành vi vi phạm			fines	w	D,V	
+fine amount	số tiền phạt	mức phạt		fines	w	D,V	
+pay fine	nộp phạt			fines	w	D,V	
+decision on penalty	quyết định xử phạt			fines	w	D,V	
+traffic camera	camera giao thông	camera phạt nguội		fines	w	D,V	
+speed limit	giới hạn tốc độ	tốc độ tối đa		nav	w	D,V	
+speeding	chạy quá tốc độ	vượt tốc độ		fines	w	D,V	
+traffic jam	kẹt xe	ùn tắc giao thông		nav	w	D,V	Kẹt xe common in south; ùn tắc formal
+real-time traffic	giao thông thời gian thực			nav	w	D,V	
+route options	các lựa chọn lộ trình			nav	w	D,V	
+fastest route	lộ trình nhanh nhất			nav	w	D,V	
+turn-by-turn navigation	dẫn đường từng chặng	chỉ đường chi tiết		nav	w	D,V	
+voice guidance	hướng dẫn bằng giọng nói			nav	w	D,V	

@@ -1,0 +1,198 @@
+en	vi	alt	avoid	cat	match	src	note
+property listing;listing	tin đăng	bất động sản đăng bán		listing	w	D,V	
+post a listing;post listing	đăng tin		đăng bài	listing	w	D,V	
+listing status	trạng thái tin đăng			listing	w	D,V	
+listing expires;expired listing	tin hết hạn			listing	w	D,V	
+renew listing	gia hạn tin			listing	w	D,V	
+boost listing;promote listing	đẩy tin		quảng bá tin	listing	w	D,V	
+featured listing;vip listing	tin nổi bật	tin VIP		listing	w	D,V	
+sponsored listing	tin tài trợ	tin quảng cáo		listing	w	D,V	
+hide listing	ẩn tin			listing	w	D,V	
+reported listing	tin đăng bị báo cáo			listing	w	D,V	
+verified listing	tin đã xác thực	tin đã xác minh		listing	w	D,V	
+real estate;property	bất động sản			general	w	D,V	
+for sale	bán			general	w	D,V	Tab/label for listing type
+for rent	cho thuê			general	w	D,V	
+buy property	mua bất động sản	mua nhà đất		general	w	D,V	
+rent property	thuê bất động sản			general	w	D,V	
+apartment;flat;condo	căn hộ	chung cư		type	w	D,V	
+condominium building;apartment building	chung cư			type	w	D,V	
+studio apartment;studio	căn hộ studio			type	w	D,V	
+duplex apartment;duplex	căn hộ duplex			type	w	D,V	
+penthouse	căn hộ penthouse			type	w	D,V	
+house;townhouse	nhà phố	nhà mặt phố		type	w	D,V	Townhouse; generic house is "nhà"
+terraced house;row house	nhà liền kề	nhà phố liền kề		type	w	D,V	
+villa	biệt thự			type	w	D,V	
+shophouse	shophouse	nhà phố thương mại		type	w	D,V	Usually kept in English
+condotel	condotel			type	w	D,V	Kept in English
+land plot;plot of land;land lot	lô đất	thửa đất		type	w	D,V	
+residential land	đất ở	đất thổ cư		type	w	D,V	
+agricultural land	đất nông nghiệp			type	w	D,V	
+project land;land in a project	đất nền dự án	đất dự án		type	w	D,V	
+land for subdivision;subdivided land	đất phân lô			type	w	D,V	
+commercial space;retail space	mặt bằng kinh doanh	mặt bằng thương mại		type	w	D,V	
+office space;office for rent	văn phòng cho thuê			type	w	D,V	
+warehouse for rent;factory for rent	nhà xưởng cho thuê	kho xưởng cho thuê		type	w	D,V	
+boarding house;rooming house	nhà trọ	phòng trọ		type	w	D,V	
+roommate;shared room	ở ghép	ở chung		type	w	D,V	
+price per square meter;price per m2	giá mỗi mét vuông	đơn giá theo mét vuông;giá/m²		price	w	D,V	
+asking price	giá chào bán			price	w	D,V	
+negotiable price;price negotiable	giá thương lượng			price	w	D,V	
+price drop;price reduced	giảm giá			price	w	D,V	
+total price	tổng giá trị	tổng giá		price	w	D,V	
+monthly rent	giá thuê hàng tháng	tiền thuê hàng tháng		rent	w	D,V	
+rental price	giá thuê			rent	w	D,V	
+security deposit;rental deposit	tiền đặt cọc	tiền cọc		rent	w	D,V	
+booking deposit;reservation fee;earnest money	tiền đặt cọc giữ chỗ	phí giữ chỗ		deposit	w	D,V	
+deposit agreement	thỏa thuận đặt cọc	hợp đồng đặt cọc		deposit	w	D,V	
+sale and purchase agreement;sales contract	hợp đồng mua bán			contract	w	D,V	
+lease agreement;rental contract;tenancy agreement	hợp đồng thuê nhà	hợp đồng cho thuê		contract	w	D,V	
+lease term;lease duration	thời hạn thuê			contract	w	D,V	
+lease renewal;renew lease	gia hạn hợp đồng thuê			contract	w	D,V	
+lease termination;terminate lease	chấm dứt hợp đồng thuê			contract	w	D,V	
+move-in date	ngày dọn vào	ngày nhận nhà		rent	w	D,V	
+move-out date	ngày dọn ra	ngày trả nhà		rent	w	D,V	
+move in	dọn vào			rent	w	D,V	
+move out	dọn đi	dọn ra		rent	w	D,V	
+handover;property handover	bàn giao nhà	bàn giao		contract	w	D,V	
+handover date	ngày bàn giao			contract	w	D,V	
+handover condition	hiện trạng bàn giao			contract	w	D,V	
+payment schedule;payment milestone	tiến độ thanh toán			payment	w	D,V	
+installment payment;progress payment	thanh toán theo tiến độ			payment	w	D,V	
+down payment	tiền thanh toán đợt đầu	đợt đầu		payment	w	D,V	
+maintenance fee;management fee	phí quản lý	phí quản lý vận hành		fee	w	D,V	
+service charge;service fee	phí dịch vụ			fee	w	D,V	
+maintenance fund	quỹ bảo trì			fee	w	D,V	
+parking fee	phí gửi xe			fee	w	D,V	
+brokerage fee;agent commission;commission	hoa hồng môi giới	phí môi giới		fee	w	D,V	
+transfer fee;title transfer fee	phí sang tên	phí chuyển nhượng		fee	w	D,V	
+registration fee;land registration fee	lệ phí trước bạ			fee	w	D,V	Official term for registration tax
+land use fee	tiền sử dụng đất			fee	w	D,V	
+land use tax	thuế sử dụng đất			fee	w	D,V	
+personal income tax on transfer	thuế thu nhập cá nhân khi chuyển nhượng			fee	w	D,V	
+red book;land use rights certificate;red book certificate	sổ đỏ	giấy chứng nhận quyền sử dụng đất		legal	w	D,V	Colloquial; official name is GCN
+pink book;housing ownership certificate	sổ hồng	giấy chứng nhận quyền sở hữu nhà ở		legal	w	D,V	
+certificate of land use rights and house ownership	giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất	GCN		legal	w	D,V	
+legal status;legal documents	pháp lý			legal	w	D,V	
+has red book;has pink book;title deed available	đã có sổ	có sổ đỏ; có sổ hồng		legal	w	D,V	
+awaiting title deed;pending red book	đang chờ cấp sổ	chờ sổ		legal	w	D,V	
+land title	giấy tờ đất			legal	w	D,V	
+ownership duration;ownership term	thời hạn sở hữu			legal	w	D,V	
+long-term ownership;permanent ownership	sở hữu lâu dài			legal	w	D,V	
+foreign ownership	sở hữu của người nước ngoài			legal	w	D,V	
+mortgaged property	bất động sản đang thế chấp	tài sản đang thế chấp		legal	w	D,V	
+disputed property	tranh chấp			legal	w	D,V	
+planning information	thông tin quy hoạch			legal	w	D,V	
+zoning;land use planning	quy hoạch			legal	w	D,V	
+construction permit;building permit	giấy phép xây dựng			legal	w	D,V	
+land use purpose	mục đích sử dụng đất			legal	w	D,V	
+property transfer;transfer of ownership	chuyển nhượng			legal	w	D,V	
+notarization;notarize	công chứng			legal	w	D,V	
+power of attorney	giấy ủy quyền	ủy quyền		legal	w	D,V	
+landlord	chủ nhà	bên cho thuê		party	w	D,V	
+tenant	người thuê	khách thuê		party	w	D,V	
+buyer;property buyer	người mua			party	w	D,V	
+seller;property seller	người bán			party	w	D,V	
+broker;real estate agent;realtor	môi giới	nhân viên môi giới		party	w	D,V	
+brokerage;real estate agency	sàn giao dịch bất động sản	công ty môi giới		party	w	D,V	
+developer;property developer	chủ đầu tư	nhà phát triển		party	w	D,V	Official term in projects is "chủ đầu tư"
+property manager;building management	ban quản lý	đơn vị quản lý vận hành		party	w	D,V	
+management board	ban quản trị			party	w	D,V	
+residents;resident	cư dân			party	w	D,V	
+contact owner	liên hệ chủ nhà			action	w	D,V	
+contact agent;contact broker	liên hệ môi giới			action	w	D,V	
+show phone number	hiện số điện thoại			action	w	D,V	
+request a callback	yêu cầu gọi lại			action	w	D,V	
+property viewing;site visit	xem nhà	tham quan nhà		viewing	w	D,V	
+schedule a viewing;book a viewing	đặt lịch xem nhà	hẹn lịch xem nhà		viewing	w	D,V	
+viewing appointment	lịch hẹn xem nhà			viewing	w	D,V	
+virtual tour;360 tour	tham quan ảo	tham quan 360°		viewing	w	D,V	
+show house;sample apartment;model unit	nhà mẫu	căn hộ mẫu		viewing	w	D,V	
+project;real estate project	dự án			project	w	D,V	
+project overview	tổng quan dự án			project	w	D,V	
+project location	vị trí dự án			project	w	D,V	
+project progress;construction progress	tiến độ xây dựng	tiến độ dự án		project	w	D,V	
+launch phase;sales phase	đợt mở bán			project	w	D,V	
+opening for sale;open for sale	mở bán			project	w	D,V	
+upcoming project	dự án sắp mở bán			project	w	D,V	
+handed-over project	dự án đã bàn giao			project	w	D,V	
+under construction	đang xây dựng			project	w	D,V	
+off-plan	nhà ở hình thành trong tương lai	mua trên giấy;nhà hình thành trong tương lai		project	w	D,V	
+future housing;house to be built	nhà ở hình thành trong tương lai			project	w	D,V	
+block;tower	tòa	block		project	w	D,V	Tower/block in a complex
+unit;apartment unit	căn hộ	căn		project	w	D,V	
+unit number;apartment number	mã căn	số căn hộ		project	w	D,V	
+floor;floor level	tầng			project	w	D,V	
+corner unit	căn góc			project	w	D,V	
+unit direction;orientation;facing	hướng			attr	w	D,V	
+main door direction	hướng cửa chính			attr	w	D,V	
+floor area;usable area;carpet area	diện tích sử dụng	diện tích thông thủy		attr	w	D,V	
+gross floor area;gross area	diện tích tim tường			attr	w	D,V	
+land area;lot area	diện tích đất			attr	w	D,V	
+construction area;built-up area	diện tích xây dựng			attr	w	D,V	
+frontage;street frontage	mặt tiền			attr	w	D,V	
+width of frontage	chiều ngang			attr	w	D,V	
+depth of lot	chiều dài			attr	w	D,V	
+alley width;lane width	độ rộng hẻm	độ rộng ngõ		attr	w	D,V	Hẻm in South, ngõ in North
+alley;lane	hẻm	ngõ; ngách		attr	w	D,V	
+road in front;road width	đường trước nhà	lộ giới		attr	w	D,V	
+main road;street-front	mặt phố	mặt tiền đường		attr	w	D,V	
+number of bedrooms;bedrooms	số phòng ngủ	phòng ngủ		attr	w	D,V	
+number of bathrooms;bathrooms	số phòng tắm	số toilet; số WC		attr	w	D,V	
+number of floors	số tầng			attr	w	D,V	
+balcony	ban công			attr	w	D,V	
+terrace	sân thượng			attr	w	D,V	
+garage;car park	chỗ để xe	hầm để xe		attr	w	D,V	
+parking space;parking slot	chỗ đậu xe	chỗ đỗ xe		attr	w	D,V	
+elevator;lift	thang máy			attr	w	D,V	
+year built	năm xây dựng			attr	w	D,V	
+furniture;furnishing	nội thất			attr	w	D,V	
+fully furnished	đầy đủ nội thất	full nội thất		attr	w	D,V	
+semi-furnished;partly furnished	nội thất cơ bản	một phần nội thất		attr	w	D,V	
+unfurnished;bare shell	không nội thất	bàn giao thô		attr	w	D,V	
+basic finish	bàn giao hoàn thiện cơ bản			handover	w	D,V	
+rough handover;bare shell	bàn giao thô			handover	w	D,V	
+fully finished handover	bàn giao hoàn thiện			attr	w	D,V	
+floor plan;layout	mặt bằng	bản vẽ mặt bằng; sơ đồ căn hộ		plan	w	D,V	
+master plan	mặt bằng tổng thể	quy hoạch tổng thể		plan	w	D,V	
+amenities;facilities	tiện ích			amenity	w	D,V	
+internal amenities	tiện ích nội khu			amenity	w	D,V	
+nearby amenities;surrounding amenities	tiện ích xung quanh	tiện ích lân cận		amenity	w	D,V	
+swimming pool	hồ bơi	bể bơi		amenity	w	D,V	
+gym;fitness center	phòng gym	phòng tập		amenity	w	D,V	
+playground	khu vui chơi trẻ em			amenity	w	D,V	
+security;24/7 security	an ninh 24/7	bảo vệ 24/7		amenity	w	D,V	
+gated community	khu dân cư khép kín			amenity	w	D,V	
+air conditioner	máy lạnh	điều hòa		appliance	w	D,V	Máy lạnh in the South, điều hòa in the North
+pets allowed	cho phép nuôi thú cưng			rules	w	D,V	
+no pets	không nuôi thú cưng			rules	w	D,V	
+suitable for families	phù hợp gia đình			rules	w	D,V	
+electricity bill	hóa đơn điện	tiền điện		utility	w	D,V	
+water bill	hóa đơn nước	tiền nước		utility	w	D,V	
+electricity meter reading	chỉ số điện			utility	w	D,V	
+water meter reading	chỉ số nước			utility	w	D,V	
+previous reading	chỉ số cũ			utility	w	D,V	
+current reading	chỉ số mới			utility	w	D,V	
+internet fee	phí internet	tiền mạng		utility	w	D,V	
+garbage fee;waste collection fee	phí rác	phí vệ sinh		utility	w	D,V	
+monthly bill;rent bill	hóa đơn tháng			utility	w	D,V	
+pay rent	thanh toán tiền thuê nhà	đóng tiền nhà		utility	w	D,V	
+rent due date	ngày đến hạn thanh toán tiền thuê			rent	w	D,V	
+overdue rent	tiền thuê quá hạn			rent	w	D,V	
+late fee	phí trả chậm			rent	w	D,V	
+repair request;maintenance request	yêu cầu sửa chữa	yêu cầu bảo trì		maintenance	w	D,V	
+report an issue	báo sự cố			maintenance	w	D,V	
+resident card;access card	thẻ cư dân	thẻ ra vào		maintenance	w	D,V	
+visitor registration	đăng ký khách			maintenance	w	D,V	
+vehicle registration	đăng ký phương tiện			maintenance	w	D,V	
+property valuation;valuation	định giá bất động sản	thẩm định giá		valuation	w	D,V	
+price trend;price history	biến động giá	lịch sử giá		valuation	w	D,V	
+estimated price	giá ước tính			valuation	w	D,V	
+home loan;mortgage	vay mua nhà	khoản vay thế chấp		loan	w	D,V	
+neighborhood	khu vực			area	w	D,V	
+district;ward	quận	phường; huyện; xã		area	w	D,V	
+save search;saved search	lưu tìm kiếm	tìm kiếm đã lưu		search	w	D,V	
+search on map;map view	tìm trên bản đồ	xem bản đồ		search	w	D,V	
+price range	khoảng giá			search	w	D,V	
+compare properties	so sánh bất động sản			search	w	D,V	
+favorite properties;saved properties	bất động sản đã lưu	tin đã lưu		search	w	D,V	

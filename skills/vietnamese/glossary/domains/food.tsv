@@ -1,0 +1,183 @@
+en	vi	alt	avoid	cat	match	src	note
+food menu;restaurant menu	thực đơn nhà hàng	menu		menu	w	D,V	
+menu item	món	món ăn		menu	w	D,V	
+dish	món ăn	món		menu	w	D,V	
+signature dish	món đặc trưng	món signature		menu	w	D,V	
+best seller;bestseller	bán chạy	món bán chạy		menu	w	D,V	
+popular dish	món phổ biến	món được yêu thích		menu	w	D,V	
+recommended dish	món gợi ý	món đề xuất		menu	w	D,V	
+today's special;daily special	món đặc biệt hôm nay	món của ngày		menu	w	D,V	
+menu category	danh mục món	nhóm món		menu	w	D,V	
+appetizer;starter	món khai vị	khai vị		menu	w	D,V	
+main course	món chính			menu	w	D,V	
+side dish	món ăn kèm	món phụ		menu	w	D,V	
+dessert	món tráng miệng	tráng miệng		menu	w	D,V	
+beverage;drinks	đồ uống	thức uống		menu	w	D,V	
+soft drink	nước ngọt			menu	w	D,V	
+milk tea	trà sữa			menu	w	D,V	
+coffee	cà phê			menu	w	D,V	
+fast food	đồ ăn nhanh			menu	w	D,V	
+street food	đồ ăn đường phố	ẩm thực đường phố		menu	w	D,V	
+vegetarian	chay	món chay		menu	w	D,V	
+vegan	thuần chay			menu	w	D,V	
+halal	halal			menu	w	D,V	
+gluten-free	không chứa gluten			menu	w	D,V	
+allergen	chất gây dị ứng			menu	w	D,V	
+allergy information	thông tin dị ứng			menu	w	D,V	
+spice level;spicy level	mức độ cay	độ cay		menu	w	D,V	
+serving size;portion size	khẩu phần			menu	w	D,V	
+portion	phần	suất		menu	w	D,V	Phần/suất both used; "suất" for set meals
+set meal	suất ăn	phần ăn		menu	w	D,V	
+combo	combo			menu	w	D,V	Keep "combo"
+combo deal	ưu đãi combo			menu	w	D,V	
+topping	topping			customize	w	D,V	Keep "topping" for drinks
+add topping	thêm topping			customize	w	D,V	
+extra topping	topping thêm			customize	w	D,V	
+add-on	món thêm	tùy chọn thêm		customize	w	D,V	
+customize dish;customize item	tùy chỉnh món			customize	w	D,V	
+option group	nhóm tùy chọn			customize	w	D,V	
+required option	tùy chọn bắt buộc			customize	w	D,V	
+choose size	chọn kích cỡ	chọn size		customize	w	D,V	
+sugar level	mức đường	độ ngọt		customize	w	D,V	
+ice level	mức đá	lượng đá		customize	w	D,V	
+less sugar	ít đường			customize	w	D,V	
+no sugar	không đường			customize	w	D,V	
+less ice	ít đá			customize	w	D,V	
+no ice	không đá			customize	w	D,V	
+extra ice	nhiều đá			customize	w	D,V	
+hot	nóng			customize	x	D,V	Drink temperature
+iced;cold	đá	lạnh		customize	x	D,V	Drink temperature
+no onion	không hành			customize	w	D,V	
+no cilantro	không rau mùi	không ngò		customize	w	D,V	Regional: "ngò" in the south
+no straw	không lấy ống hút			customize	w	D,V	
+no utensils;no cutlery	không lấy dụng cụ ăn uống	không lấy muỗng đũa		customize	w	D,V	
+cutlery;utensils	dụng cụ ăn uống	muỗng đũa		customize	w	D,V	
+special instructions	ghi chú cho quán	yêu cầu đặc biệt		customize	w	D,V	
+note to restaurant	ghi chú cho quán	ghi chú cho nhà hàng		customize	w	D,V	
+note to driver	ghi chú cho tài xế			customize	w	D,V	
+item unavailable	món tạm hết	hết món		menu	w	D,V	
+sold out	hết món	đã hết hàng;hết		menu	w	D,V	
+out of stock today	tạm hết hôm nay			menu	w	D,V	
+mark as sold out	đánh dấu hết món			menu	w	D,V	
+available now	đang phục vụ			menu	w	D,V	
+availability schedule	khung giờ phục vụ			menu	w	D,V	
+late-night menu	thực đơn đêm khuya			menu	w	D,V	
+dine-in	ăn tại chỗ	dùng tại quán		service	w	D,V	
+takeaway;take-out;takeout;to go	mang đi	mang về		service	w	D,V	
+pickup order	đơn tự đến lấy	đơn lấy tại quán		service	w	D,V	
+pick up at restaurant	lấy tại quán			service	w	D,V	
+food delivery	giao đồ ăn			delivery	w	D,V	
+delivery order	đơn giao hàng	đơn giao		delivery	w	D,V	
+delivery fee	phí giao hàng	phí vận chuyển		delivery	w	D,V	
+platform fee	phí nền tảng			delivery	w	D,V	
+service charge	phí dịch vụ			delivery	w	D,V	
+packaging fee	phí đóng gói			delivery	w	D,V	
+small order fee	phụ phí đơn hàng giá trị thấp			delivery	w	D,V	
+surge fee;peak hour fee	phụ phí giờ cao điểm			delivery	w	D,V	
+delivery address	địa chỉ giao hàng			delivery	w	D,V	
+delivery time	thời gian giao hàng			delivery	w	D,V	
+estimated delivery time	thời gian giao hàng dự kiến			delivery	w	D,V	
+delivery range;delivery radius	phạm vi giao hàng	bán kính giao hàng		delivery	w	D,V	
+leave at door	để trước cửa			delivery	w	D,V	
+meet at door	nhận tại cửa			delivery	w	D,V	
+meet at lobby	nhận tại sảnh			delivery	w	D,V	
+contactless delivery	giao hàng không tiếp xúc			delivery	w	D,V	
+schedule order;scheduled order	đặt hẹn giờ	hẹn giờ giao		delivery	w	D,V	
+order now	đặt món ngay			delivery	w	D,V	
+group order	đặt nhóm	đơn nhóm		delivery	w	D,V	
+reorder	đặt lại			delivery	w	D,V	
+nearby restaurants	quán gần bạn	nhà hàng gần đây		delivery	w	D,V	
+restaurant	nhà hàng	quán		partner	x	D,V	"Quán" for casual eateries
+restaurant partner;merchant partner	đối tác nhà hàng	đối tác quán		partner	w	D,V	
+merchant app	ứng dụng dành cho đối tác	app đối tác		partner	w	D,V	
+store status	trạng thái cửa hàng	trạng thái quán		partner	w	D,V	
+open for orders	đang nhận đơn			partner	w	D,V	
+temporarily closed	tạm đóng cửa	tạm ngưng phục vụ		partner	w	D,V	
+busy mode	chế độ bận			partner	w	D,V	
+pause orders	tạm ngưng nhận đơn			partner	w	D,V	
+accept order	nhận đơn	chấp nhận đơn		partner	w	D,V	
+reject order;decline order	từ chối đơn			partner	w	D,V	
+new order	đơn mới			partner	x	D,V	
+incoming order	đơn mới			partner	w	D,V	
+preparing	đang chuẩn bị	đang chế biến		status	w	D,V	
+order preparing	quán đang chuẩn bị món			status	w	D,V	
+ready for pickup	sẵn sàng để lấy	đã sẵn sàng		status	w	D,V	
+driver arriving at restaurant	tài xế đang đến quán			status	w	D,V	
+driver picked up	tài xế đã lấy món			status	w	D,V	
+out for delivery	đang giao hàng			status	w	D,V	
+driver arrived	tài xế đã đến			status	w	D,V	
+delivered	đã giao hàng	giao thành công		status	w	D,V	
+order delayed	đơn hàng bị trễ			status	w	D,V	
+preparation time	thời gian chuẩn bị			status	w	D,V	
+prep time	thời gian chế biến			status	w	D,V	
+add prep time	kéo dài thời gian chuẩn bị			status	w	D,V	
+driver;delivery driver	tài xế	shipper		driver	w	D,V	"Shipper" used colloquially
+delivery partner	đối tác tài xế	đối tác giao hàng		driver	w	D,V	
+driver rating	đánh giá tài xế			driver	w	D,V	
+contact driver	liên hệ tài xế			driver	w	D,V	
+chat with driver	nhắn tin cho tài xế			driver	w	D,V	
+find driver;finding driver	đang tìm tài xế			driver	w	D,V	
+driver assigned	đã có tài xế nhận đơn			driver	w	D,V	
+no driver available	hiện chưa có tài xế			driver	w	D,V	
+driver location	vị trí tài xế			driver	w	D,V	
+track order;track delivery	theo dõi đơn hàng			driver	w	D,V	
+live tracking	theo dõi trực tiếp			driver	w	D,V	
+tip driver	tip cho tài xế	tiền tip		tips	w	D,V	
+tip	tiền tip			tips	x	D,V	
+add a tip	thêm tiền tip			tips	w	D,V	
+no tip	không tip			tips	w	D,V	
+reserve a table;table reservation;book a table	đặt bàn			booking	w	D,V	
+table booking	đặt bàn			booking	w	D,V	
+party size;number of guests	số lượng khách	số người		booking	w	D,V	
+reservation time	giờ đặt bàn			booking	w	D,V	
+reservation confirmed	đã xác nhận đặt bàn			booking	w	D,V	
+reservation request	yêu cầu đặt bàn			booking	w	D,V	
+cancel reservation	hủy đặt bàn			booking	w	D,V	
+available tables	bàn trống			booking	w	D,V	
+no tables available	hết bàn			booking	w	D,V	
+waitlist;waiting list	danh sách chờ			booking	w	D,V	
+walk-in	khách vãng lai	khách đến trực tiếp		booking	w	D,V	
+table number	số bàn			booking	w	D,V	
+seating area	khu vực chỗ ngồi			booking	w	D,V	
+private room	phòng riêng	phòng VIP		booking	w	D,V	
+no-show	khách không đến			booking	w	D,V	
+scan QR to order	quét mã QR để gọi món			pos	w	D,V	
+call staff	gọi nhân viên			pos	w	D,V	
+call waiter	gọi phục vụ			pos	w	D,V	
+request bill;ask for the bill	yêu cầu thanh toán	gọi thanh toán		pos	w	D,V	
+split bill	chia hóa đơn			pos	w	D,V	
+split equally	chia đều			pos	w	D,V	
+pay at table	thanh toán tại bàn			pos	w	D,V	
+tableside order	gọi món tại bàn			pos	w	D,V	
+open tab	mở bàn			pos	w	D,V	
+close tab	đóng bàn			pos	w	D,V	
+merge tables	gộp bàn			pos	w	D,V	
+transfer table	chuyển bàn			pos	w	D,V	
+split table	tách bàn			pos	w	D,V	
+kitchen ticket	phiếu bếp	phiếu chế biến		pos	w	D,V	
+send to kitchen	gửi xuống bếp			pos	w	D,V	
+kitchen display;kitchen display system	màn hình bếp	KDS		pos	w	D,V	
+void item	hủy món			pos	w	D,V	
+comp item	tặng món			pos	w	D,V	
+hold item	giữ món			pos	w	D,V	
+fire course	lên món			pos	w	D,V	
+order number	mã đơn	số thứ tự đơn		pos	w	D,V	
+open shift	mở ca			pos	w	D,V	
+close shift	đóng ca	kết ca		pos	w	D,V	
+shift report	báo cáo ca			pos	w	D,V	
+cash drawer	ngăn kéo tiền	két tiền		pos	w	D,V	
+opening cash	tiền đầu ca	tiền mặt đầu ca		pos	w	D,V	
+closing cash	tiền cuối ca			pos	w	D,V	
+cashier	thu ngân			pos	w	D,V	
+waiter;waitress	nhân viên phục vụ			pos	w	D,V	
+chef	đầu bếp			pos	w	D,V	
+receipt printer	máy in hóa đơn			pos	w	D,V	
+daily revenue	doanh thu trong ngày			pos	w	D,V	
+food voucher	voucher đồ ăn	mã giảm giá món ăn;mã giảm giá		promo	w	D,V	
+free delivery	miễn phí giao hàng	freeship		promo	w	D,V	
+buy one get one	mua 1 tặng 1			promo	w	D,V	
+rate your meal	đánh giá bữa ăn			review	w	D,V	
+food quality	chất lượng món ăn			review	w	D,V	
+missing item	thiếu món			review	w	D,V	
+wrong item	sai món			review	w	D,V	
+food arrived cold	món bị nguội			review	w	D,V	

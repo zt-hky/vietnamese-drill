@@ -1,0 +1,198 @@
+en	vi	alt	avoid	cat	match	src	note
+insurance policy;policy	hợp đồng bảo hiểm	đơn bảo hiểm		policy	w	D,V	
+policy number;policy no	số hợp đồng bảo hiểm	số hợp đồng		policy	w	D,V	
+policy holder;policyholder	bên mua bảo hiểm	chủ hợp đồng;người mua bảo hiểm		policy	w	D,V	
+insured person;insured	người được bảo hiểm	người thụ hưởng bảo hiểm	người được đảm bảo	policy	w	D,V	Not the same as beneficiary
+beneficiary	người thụ hưởng	người hưởng quyền lợi bảo hiểm	người hưởng lợi	policy	w	D,V	
+primary beneficiary	người thụ hưởng chính			policy	w	D,V	
+add beneficiary	thêm người thụ hưởng			policy	w	D,V	
+insurer;insurance company	doanh nghiệp bảo hiểm	công ty bảo hiểm		policy	w	D,V	
+insurance agent	đại lý bảo hiểm			policy	w	D,V	
+insurance broker	môi giới bảo hiểm			policy	w	D,V	
+insurance advisor;financial advisor	tư vấn viên bảo hiểm	tư vấn tài chính		policy	w	D,V	
+policy status	tình trạng hợp đồng	trạng thái hợp đồng		policy	w	D,V	
+policy effective date;effective date	ngày hiệu lực	ngày có hiệu lực		policy	w	D,V	
+policy expiry date;expiry date	ngày hết hạn hợp đồng	ngày hết hạn		policy	w	D,V	
+policy term	thời hạn bảo hiểm			policy	w	D,V	
+policy period;coverage period	thời hạn bảo hiểm	thời gian bảo hiểm		policy	w	D,V	
+policy in force	hợp đồng đang có hiệu lực			policy	w	D,V	
+active policy	hợp đồng còn hiệu lực	hợp đồng đang hiệu lực		policy	w	D,V	
+lapsed policy	hợp đồng mất hiệu lực			policy	w	D,V	
+policy lapse;lapse	mất hiệu lực hợp đồng			policy	w	D,V	
+reinstate policy;policy reinstatement;reinstatement	khôi phục hiệu lực hợp đồng			policy	w	D,V	
+policy cancellation	hủy hợp đồng bảo hiểm			policy	w	D,V	
+cancel policy	hủy hợp đồng			policy	w	D,V	
+free look period	thời gian cân nhắc			policy	w	D,V	Typically 21 days; official term
+policy document;policy certificate	giấy chứng nhận bảo hiểm	hợp đồng bảo hiểm		policy	w	D,V	
+insurance certificate	giấy chứng nhận bảo hiểm			policy	w	D,V	
+policy schedule	bảng tóm tắt quyền lợi bảo hiểm			policy	w	D,V	
+terms and conditions of insurance;policy terms	quy tắc, điều khoản bảo hiểm	điều khoản hợp đồng		policy	w	D,V	
+insurance rules and terms	quy tắc, điều khoản sản phẩm			policy	w	D,V	
+policy amendment;policy change;policy alteration	thay đổi hợp đồng	điều chỉnh hợp đồng		policy	w	D,V	
+policy loan	khoản vay theo hợp đồng	vay từ giá trị hoàn lại		policy	w	D,V	
+insurance premium;premium	phí bảo hiểm			premium	w	D,V	
+premium payment	đóng phí bảo hiểm	thanh toán phí bảo hiểm		premium	w	D,V	
+pay premium	đóng phí			premium	w	D,V	
+premium due date;premium due	ngày đến hạn đóng phí			premium	w	D,V	
+overdue premium	phí quá hạn			premium	w	D,V	
+premium payment frequency;payment frequency	định kỳ đóng phí	chu kỳ đóng phí		premium	w	D,V	
+annual premium	phí bảo hiểm năm	phí đóng hằng năm		premium	w	D,V	
+monthly premium	phí bảo hiểm tháng	phí đóng hằng tháng		premium	w	D,V	
+quarterly premium	phí bảo hiểm quý			premium	w	D,V	
+semi-annual premium	phí bảo hiểm nửa năm			premium	w	D,V	
+single premium	phí bảo hiểm đóng một lần	phí đóng một lần		premium	w	D,V	
+regular premium	phí bảo hiểm định kỳ			premium	w	D,V	
+base premium	phí bảo hiểm cơ bản	phí bảo hiểm chính		premium	w	D,V	
+total premium	tổng phí bảo hiểm			premium	w	D,V	
+premium holiday	tạm ngừng đóng phí			premium	w	D,V	
+premium waiver	miễn đóng phí			premium	w	D,V	
+premium refund	hoàn phí bảo hiểm			premium	w	D,V	
+premium calculation;premium quote	tính phí bảo hiểm			premium	w	D,V	
+premium rate	tỷ lệ phí bảo hiểm	biểu phí		premium	w	D,V	
+grace period	thời gian gia hạn đóng phí	thời gian ân hạn		premium	w	D,V	Grace period after due date
+auto debit premium;automatic premium payment	tự động trích nợ phí bảo hiểm			premium	w	D,V	
+sum insured;insured amount	số tiền bảo hiểm			coverage	w	D,V	
+sum assured	số tiền bảo hiểm			coverage	w	D,V	Life insurance
+coverage amount	số tiền bảo hiểm			coverage	w	D,V	
+coverage limit;limit of liability	hạn mức bảo hiểm	mức trách nhiệm		coverage	w	D,V	
+coverage;insurance cover	quyền lợi bảo hiểm	phạm vi bảo hiểm		coverage	w	D,V	
+scope of coverage	phạm vi bảo hiểm			coverage	w	D,V	
+benefit schedule;benefit table	bảng quyền lợi bảo hiểm			coverage	w	D,V	
+insurance benefit	quyền lợi bảo hiểm			coverage	w	D,V	
+death benefit	quyền lợi bảo hiểm tử vong			coverage	w	D,V	
+maturity benefit	quyền lợi đáo hạn	quyền lợi khi đáo hạn		coverage	w	D,V	
+maturity date	ngày đáo hạn			coverage	w	D,V	
+survival benefit	quyền lợi sinh tồn			coverage	w	D,V	
+total permanent disability	thương tật toàn bộ vĩnh viễn			coverage	w	D,V	
+partial disability	thương tật bộ phận			coverage	w	D,V	
+critical illness	bệnh hiểm nghèo			coverage	w	D,V	
+critical illness cover	bảo hiểm bệnh hiểm nghèo			coverage	w	D,V	
+accidental death	tử vong do tai nạn			coverage	w	D,V	
+accidental injury	thương tật do tai nạn			coverage	w	D,V	
+personal accident insurance	bảo hiểm tai nạn cá nhân			product	w	D,V	
+exclusion;exclusions	điều khoản loại trừ	trường hợp loại trừ	ngoại lệ	coverage	w	D,V	
+excluded risks	rủi ro loại trừ			coverage	w	D,V	
+waiting period	thời gian chờ			coverage	w	D,V	
+pre-existing condition	bệnh có sẵn	bệnh đã mắc từ trước		coverage	w	D,V	
+insured event	sự kiện bảo hiểm			coverage	w	D,V	
+insured risk	rủi ro được bảo hiểm			coverage	w	D,V	
+insured object;insured property	đối tượng bảo hiểm	tài sản được bảo hiểm		coverage	w	D,V	
+deductible	mức miễn thường	mức khấu trừ		coverage	w	D,V	
+excess	mức miễn thường			coverage	w	D,V	
+co-payment;copayment;co-pay	đồng chi trả			coverage	w	D,V	Health insurance share of cost
+coinsurance	đồng bảo hiểm			coverage	w	D,V	
+out-of-pocket	chi phí tự chi trả	tự chi trả		coverage	w	D,V	
+rider;policy rider	sản phẩm bổ trợ	quyền lợi bổ trợ;điều khoản bổ sung		coverage	w	D,V	
+add-on cover;add-on coverage	quyền lợi bổ sung	bảo hiểm bổ sung		coverage	w	D,V	
+main product;base plan	sản phẩm chính			product	w	D,V	
+supplementary product	sản phẩm bổ trợ			product	w	D,V	
+life insurance	bảo hiểm nhân thọ			product	w	D,V	
+term life insurance	bảo hiểm tử kỳ	bảo hiểm nhân thọ có thời hạn		product	w	D,V	
+whole life insurance	bảo hiểm trọn đời			product	w	D,V	
+endowment insurance	bảo hiểm hỗn hợp	bảo hiểm sinh kỳ		product	w	D,V	
+unit-linked insurance;investment-linked insurance	bảo hiểm liên kết đầu tư	bảo hiểm liên kết chung		product	w	D,V	
+universal life insurance	bảo hiểm liên kết chung			product	w	D,V	
+annuity	bảo hiểm niên kim	niên kim		product	w	D,V	
+education insurance	bảo hiểm giáo dục			product	w	D,V	
+health insurance	bảo hiểm sức khỏe			product	w	D,V	
+social health insurance	bảo hiểm y tế	BHYT		product	w	D,V	Government scheme, abbreviation BHYT
+social insurance	bảo hiểm xã hội	BHXH		product	w	D,V	
+unemployment insurance	bảo hiểm thất nghiệp	BHTN		product	w	D,V	
+voluntary social insurance	bảo hiểm xã hội tự nguyện			product	w	D,V	
+compulsory insurance	bảo hiểm bắt buộc			product	w	D,V	
+voluntary insurance	bảo hiểm tự nguyện			product	w	D,V	
+medical insurance	bảo hiểm y tế	bảo hiểm khám chữa bệnh		product	w	D,V	
+inpatient treatment	điều trị nội trú			health	w	D,V	
+outpatient treatment	điều trị ngoại trú			health	w	D,V	
+inpatient benefit	quyền lợi nội trú			health	w	D,V	
+outpatient benefit	quyền lợi ngoại trú			health	w	D,V	
+maternity benefit	quyền lợi thai sản			health	w	D,V	
+room and board	tiền giường bệnh	chi phí phòng và giường		health	w	D,V	
+hospital cash benefit	trợ cấp nằm viện			health	w	D,V	
+direct billing;cashless claim	bảo lãnh viện phí	thanh toán trực tiếp		health	w	D,V	Hospital bills insurer directly
+guarantee of payment;letter of guarantee	thư bảo lãnh viện phí			health	w	D,V	
+network hospital;partner hospital	bệnh viện liên kết	cơ sở y tế liên kết		health	w	D,V	
+provider network	mạng lưới cơ sở y tế			health	w	D,V	
+health card;insurance card	thẻ bảo hiểm	thẻ bảo hiểm sức khỏe		health	w	D,V	
+e-card	thẻ bảo hiểm điện tử			health	w	D,V	
+medical examination	khám sức khỏe			health	w	D,V	
+medical report;medical record	hồ sơ bệnh án			health	w	D,V	
+discharge summary	giấy ra viện			health	w	D,V	
+medical bill;hospital bill	hóa đơn viện phí			health	w	D,V	
+prescription	đơn thuốc			health	w	D,V	
+car insurance;auto insurance;motor insurance	bảo hiểm ô tô	bảo hiểm xe cơ giới		product	w	D,V	
+motorbike insurance	bảo hiểm xe máy			product	w	D,V	
+compulsory motor liability insurance;mandatory vehicle insurance	bảo hiểm trách nhiệm dân sự bắt buộc	bảo hiểm TNDS bắt buộc		product	w	D,V	
+third party liability	trách nhiệm dân sự đối với bên thứ ba			motor	w	D,V	
+physical damage insurance;vehicle damage insurance	bảo hiểm vật chất xe			motor	w	D,V	
+total loss	tổn thất toàn bộ			motor	w	D,V	
+partial loss	tổn thất bộ phận			motor	w	D,V	
+garage repair;authorized garage	gara chính hãng	gara liên kết		motor	w	D,V	
+license plate	biển số xe			motor	w	D,V	
+vehicle registration certificate	giấy đăng ký xe	cà vẹt		motor	w	D,V	
+chassis number	số khung			motor	w	D,V	
+engine number	số máy			motor	w	D,V	
+vehicle value	giá trị xe			motor	w	D,V	
+roadside assistance	cứu hộ giao thông	cứu hộ trên đường		motor	w	D,V	
+towing service	dịch vụ kéo xe			motor	w	D,V	
+accident report	biên bản tai nạn			motor	w	D,V	
+travel insurance	bảo hiểm du lịch			product	w	D,V	
+trip cancellation	hủy chuyến đi			travel	w	D,V	
+flight delay	chậm chuyến bay			travel	w	D,V	
+baggage loss	mất hành lý			travel	w	D,V	
+emergency medical evacuation	vận chuyển y tế khẩn cấp			travel	w	D,V	
+home insurance	bảo hiểm nhà ở	bảo hiểm nhà tư nhân		product	w	D,V	
+fire and explosion insurance	bảo hiểm cháy nổ			product	w	D,V	
+claim;insurance claim	yêu cầu bồi thường	yêu cầu giải quyết quyền lợi bảo hiểm		claim	w	D,V	
+file a claim;submit a claim;make a claim	gửi yêu cầu bồi thường	nộp yêu cầu bồi thường		claim	w	D,V	
+claim status	trạng thái yêu cầu bồi thường	tình trạng hồ sơ bồi thường		claim	w	D,V	
+claim number;claim id	mã hồ sơ bồi thường	số hồ sơ bồi thường		claim	w	D,V	
+claim form	giấy yêu cầu bồi thường			claim	w	D,V	
+claim documents;supporting documents	hồ sơ yêu cầu bồi thường	chứng từ bồi thường		claim	w	D,V	
+claim amount;claimed amount	số tiền yêu cầu bồi thường			claim	w	D,V	
+claim approved	yêu cầu bồi thường được chấp thuận			claim	w	D,V	
+claim rejected;claim denied	yêu cầu bồi thường bị từ chối			claim	w	D,V	
+claim settlement;claim payout	chi trả quyền lợi bảo hiểm	giải quyết bồi thường		claim	w	D,V	
+claim history	lịch sử bồi thường			claim	w	D,V	
+claim processing time	thời gian xử lý hồ sơ bồi thường			claim	w	D,V	
+claims adjuster;loss adjuster	giám định viên			claim	w	D,V	
+loss assessment;survey	giám định tổn thất			claim	w	D,V	
+date of loss;date of incident	ngày xảy ra sự kiện bảo hiểm	ngày xảy ra tổn thất		claim	w	D,V	
+place of incident	địa điểm xảy ra sự kiện			claim	w	D,V	
+cause of loss	nguyên nhân tổn thất			claim	w	D,V	
+additional documents required	bổ sung hồ sơ			claim	w	D,V	
+claim reimbursement	bồi hoàn chi phí			claim	w	D,V	
+subrogation	thế quyền	quyền thế quyền		claim	w	D,V	
+underwriting	thẩm định bảo hiểm			underwriting	w	D,V	
+underwriter	chuyên viên thẩm định			underwriting	w	D,V	
+underwriting decision	kết quả thẩm định			underwriting	w	D,V	
+health declaration	khai báo sức khỏe	tờ khai sức khỏe		underwriting	w	D,V	
+risk assessment	đánh giá rủi ro			underwriting	w	D,V	
+insurance application;application for insurance	hồ sơ yêu cầu bảo hiểm	giấy yêu cầu bảo hiểm		underwriting	w	D,V	
+accept with loading	chấp nhận có điều kiện			underwriting	w	D,V	
+loading	phụ phí			underwriting	w	D,V	
+duty of disclosure	nghĩa vụ kê khai trung thực	nghĩa vụ cung cấp thông tin		underwriting	w	D,V	
+renewal;policy renewal	tái tục	gia hạn hợp đồng		renewal	w	D,V	
+renew policy	tái tục hợp đồng	gia hạn hợp đồng		renewal	w	D,V	
+renewal date	ngày tái tục			renewal	w	D,V	
+renewal premium	phí tái tục			renewal	w	D,V	
+auto renewal	tự động tái tục			renewal	w	D,V	
+surrender;policy surrender	hủy hợp đồng trước hạn	yêu cầu rút tiền hủy hợp đồng		value	w	D,V	
+surrender value;cash value	giá trị hoàn lại	giá trị giải ước		value	w	D,V	
+partial withdrawal	rút một phần giá trị hợp đồng			value	w	D,V	
+policy account value	giá trị tài khoản hợp đồng			value	w	D,V	
+bonus;dividend	lãi chia	thưởng duy trì hợp đồng		value	w	D,V	Participating policies
+top-up premium	phí đóng thêm			value	w	D,V	
+fund value	giá trị quỹ			value	w	D,V	
+investment fund	quỹ đầu tư			value	w	D,V	
+unit price	giá đơn vị quỹ			value	w	D,V	
+cost of insurance	phí bảo hiểm rủi ro			value	w	D,V	
+reinsurance	tái bảo hiểm			policy	w	D,V	
+insurance fraud	gian lận bảo hiểm			claim	w	D,V	
+insurance quote;get a quote	báo giá bảo hiểm			premium	w	D,V	
+compare plans	so sánh gói bảo hiểm			product	w	D,V	
+insurance plan;insurance package	gói bảo hiểm	chương trình bảo hiểm		product	w	D,V	
+group insurance	bảo hiểm nhóm	bảo hiểm tập thể		product	w	D,V	
+corporate insurance	bảo hiểm doanh nghiệp			product	w	D,V	
+insurance e-certificate	giấy chứng nhận bảo hiểm điện tử			policy	w	D,V	
+relationship to insured	mối quan hệ với người được bảo hiểm			policy	w	D,V	

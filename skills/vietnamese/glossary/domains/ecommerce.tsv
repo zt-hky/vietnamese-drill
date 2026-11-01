@@ -1,0 +1,197 @@
+en	vi	alt	avoid	cat	match	src	note
+product listing;listing	sản phẩm đăng bán	tin đăng sản phẩm		listing	w	D,V	
+add product;add new product;create listing	thêm sản phẩm	đăng sản phẩm		listing	w	D,V	
+product name;product title	tên sản phẩm			listing	w	D,V	
+product description	mô tả sản phẩm			listing	w	D,V	
+product category	danh mục sản phẩm	ngành hàng		listing	w	D,V	
+product image;product photo	hình ảnh sản phẩm	ảnh sản phẩm		listing	w	D,V	
+cover image	ảnh bìa			listing	w	D,V	
+product video	video sản phẩm			listing	w	D,V	
+product attributes	thuộc tính sản phẩm			listing	w	D,V	
+brand	thương hiệu			listing	w	D,V	
+no brand	không có thương hiệu			listing	w	D,V	
+condition;item condition	tình trạng sản phẩm			listing	w	D,V	
+brand new;new item	mới 100%	hàng mới		listing	w	D,V	
+used item;second-hand	hàng đã qua sử dụng	hàng cũ		listing	w	D,V	
+authentic;genuine product	hàng chính hãng	hàng thật		listing	w	D,V	
+imported goods	hàng nhập khẩu			listing	w	D,V	
+made in	xuất xứ			listing	w	D,V	
+origin	xuất xứ			listing	w	D,V	
+variant;product variant	phân loại hàng	biến thể		variant	w	D,V	Shopee uses "Phân loại hàng"
+variation	phân loại			variant	w	D,V	
+select variation;choose variant	chọn phân loại			variant	w	D,V	
+color	màu sắc	màu		variant	w	D,V	
+size chart;size guide	bảng quy đổi kích cỡ	bảng size; hướng dẫn chọn size		variant	w	D,V	
+weight	cân nặng	trọng lượng		variant	w	D,V	
+sku;seller sku	mã SKU	SKU phân loại		inventory	w	D,V	abbreviation stays: SKU
+barcode	mã vạch			inventory	w	D,V	
+stock;stock quantity	tồn kho	số lượng hàng trong kho		inventory	w	D,V	
+in stock	còn hàng			inventory	w	D,V	
+out of stock;sold out	hết hàng			inventory	w	D,V	
+low stock	sắp hết hàng			inventory	w	D,V	
+only * left	chỉ còn			inventory	w	D,V	
+restock;back in stock	có hàng trở lại	nhập hàng lại		inventory	w	D,V	
+notify me when available;back in stock alert	thông báo khi có hàng			inventory	w	D,V	
+pre-order;preorder	đặt trước	hàng đặt trước		inventory	w	D,V	
+pre-order item	hàng đặt trước			inventory	w	D,V	
+sold	đã bán			inventory	w	D,V	
+units sold	lượt bán	số lượng đã bán		inventory	w	D,V	
+inventory management	quản lý kho hàng	quản lý tồn kho		inventory	w	D,V	
+warehouse	kho hàng			inventory	w	D,V	
+minimum order quantity;moq	số lượng đặt tối thiểu			inventory	w	D,V	
+wholesale price	giá sỉ	giá bán buôn		pricing	w	D,V	Southern "sỉ", Northern "buôn"
+retail price	giá lẻ	giá bán lẻ		pricing	w	D,V	
+original price	giá gốc			pricing	w	D,V	
+sale price;discounted price	giá khuyến mãi	giá ưu đãi		pricing	w	D,V	
+price range	khoảng giá			pricing	w	D,V	
+lowest price	giá thấp nhất			pricing	w	D,V	
+price drop	giảm giá	giá giảm		pricing	w	D,V	
+price includes vat	giá đã bao gồm VAT			pricing	w	D,V	
+seller	người bán			seller	w	D,V	
+shop;store	cửa hàng	shop		seller	w	D,V	"Shop" widely kept in marketplaces
+my shop	cửa hàng của tôi	shop của tôi		seller	w	D,V	
+visit shop;view shop	xem shop	vào cửa hàng		seller	w	D,V	
+shop profile	hồ sơ shop	hồ sơ cửa hàng		seller	w	D,V	
+shop rating	đánh giá shop			seller	w	D,V	
+shop followers	người theo dõi shop			seller	w	D,V	
+follow shop;follow seller	theo dõi shop			seller	w	D,V	
+following shop	đang theo dõi			social	w	D,V	
+unfollow shop	bỏ theo dõi			social	w	D,V	
+official store;flagship store	cửa hàng chính hãng	gian hàng chính hãng; Mall		seller	w	D,V	Shopee Mall / Lazada LazMall
+preferred seller;top seller	người bán yêu thích	shop yêu thích		seller	w	D,V	
+verified seller	người bán đã xác minh			seller	w	D,V	
+seller center;seller centre	kênh người bán	trung tâm người bán		seller	w	D,V	Shopee "Kênh Người Bán"
+seller dashboard	bảng điều khiển người bán			seller	w	D,V	
+become a seller;start selling;register as seller	đăng ký bán hàng			seller	w	D,V	
+chat with seller	chat với người bán			seller	w	D,V	
+contact seller	liên hệ người bán			seller	w	D,V	
+response rate;chat response rate	tỷ lệ phản hồi chat	tỉ lệ phản hồi chat		seller	w	D,V	
+response time	thời gian phản hồi			seller	w	D,V	
+shop voucher;store coupon	voucher của shop			voucher	w	D,V	
+platform voucher	voucher của sàn			voucher	w	D,V	
+voucher;promo code	mã giảm giá	voucher; mã khuyến mãi		voucher	w	D,V	
+apply voucher;use voucher	áp dụng voucher	dùng mã giảm giá		voucher	w	D,V	
+voucher code;enter coupon code	nhập mã giảm giá	nhập mã voucher		voucher	w	D,V	
+collect voucher;claim voucher	lưu voucher	thu thập voucher		voucher	w	D,V	Shopee uses "Lưu" for claiming
+my vouchers;voucher wallet	kho voucher	ví voucher		voucher	w	D,V	Shopee "Kho Voucher"
+voucher expired	voucher đã hết hạn			voucher	w	D,V	
+minimum spend;min spend	đơn tối thiểu			voucher	w	D,V	
+valid until;expires on	hạn sử dụng	hết hạn vào		voucher	w	D,V	
+max discount	giảm tối đa			voucher	w	D,V	
+free shipping voucher	mã miễn phí vận chuyển	voucher freeship		voucher	w	D,V	
+free shipping;freeship	miễn phí vận chuyển	freeship		shipping	w	D,V	"Freeship" is common colloquial
+free shipping on orders from	miễn phí vận chuyển cho đơn từ			shipping	w	D,V	
+shipping discount	giảm phí vận chuyển			shipping	w	D,V	
+shopee coins;loyalty coins;coins	xu	Shopee Xu		voucher	w	D,V	
+use coins	dùng xu			voucher	w	D,V	
+cashback	hoàn tiền	hoàn xu		voucher	w	D,V	
+bundle deal;combo deal	combo khuyến mãi	mua kèm deal sốc		promotion	w	D,V	
+buy 1 get 1;buy one get one;bogo	mua 1 tặng 1			promotion	w	D,V	
+gift with purchase;free gift	quà tặng kèm	quà tặng		promotion	w	D,V	
+flash sale	flash sale	giờ vàng giá sốc		promotion	w	D,V	Keep "Flash Sale"
+flash sale ends in	flash sale kết thúc sau			promotion	w	D,V	
+starting soon;upcoming flash sale	sắp diễn ra			promotion	w	D,V	
+ongoing;now on sale	đang diễn ra			promotion	w	D,V	
+mega sale;super sale	siêu sale			promotion	w	D,V	
+deal of the day;daily deals	ưu đãi mỗi ngày	deal hot mỗi ngày		promotion	w	D,V	
+best seller;bestseller;top selling	bán chạy	bán chạy nhất		promotion	w	D,V	
+recommended for you;for you	gợi ý cho bạn	dành cho bạn		promotion	w	D,V	
+recently viewed	đã xem gần đây			promotion	w	D,V	
+you may also like;similar products;related products	sản phẩm tương tự	có thể bạn cũng thích		promotion	w	D,V	
+frequently bought together	thường được mua cùng			promotion	w	D,V	
+sponsored;ad	được tài trợ	quảng cáo		promotion	w	D,V	
+sort by	sắp xếp theo			search	w	D,V	
+relevance	liên quan			search	w	D,V	
+newest	mới nhất			search	w	D,V	
+price: low to high;price low to high	giá: thấp đến cao			search	w	D,V	
+price: high to low;price high to low	giá: cao đến thấp			search	w	D,V	
+filter by	lọc theo			search	w	D,V	
+search in shop	tìm trong shop			search	w	D,V	
+add to wishlist;add to favorites	thêm vào danh sách yêu thích			wishlist	w	D,V	
+wishlist	yêu thích	danh sách yêu thích		wishlist	w	D,V	
+liked products	sản phẩm đã thích			wishlist	w	D,V	
+compare products	so sánh sản phẩm			wishlist	w	D,V	
+delivery address;shipping address	địa chỉ nhận hàng	địa chỉ giao hàng		checkout	w	D,V	
+change address	thay đổi địa chỉ			checkout	w	D,V	
+recipient;receiver	người nhận			checkout	w	D,V	
+payment method	phương thức thanh toán			checkout	w	D,V	
+cash on delivery;cod	thanh toán khi nhận hàng (COD)	COD		checkout	w	D,V	
+pay on delivery	thanh toán khi nhận hàng			checkout	w	D,V	
+installment payment;buy now pay later	trả góp	mua trước trả sau		checkout	w	D,V	
+place order	đặt hàng			checkout	w	D,V	
+order total;total payment	tổng thanh toán			checkout	w	D,V	
+merchandise subtotal;subtotal	tổng tiền hàng	tạm tính		checkout	w	D,V	
+shipping subtotal	phí vận chuyển	phí ship		shipping	w	D,V	
+shipping fee	phí vận chuyển	phí giao hàng; phí ship		shipping	w	D,V	
+standard delivery;standard shipping	giao hàng tiêu chuẩn			shipping	w	D,V	
+express delivery;fast delivery	giao hàng nhanh	hỏa tốc		shipping	w	D,V	
+same-day delivery;instant delivery	giao trong ngày	giao hàng hỏa tốc		shipping	w	D,V	
+estimated delivery;estimated delivery date	dự kiến giao hàng	ngày giao hàng dự kiến		shipping	w	D,V	
+shipping carrier;shipping unit;courier	đơn vị vận chuyển			shipping	w	D,V	
+tracking number;tracking code	mã vận đơn	mã theo dõi đơn hàng		shipping	w	D,V	
+track order;track package	theo dõi đơn hàng			shipping	w	D,V	
+shipping information	thông tin vận chuyển			shipping	w	D,V	
+shipped from	gửi từ	nơi gửi hàng		shipping	w	D,V	
+ship out;arrange shipment	chuẩn bị hàng	sắp xếp vận chuyển		shipping	w	D,V	Seller side action
+pickup;pick up	lấy hàng			shipping	w	D,V	
+drop off at post office	gửi hàng tại bưu cục			shipping	w	D,V	
+delivery attempt failed	giao hàng không thành công			shipping	w	D,V	
+confirm order	xác nhận đơn hàng			orders	w	D,V	
+to pay;unpaid	chờ thanh toán	chưa thanh toán		orders	w	D,V	
+to ship;pending shipment	chờ lấy hàng	chờ giao hàng		orders	w	D,V	Shopee "Chờ lấy hàng"
+to receive;shipping	chờ giao hàng	đang giao		orders	w	D,V	Shopee "Chờ giao hàng"
+completed;order completed	hoàn thành	đã giao		orders	w	D,V	
+order cancelled	đã hủy			orders	w	D,V	
+return/refund	trả hàng/hoàn tiền			returns	w	D,V	
+order received;confirm receipt;received	đã nhận được hàng			orders	w	D,V	
+confirm received	xác nhận đã nhận hàng			orders	w	D,V	
+order id;order number	mã đơn hàng			orders	w	D,V	
+order date	ngày đặt hàng			orders	w	D,V	
+purchase history;order history	lịch sử mua hàng	lịch sử đơn hàng		orders	w	D,V	
+buy again;reorder	mua lại			orders	w	D,V	
+cancel order	hủy đơn hàng			orders	w	D,V	
+cancellation reason	lý do hủy			orders	w	D,V	
+request cancellation	yêu cầu hủy đơn hàng			orders	w	D,V	
+return item;return product	trả hàng			returns	w	D,V	
+return request	yêu cầu trả hàng/hoàn tiền			returns	w	D,V	
+return reason	lý do trả hàng			returns	w	D,V	
+return policy	chính sách đổi trả			returns	w	D,V	
+exchange item	đổi hàng			returns	w	D,V	
+free returns	miễn phí trả hàng			returns	w	D,V	
+return within 7 days	đổi trả trong 7 ngày			returns	w	D,V	
+damaged item;item damaged	hàng bị hư hỏng	hàng bị hỏng		returns	w	D,V	
+wrong item received;incorrect item	nhận sai hàng			returns	w	D,V	
+item not as described	hàng không đúng mô tả			returns	w	D,V	
+missing item;missing parts	thiếu hàng			returns	w	D,V	
+did not receive item	chưa nhận được hàng			returns	w	D,V	
+open dispute;dispute	khiếu nại			returns	w	D,V	
+buyer protection	bảo vệ người mua			returns	w	D,V	Shopee "Shopee Đảm Bảo"
+refund to	hoàn tiền về			returns	w	D,V	
+warranty	bảo hành			returns	w	D,V	
+authentic guarantee	cam kết chính hãng			returns	w	D,V	
+rate product;rate item	đánh giá sản phẩm			review	w	D,V	
+write a review	viết đánh giá			review	w	D,V	
+reviews;ratings and reviews	đánh giá	nhận xét		review	w	D,V	
+product ratings	đánh giá sản phẩm			review	w	D,V	
+verified purchase	đã mua hàng			review	w	D,V	
+helpful	hữu ích			review	w	D,V	
+with photos;with media	có hình ảnh/video			review	w	D,V	
+star rating;stars	sao	số sao		review	w	D,V	
+add photos;add video	thêm hình ảnh	thêm video		review	w	D,V	
+review reply;seller response	phản hồi của người bán			review	w	D,V	
+buyer;customer	người mua	khách hàng		seller	w	D,V	
+affiliate;affiliate marketing	tiếp thị liên kết	affiliate		affiliate	w	D,V	
+affiliate link	liên kết tiếp thị	link affiliate		affiliate	w	D,V	
+affiliate program;affiliate programme	chương trình tiếp thị liên kết			affiliate	w	D,V	
+commission;commission rate	hoa hồng	tỷ lệ hoa hồng		affiliate	w	D,V	
+promote product	quảng bá sản phẩm			affiliate	w	D,V	
+collaborator;kol;koc	cộng tác viên	KOL; KOC		affiliate	w	D,V	abbreviations KOL/KOC stay
+livestream;live stream;live	phát trực tiếp	livestream; live		livestream	w	D,V	"Livestream" widely kept
+go live;start livestream	bắt đầu phát trực tiếp	lên sóng		livestream	w	D,V	
+live shopping;live selling	mua sắm qua livestream	bán hàng livestream		livestream	w	D,V	
+pinned product	sản phẩm đang ghim			livestream	w	D,V	
+live viewers	người xem			livestream	w	D,V	
+live replay	xem lại buổi phát trực tiếp			livestream	w	D,V	
+host;streamer	người phát trực tiếp	host		livestream	w	D,V	
+shop now	mua ngay	mua sắm ngay		cta	w	D,V	
+view product	xem sản phẩm			cta	w	D,V	

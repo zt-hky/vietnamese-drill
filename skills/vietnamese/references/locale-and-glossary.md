@@ -13,14 +13,14 @@ Do not conflate glossary and style guide. Start from real product decisions; gro
 
 ## 2. What to do when the project has no vi style guide
 1. Search the repo for existing glossary/style files (glossary*, terminology*, vi*.md, docs/i18n, locales/vi) and existing vi strings; infer conventions from shipped copy.
-2. If none, apply this skill's defaults and **list assumptions** (address term, tệp vs tập tin, Delete wording) in one short block for the owner to approve. Do not silently invent a glossary file; offer `assets/project-glossary.template.tsv`.
+2. If none, apply this skill's defaults and **list assumptions** (address term, tệp vs tập tin, Delete wording) in one short block for the owner to approve. Do not silently invent a glossary file; offer `glossary/project.template.tsv`.
 3. Keep one decision per row; never alternate forms without a rule.
 
 ## 3. Style-guide sections worth recording
 Audience and task · voice/tone with approved AND rejected examples (error, notice, welcome, CTA) · address terms and exceptions · terminology (preferred, rejected, product names, acronyms, English kept) · UI writing (buttons, errors, confirmations, punctuation, label length) · locale behavior (dates, numbers, currency, units, sorting) · quality approval (who reviews, who fixes, who signs off).
 
 ## 4. Glossary fields
-source term (exact case) · preferred Vietnamese or KEEP · definition in this product · context (feature/screen/sample) · rejected alternatives (+why) · owner · status (proposed/approved/retired). Machine-readable template: assets/project-glossary.template.tsv (same columns as the bundled assets/glossary.vi-ui.tsv; pass it with `--glossary`). A glossary entry needs a definition and context, not only a translation; automated glossary enforcement helps but does not replace human review.
+source term (exact case) · preferred Vietnamese or KEEP · definition in this product · context (feature/screen/sample) · rejected alternatives (+why) · owner · status (proposed/approved/retired). Machine-readable template: glossary/project.template.tsv (same columns as the bundled glossary/core.tsv; pass it with `--glossary`). A glossary entry needs a definition and context, not only a translation; automated glossary enforcement helps but does not replace human review.
 
 ## 5. Context to give any reviewer (human or LLM)
 String key · screen/feature name · user action it supports · variables and limits (max length, plural/select) · screenshot or description when ambiguous · "do not translate" spans · audience/channel. Missing context is the top cause of bad UI Vietnamese; ask for it or state the assumption instead of guessing. Batch these fields with the strings.

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Vietnamese (vietnamese-drill)"
+  short_description: "Tiếng Việt cho UI/UX, i18n, docs và phản hồi: 7.800 thuật ngữ, 21 gói ngành, checker offline"
+  default_prompt: "Dùng $vietnamese để viết, dịch hoặc review chuỗi giao diện tiếng Việt của dự án này."
+policy:
+  allow_implicit_invocation: true

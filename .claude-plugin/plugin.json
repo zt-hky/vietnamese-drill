@@ -1,10 +1,19 @@
 {
   "name": "vietnamese-drill",
-  "version": "1.3.0",
-  "description": "Natural Vietnamese for software: UI/UX writing glossary from Android, Firefox and Microsoft, offline checker, reviewer subagent. Loads only when Vietnamese UI work needs it.",
-  "author": { "name": "zt-hky" },
+  "version": "2.0.0",
+  "description": "One Vietnamese skill: UI/UX copy with surface/length metadata, 7,800-term glossary (core UI, Android/Firefox phrasing, 21 industry packs), offline checker, reviewer subagent. Loads only what a task needs.",
+  "author": {
+    "name": "zt-hky"
+  },
   "homepage": "https://github.com/zt-hky/vietnamese-drill",
   "repository": "https://github.com/zt-hky/vietnamese-drill",
   "license": "MIT",
-  "keywords": ["vietnamese", "tieng-viet", "i18n", "ux-writing", "localization", "glossary"]
+  "keywords": [
+    "vietnamese",
+    "tieng-viet",
+    "i18n",
+    "ux-writing",
+    "localization",
+    "glossary"
+  ]
 }

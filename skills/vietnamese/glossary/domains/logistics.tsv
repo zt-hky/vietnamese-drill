@@ -1,0 +1,199 @@
+en	vi	alt	avoid	cat	match	src	note
+shipment;consignment	lô hàng	kiện hàng;chuyến hàng		shipment	w	D,V	
+parcel;package	kiện hàng	bưu kiện		shipment	w	D,V	Parcel via post: bưu kiện
+tracking number;tracking code;tracking id	mã vận đơn	mã theo dõi đơn hàng;số theo dõi		tracking	w	D,V	
+track shipment;track parcel;track package	theo dõi đơn hàng	tra cứu vận đơn;theo dõi vận đơn	theo dõi gói hàng	tracking	w	D,V	
+shipment tracking;parcel tracking	theo dõi vận đơn	tra cứu hành trình		tracking	w	D,V	
+tracking history;tracking timeline;shipment journey	hành trình đơn hàng	lịch sử vận chuyển		tracking	w	D,V	
+tracking status;shipment status;delivery status	trạng thái vận chuyển	trạng thái giao hàng		tracking	w	D,V	
+waybill;airway bill;bill of lading	vận đơn	phiếu gửi;vận đơn hàng không (AWB)		document	w	D,V	
+print waybill;print shipping label	in vận đơn	in phiếu gửi		document	w	D,V	
+shipping label	nhãn vận chuyển	tem vận chuyển;phiếu gửi hàng		document	w	D,V	
+packing slip;packing list	phiếu đóng gói	danh sách đóng gói		document	w	D,V	
+delivery note;delivery receipt	phiếu giao hàng	biên bản giao hàng		document	w	D,V	
+proof of delivery;pod	chứng từ giao hàng (POD)	xác nhận giao hàng;bằng chứng giao hàng		document	w	D,V	
+delivery confirmation	xác nhận giao hàng			delivery	w	D,V	
+signature on delivery;recipient signature	chữ ký người nhận			delivery	w	D,V	
+delivery photo;proof photo	ảnh giao hàng	hình ảnh xác nhận giao hàng		delivery	w	D,V	
+carrier;shipping carrier;courier	đơn vị vận chuyển	hãng vận chuyển;nhà vận chuyển;đối tác vận chuyển		carrier	w	D,V	Courier = đơn vị chuyển phát
+courier company;express delivery	chuyển phát nhanh	đơn vị chuyển phát		carrier	w	D,V	
+shipper;delivery driver;delivery person	tài xế giao hàng	shipper;nhân viên giao hàng;bưu tá		carrier	w	D,V	Shipper is common in VN; bưu tá for postal staff
+sender;consignor	người gửi			party	w	D,V	
+recipient;receiver;consignee	người nhận			party	w	D,V	
+sender information	thông tin người gửi			party	w	D,V	
+recipient information;receiver details	thông tin người nhận			party	w	D,V	
+recipient name	tên người nhận			party	w	D,V	
+recipient phone number	số điện thoại người nhận			party	w	D,V	
+delivery address;shipping address	địa chỉ giao hàng	địa chỉ nhận hàng		address	w	D,V	
+pickup address	địa chỉ lấy hàng			address	w	D,V	
+return address	địa chỉ hoàn hàng	địa chỉ trả hàng		address	w	D,V	
+address detail;street address	địa chỉ chi tiết	số nhà, tên đường		address	w	D,V	
+ward	phường/xã	phường;xã		address	w	D,V	Administrative unit; use phường for urban, xã for rural
+district	quận/huyện	quận;huyện		address	w	D,V	
+province;city province	tỉnh/thành phố	tỉnh;thành phố		address	w	D,V	
+add delivery note;note for shipper	ghi chú cho tài xế	ghi chú giao hàng		address	w	D,V	
+change address	đổi địa chỉ giao hàng	thay đổi địa chỉ nhận hàng		address	w	D,V	
+pickup;parcel pickup;collection	lấy hàng	nhận hàng tại nhà		pickup	w	D,V	Carrier collects from sender
+schedule pickup;book pickup	đặt lịch lấy hàng	hẹn lấy hàng		pickup	w	D,V	
+pickup time;pickup slot	thời gian lấy hàng	khung giờ lấy hàng		pickup	w	D,V	
+pickup point;collection point	điểm lấy hàng			pickup	w	D,V	
+pickup failed	lấy hàng không thành công	lấy hàng thất bại		pickup	w	D,V	
+picked up	đã lấy hàng			pickup	w	D,V	
+awaiting pickup	chờ lấy hàng			pickup	w	D,V	
+drop-off;drop off point;dropoff	gửi hàng tại điểm	điểm gửi hàng		pickup	w	D,V	Sender drops parcel at a point
+drop-off point;drop-off location	điểm gửi hàng	bưu cục gửi hàng		pickup	w	D,V	
+parcel locker;smart locker	tủ nhận hàng tự động	tủ khóa nhận hàng;locker		pickup	w	D,V	
+post office;postal office	bưu cục	bưu điện		facility	w	D,V	
+parcel delivery	giao hàng			delivery	x	D,V	
+out for delivery	đang giao hàng	đang trên đường giao		delivery	w	D,V	
+delivered	đã giao hàng	giao hàng thành công		delivery	x	D,V	
+delivered successfully	giao hàng thành công			delivery	w	D,V	
+delivery attempt	lần giao hàng	lượt giao hàng		delivery	w	D,V	
+first delivery attempt	lần giao hàng đầu tiên			delivery	w	D,V	
+delivery attempts remaining	số lần giao hàng còn lại			delivery	w	D,V	
+failed delivery;delivery failed;unsuccessful delivery	giao hàng không thành công	giao hàng thất bại		delivery	w	D,V	
+delivery exception	sự cố giao hàng	ngoại lệ giao hàng		delivery	w	D,V	
+recipient not available;customer unavailable;recipient absent	người nhận không có mặt	không liên lạc được người nhận		delivery	w	D,V	
+unable to contact recipient;cannot reach recipient	không liên lạc được người nhận			delivery	w	D,V	
+wrong address;incorrect address	sai địa chỉ	địa chỉ không chính xác		delivery	w	D,V	
+incomplete address	địa chỉ không đầy đủ	thiếu thông tin địa chỉ		delivery	w	D,V	
+recipient refused;refused delivery	người nhận từ chối nhận hàng	khách từ chối nhận		delivery	w	D,V	
+reschedule delivery;redeliver	hẹn lại ngày giao	giao lại;hẹn giao lại		delivery	w	D,V	
+redelivery	giao lại			delivery	w	D,V	
+delivery date;delivery day	ngày giao hàng			delivery	w	D,V	
+estimated delivery date;expected delivery	ngày giao hàng dự kiến	dự kiến giao	ngày giao ước tính	delivery	w	D,V	
+estimated delivery time;eta	thời gian giao hàng dự kiến			delivery	w	D,V	
+delivery time slot;delivery window	khung giờ giao hàng			delivery	w	D,V	
+delivery lead time;transit time	thời gian vận chuyển			delivery	w	D,V	
+same-day delivery;same day delivery	giao hàng trong ngày	giao hàng hỏa tốc		service	w	D,V	
+next-day delivery;next day delivery	giao hàng ngày hôm sau	giao hàng trong 24 giờ		service	w	D,V	
+express delivery service;express shipping	giao hàng nhanh	chuyển phát nhanh;vận chuyển nhanh		service	w	D,V	
+standard delivery;standard shipping	giao hàng tiêu chuẩn	giao hàng thường		service	w	D,V	
+economy shipping;economy delivery	giao hàng tiết kiệm			service	w	D,V	
+instant delivery;on-demand delivery;urgent delivery	giao hàng hỏa tốc	giao hàng siêu tốc		service	w	D,V	
+scheduled delivery	giao hàng theo lịch hẹn	giao hàng theo hẹn		service	w	D,V	
+shipping method;delivery method;shipping service	phương thức vận chuyển	dịch vụ vận chuyển;hình thức giao hàng		service	w	D,V	
+shipping fee;delivery fee;shipping cost	phí vận chuyển	phí giao hàng;cước vận chuyển		fee	w	D,V	
+freight;freight charge	cước vận chuyển	cước phí		fee	w	D,V	
+shipping calculator;calculate shipping	tính phí vận chuyển			fee	w	D,V	
+free shipping	miễn phí vận chuyển	freeship;miễn phí giao hàng		fee	w	D,V	Freeship is colloquial
+fuel surcharge	phụ phí nhiên liệu			fee	w	D,V	
+remote area surcharge	phụ phí vùng xa	phụ phí giao vùng sâu vùng xa		fee	w	D,V	
+surcharge	phụ phí			fee	w	D,V	
+oversize fee;oversized surcharge	phụ phí quá khổ			fee	w	D,V	
+redelivery fee	phí giao lại			fee	w	D,V	
+return fee;return shipping fee	phí hoàn hàng	phí chuyển hoàn		fee	w	D,V	
+storage fee;warehousing fee	phí lưu kho			fee	w	D,V	
+insurance fee;shipping insurance	phí bảo hiểm hàng hóa	bảo hiểm vận chuyển		fee	w	D,V	
+declared value	giá trị khai báo			fee	w	D,V	
+parcel insurance;shipment insurance	bảo hiểm hàng hóa			fee	w	D,V	
+cash on delivery;cod	thu hộ (COD)	thanh toán khi nhận hàng (COD)		cod	w	D,V	Collection service for the shipper; COD stays
+cod amount;cod collection amount	tiền thu hộ (COD)	số tiền thu hộ		cod	w	D,V	
+cod fee	phí thu hộ	phí COD		cod	w	D,V	
+cod reconciliation;cod settlement	đối soát COD	đối soát tiền thu hộ		cod	w	D,V	
+cod payout;cod remittance	chuyển tiền COD	trả tiền thu hộ		cod	w	D,V	
+cod collected	đã thu tiền COD	đã thu hộ		cod	w	D,V	
+reconciliation statement	bảng kê đối soát	biên bản đối soát		cod	w	D,V	
+reconciliation period	kỳ đối soát			cod	w	D,V	
+return to sender;return shipment;returned parcel	hoàn hàng	chuyển hoàn;trả hàng cho người gửi		return	w	D,V	
+return in progress;being returned	đang hoàn hàng	đang chuyển hoàn		return	w	D,V	
+returned to sender;return completed	đã hoàn hàng	đã chuyển hoàn		return	w	D,V	
+confirm return;approve return	xác nhận hoàn hàng			return	w	D,V	
+return reason	lý do hoàn hàng			return	w	D,V	
+return label;return waybill	vận đơn hoàn hàng	nhãn trả hàng		return	w	D,V	
+lost parcel;lost shipment	thất lạc hàng	hàng bị thất lạc		claim	w	D,V	
+damaged parcel;damaged goods	hàng bị hư hỏng	hàng hư hại;hàng bị hỏng		claim	w	D,V	
+compensation claim;file claim	yêu cầu bồi thường	khiếu nại bồi thường		claim	w	D,V	
+complaint ticket;shipping complaint	khiếu nại vận chuyển			claim	w	D,V	
+delay;delayed shipment	giao hàng chậm trễ	đơn hàng bị chậm		delivery	w	D,V	
+hold shipment;shipment on hold	tạm giữ hàng	giữ hàng		delivery	w	D,V	
+cancel shipment	hủy vận đơn			shipment	w	D,V	
+create shipment;create waybill	tạo vận đơn			shipment	w	D,V	
+create bulk shipments;bulk shipping	tạo vận đơn hàng loạt			shipment	w	D,V	
+import shipments	nhập vận đơn từ tệp			shipment	w	D,V	
+shipment list	danh sách vận đơn			shipment	w	D,V	
+shipment details	chi tiết vận đơn			shipment	w	D,V	
+bulk label printing;print labels	in nhãn hàng loạt			document	w	D,V	
+hub;sorting hub	trung tâm khai thác	hub;trung tâm phân loại		facility	w	D,V	Hub is often kept in tech UI
+sorting center;sortation center	trung tâm phân loại	trung tâm khai thác		facility	w	D,V	
+sorting facility	trung tâm phân loại			facility	w	D,V	
+transit hub	trạm trung chuyển	kho trung chuyển		facility	w	D,V	
+distribution center	trung tâm phân phối			facility	w	D,V	
+fulfillment center	trung tâm xử lý đơn hàng	kho fulfillment;trung tâm hoàn tất đơn hàng		facility	w	D,V	
+delivery station	bưu cục giao hàng	trạm giao hàng		facility	w	D,V	
+last-mile delivery;last mile	giao hàng chặng cuối			service	w	D,V	
+first-mile;first mile pickup	lấy hàng chặng đầu			service	w	D,V	
+line haul;trunk transport	vận tải đường trục	vận chuyển liên tỉnh		service	w	D,V	
+arrived at hub;arrived at sorting center	đã đến trung tâm khai thác			tracking	w	D,V	
+departed from hub	đã rời trung tâm khai thác			tracking	w	D,V	
+in transit	đang vận chuyển	đang trung chuyển		tracking	w	D,V	
+at post office	đã đến bưu cục			tracking	w	D,V	
+shipment received at warehouse	đã nhập kho			tracking	w	D,V	
+order picked up by carrier	đã bàn giao cho đơn vị vận chuyển			tracking	w	D,V	
+handed over to carrier	bàn giao cho đơn vị vận chuyển			tracking	w	D,V	
+customs clearance	thông quan			customs	w	D,V	
+customs declaration	tờ khai hải quan	khai báo hải quan		customs	w	D,V	
+customs duty;import duty	thuế nhập khẩu			customs	w	D,V	
+cross-border shipping;international shipping	vận chuyển quốc tế	giao hàng xuyên biên giới		customs	w	D,V	
+domestic shipping;domestic delivery	vận chuyển nội địa	giao hàng nội địa		customs	w	D,V	
+hs code	mã HS			customs	w	D,V	Abbreviation stays: HS
+incoterms	điều kiện giao hàng (Incoterms)			customs	w	D,V	
+warehouse	kho	nhà kho;kho hàng		warehouse	x	D,V	
+warehouse management;warehouse management system;wms	quản lý kho	hệ thống quản lý kho (WMS)		warehouse	w	D,V	
+inventory;stock level	tồn kho	hàng tồn kho	kiểm kê	warehouse	x	D,V	Noun = stock on hand; not kiểm kê
+inventory management;stock management	quản lý tồn kho	quản lý hàng tồn kho		warehouse	w	D,V	
+inventory count;stocktake;stock count	kiểm kê kho	kiểm kho		warehouse	w	D,V	
+stock in;goods receipt;receive goods	nhập kho			warehouse	w	D,V	
+stock out;goods issue;dispatch goods	xuất kho			warehouse	w	D,V	
+stock transfer;warehouse transfer	chuyển kho	điều chuyển kho		warehouse	w	D,V	
+stock adjustment	điều chỉnh tồn kho			warehouse	w	D,V	
+out of stock;sold out	hết hàng			warehouse	w	D,V	
+low stock;low inventory	sắp hết hàng	tồn kho thấp		warehouse	w	D,V	
+in stock	còn hàng			warehouse	x	D,V	
+available stock;available quantity	số lượng khả dụng	tồn kho khả dụng		warehouse	w	D,V	
+reserved stock;allocated stock	hàng đã giữ chỗ	số lượng đã đặt giữ		warehouse	w	D,V	
+reorder point	điểm đặt hàng lại	ngưỡng nhập hàng		warehouse	w	D,V	
+safety stock	tồn kho an toàn			warehouse	w	D,V	
+purchase order;po	đơn mua hàng	đơn đặt hàng nhập		warehouse	w	D,V	
+sku;stock keeping unit	mã SKU	mã hàng		warehouse	w	D,V	Abbreviation stays: SKU
+barcode;bar code	mã vạch			warehouse	w	D,V	
+scan barcode	quét mã vạch			warehouse	w	D,V	
+qr code scan	quét mã QR			warehouse	w	D,V	
+batch number;lot number	số lô	mã lô		warehouse	w	D,V	
+expiry date;best before	hạn sử dụng	ngày hết hạn		warehouse	w	D,V	
+bin location;storage location	vị trí lưu kho	vị trí kệ		warehouse	w	D,V	
+shelf;rack	kệ hàng			warehouse	w	D,V	
+pallet	pallet			warehouse	w	D,V	Kept as is in industry
+picking;order picking	lấy hàng trong kho	nhặt hàng		warehouse	w	D,V	Not same as pickup from sender
+packing;pack order	đóng gói			warehouse	w	D,V	
+pick list;picking list	phiếu lấy hàng	danh sách lấy hàng		warehouse	w	D,V	
+stock keeper;warehouse staff	thủ kho	nhân viên kho		warehouse	w	D,V	
+supplier;vendor	nhà cung cấp			warehouse	w	D,V	
+goods receipt note	phiếu nhập kho			document	w	D,V	
+goods issue note	phiếu xuất kho			document	w	D,V	
+weight	trọng lượng	khối lượng		parcel	x	D,V	Postal usage: khối lượng
+chargeable weight	khối lượng tính cước	trọng lượng tính phí		parcel	w	D,V	
+volumetric weight;dimensional weight	khối lượng quy đổi	trọng lượng quy đổi		parcel	w	D,V	
+actual weight;gross weight	khối lượng thực tế			parcel	w	D,V	
+package size;parcel dimensions	kích thước kiện hàng			parcel	w	D,V	
+length * width * height	dài x rộng x cao			parcel	w	D,V	
+oversized parcel	hàng quá khổ	hàng cồng kềnh		parcel	w	D,V	
+bulky goods	hàng cồng kềnh			parcel	w	D,V	
+fragile	hàng dễ vỡ			parcel	w	D,V	
+handle with care	xin nhẹ tay			parcel	w	D,V	Label wording; also: hàng dễ vỡ
+perishable goods	hàng dễ hư hỏng	hàng tươi sống		parcel	w	D,V	
+dangerous goods;hazardous goods	hàng nguy hiểm			parcel	w	D,V	
+prohibited items	hàng cấm gửi	hàng hóa bị cấm		parcel	w	D,V	
+cold chain	chuỗi cung ứng lạnh	vận chuyển lạnh		parcel	w	D,V	
+allow inspection;allow viewing before receiving	cho xem hàng	cho xem hàng, không cho thử		parcel	w	D,V	Shipper option before accepting
+inspect before payment	đồng kiểm	kiểm tra hàng khi nhận		parcel	w	D,V	
+supply chain	chuỗi cung ứng			general	w	D,V	
+logistics	logistics	hậu cần;dịch vụ logistics		general	x	D,V	Usually kept in English
+shipping partner	đối tác vận chuyển			carrier	w	D,V	
+connect carrier;link carrier	kết nối đơn vị vận chuyển			carrier	w	D,V	
+dispatch;assign driver	phân công tài xế	điều phối		fleet	w	D,V	
+route optimization;optimize route	tối ưu tuyến đường	tối ưu lộ trình		fleet	w	D,V	
+delivery route	tuyến giao hàng			fleet	w	D,V	
+delivery zone;service area	vùng giao hàng	khu vực phục vụ		fleet	w	D,V	
+delivery driver app	ứng dụng dành cho tài xế			fleet	w	D,V	
+collect cod from recipient	thu tiền COD từ người nhận			cod	w	D,V	

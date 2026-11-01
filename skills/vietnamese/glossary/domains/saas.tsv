@@ -1,0 +1,201 @@
+en	vi	alt	avoid	cat	match	src	note
+lead;sales lead	khách hàng tiềm năng	lead	khách hàng chì	crm	w	D,V	Keep "lead" in CRM jargon contexts
+lead source	nguồn khách hàng tiềm năng	nguồn lead		crm	w	D,V	
+lead status	trạng thái khách hàng tiềm năng	trạng thái lead		crm	w	D,V	
+lead scoring;lead score	chấm điểm khách hàng tiềm năng	điểm lead		crm	w	D,V	
+lead generation	tạo khách hàng tiềm năng	thu hút khách hàng tiềm năng		marketing	w	D,V	
+qualified lead	khách hàng tiềm năng đủ điều kiện	lead đủ điều kiện		crm	w	D,V	
+contact	liên hệ	danh bạ khách hàng		crm	x	D,V	As CRM object; "Liên hệ" also means contact us
+company;companies	công ty	doanh nghiệp		crm	x	D,V	CRM account object
+account owner	người phụ trách tài khoản	chủ sở hữu tài khoản		crm	w	D,V	
+record owner	người phụ trách	chủ sở hữu bản ghi		crm	w	D,V	
+deal;deals	giao dịch	cơ hội bán hàng	thỏa thuận	crm	x	D,V	CRM object; "deal" as discount is different
+opportunity;opportunities	cơ hội	cơ hội bán hàng		crm	x	D,V	
+deal stage	giai đoạn giao dịch	giai đoạn cơ hội		crm	w	D,V	
+deal value	giá trị giao dịch	giá trị cơ hội		crm	w	D,V	
+closed won	thành công	chốt thành công		crm	x	D,V	
+closed lost	thất bại	chốt thất bại;mất giao dịch		crm	x	D,V	
+close date	ngày chốt	ngày dự kiến chốt		crm	w	D,V	
+expected close date	ngày chốt dự kiến			crm	w	D,V	
+win rate	tỷ lệ chốt thành công	tỷ lệ thắng		crm	w	D,V	
+sales pipeline;pipeline	quy trình bán hàng	pipeline;phễu bán hàng	đường ống	crm	w	D,V	Pipeline often kept in English in Vietnamese CRMs
+pipeline stage	giai đoạn trong pipeline	giai đoạn quy trình bán hàng		crm	w	D,V	
+sales forecast;forecast	dự báo doanh số	dự báo bán hàng		crm	w	D,V	
+sales quota;quota	chỉ tiêu doanh số	quota		crm	w	D,V	
+sales rep	nhân viên kinh doanh	sales		crm	w	D,V	
+customer segment	phân khúc khách hàng			crm	w	D,V	
+follow up;follow-up	theo dõi	chăm sóc lại		crm	w	D,V	
+activity log;activity timeline	nhật ký hoạt động	dòng thời gian hoạt động		crm	w	D,V	
+log a call	ghi nhận cuộc gọi			crm	w	D,V	
+add note	thêm ghi chú			crm	w	D,V	
+due date	ngày đến hạn	hạn chót	ngày đáo hạn	crm	w	D,V	Use for tasks; "ngày đáo hạn" is for loans
+custom field	trường tùy chỉnh			crm	w	D,V	
+required field	trường bắt buộc			crm	w	D,V	
+field mapping	ánh xạ trường			crm	w	D,V	
+merge duplicates	gộp bản ghi trùng lặp	hợp nhất bản ghi trùng		crm	w	D,V	
+import contacts	nhập danh sách liên hệ	import liên hệ		crm	w	D,V	
+bulk action	thao tác hàng loạt			crm	w	D,V	
+saved view	chế độ xem đã lưu			crm	w	D,V	
+kanban view;kanban board	dạng bảng Kanban			crm	w	D,V	
+filter by	lọc theo			crm	w	D,V	
+smart list;dynamic list	danh sách động			crm	w	D,V	
+tags	thẻ	nhãn		crm	x	D,V	
+lifecycle stage	giai đoạn vòng đời khách hàng			crm	w	D,V	
+customer success	Customer Success	thành công khách hàng		crm	x	D,V	keep English in SaaS
+churn rate	tỷ lệ rời bỏ	tỷ lệ churn;tỷ lệ khách hàng rời bỏ		analytics	w	D,V	
+churn	rời bỏ	churn		analytics	x	D,V	
+retention rate	tỷ lệ giữ chân khách hàng	tỷ lệ giữ chân		analytics	w	D,V	
+customer lifetime value	giá trị vòng đời khách hàng	CLV;LTV		analytics	w	D,V	
+customer acquisition cost	chi phí thu hút khách hàng	CAC;chi phí chuyển đổi khách hàng		analytics	w	D,V	
+net promoter score	chỉ số NPS	điểm NPS		analytics	w	D,V	Abbreviation stays: NPS
+monthly recurring revenue	doanh thu định kỳ hàng tháng (MRR)	MRR		analytics	w	D,V	
+annual recurring revenue	doanh thu định kỳ hàng năm (ARR)	ARR		analytics	w	D,V	
+average revenue per user	doanh thu trung bình trên mỗi người dùng (ARPU)	ARPU		analytics	w	D,V	
+campaign;campaigns	chiến dịch			marketing	x	D,V	
+email campaign	chiến dịch email	chiến dịch gửi email		marketing	w	D,V	
+marketing campaign	chiến dịch marketing	chiến dịch tiếp thị		marketing	w	D,V	
+campaign performance	hiệu quả chiến dịch	hiệu suất chiến dịch		marketing	w	D,V	
+drip campaign	chuỗi email tự động	chiến dịch email nhỏ giọt		marketing	w	D,V	
+a/b test;ab test	thử nghiệm A/B	kiểm thử A/B		marketing	w	D,V	
+variant	biến thể	phiên bản thử nghiệm		marketing	w	D,V	
+audience	đối tượng	tệp đối tượng		marketing	x	D,V	Marketing audience
+target audience	đối tượng mục tiêu	tệp khách hàng mục tiêu		marketing	w	D,V	
+segment;segments	phân khúc	tệp khách hàng		marketing	x	D,V	
+email template	mẫu email			marketing	w	D,V	
+preview text	văn bản xem trước	nội dung xem trước		marketing	w	D,V	
+sender name	tên người gửi			marketing	w	D,V	
+reply-to address	địa chỉ email nhận phản hồi			marketing	w	D,V	
+schedule send	lên lịch gửi	hẹn giờ gửi		marketing	w	D,V	
+send test email	gửi email thử nghiệm	gửi email kiểm tra		marketing	w	D,V	
+open rate	tỷ lệ mở email	tỷ lệ mở		marketing	w	D,V	
+click-through rate;click through rate	tỷ lệ nhấp chuột (CTR)	CTR		marketing	w	D,V	
+bounce rate	tỷ lệ thoát			analytics	w	D,V	For website analytics
+email bounce;hard bounce	email bị trả về	email không gửi được		marketing	w	D,V	
+unsubscribe rate	tỷ lệ hủy đăng ký			marketing	w	D,V	
+subscriber;subscribers	người đăng ký			marketing	x	D,V	
+mailing list	danh sách gửi thư	danh sách email		marketing	w	D,V	
+suppression list	danh sách chặn gửi	danh sách loại trừ		marketing	w	D,V	
+landing page	trang đích	landing page		marketing	w	D,V	
+lead form	biểu mẫu thu thập khách hàng tiềm năng	form thu thập lead		marketing	w	D,V	
+call to action	lời kêu gọi hành động (CTA)	CTA		marketing	w	D,V	
+utm parameters	tham số UTM			marketing	w	D,V	
+attribution	phân bổ chuyển đổi	ghi nhận nguồn chuyển đổi	quy kết	analytics	x	D,V	Marketing attribution
+conversion rate	tỷ lệ chuyển đổi			analytics	w	D,V	
+conversion goal	mục tiêu chuyển đổi			analytics	w	D,V	
+funnel;conversion funnel	phễu chuyển đổi			analytics	x	D,V	
+funnel analysis	phân tích phễu chuyển đổi			analytics	w	D,V	
+drop-off;drop off	tỷ lệ rời bỏ giữa chừng	điểm rời bỏ		analytics	w	D,V	
+cohort analysis	phân tích nhóm khách hàng	phân tích cohort		analytics	w	D,V	
+cohort	nhóm đối tượng	cohort		analytics	x	D,V	
+traffic source	nguồn truy cập	nguồn lưu lượng		analytics	w	D,V	
+page views;pageviews	lượt xem trang			analytics	w	D,V	
+unique visitors	lượt truy cập duy nhất	khách truy cập duy nhất		analytics	w	D,V	
+session duration	thời lượng phiên			analytics	w	D,V	
+active users	người dùng hoạt động			analytics	w	D,V	
+daily active users	người dùng hoạt động hàng ngày (DAU)	DAU		analytics	w	D,V	
+monthly active users	người dùng hoạt động hàng tháng (MAU)	MAU		analytics	w	D,V	
+event tracking	theo dõi sự kiện			analytics	w	D,V	
+custom event	sự kiện tùy chỉnh			analytics	w	D,V	
+dashboards	bảng điều khiển	dashboard		analytics	x	D,V	
+widget;widgets	tiện ích	widget		analytics	x	D,V	
+report builder	trình tạo báo cáo			analytics	w	D,V	
+scheduled report	báo cáo theo lịch	báo cáo định kỳ		analytics	w	D,V	
+export report	xuất báo cáo			analytics	w	D,V	
+date range	khoảng thời gian	phạm vi ngày		analytics	w	D,V	
+compare to previous period	so sánh với kỳ trước			analytics	w	D,V	
+group by	nhóm theo			analytics	w	D,V	
+metric;metrics	chỉ số	số liệu		analytics	x	D,V	
+dimension;dimensions	chiều dữ liệu	thứ nguyên		analytics	x	D,V	Analytics dimension
+real-time;realtime	thời gian thực	theo thời gian thực		analytics	x	D,V	
+workspace;workspaces	không gian làm việc	workspace		workspace	x	D,V	
+workspace settings	cài đặt không gian làm việc			workspace	w	D,V	
+team member;team members	thành viên nhóm			workspace	w	D,V	
+invite member	mời thành viên			workspace	w	D,V	
+pending invitation	lời mời đang chờ			workspace	w	D,V	
+revoke invitation	thu hồi lời mời			workspace	w	D,V	
+remove member	xóa thành viên			workspace	w	D,V	
+roles	vai trò			workspace	x	D,V	
+admin role	vai trò quản trị viên			workspace	w	D,V	
+access permissions	quyền truy cập	phân quyền		workspace	x	D,V	
+guest access	quyền truy cập của khách			workspace	w	D,V	
+single sign-on;sso	đăng nhập một lần (SSO)	SSO		workspace	w	D,V	
+audit log	nhật ký kiểm tra	nhật ký kiểm toán		workspace	w	D,V	
+seat;seats	suất người dùng	người dùng được cấp phép;suất;seat		billing	x	D,V	Licensed user slot; "giấy phép" often used
+licenses;license seats	giấy phép			billing	w	D,V	
+per seat;per user per month	mỗi người dùng mỗi tháng			billing	w	D,V	
+billing plan;pricing plan	gói dịch vụ	gói cước		billing	w	D,V	
+upgrade plan	nâng cấp gói			billing	w	D,V	
+downgrade plan	hạ cấp gói			billing	w	D,V	
+current plan	gói hiện tại			billing	w	D,V	
+free trial	dùng thử miễn phí			billing	w	D,V	
+enterprise plan	gói doanh nghiệp	gói Enterprise		billing	w	D,V	
+starter plan	gói cơ bản	gói Starter		billing	w	D,V	
+billing cycle	chu kỳ thanh toán	kỳ thanh toán		billing	w	D,V	
+billing contact	người nhận hóa đơn	liên hệ thanh toán		billing	w	D,V	
+billing history	lịch sử thanh toán			billing	w	D,V	
+usage limit	giới hạn sử dụng			billing	w	D,V	
+overage	phần vượt mức sử dụng			billing	w	D,V	
+renewal date	ngày gia hạn			billing	w	D,V	
+auto-renew;auto renewal	tự động gia hạn			billing	w	D,V	
+cancel subscription	hủy gói đăng ký	hủy đăng ký		billing	w	D,V	
+purchase order	đơn đặt hàng (PO)	PO		billing	w	D,V	
+tax id;vat number	mã số thuế			billing	w	D,V	
+integration;integrations	tích hợp			integration	x	D,V	
+connect app	kết nối ứng dụng			integration	w	D,V	
+connected apps	ứng dụng đã kết nối			integration	w	D,V	
+disconnect integration	ngắt kết nối tích hợp			integration	w	D,V	
+app marketplace	chợ ứng dụng	kho ứng dụng		integration	w	D,V	
+webhook;webhooks	webhook			integration	x	D,V	Keep English
+webhook url	URL webhook			integration	w	D,V	
+api key	khóa API			integration	w	D,V	
+api token;access token	mã truy cập API	token truy cập		integration	w	D,V	
+rotate key	đổi khóa	xoay vòng khóa		integration	w	D,V	
+rate limit	giới hạn tốc độ truy cập	giới hạn lưu lượng API		integration	w	D,V	
+sync status	trạng thái đồng bộ			integration	x	D,V	
+two-way sync	đồng bộ hai chiều			integration	w	D,V	
+sync failed	đồng bộ không thành công			integration	w	D,V	
+automation;automations	tự động hóa			automation	x	D,V	
+workflow;workflows	quy trình tự động	workflow		automation	x	D,V	
+create workflow	tạo quy trình tự động	tạo workflow		automation	w	D,V	
+trigger;triggers	điều kiện kích hoạt	trigger		automation	x	D,V	
+action;actions	hành động			automation	x	D,V	
+if/then branch	nhánh điều kiện			automation	w	D,V	
+enrollment criteria	điều kiện đăng ký vào quy trình			automation	w	D,V	
+delay step;wait step	bước chờ			automation	w	D,V	
+workflow history	lịch sử chạy quy trình			automation	w	D,V	
+auto-assign	tự động phân công			automation	w	D,V	
+round robin	phân công luân phiên	round robin		automation	w	D,V	
+sla policy;sla	chính sách SLA	SLA		helpdesk	w	D,V	
+ticket;tickets	phiếu hỗ trợ	ticket	vé	helpdesk	x	D,V	Support ticket
+new ticket	phiếu hỗ trợ mới	ticket mới		helpdesk	w	D,V	
+create ticket	tạo phiếu hỗ trợ	tạo ticket		helpdesk	w	D,V	
+ticket status	trạng thái phiếu hỗ trợ	trạng thái ticket		helpdesk	w	D,V	
+ticket priority	mức độ ưu tiên	độ ưu tiên của ticket		helpdesk	w	D,V	
+assignee	người xử lý	người được giao		helpdesk	x	D,V	
+requester	người yêu cầu			helpdesk	x	D,V	
+agent;support agent	nhân viên hỗ trợ			helpdesk	w	D,V	Support role
+escalate ticket	chuyển cấp phiếu hỗ trợ	leo thang ticket		helpdesk	w	D,V	
+merge tickets	gộp phiếu hỗ trợ			helpdesk	w	D,V	
+mark as solved	đánh dấu đã giải quyết			helpdesk	w	D,V	
+reopen ticket	mở lại phiếu hỗ trợ			helpdesk	w	D,V	
+internal note	ghi chú nội bộ			helpdesk	w	D,V	
+public reply	phản hồi công khai			helpdesk	w	D,V	
+canned response;saved reply	mẫu trả lời nhanh	câu trả lời soạn sẵn		helpdesk	w	D,V	
+shared inbox	hộp thư dùng chung			helpdesk	w	D,V	
+help center;knowledge base	trung tâm trợ giúp	cơ sở kiến thức		helpdesk	w	D,V	
+first response time	thời gian phản hồi đầu tiên			helpdesk	w	D,V	
+resolution time	thời gian giải quyết			helpdesk	w	D,V	
+customer satisfaction;csat	mức độ hài lòng của khách hàng (CSAT)	CSAT		helpdesk	w	D,V	
+live chat	chat trực tiếp	trò chuyện trực tuyến		helpdesk	w	D,V	
+chatbot	chatbot			helpdesk	x	D,V	
+conversation;conversations	cuộc trò chuyện	hội thoại		helpdesk	x	D,V	
+omnichannel	đa kênh	omnichannel		helpdesk	x	D,V	
+quote;quotes	báo giá			crm	x	D,V	Sales quote
+send quote	gửi báo giá			crm	w	D,V	
+proposal	đề xuất			crm	x	D,V	
+contract signed	hợp đồng đã ký			crm	w	D,V	
+e-signature	chữ ký điện tử			crm	w	D,V	
+onboarding checklist	danh sách việc cần làm khi bắt đầu			workspace	w	D,V	
+product tour	hướng dẫn sử dụng sản phẩm			workspace	w	D,V	
+sandbox	môi trường thử nghiệm	sandbox		workspace	x	D,V	
+data retention	thời gian lưu trữ dữ liệu			workspace	w	D,V	

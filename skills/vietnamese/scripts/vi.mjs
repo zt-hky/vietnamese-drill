@@ -1,9 +1,12 @@
 import { pathToFileURL } from 'node:url';
 import { readFileSync } from 'node:fs';
-import { loadGlossary, lintPair, reverseHints, lookup } from './glossary.mjs';
+import { lintPair, reverseHints, lookup, route, resolvePacks, index, loadPack, domainIds } from './glossary.mjs';
+import { writeFileSync } from 'node:fs';
+import { checkSurface, specLines, surfaceIds, getSurface, graphemes } from './surfaces.mjs';
+import { fileURLToPath } from 'node:url';
 
-// Read-only lint: no network, no dependencies, no automatic rewrites. Reads only the bundled glossary
-// and, in the CLI, an optional project glossary file you pass with --glossary.
+// CLI + library: check (lint), lookup (glossary slice), route (pick domain packs), packs (list), build-index.
+// Read-only except build-index; no network, no dependencies, no automatic rewrites.
 const MAX = 200000;
 const tokens = text => [...text.matchAll(/\{\{\s*([\w.]+)\s*\}\}|\$\{\s*([\w.]+)\s*\}|\{([\w.]+)\}|%(?:\d+\$)?[sdif]/g)].map(m => m[1] ? `mustache:${m[1]}` : m[2] ? `template:${m[2]}` : m[3] ? `brace:${m[3]}` : m[0]).sort();
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
@@ -19,7 +22,7 @@ const SEV = { error: 0, warning: 1, info: 2 };
 
 export function check(input) {
   if (!input || typeof input.text !== 'string' || input.text.length > MAX) throw new Error('text must be a string of at most 200000 UTF-16 units');
-  const { text, sourceText, mode = 'text', limit = 30, projectGlossary, glossary = true } = input;
+  const { text, sourceText, mode = 'text', limit = 30, projectGlossary, glossary = true, domains } = input;
   if (!['text', 'json'].includes(mode)) throw new Error('mode must be text or json');
   if (sourceText !== undefined && (typeof sourceText !== 'string' || sourceText.length > MAX)) throw new Error('invalid sourceText');
   if (projectGlossary !== undefined && (typeof projectGlossary !== 'string' || projectGlossary.length > MAX)) throw new Error('invalid projectGlossary');
@@ -31,7 +34,9 @@ export function check(input) {
     target = mode === 'json' ? flatten(JSON.parse(text)) : new Map([['$', text]]);
     source = sourceText === undefined ? undefined : mode === 'json' ? flatten(JSON.parse(sourceText)) : new Map([['$', sourceText]]);
   } catch (e) { return { status: 'error', findings: [{ code: 'JSON', severity: 'error', path: '$', message: e.message }], total: 1, truncated: false, semanticReview: 'not-run' }; }
-  const G = glossary ? loadGlossary(projectGlossary) : null;
+  const srcTexts = source ? [...source.values()].filter(v => typeof v === 'string') : [];
+  const R = glossary ? resolvePacks({ texts: srcTexts, domains, auto: !!source, project: projectGlossary, ext: false }) : null;
+  const G = R?.packs;
   if (source) {
     for (const key of source.keys()) if (!target.has(key)) add('MISSING_KEY', 'error', key, 'Missing source leaf');
     for (const key of target.keys()) if (!source.has(key)) add('EXTRA_KEY', 'error', key, 'Unexpected target leaf');
@@ -71,32 +76,79 @@ export function check(input) {
   }
   findings.sort((x, y) => SEV[x.severity] - SEV[y.severity]);
   const status = findings.some(f => f.severity === 'error') ? 'error' : findings.some(f => f.severity === 'warning') ? 'warning' : 'clean';
-  return { status, findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, semanticReview: 'not-run', coverage: 'NFC, selected invisible characters, JSON leaves/types, simple named placeholders and printf, style/locale hints, tone-mark mix, UI glossary (avoid-forms when sourceText is given; GLOSSARY_MISS is info only); NOT ICU/HTML/Markdown parser or fluency assessment' };
+  return { status, findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, domains: R?.domains ?? [], semanticReview: 'not-run', coverage: 'NFC, selected invisible characters, JSON leaves/types, simple named placeholders and printf, style/locale hints, tone-mark mix, UI glossary (avoid-forms when sourceText is given; GLOSSARY_MISS is info only); NOT ICU/HTML/Markdown parser or fluency assessment' };
 }
 
+export const TEXT_HINT = 'Text mode: lengths and UI-surface rules were NOT checked. For UI strings call check with {"items":[{id,src,tgt,ctx:{surface,max,near,standalone}}]}.';
+
 export function lookupRequest(input) {
-  const strings = Array.isArray(input?.strings) ? input.strings : input?.src ? [{ id: '1', src: input.src }] : [];
-  if (!strings.length || strings.length > 2000 || strings.some(s => typeof (s.src ?? s.text) !== 'string')) throw new Error('strings must be 1..2000 items of {id, src}');
-  return lookup(strings, loadGlossary(input.projectGlossary), { notes: input.notes !== false, perId: !!input.perId, max: input.max ?? 80, header: input.header !== false });
+  const strings = Array.isArray(input?.strings) ? input.strings : Array.isArray(input?.items) ? input.items : input?.src ? [{ id: '1', src: input.src }] : [];
+  if (!strings.length || strings.length > 2000 || strings.some(s => typeof (s.src ?? s.text) !== 'string')) throw new Error('strings must be 1..2000 items of {id, src, ctx?}');
+  const r = lookup(strings, { domains: input.domains, auto: input.auto !== false, project: input.projectGlossary, notes: input.notes !== false, perId: !!input.perId, max: input.max ?? 60, maxExt: input.maxExt ?? 12, header: input.header !== false, ext: input.ext !== false });
+  // Surface specs only for surfaces present in the batch (a few lines), so length/context rules travel with the terms.
+  const used = strings.map(s => s.ctx?.surface).filter(Boolean);
+  if (used.length) { const lines = specLines(used); r.surfaces = lines; r.text = (r.text ? r.text + '\n' : '') + `# surfaces (lengths in characters; ctx.max overrides)\n${lines.join('\n')}`; }
+  return r;
+}
+
+// Batch check of {id, src, tgt, ctx}: glossary + style + placeholder lint per item, plus surface rules (length, punctuation, context).
+export function checkItems(input) {
+  const items = input.items;
+  if (!Array.isArray(items) || !items.length || items.length > 2000) throw new Error('items must be 1..2000 of {id, src, tgt, ctx?}');
+  const domains = input.domains ?? (route(items.map(i => i.src ?? '').filter(Boolean)).selected);
+  const findings = [];
+  for (const it of items) {
+    if (typeof it.tgt !== 'string') { findings.push({ code: 'MISSING_TGT', severity: 'error', path: it.id, message: 'tgt missing' }); continue; }
+    const r = check({ text: it.tgt, sourceText: typeof it.src === 'string' ? it.src : undefined, domains: domains.length ? domains : ['none'], projectGlossary: input.projectGlossary, limit: 100 });
+    for (const f of r.findings) findings.push({ ...f, path: it.id });
+    try { for (const f of checkSurface(it.tgt, it.ctx)) findings.push({ ...f, path: it.id }); } catch (e) { findings.push({ code: 'SURFACE', severity: 'error', path: it.id, message: e.message }); }
+  }
+  const SEVR = { error: 0, warning: 1, info: 2 };
+  findings.sort((a, b) => SEVR[a.severity] - SEVR[b.severity]);
+  const limit = input.limit ?? 60;
+  const status = findings.some(f => f.severity === 'error') ? 'error' : findings.some(f => f.severity === 'warning') ? 'warning' : 'clean';
+  return { status, domains, findings: findings.slice(0, limit), total: findings.length, truncated: findings.length > limit, lengths: Object.fromEntries(items.filter(i => typeof i.tgt === 'string').map(i => [i.id, graphemes(i.tgt.trim())])) };
+}
+
+export function buildIndex() {
+  const domains = domainIds().map(id => {
+    const p = loadPack(id);
+    const cats = {}; for (const e of p.entries) cats[e.cat] = (cats[e.cat] || 0) + 1;
+    return { id, terms: p.entries.length, cats: Object.entries(cats).sort((a, b) => b[1] - a[1]).slice(0, 6).map(c => c[0]) };
+  });
+  const out = { version: 2, core: loadPack('core').entries.length, uiExt: loadPack('ui-ext').entries.length, domains };
+  out.total = out.core + out.uiExt + domains.reduce((a, d) => a + d.terms, 0);
+  writeFileSync(fileURLToPath(new URL('../glossary/index.json', import.meta.url)), JSON.stringify(out, null, 1) + '\n');
+  return out;
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  const HELP = 'usage: node vi.mjs <check|lookup|route|packs|surfaces|build-index> [--domains a,b] [--glossary project.tsv] [--json] < request.json';
   try {
     const args = process.argv.slice(2);
     const cmd = args[0] && !args[0].startsWith('-') ? args.shift() : 'check';
-    const gi = args.indexOf('--glossary');
-    const projectGlossary = gi >= 0 ? readFileSync(args[gi + 1], 'utf8') : undefined;
+    const opt = n => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
+    if (cmd === 'packs') { const ix = index(); console.log(args.includes('--json') ? JSON.stringify(ix) : `core ${ix.core ?? '?'} · ui-ext ${ix.uiExt ?? '?'} · total ${ix.total ?? '?'}\n` + ix.domains.map(d => `${d.id} (${d.terms ?? '?'}): ${(d.cats || []).join(', ')}`).join('\n')); process.exit(0); }
+    if (cmd === 'surfaces') { const ids = surfaceIds(); console.log(args.includes('--full') ? specLines(ids).join('\n') : ids.map(id => { const x = getSurface(id); return `${id} ≤${x.max ?? '-'}${x.hard ? ` (hard ${x.hard})` : ''}`; }).join(' · ')); process.exit(0); }
+    if (cmd === 'build-index') { console.log(JSON.stringify(buildIndex())); process.exit(0); }
+    if (cmd === 'help' || args.includes('--help')) { console.log(HELP); process.exit(0); }
+    const projectGlossary = opt('--glossary') ? readFileSync(opt('--glossary'), 'utf8') : undefined;
+    const domains = opt('--domains') ? opt('--domains').split(',').map(s => s.trim()).filter(Boolean) : undefined;
     let data = '';
     for await (const chunk of process.stdin) { data += chunk; if (data.length > 1300000) throw new Error('Request too large'); }
     const req = JSON.parse(data);
     if (projectGlossary) req.projectGlossary = projectGlossary;
+    if (domains) req.domains = domains;
     if (cmd === 'lookup') {
       const r = lookupRequest(req);
-      console.log(args.includes('--json') ? JSON.stringify(r) : r.text);
+      console.log(args.includes('--json') ? JSON.stringify(r) : (r.text || '(no glossary terms matched)'));
+    } else if (cmd === 'route') {
+      const strings = Array.isArray(req.strings) ? req.strings.map(s => s.src ?? s.text ?? '') : [req.text ?? req.src ?? ''];
+      console.log(JSON.stringify(route(strings)));
     } else if (cmd === 'check') {
-      const result = check(req);
+      const result = Array.isArray(req.items) ? checkItems(req) : { ...check(req), hint: TEXT_HINT };
       console.log(JSON.stringify(result));
       process.exitCode = result.status === 'error' ? 1 : 0;
-    } else throw new Error(`unknown command ${cmd}; use check or lookup`);
+    } else throw new Error(`unknown command ${cmd}; ${HELP}`);
   } catch (e) { console.error(JSON.stringify({ status: 'error', message: e.message })); process.exitCode = 2; }
 }

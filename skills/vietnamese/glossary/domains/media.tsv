@@ -1,0 +1,185 @@
+en	vi	alt	avoid	cat	match	src	note
+follower;followers	người theo dõi	follower		social	w	D,V	"follower" often kept in creator contexts
+following list;people you follow	đang theo dõi			social	w	D,V	
+follow back	theo dõi lại			social	w	D,V	
+suggested for you;suggested account	gợi ý cho bạn	tài khoản gợi ý		discovery	w	D,V	
+for you page;for you feed	dành cho bạn	trang dành cho bạn		discovery	w	D,V	TikTok-style feed
+following feed	đang theo dõi			discovery	w	D,V	
+home feed;news feed;newsfeed	bảng tin	trang chủ		feed	w	D,V	Facebook uses "Bảng feed" rarely; "Bảng tin" standard
+trending now;trending topic	xu hướng	chủ đề thịnh hành		discovery	w	D,V	
+explore page	khám phá			discovery	w	D,V	
+hashtag	hashtag	thẻ bắt đầu bằng #		post	w	D,V	keep hashtag
+trending hashtag	hashtag thịnh hành	hashtag xu hướng		discovery	w	D,V	
+mention	nhắc đến	đề cập		post	w	D,V	"@mention" as verb: "nhắc đến"
+tag a friend;tag someone	gắn thẻ bạn bè			post	w	D,V	
+tag people	gắn thẻ người khác			post	w	D,V	
+remove tag	gỡ thẻ			post	w	D,V	
+you were tagged;tagged you	đã gắn thẻ bạn			notif	w	D,V	
+add a caption;write a caption	viết chú thích	thêm chú thích		post	w	D,V	Post caption, not subtitle
+caption	chú thích			post	w	D,V	For post text; video subtitles use "phụ đề"
+subtitles	phụ đề			video	w	D,V	
+closed captions;cc	phụ đề chi tiết	phụ đề		video	w	D,V	
+auto-generated captions;auto captions	phụ đề tự động			video	w	D,V	
+add subtitles	thêm phụ đề			video	w	D,V	
+audio description	mô tả âm thanh			a11y	w	D,V	
+alt text	văn bản thay thế	mô tả thay thế		a11y	w	D,V	
+what's on your mind	bạn đang nghĩ gì?			post	x	D,V	Facebook composer prompt
+create post;new post;write a post	tạo bài viết	đăng bài		post	w	D,V	
+post	bài viết	bài đăng		post	x	D,V	As noun; verb "đăng"
+publish post	đăng bài			post	w	D,V	
+scheduled post;schedule post	bài viết đã lên lịch	lên lịch đăng bài		post	w	D,V	
+edit post	chỉnh sửa bài viết			post	w	D,V	
+delete post	xóa bài viết			post	w	D,V	
+pin post;pinned post	ghim bài viết	bài viết đã ghim		post	w	D,V	
+repost	đăng lại			post	w	D,V	
+quote post;quote tweet	trích dẫn bài viết			post	w	D,V	
+public post	bài viết công khai			privacy	w	D,V	
+who can see this;audience selector	ai có thể xem nội dung này?	đối tượng		privacy	w	D,V	
+only me	chỉ mình tôi			privacy	x	D,V	
+friends only	chỉ bạn bè			privacy	x	D,V	
+close friends	bạn thân			privacy	w	D,V	Instagram "Bạn thân"
+friends except	bạn bè ngoại trừ			privacy	w	D,V	
+private account	tài khoản riêng tư			privacy	w	D,V	
+public account	tài khoản công khai			privacy	w	D,V	
+follow request	yêu cầu theo dõi			social	w	D,V	
+friend request	lời mời kết bạn			social	w	D,V	
+accept request	chấp nhận lời mời	chấp nhận yêu cầu		social	w	D,V	
+add friend	thêm bạn bè	kết bạn		social	w	D,V	
+unfriend	hủy kết bạn			social	w	D,V	
+people you may know	những người bạn có thể biết			social	w	D,V	
+restrict account;restrict	hạn chế			safety	w	D,V	Instagram "Hạn chế"
+mute account	tắt tiếng tài khoản			safety	w	D,V	"Tắt tiếng" also used on X
+block account;block user	chặn người dùng	chặn tài khoản		safety	w	D,V	
+blocked accounts	tài khoản đã chặn			safety	w	D,V	
+muted words	từ đã tắt tiếng	từ bị ẩn		safety	w	D,V	
+not interested	không quan tâm			feed	x	D,V	
+show less like this;see fewer posts like this	xem ít nội dung tương tự hơn			feed	w	D,V	
+see more like this	xem thêm nội dung tương tự			feed	w	D,V	
+why am i seeing this	tại sao tôi thấy nội dung này?			feed	w	D,V	
+story;stories	tin	story		story	x	D,V	Facebook "tin"; Instagram/Zalo use "story"
+add to story;share to story	thêm vào tin	chia sẻ lên tin		story	w	D,V	
+your story	tin của bạn			story	w	D,V	
+story highlight;highlights	tin nổi bật			story	w	D,V	
+viewed by;seen by	người đã xem	đã xem bởi		story	w	D,V	
+reel;reels	reel	video ngắn		video	x	D,V	Keep Reels as product name
+short video;shorts	video ngắn	shorts		video	w	D,V	
+create reel	tạo reel			video	w	D,V	
+duet	duet	song ca		video	w	D,V	keep as feature name
+stitch	stitch			video	w	D,V	TikTok feature; keep English
+remix	remix			video	w	D,V	
+use this sound;use audio	dùng âm thanh này	sử dụng âm thanh này		video	w	D,V	
+original audio	âm thanh gốc			video	w	D,V	
+add music;add sound	thêm nhạc	thêm âm thanh		video	w	D,V	
+sticker	nhãn dán	sticker		editor	w	D,V	"Nhãn dán" on Facebook; "sticker" widely used
+filter effect;effects	hiệu ứng			editor	w	D,V	
+cover photo	ảnh bìa			profile	w	D,V	
+profile picture;profile photo;avatar	ảnh đại diện	avatar		profile	w	D,V	
+display name	tên hiển thị			profile	w	D,V	
+handle;@handle	tên người dùng	@tên người dùng		profile	w	D,V	
+verified account;verified badge;blue tick	tài khoản đã xác minh	dấu tích xanh		profile	w	D,V	
+request verification	yêu cầu xác minh			profile	w	D,V	
+comment section	phần bình luận			comment	w	D,V	
+add a comment;write a comment	viết bình luận	thêm bình luận		comment	w	D,V	
+reply to comment	trả lời bình luận			comment	w	D,V	
+top comments	bình luận hàng đầu	bình luận nổi bật		comment	w	D,V	
+most relevant comments	bình luận phù hợp nhất			comment	w	D,V	
+turn off comments;disable comments	tắt bình luận			comment	w	D,V	
+turn on comments	bật bình luận			comment	w	D,V	
+hide comment	ẩn bình luận			moderation	w	D,V	
+delete comment	xóa bình luận			comment	w	D,V	
+pin comment	ghim bình luận			comment	w	D,V	
+comment filter;filter comments	bộ lọc bình luận			moderation	w	D,V	
+hold comments for review	giữ bình luận để xem xét	duyệt bình luận		moderation	w	D,V	
+who can comment	ai có thể bình luận			privacy	w	D,V	
+reactions;react	cảm xúc	bày tỏ cảm xúc		reaction	w	D,V	
+like count;likes	lượt thích			reaction	w	D,V	
+hide like count	ẩn số lượt thích			reaction	w	D,V	
+share count;shares	lượt chia sẻ			reaction	w	D,V	
+view count;views;plays	lượt xem			analytics	w	D,V	
+share to	chia sẻ lên	chia sẻ tới		share	w	D,V	
+send in message;send as message	gửi trong tin nhắn			share	w	D,V	
+report post	báo cáo bài viết			report	w	D,V	
+report comment	báo cáo bình luận			report	w	D,V	
+report account;report user	báo cáo tài khoản	báo cáo người dùng		report	w	D,V	
+report video	báo cáo video			report	w	D,V	
+report a problem	báo cáo sự cố			report	w	D,V	
+report content	báo cáo nội dung			report	w	D,V	
+fake account	tài khoản giả mạo			report	w	D,V	
+impersonation	mạo danh			report	w	D,V	
+hate speech	phát ngôn thù ghét	ngôn từ gây thù ghét		report	w	D,V	
+harassment;bullying	quấy rối;bắt nạt			report	w	D,V	
+nudity	nội dung khỏa thân			report	w	D,V	
+violent content	nội dung bạo lực			report	w	D,V	
+misinformation;false information	thông tin sai lệch	tin giả		report	w	D,V	
+sensitive content	nội dung nhạy cảm			safety	w	D,V	
+sensitive content warning	cảnh báo nội dung nhạy cảm			safety	w	D,V	
+age-restricted content	nội dung giới hạn độ tuổi			safety	w	D,V	
+copyright infringement	vi phạm bản quyền			legal	w	D,V	
+copyright claim;copyright strike	khiếu nại bản quyền	cảnh cáo bản quyền		legal	w	D,V	
+community guidelines;community standards	tiêu chuẩn cộng đồng	nguyên tắc cộng đồng		policy	w	D,V	Facebook: "Tiêu chuẩn cộng đồng"; YouTube: "Nguyên tắc cộng đồng"
+violates guidelines;policy violation	vi phạm nguyên tắc	vi phạm chính sách		policy	w	D,V	
+content removed	nội dung đã bị gỡ			policy	w	D,V	
+remove content	gỡ nội dung			policy	w	D,V	
+appeal decision;request review	kháng nghị quyết định	yêu cầu xem xét lại		policy	w	D,V	
+account suspended	tài khoản bị tạm ngưng	tài khoản bị đình chỉ		policy	w	D,V	
+account restricted	tài khoản bị hạn chế			policy	w	D,V	
+content moderation	kiểm duyệt nội dung			policy	w	D,V	
+moderator	người kiểm duyệt	kiểm duyệt viên		policy	w	D,V	
+live;go live;start live stream;livestream	phát trực tiếp	livestream		live	w	D,V	
+live video	video trực tiếp			live	w	D,V	
+end live stream;end live	kết thúc phát trực tiếp			live	w	D,V	
+live replay;replay	phát lại			live	w	D,V	
+viewers;live viewers	người xem			live	w	D,V	
+watching now	đang xem			live	w	D,V	
+live chat	trò chuyện trực tiếp	chat trực tiếp		live	w	D,V	
+stream title	tiêu đề buổi phát trực tiếp			live	w	D,V	
+scheduled live;upcoming live	buổi phát trực tiếp sắp diễn ra			live	w	D,V	
+premiere	công chiếu			video	w	D,V	
+subscribe to channel	đăng ký kênh			channel	w	D,V	
+subscribers;subscriber count	người đăng ký			channel	w	D,V	
+subscribed	đã đăng ký			channel	x	D,V	
+subscriptions feed	kênh đăng ký			channel	w	D,V	
+channel	kênh			channel	x	D,V	
+channel name	tên kênh			channel	w	D,V	
+channel banner	ảnh bìa kênh	banner kênh		channel	w	D,V	
+all notifications;personalized notifications	tất cả thông báo;thông báo được cá nhân hóa			channel	w	D,V	
+watch later	xem sau			library	x	D,V	
+watch history	lịch sử xem			library	w	D,V	
+liked videos	video đã thích			library	w	D,V	
+playlist	danh sách phát			playlist	w	D,V	
+create playlist;new playlist	tạo danh sách phát			playlist	w	D,V	
+add to playlist	thêm vào danh sách phát			playlist	w	D,V	
+save to playlist	lưu vào danh sách phát			playlist	w	D,V	
+queue;add to queue	danh sách chờ;thêm vào danh sách chờ			playlist	w	D,V	
+play next	phát tiếp theo			playlist	w	D,V	
+autoplay	tự động phát			player	w	D,V	
+shuffle	phát ngẫu nhiên			player	w	D,V	
+repeat one;loop	lặp lại			player	w	D,V	
+playback speed	tốc độ phát			player	w	D,V	
+video quality;resolution	chất lượng video	độ phân giải		player	w	D,V	
+picture-in-picture	hình trong hình			player	w	D,V	
+fullscreen	toàn màn hình			player	w	D,V	
+download for offline;available offline	tải xuống để xem ngoại tuyến			player	w	D,V	
+skip intro;skip recap	bỏ qua phần mở đầu;bỏ qua phần tóm tắt			player	w	D,V	
+skip ad;skip ads	bỏ qua quảng cáo			ads	w	D,V	
+ad-free;ad free	không có quảng cáo			subscription	w	D,V	
+sponsored;sponsored post	được tài trợ			ads	w	D,V	
+paid partnership	hợp tác trả phí			ads	w	D,V	
+creator	nhà sáng tạo nội dung	creator		creator	w	D,V	"Nhà sáng tạo" in Meta/TikTok; "creator" common informally
+content creator	nhà sáng tạo nội dung			creator	w	D,V	
+creator studio;studio	studio dành cho nhà sáng tạo	studio		creator	w	D,V	
+analytics;insights	thống kê	số liệu phân tích		analytics	w	D,V	Meta: "Thông tin chi tiết"
+audience insights	thông tin chi tiết về đối tượng			analytics	w	D,V	
+reach;impressions	lượt tiếp cận;lượt hiển thị			analytics	w	D,V	
+engagement rate	tỷ lệ tương tác			analytics	w	D,V	
+watch time	thời gian xem			analytics	w	D,V	
+monetization	kiếm tiền	bật kiếm tiền		monetize	w	D,V	
+earnings;estimated revenue	thu nhập;doanh thu ước tính			monetize	w	D,V	
+payout	thanh toán cho nhà sáng tạo	rút thu nhập		monetize	w	D,V	
+tip;send a tip	tiền boa	tặng quà;boa		monetize	w	D,V	Monetary tip; virtual gifts are "quà tặng"
+virtual gift;gift	quà tặng ảo	quà tặng		monetize	w	D,V	
+super chat;super thanks	super chat;super thanks			monetize	w	D,V	keep product names
+channel membership;join membership	gói thành viên kênh	tham gia làm thành viên		monetize	w	D,V	
+members only	chỉ dành cho thành viên			monetize	w	D,V	
+exclusive content	nội dung độc quyền	nội dung dành riêng		monetize	w	D,V	
+brand deal	hợp tác thương hiệu			monetize	w	D,V	

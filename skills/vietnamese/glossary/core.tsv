@@ -34,7 +34,7 @@ update	Cập nhật		Nâng cấp	action	w	A,F,M	Nâng cấp is Upgrade
 upgrade	Nâng cấp			action	w	E	
 install	Cài đặt			action	w	A,F,M	Same word as Settings; context decides
 uninstall	Gỡ cài đặt			action	w	A,M	
-download	Tải xuống	Tải về		action	w	F,M	
+download	Tải xuống	Tải về;Tải		action	w	F,M	
 upload	Tải lên			action	w	M	
 import	Nhập			action	w	A,M	
 export	Xuất			action	w	A,M	
@@ -59,14 +59,14 @@ expand	Mở rộng			action	w	A,F,M
 collapse	Thu gọn			action	w	A,F,M	
 more	Xem thêm	Thêm		action	x	A,M	
 learn more	Tìm hiểu thêm		Học thêm	action	w	A,F,G	"Học thêm" is a typical machine translation
-details	Chi tiết			nav	w	A,F,M	
+details	Chi tiết	Thông tin		nav	w	A,F,M	"X details" as a section = "Thông tin X"
 help	Trợ giúp	Hỗ trợ		nav	x	A,F,M	Label only; "helps/help you" is a verb, not this term
 feedback	Phản hồi	Góp ý;Ý kiến phản hồi		nav	w	A,M	
-report	Báo cáo			action	w	A,M	
+report	Báo cáo	Biên bản;Báo		action	w	A,M	Official record (police, handover) = biên bản; "Report a problem" = báo cáo sự cố
 confirm	Xác nhận			action	w	A,M	
 dismiss	Bỏ qua	Đóng		action	w	A,F,M	
 discard	Bỏ	Bỏ thay đổi;Loại bỏ;Loại bỏ thay đổi;Hủy thay đổi;Không lưu		action	w	A,M	Android: "Loại bỏ (thay đổi)"; "Hủy thay đổi" is common but reads like Cancel, so prefer Bỏ/Loại bỏ
-submit	Gửi			action	w	A,M	
+submit	Gửi	Nộp		action	w	A,M	"Nộp" for homework, fees, applications, reports, tax; "Gửi" for forms/messages
 send	Gửi			action	w	A,M	
 reply	Trả lời			action	w	A,M	
 forward	Chuyển tiếp			action	w	M	
@@ -198,7 +198,8 @@ access denied;permission denied	Không có quyền truy cập	Truy cập bị t�
 update available	Đã có bản cập nhật			msg	w	A	
 new version	Phiên bản mới			msg	w	E	
 version	Phiên bản			system	w	A,M	
-terms of service;terms and conditions	Điều khoản dịch vụ	Điều khoản và điều kiện		nav	w	A,M	
+terms of service	Điều khoản dịch vụ	Điều khoản sử dụng		nav	w	A,M	
+terms and conditions	Điều khoản và điều kiện			nav	w	A,M	
 privacy policy	Chính sách bảo mật	Chính sách quyền riêng tư;Chính sách riêng tư		nav	w	A,F	Three live forms; pick one per product
 cookies	Cookie			nav	w	F	
 location	Vị trí			perm	w	A,F,M	
@@ -236,7 +237,7 @@ cart	Giỏ hàng			commerce	w	M
 add to cart	Thêm vào giỏ hàng			commerce	w	E	
 checkout	Thanh toán			commerce	w	Mo	
 payment	Thanh toán			commerce	w	Mo	
-pay	Thanh toán			commerce	w	Mo	
+pay	Thanh toán	Nộp;Trả		commerce	w	Mo	"Nộp" for fees/tax/fines; "Trả" for loans/bills in speech
 pay now	Thanh toán ngay			commerce	w	E	
 buy	Mua			commerce	w	M,Mo	Guide example: "Bạn muốn mua sản phẩm này?" buttons "Mua/Không"
 buy now	Mua ngay			commerce	w	E	
@@ -245,7 +246,7 @@ delivery	Giao hàng	Nhận hàng		commerce	w	E	"after delivery" → "sau khi nh�
 discount	Giảm giá	Ưu đãi;Khuyến mãi		commerce	w	M	"Ưu đãi" for promotions; "Giảm giá" for price cuts
 coupon	Mã giảm giá	Phiếu giảm giá		commerce	w	E	
 invoice	Hóa đơn			commerce	w	M	
-receipt	Biên lai			commerce	w	E	
+receipt	Biên lai	Hóa đơn;Phiếu nhập		commerce	w	E	Goods receipt (warehouse) = nhập kho / phiếu nhập; payment proof = biên lai
 refund	Hoàn tiền			commerce	w	E	
 subscription	Gói đăng ký	Đăng ký		commerce	w	A,M	
 subscribe	Đăng ký			commerce	w	M	
@@ -316,7 +317,7 @@ invite	Mời	Lời mời		social	w	M
 member	Thành viên			role	w	M	
 admin	Quản trị viên	Quản trị		role	w	A,M	
 owner	Chủ sở hữu			role	w	A,M	
-guest	Khách			role	w	A,M	
+guest	Khách	Người		role	w	A,M	Party size: "Đặt bàn cho 4 người"
 user	Người dùng			role	w	A,M	
 group	Nhóm			role	w	A,M	
 team	Nhóm	Đội		role	w	M	

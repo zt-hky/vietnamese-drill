@@ -1,17 +1,16 @@
----
-name: vietnamese-product
-description: "Write, translate or review Vietnamese (tiếng Việt) software UI text: buttons, labels, errors, toasts, notifications, onboarding, i18n files (vi.json, vi-VN), UX writing and product docs. Use only for Vietnamese UI/product copy, not for chat replies. Pulls a company-sourced UI glossary on demand and delegates one batch to a reviewer subagent."
----
-# Contract
-Write for the audience, not English word order. Preserve facts, uncertainty, negation, amounts, links and behavior. The project's own glossary/style wins over everything below; flag conflicts, never silently rename a concept.
+# Mode: UI and product copy
 
-## Workflow (cost-aware: nothing below is loaded until it is needed)
-1. **Collect items**: `[{id, src, tgt?, ctx}]` where `ctx` = key, screen, user action, max length. Detect the project glossary first (search the repo for `glossary*`, `terminology*`, `locales/vi*`); if none exists, use the bundled one and state assumptions (address term, tệp vs tập tin, Delete wording).
-2. **Delegate one batch** when there are 3 or more strings, or any ambiguity, and your harness can spawn a subagent: Claude Code → agent `vietnamese-reviewer` (or a general-purpose subagent); OMP → task agent `vietnamese-reviewer`; Codex → custom agent `vietnamese_reviewer` or a default subagent. Prompt:
-   `Mode: translate|review|rewrite. Surface: <…>. Audience: <…>. SKILL_DIR=<absolute path of this skill folder>. Project glossary: <path|none>. Read $SKILL_DIR/references/reviewer.md and follow it. Items: <JSON>`
-   The subagent retrieves only the matching glossary lines and returns changed rows; the glossary never enters your context. **Never write Vietnamese UI strings from memory.** No subagent, or 1–2 strings: first run `node $SKILL_DIR/scripts/check.mjs lookup < items.json` (about 100 tokens) and follow `references/reviewer.md` inline.
-3. **Apply and verify**: apply accepted rows, then run `node $SKILL_DIR/scripts/check.mjs` (or the `vi_check` tool) with `{"text","sourceText","mode"}`; add `--glossary project.tsv` for a project glossary. Exit 0 clean or warnings, 1 contract errors, 2 invalid request. Run the project's i18n compiler for ICU, and check the rendered UI when UI changed.
-4. Never send secrets or customer data to a remote model; redact first. No numeric fluency score, no repeated debate loops; unresolved meaning goes back to the user with the source context.
+Use for buttons, labels, errors, toasts, notifications, onboarding, web content, i18n files and product docs. Fixed terms come from `scripts/vi.mjs lookup`; this file is the style layer. Project glossary/style always wins.
+
+## Surface and context (decides length and how much to say)
+Every UI item should carry `ctx`: `{surface, max?, near?, standalone?, screen?, action?}`.
+- `surface`: one id from `vi.mjs surfaces` (button, dialog_button, field_error, toast, push_title, push_body, sms, empty_body, store_title…). It sets the recommended/hard length, line count, end punctuation, content pattern.
+- `max`: the real limit in characters for this slot (fixed-width button, design spec). Overrides the surface default and becomes a hard requirement.
+- `near`: text already visible next to the string (dialog title, field label, screen title, icon label). **If the information is already on screen, do not repeat it**: dialog button → verb only ("Xóa"), field error → only how to fix ("Nhập email hợp lệ."), toast after the user's own tap → result only ("Đã lưu").
+- `standalone: true` (push, SMS, email subject, background toast, notification centre): nothing else explains it, so write the **minimum complete message**: what happened + which object (amount, order no., time) + next step when the user must act. Never "Bạn có thông báo mới".
+- No `ctx` given: infer the surface from the key/name (`*.button`, `error.*`, `toast.*`), state the assumption, and default to the standalone minimum for errors and notifications.
+- Too long for `max`: cut in this order: pronoun "bạn" / "của bạn" → words duplicated by `near` → "vui lòng"/"hãy" → long synonyms (use the glossary `alt`/short form). Never cut negation, amounts, the object of a destructive action, or the next step.
+- Vietnamese is usually longer than English; check lengths with `vi.mjs check` (items mode reports `LENGTH_OVER`, `LENGTH_HARD`, `SMS_SEGMENTS`, `END_PUNCT`, `REDUNDANT_CONTEXT`, `NO_NEXT_STEP`).
 
 ## Terms and surfaces
 - Developer docs/chat: keep commit, branch, merge, deploy, production, staging, API, endpoint, payload, cache, hook, skill, plugin, pull request when natural. Never commit→cam kết or production→sản xuất in software context.
@@ -45,5 +44,3 @@ Write for the audience, not English word order. Preserve facts, uncertainty, neg
 - Đã xảy ra lỗi → Không lưu được cài đặt. Thử lại. (only if retry is a real action)
 - Chọn mạng A, B, và C → Chọn mạng A, B và C
 - cam kết các thay đổi → commit các thay đổi · triển khai đến sản xuất → deploy lên production
-
-References, loaded only when needed: `reviewer.md` (subagent playbook), `microsoft-vi-style.md` (error/notification/UI rules), `locale-and-glossary.md` (pronouns, dates, regions, glossary setup), `sources.md` (provenance, limits). Data: `assets/glossary.vi-ui.tsv` (never read it whole; use `lookup`), `assets/project-glossary.template.tsv`.

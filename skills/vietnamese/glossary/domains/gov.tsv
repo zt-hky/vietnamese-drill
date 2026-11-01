@@ -1,0 +1,182 @@
+en	vi	alt	avoid	cat	match	src	note
+citizen identity card;citizen id card	căn cước công dân			id	w	D,V	CCCD abbreviation is common
+identity card	căn cước	thẻ căn cước		id	w	D,V	Current official card name since 2024 is "thẻ căn cước"
+national id number;personal identification number	số định danh cá nhân			id	w	D,V	
+id number	số căn cước	số CCCD		id	w	D,V	
+electronic identification;e-identification	định danh điện tử			id	w	D,V	
+electronic identification account	tài khoản định danh điện tử			id	w	D,V	
+level 1 account	tài khoản định danh điện tử mức độ 1			id	w	D,V	
+level 2 account	tài khoản định danh điện tử mức độ 2			id	w	D,V	
+verify identity;identity verification	xác thực danh tính	xác minh danh tính		id	w	D,V	
+electronic authentication	xác thực điện tử			id	w	D,V	
+chip-based id card	căn cước gắn chip	thẻ căn cước gắn chip		id	w	D,V	
+electronic id card;digital id card	căn cước điện tử			id	w	D,V	
+nfc scan	quét NFC			id	w	D,V	
+scan chip	đọc chip	quét chip		id	w	D,V	
+qr code on id card	mã QR trên thẻ căn cước			id	w	D,V	
+place of origin	quê quán	nguyên quán		id	w	D,V	
+place of birth	nơi sinh			id	w	D,V	
+place of residence	nơi cư trú			residence	w	D,V	
+permanent residence	thường trú	nơi thường trú		residence	w	D,V	
+temporary residence	tạm trú	nơi tạm trú		residence	w	D,V	
+temporary absence	tạm vắng	khai báo tạm vắng		residence	w	D,V	
+residence registration	đăng ký cư trú			residence	w	D,V	
+permanent residence registration	đăng ký thường trú			residence	w	D,V	
+temporary residence registration	đăng ký tạm trú			residence	w	D,V	
+residence declaration	khai báo cư trú			residence	w	D,V	
+residence confirmation	xác nhận thông tin về cư trú	giấy xác nhận cư trú		residence	w	D,V	
+household;household registration	hộ gia đình			residence	w	D,V	
+head of household	chủ hộ			residence	w	D,V	
+household member	thành viên hộ gia đình			residence	w	D,V	
+relationship to head of household	quan hệ với chủ hộ			residence	w	D,V	
+household book	sổ hộ khẩu			residence	w	D,V	Legacy term; still seen in older records
+current address	địa chỉ hiện tại	nơi ở hiện tại		residence	w	D,V	
+accommodation owner;host	chủ nhà	chủ hộ cho thuê chỗ ở		residence	w	D,V	
+public service portal	Cổng dịch vụ công			portal	w	D,V	
+national public service portal	Cổng dịch vụ công quốc gia			portal	w	D,V	
+public service;e-service	dịch vụ công			portal	w	D,V	
+online public service	dịch vụ công trực tuyến			portal	w	D,V	
+level 4 online service;fully online service	dịch vụ công trực tuyến toàn trình			portal	w	D,V	
+one-stop shop	bộ phận một cửa	một cửa		portal	w	D,V	
+single sign-on	đăng nhập một lần	đăng nhập tập trung		portal	w	D,V	
+sign in with identification account	đăng nhập bằng tài khoản định danh điện tử			portal	w	D,V	
+administrative procedure	thủ tục hành chính			procedure	w	D,V	
+procedure name	tên thủ tục hành chính			procedure	w	D,V	
+procedure code	mã thủ tục			procedure	w	D,V	
+procedure field;service field	lĩnh vực			procedure	w	D,V	
+procedure level	mức độ dịch vụ công			procedure	w	D,V	
+procedure steps	trình tự thực hiện	các bước thực hiện		procedure	w	D,V	
+method of submission	cách thức thực hiện	hình thức nộp		procedure	w	D,V	
+processing time	thời gian giải quyết	thời hạn giải quyết		procedure	w	D,V	
+requirements and conditions	yêu cầu, điều kiện thực hiện			procedure	w	D,V	
+legal basis	căn cứ pháp lý			procedure	w	D,V	
+subject of application	đối tượng thực hiện			procedure	w	D,V	
+dossier;application dossier	hồ sơ			dossier	w	D,V	
+required documents;dossier components	thành phần hồ sơ	giấy tờ cần nộp		dossier	w	D,V	
+submit dossier	nộp hồ sơ			dossier	w	D,V	
+submit online	nộp hồ sơ trực tuyến			dossier	w	D,V	
+submit in person	nộp hồ sơ trực tiếp	nộp trực tiếp tại cơ quan		dossier	w	D,V	
+submit by post	nộp qua dịch vụ bưu chính	nộp qua bưu điện		dossier	w	D,V	
+new dossier	hồ sơ mới			dossier	w	D,V	
+draft dossier	hồ sơ nháp	bản nháp hồ sơ		dossier	w	D,V	
+dossier code;application code	mã hồ sơ			dossier	w	D,V	
+dossier number	số hồ sơ			dossier	w	D,V	
+supplement dossier;additional documents	bổ sung hồ sơ			dossier	w	D,V	
+request for supplement	yêu cầu bổ sung hồ sơ			dossier	w	D,V	
+withdraw dossier	rút hồ sơ			dossier	w	D,V	
+resubmit dossier	nộp lại hồ sơ			dossier	w	D,V	
+attached file	tệp đính kèm	tài liệu đính kèm		dossier	w	D,V	
+declaration form;application form	tờ khai	mẫu tờ khai		dossier	w	D,V	
+online declaration	khai báo trực tuyến	tờ khai trực tuyến		dossier	w	D,V	
+applicant	người nộp hồ sơ	người đề nghị		dossier	w	D,V	
+authorized person	người được ủy quyền			dossier	w	D,V	
+authorization	ủy quyền			dossier	w	D,V	
+submit on behalf	nộp hồ sơ thay	nộp thay		dossier	w	D,V	
+copy certified from original;certified true copy	bản sao chứng thực			dossier	w	D,V	
+copy from master register	bản sao từ sổ gốc			dossier	w	D,V	
+original document	bản chính			dossier	w	D,V	
+scanned copy	bản scan	bản quét		dossier	w	D,V	
+completeness of dossier	tính đầy đủ của hồ sơ			dossier	w	D,V	
+dossier incomplete	hồ sơ chưa đầy đủ			dossier	w	D,V	
+dossier received	đã tiếp nhận hồ sơ			status	w	D,V	
+dossier status;processing status	trạng thái hồ sơ	tình trạng xử lý hồ sơ		status	w	D,V	
+look up dossier	tra cứu hồ sơ			status	w	D,V	
+track dossier	theo dõi hồ sơ			status	w	D,V	
+in processing	đang xử lý	đang giải quyết		status	w	D,V	
+awaiting receipt	chờ tiếp nhận			status	w	D,V	
+received	đã tiếp nhận			status	w	D,V	
+processed;completed	đã xử lý xong	đã giải quyết xong		status	w	D,V	
+returned dossier	hồ sơ bị trả lại			status	w	D,V	
+rejected dossier;refusal of dossier	từ chối giải quyết hồ sơ			status	w	D,V	
+overdue	quá hạn	trễ hạn		status	w	D,V	
+due date	hạn xử lý	hạn giải quyết		status	w	D,V	
+appointment date	ngày hẹn trả	ngày hẹn trả kết quả		status	w	D,V	
+received date	ngày tiếp nhận			status	w	D,V	
+processing history	lịch sử xử lý	quá trình xử lý		status	w	D,V	
+receipt slip	giấy tiếp nhận hồ sơ và hẹn trả kết quả	phiếu tiếp nhận		status	w	D,V	
+result	kết quả giải quyết	kết quả		result	w	D,V	
+receive result	nhận kết quả			result	w	D,V	
+receive result by post	nhận kết quả qua bưu điện	nhận kết quả tại nhà		result	w	D,V	
+receive result at agency	nhận kết quả tại cơ quan	nhận trực tiếp		result	w	D,V	
+electronic result	kết quả điện tử			result	w	D,V	
+download result	tải kết quả			result	w	D,V	
+issued document	giấy tờ được cấp			result	w	D,V	
+issue date	ngày cấp			result	w	D,V	
+issuing authority;issued by	nơi cấp	cơ quan cấp		result	w	D,V	
+valid until;expiry date	có giá trị đến	ngày hết hạn		result	w	D,V	
+date of expiry	ngày hết hạn			result	w	D,V	
+renew card;exchange card	cấp đổi			result	w	D,V	
+reissue lost card;replacement	cấp lại			result	w	D,V	
+first issuance	cấp mới			result	w	D,V	
+competent authority	cơ quan có thẩm quyền	cơ quan thực hiện		authority	w	D,V	
+receiving agency	cơ quan tiếp nhận			authority	w	D,V	
+processing agency	cơ quan giải quyết			authority	w	D,V	
+issuing agency	cơ quan cấp			authority	w	D,V	
+ministry of public security	Bộ Công an			authority	w	D,V	
+commune-level police	công an cấp xã	công an xã, phường		authority	w	D,V	
+provincial police	công an tỉnh	công an tỉnh, thành phố		authority	w	D,V	
+people's committee	Ủy ban nhân dân	UBND		authority	w	D,V	
+provincial department	sở			authority	w	D,V	
+government agency	cơ quan nhà nước			authority	w	D,V	
+civil servant;official	cán bộ	công chức		authority	w	D,V	
+province	tỉnh			admin_unit	w	D,V	
+centrally-run city	thành phố trực thuộc trung ương			admin_unit	w	D,V	
+district	quận/huyện			admin_unit	w	D,V	
+ward	phường			admin_unit	w	D,V	
+commune	xã			admin_unit	w	D,V	
+town	thị trấn			admin_unit	w	D,V	
+ward/commune	phường/xã			admin_unit	w	D,V	
+province/city	tỉnh/thành phố			admin_unit	w	D,V	
+hamlet;village	thôn	làng		admin_unit	w	D,V	
+residential group	tổ dân phố			admin_unit	w	D,V	
+street address	số nhà, tên đường			admin_unit	w	D,V	
+fee;administrative fee	lệ phí			fee	w	D,V	
+charge;service charge	phí			fee	w	D,V	
+fee amount	mức phí	mức lệ phí		fee	w	D,V	
+payment of fee	nộp lệ phí			fee	w	D,V	
+online payment of fee	thanh toán lệ phí trực tuyến			fee	w	D,V	
+fee exempt	miễn lệ phí	miễn phí		fee	w	D,V	
+postage fee	cước phí bưu chính	phí chuyển phát		fee	w	D,V	
+payment receipt	biên lai thanh toán			fee	w	D,V	
+electronic receipt	biên lai điện tử			fee	w	D,V	
+state budget	ngân sách nhà nước			fee	w	D,V	
+digital signature	chữ ký số			signature	w	D,V	
+remote signing	ký số từ xa	chữ ký số từ xa		signature	w	D,V	
+sim signature;mobile signature	chữ ký số trên SIM	Mobile-ID		signature	w	D,V	
+digital signature certificate	chứng thư số			signature	w	D,V	
+certification authority	tổ chức cung cấp dịch vụ chứng thực chữ ký số			signature	w	D,V	
+sign electronically	ký điện tử			signature	w	D,V	
+sign document	ký tài liệu			signature	w	D,V	
+electronic document	văn bản điện tử	tài liệu điện tử		signature	w	D,V	
+electronic wallet of documents;digital documents	ví giấy tờ	kho dữ liệu giấy tờ điện tử		docs	w	D,V	
+integrated documents	giấy tờ tích hợp			docs	w	D,V	
+driver's license	giấy phép lái xe	GPLX		docs	w	D,V	
+vehicle registration	giấy đăng ký xe	đăng ký xe		docs	w	D,V	
+health insurance card	thẻ bảo hiểm y tế	thẻ BHYT		docs	w	D,V	
+social insurance number	mã số bảo hiểm xã hội	mã số BHXH		docs	w	D,V	
+tax identification number	mã số thuế			docs	w	D,V	
+personal income tax code	mã số thuế cá nhân			docs	w	D,V	
+birth certificate	giấy khai sinh			civil	w	D,V	
+marriage certificate	giấy chứng nhận kết hôn			civil	w	D,V	
+marital status confirmation	giấy xác nhận tình trạng hôn nhân			civil	w	D,V	
+death certificate	giấy chứng tử			civil	w	D,V	
+civil status registration	đăng ký hộ tịch			civil	w	D,V	
+criminal record	lý lịch tư pháp	phiếu lý lịch tư pháp		civil	w	D,V	
+judicial record certificate	phiếu lý lịch tư pháp			civil	w	D,V	
+business registration	đăng ký kinh doanh			civil	w	D,V	
+household business	hộ kinh doanh			civil	w	D,V	
+land use right certificate	giấy chứng nhận quyền sử dụng đất	sổ đỏ		civil	w	D,V	
+citizen	công dân			general	w	D,V	
+full name	họ và tên	họ tên		general	w	D,V	
+date of birth	ngày tháng năm sinh	ngày sinh		general	w	D,V	
+nationality	quốc tịch			general	w	D,V	
+ethnicity	dân tộc			general	w	D,V	
+gender;sex	giới tính			general	w	D,V	
+ethnic group	dân tộc			general	w	D,V	
+contact phone number	số điện thoại liên hệ			general	w	D,V	
+overseas vietnamese	người Việt Nam ở nước ngoài	Việt kiều		general	w	D,V	
+foreigner	người nước ngoài			general	w	D,V	
+biometric	sinh trắc học			id	w	D,V	
+face verification	xác thực khuôn mặt	xác thực khuôn mặt sinh trắc học		id	w	D,V	
+fingerprint	vân tay			id	w	D,V	
+dossier receipt;receipt number;application receipt	biên nhận hồ sơ	phiếu biên nhận;mã số biên nhận	biên lai	dossier	w	E	Receipt for a submitted dossier is "biên nhận", not "biên lai" (payment)
