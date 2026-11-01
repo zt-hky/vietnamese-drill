@@ -75,7 +75,7 @@ Lệnh này tự tìm các agent đang có trên máy và hỏi bạn muốn cà
 
 | Muốn | Lệnh |
 |---|---|
-| Cài cho mọi agent trên máy, không hỏi | `npx skills add zt-hky/vietnamese-drill -g --all` |
+| Cài cho tất cả agent mà CLI hỗ trợ, không hỏi (kể cả agent chưa cài) | `npx skills add zt-hky/vietnamese-drill -g --all` |
 | Cài cho một agent | `npx skills add zt-hky/vietnamese-drill -g -a <mã agent>` |
 | Cài riêng cho một dự án | bỏ `-g`, chạy trong thư mục dự án |
 | Cập nhật · gỡ | `npx skills update` · `npx skills remove vietnamese` |
