@@ -80,15 +80,40 @@ Lệnh này tự tìm các agent đang có trên máy và hỏi bạn muốn cà
 | Cài riêng cho một dự án | bỏ `-g`, chạy trong thư mục dự án |
 | Cập nhật · gỡ | `npx skills update` · `npx skills remove vietnamese` |
 
-### Bản đầy đủ: thêm subagent review
+### Bản đầy đủ: thêm subagent review và công cụ MCP
 
 | Agent | Lệnh |
 |---|---|
-| **Claude Code** | `claude plugin marketplace add zt-hky/vietnamese-drill` rồi `claude plugin install vietnamese-drill@vietnamese-drill` |
-| **oh-my-pi** | `omp plugin install github:zt-hky/vietnamese-drill` (kèm rule, tool và subagent) |
-| **Codex** | cài skill như bảng dưới, rồi copy [`codex/vietnamese_reviewer.toml`](codex/vietnamese_reviewer.toml) vào `~/.codex/agents/` |
+| **Claude Code** | `claude plugin marketplace add zt-hky/vietnamese-drill` rồi `claude plugin install vietnamese-drill@vietnamese-drill`. Có skill, subagent và 2 công cụ MCP (`vi_lookup`, `vi_check`) |
+| **oh-my-pi** | `omp plugin install github:zt-hky/vietnamese-drill`. Có skill, rule, subagent và 2 công cụ MCP |
+| **Codex** | cài skill như bảng dưới, copy [`codex/vietnamese_reviewer.toml`](codex/vietnamese_reviewer.toml) vào `~/.codex/agents/`, rồi thêm MCP bên dưới |
 
-Agent khác không cần subagent riêng: skill tự làm đủ các bước.
+### Công cụ MCP cho agent khác
+
+Hai công cụ `vi_lookup` (tra từ điển, chỉ trả những dòng cần) và `vi_check` (kiểm tra độ dài, dấu câu, thuật ngữ) chạy offline qua một server MCP nhỏ, không cần cài thêm gói nào. Không có MCP skill vẫn chạy, chỉ là agent gọi `node` thay vì gọi công cụ.
+
+```bash
+# Claude Code, không dùng plugin
+claude mcp add --scope user vietnamese-drill -- npx -y github:zt-hky/vietnamese-drill
+
+# Codex
+codex mcp add vietnamese_drill -- npx -y github:zt-hky/vietnamese-drill
+```
+
+Codex chờ server khởi động 10 giây, còn lần chạy `npx` đầu tiên mất khoảng 20 giây vì phải tải repo. Thêm dòng này vào `~/.codex/config.toml` sau khi chạy lệnh trên:
+
+```toml
+[mcp_servers.vietnamese_drill]
+startup_timeout_sec = 60
+```
+
+Agent khác (Cursor, Windsurf, Cline, Roo, Gemini CLI, Zed…): thêm khối chuẩn `mcpServers` này vào file cấu hình MCP của agent đó (Cursor: `~/.cursor/mcp.json`).
+
+```json
+{ "mcpServers": { "vietnamese-drill": { "command": "npx", "args": ["-y", "github:zt-hky/vietnamese-drill"] } } }
+```
+
+Agent không dùng subagent riêng thì skill tự làm đủ các bước.
 
 ### Mã agent và thư mục cài tay
 
