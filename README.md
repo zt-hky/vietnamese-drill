@@ -130,7 +130,7 @@ Review file vi.json, app của mình là app bảo hiểm.
 
 ## 🛡️ Dữ liệu của bạn
 
-Phần kiểm tra chạy hoàn toàn trên máy. Chỉ khi agent nhờ subagent review, các chuỗi mới đi tới model agent đang dùng, và drill dặn bỏ secret, dữ liệu khách hàng trước khi gửi.
+Phần kiểm tra chạy hoàn toàn trên máy. Chỉ khi agent nhờ subagent review, các chuỗi mới đi tới model agent đang dùng; trước khi gửi, drill dặn bỏ secret và dữ liệu khách hàng.
 
 ---
 
