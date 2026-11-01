@@ -26,6 +26,17 @@ svg.bg { position: absolute; inset: 0; }
 .dr { position: absolute; left: 0; top: 0; font-size: 220px; line-height: 1; color: #ffe14d; z-index: 50; opacity: 1;
   transform: none; -webkit-text-stroke: 9px #0b0014; paint-order: stroke fill;
   text-shadow: 0 0 10px #fff6b0, 0 0 26px #ffe14d, 0 0 50px #ff9a3c, 7px 7px 0 #0b0014; }
+
+.word { display: inline-flex; align-items: baseline; }
+.stack { display: inline-grid; justify-items: center; align-items: center; }
+.stack > span { grid-area: 1 / 1; font: inherit; line-height: 1; }
+.sk { position: relative; color: #e2c2f2; z-index: 1; -webkit-text-stroke: 6px #1a0230; paint-order: stroke fill; }
+.sk::after { content: ""; position: absolute; left: -14%; right: -14%; top: 52%; height: 22px;
+  background: #3df5ff; border-radius: 10px; transform: rotate(-12deg);
+  box-shadow: 0 0 10px #3df5ff, 0 4px 0 #0b0014; }
+.dr { z-index: 2; color: #ffe14d; -webkit-text-stroke: 9px #0b0014; paint-order: stroke fill;
+  transform: scale(.84) rotate(-4deg); transform-origin: center;
+  text-shadow: 0 0 10px #fff6b0, 0 0 26px #ffe14d, 0 0 50px #ff9a3c, 7px 7px 0 #0b0014; }
 .tag { position: absolute; left: 0; right: 0; bottom: 30px; text-align: center;
   font-family: BeVN; font-size: 30px; letter-spacing: 3px; color: #fff;
   text-shadow: 0 0 12px #3df5ff, 3px 3px 0 #0b0014; }
@@ -81,7 +92,7 @@ svg.bg { position: absolute; inset: 0; }
   </g>
 </svg>
 <div class="title">VIETNAMESE</div>
-<div class="script"><span class="word"><span class="sk">sk<span class="strike"></span></span><span class="dr">dr</span>ill</span></div>
+<div class="script"><span class="word"><span class="stack"><span class="sk">sk</span><span class="dr">dr</span></span><span>ill</span></span></div>
 <div class="tag">tiếng Việt <b>mượt</b> như beat drill · skills · rules · i18n</div>
 </div>
 </body>
