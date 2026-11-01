@@ -3,7 +3,8 @@
 ## Components
 - skills/vietnamese: one portable Agent Skill. SKILL.md is a router; modes/ui.md, modes/replies.md, modes/review.md are sub-skills loaded on demand.
 - skills/vietnamese/scripts/vi.mjs (+ glossary.mjs): offline CLI `check`, `lookup`, `route`, `packs`, `build-index`. Node.js only, no dependencies, no network; reads only glossary/ and a project TSV you pass.
-- rules/vietnamese.md, tools/vi-check.ts, agents/vietnamese-reviewer.md: oh-my-pi (OMP) plugin extras: always-on routing rule, `vi_check` tool, Gemini Flash reviewer subagent (falls back to the `smol` role).
+- mcp/server.mjs (+ .mcp.json): zero-dependency MCP stdio server exposing the CLI's `lookup` and `check` as tools `vi_lookup` / `vi_check` (read-only, offline, same code path as the CLI). Used by Claude Code (plugin), Codex, Cursor and any MCP client; the skill works without it.
+- rules/vietnamese.md, agents/vietnamese-reviewer.md: oh-my-pi (OMP) plugin extras: always-on routing rule and the reviewer subagent (pin a cheaper model in OMP config; falls back to the `smol` role).
 
 ## Checker coverage
 Covers NFC, selected invisible/replacement characters, JSON leaf paths/types/non-string values, simple placeholders ({name}, {{name}}, ${name}, printf %s/%d/%i/%f incl. positional) and warning-level style hints: CALQUE (cam kết thay đổi, triển khai đến sản xuất), PUNCT_SPACE, COMMA_BEFORE_CONJ, PERCENT_SPACE, FAILED_PHRASE ("… thất bại"), POLITE_DOUBLE, TITLE_CASE. Style hints ignore code spans, placeholders, tags and URLs but are heuristics: ignore when intentional (quotes, code, brand names, title-cased proper nouns). Complex ICU (argument followed by comma) is reported as unchecked, never silently passed. NOT covered: ICU/HTML/Markdown parsing, confusables, fonts, rendering, fluency. Errors = contract breaks; warnings = review hints. Findings capped (default 30, max 100) with total/truncated.

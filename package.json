@@ -1,6 +1,6 @@
 {
   "name": "vietnamese-drill",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "One Vietnamese skill for AI coding agents: UI/UX copy with surface and length metadata, 7,800-term glossary with 21 industry packs, offline checker, reviewer subagent.",
   "license": "MIT",
   "type": "module",
@@ -9,7 +9,33 @@
     "url": "git+https://github.com/zt-hky/vietnamese-drill.git"
   },
   "homepage": "https://github.com/zt-hky/vietnamese-drill",
-  "keywords": ["vietnamese", "tieng-viet", "agent-skills", "claude-code", "codex", "cursor", "oh-my-pi", "i18n", "ux-writing"],
-  "files": ["skills", "rules", "agents", "tools", "README.md", "LICENSE"],
-  "omp": {}
+  "keywords": [
+    "vietnamese",
+    "tieng-viet",
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "cursor",
+    "oh-my-pi",
+    "i18n",
+    "ux-writing",
+    "mcp"
+  ],
+  "files": [
+    "skills",
+    "mcp",
+    "rules",
+    "agents",
+    "codex",
+    ".mcp.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "omp": {},
+  "bin": {
+    "vietnamese-drill-mcp": "mcp/server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
